@@ -2921,16 +2921,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 100.838 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17698e11-9b3c-4fd5-a3bb-06f638174ab1")
-	)
-	(wire
-		(pts
 			(xy 58.42 107.95) (xy 53.34 107.95)
 		)
 		(stroke
@@ -3141,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 110.49) (xy 76.2 110.49)
+			(xy 71.12 110.49) (xy 100.838 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3178,16 +3168,6 @@
 			(type default)
 		)
 		(uuid "43122015-a117-4ee2-9981-167a16ab22ab")
-	)
-	(wire
-		(pts
-			(xy 83.82 102.87) (xy 100.838 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dbd931-d2ad-4b04-ac70-721572f88a89")
 	)
 	(wire
 		(pts
@@ -3271,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 100.838 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49bae200-526f-4a3b-9fb8-32565b8d95f9")
-	)
-	(wire
-		(pts
 			(xy 138.43 115.57) (xy 156.083 115.57)
 		)
 		(stroke
@@ -3291,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 107.95) (xy 76.2 107.95)
+			(xy 71.12 107.95) (xy 100.838 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3349,16 +3319,6 @@
 		)
 		(uuid "579c8d96-c3ae-44a6-9bef-fc0407aea774")
 	)
-	(wire
-		(pts
-			(xy 83.82 74.93) (xy 100.838 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca5f1c1-a91e-4746-a208-5209fc302949")
-	)
 	(bus
 		(pts
 			(xy 158.623 118.11) (xy 158.623 120.65)
@@ -3391,7 +3351,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 76.2 113.03)
+			(xy 71.12 113.03) (xy 100.838 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3489,16 +3449,6 @@
 		)
 		(uuid "7101f06e-bdd2-4a4f-916d-42a51a7ee75f")
 	)
-	(wire
-		(pts
-			(xy 83.82 69.85) (xy 100.838 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ab40b3-4ea3-43be-84f8-a7a41bb4c6e8")
-	)
 	(bus
 		(pts
 			(xy 158.623 69.85) (xy 158.623 72.39)
@@ -3551,7 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 100.33) (xy 76.2 100.33)
+			(xy 71.12 100.33) (xy 100.838 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3611,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 76.2 69.85)
+			(xy 71.12 69.85) (xy 100.838 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +3751,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 105.41) (xy 76.2 105.41)
+			(xy 71.12 105.41) (xy 100.838 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3831,33 +3781,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 90.17) (xy 76.2 90.17)
+			(xy 71.12 90.17) (xy 100.838 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95df6ff7-3dee-408b-b9fa-2bc455a54d68")
-	)
-	(wire
-		(pts
-			(xy 83.82 113.03) (xy 100.838 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9990323f-3a80-493c-a44b-4102e7d6366c")
-	)
-	(wire
-		(pts
-			(xy 83.82 105.41) (xy 100.838 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a11adf1-2656-474b-88fa-3448a33878c4")
 	)
 	(bus
 		(pts
@@ -3941,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 85.09) (xy 100.838 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bee9e5-bd14-4e8d-bd0b-5f41f0780120")
-	)
-	(wire
-		(pts
 			(xy 28.702 115.57) (xy 45.72 115.57)
 		)
 		(stroke
@@ -3981,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 102.87) (xy 76.2 102.87)
+			(xy 71.12 102.87) (xy 100.838 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4131,16 +4051,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 100.838 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa82d2c-a851-4b31-bd9b-a864eb62d6e0")
-	)
-	(wire
-		(pts
 			(xy 83.82 34.29) (xy 100.838 34.29)
 		)
 		(stroke
@@ -4281,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 76.2 85.09)
+			(xy 71.12 85.09) (xy 100.838 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4301,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 76.2 95.25)
+			(xy 71.12 95.25) (xy 100.838 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4311,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 80.01) (xy 76.2 80.01)
+			(xy 71.12 80.01) (xy 100.838 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4389,16 +4299,6 @@
 		)
 		(uuid "ed0724be-89c5-42a8-8ff5-31093ca59e2d")
 	)
-	(wire
-		(pts
-			(xy 83.82 100.33) (xy 100.838 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb5f225-aa11-4d17-98bf-f686d40404c4")
-	)
 	(bus
 		(pts
 			(xy 158.623 67.31) (xy 158.623 69.85)
@@ -4421,16 +4321,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 100.838 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e4a74a-df69-4f08-a8f1-51bac9c91387")
-	)
-	(wire
-		(pts
 			(xy 83.82 77.47) (xy 100.838 77.47)
 		)
 		(stroke
@@ -4448,16 +4338,6 @@
 			(type default)
 		)
 		(uuid "f5c6ab7f-5aac-4cbe-bc1b-577bb9a992c8")
-	)
-	(wire
-		(pts
-			(xy 83.82 110.49) (xy 100.838 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7acf9ac-56fd-468e-9f6c-1ffccb066e25")
 	)
 	(bus
 		(pts
@@ -4531,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 76.2 74.93)
+			(xy 71.12 74.93) (xy 100.838 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5655,73 +5535,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c376858-66db-4cd6-97cb-4f51a942d105")
-		(property "Reference" "R18"
-			(at 75.438 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b5a76c4-aa8d-4e3f-8425-397fe3b6cf5d")
-		)
-		(pin "2"
-			(uuid "8f3d084b-c2e6-4bcb-b221-148e246844bd")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5796,7 +5609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cff8ba0-de77-41cf-ac56-457d74bcf026")
-		(property "Reference" "R39"
+		(property "Reference" "R27"
 			(at 54.102 112.014 90)
 			(effects
 				(font
@@ -5848,74 +5661,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d0e4c5b-4bb1-49f3-8f7c-287eaa7a4f23")
-		(property "Reference" "R16"
-			(at 75.438 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00f366e2-5134-4b35-a552-16b411e9ba73")
-		)
-		(pin "2"
-			(uuid "ff14c088-2f1b-458c-b0ff-19a2bfee6c7f")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R16")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6263,207 +6009,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41b22750-2820-4a16-8ebf-f802afbed8c5")
-		(property "Reference" "R24"
-			(at 75.438 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a02fa80a-392b-453b-a326-7ec6e7ad0360")
-		)
-		(pin "2"
-			(uuid "186fb6ea-063c-4c38-a299-3fa6dc980531")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "428a6340-9b66-40d8-8f12-554bfa38f3d3")
-		(property "Reference" "R30"
-			(at 75.438 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee6cbcd9-0c2a-4d06-b3c8-10ffc38bcd9e")
-		)
-		(pin "2"
-			(uuid "9f41999a-a7c3-4092-8136-1aaa8a1271e2")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4aec9564-6a23-45e9-a417-6095e900a66c")
-		(property "Reference" "R28"
-			(at 75.438 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92b70f8c-6e25-499a-80c4-5e50b5bd3e5b")
-		)
-		(pin "2"
-			(uuid "47eaf180-f405-4ade-bca6-72b9561df4d9")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 49.53 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6471,7 +6016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d95a5d1-7700-4d98-8c67-417974982ac8")
-		(property "Reference" "R35"
+		(property "Reference" "R23"
 			(at 54.102 101.854 90)
 			(effects
 				(font
@@ -6523,7 +6068,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R35")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6538,7 +6083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fbdf9d4-5491-4eed-a657-d1e1ccf57fa3")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 75.438 76.454 90)
 			(effects
 				(font
@@ -6590,74 +6135,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55355293-2d98-4d93-a84a-34e1eb1cd0c6")
-		(property "Reference" "R31"
-			(at 75.438 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e77311f-d5aa-4b44-ae51-de2215cc20d2")
-		)
-		(pin "2"
-			(uuid "28db345e-71d1-4d16-b056-b3db7519733f")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R31")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6799,73 +6277,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "657b7d3e-bbdc-43bf-b110-58522d01b6b3")
-		(property "Reference" "R20"
-			(at 75.438 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a8e5364-725f-4f70-9e3f-6689133fdefd")
-		)
-		(pin "2"
-			(uuid "14aabaac-1c99-4fa3-83e6-e3ea3efed475")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6873,7 +6284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6629a73a-bbd4-40ad-9060-ed5d31e8c8f0")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 75.438 71.374 90)
 			(effects
 				(font
@@ -6925,7 +6336,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7140,7 +6551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d702e2-2f94-42c4-b042-aa2e606b6677")
-		(property "Reference" "R25"
+		(property "Reference" "R20"
 			(at 75.438 91.694 90)
 			(effects
 				(font
@@ -7192,7 +6603,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R25")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7207,7 +6618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c66c039-77b5-4363-83a2-edcc5279845c")
-		(property "Reference" "R38"
+		(property "Reference" "R26"
 			(at 54.102 109.474 90)
 			(effects
 				(font
@@ -7259,74 +6670,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8589ad7f-1eb1-4e6e-aaa7-781a655315c3")
-		(property "Reference" "R33"
-			(at 75.438 112.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cbbab6e-4d7f-48d9-ad7d-9e346f41f5cf")
-		)
-		(pin "2"
-			(uuid "cdb558a3-54be-4462-bd5d-d673d326dfbc")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R33")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7341,7 +6685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87046455-3c6c-43bf-b88a-a84e3556cbe8")
-		(property "Reference" "R27"
+		(property "Reference" "R21"
 			(at 75.438 96.774 90)
 			(effects
 				(font
@@ -7393,7 +6737,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R27")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7408,7 +6752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9010cc43-7c95-4350-a763-5e4eb405e4bf")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 75.438 81.534 90)
 			(effects
 				(font
@@ -7460,7 +6804,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7542,7 +6886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3078b4-ac53-4ea0-aad3-2fef3e0280c8")
-		(property "Reference" "R37"
+		(property "Reference" "R25"
 			(at 54.102 106.934 90)
 			(effects
 				(font
@@ -7594,7 +6938,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R37")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aedf57c9-3575-4411-833a-feb5c967aee2")
-		(property "Reference" "R36"
+		(property "Reference" "R24"
 			(at 54.102 104.394 90)
 			(effects
 				(font
@@ -7728,74 +7072,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afe0e2b0-ef1f-493c-9e82-9fa98567b5ca")
-		(property "Reference" "R29"
-			(at 75.438 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79d63f02-5f62-45db-89b6-35d127627654")
-		)
-		(pin "2"
-			(uuid "2515700a-354a-4d0f-a5cb-f1eafa161222")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R29")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcfe15d9-de35-4f08-bc79-7035306b9909")
-		(property "Reference" "R34"
+		(property "Reference" "R22"
 			(at 75.438 114.554 90)
 			(effects
 				(font
@@ -7929,7 +7206,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R34")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7944,7 +7221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0dc1468-3554-4598-a3f4-584a4d4a3c2a")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 75.438 86.614 90)
 			(effects
 				(font
@@ -7996,74 +7273,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4d1728f-5ff1-4489-8316-8670105060a9")
-		(property "Reference" "R26"
-			(at 75.438 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7ffc96d-0cba-4154-b4c6-eaa495faf99c")
-		)
-		(pin "2"
-			(uuid "2a5d5d94-b9cb-45b0-aca8-80d2a60b4fea")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8338,73 +7548,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edb36364-b870-436a-b43e-acf71e168aa0")
-		(property "Reference" "R22"
-			(at 75.438 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df9ad110-8a38-45c3-9a15-5ce1a18b4c74")
-		)
-		(pin "2"
-			(uuid "7742e30f-5544-4787-af73-cdf283334ce2")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 49.53 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8412,7 +7555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eef26e99-b214-48e0-9b6c-854a692ff415")
-		(property "Reference" "R40"
+		(property "Reference" "R28"
 			(at 54.102 114.554 90)
 			(effects
 				(font
@@ -8464,74 +7607,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8d75305-8334-428d-986c-d28034166158")
-		(property "Reference" "R32"
-			(at 75.438 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 80.01 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bffff496-fae8-481b-b00c-22b301864a19")
-		)
-		(pin "2"
-			(uuid "b9c8bea4-58b7-4d98-865e-6acf7a8c0b01")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/cf1bf6c0-d319-44c6-9ef9-a2dffab7743b"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
