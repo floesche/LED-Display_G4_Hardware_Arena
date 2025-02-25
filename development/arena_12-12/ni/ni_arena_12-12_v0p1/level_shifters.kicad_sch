@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "d894d059-e435-4d57-811e-6bb474e952c8")
-	(paper "User" 711.2 762)
+	(paper "User" 711.2 711.2)
 	(lib_symbols
 		(symbol "74xGxx:74LVC2G17"
 			(exclude_from_sim no)
@@ -20275,7 +20275,7 @@
 		)
 		(uuid "ffe8b166-2a36-446f-be4b-d0f909a3f8aa")
 	)
-	(hierarchical_label "PAN5V{PAN}"
+	(hierarchical_label "PAN3V{PAN}"
 		(shape bidirectional)
 		(at 635 582.93 0)
 		(fields_autoplaced yes)

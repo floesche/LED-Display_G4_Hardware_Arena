@@ -8,11 +8,6 @@
 		(date "11 jun 2015")
 	)
 	(lib_symbols)
-	(bus_alias "POW"
-		(members "5V_HDR_1" "5V_HDR_2" "5V_HDR_3" "5V_HDR_4" "5V_HDR_5" "5V_HDR_6"
-			"5V_HDR_7" "5V_HDR_8" "5V_HDR_9" "5V_HDR_10" "5V_HDR_11" "5V_HDR_12"
-		)
-	)
 	(bus
 		(pts
 			(xy 127.254 58.42) (xy 136.144 58.42)
