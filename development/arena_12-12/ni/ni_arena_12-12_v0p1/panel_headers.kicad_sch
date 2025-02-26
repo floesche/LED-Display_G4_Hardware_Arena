@@ -16828,7 +16828,7 @@
 	)
 	(text "Panel base capacitor: C7432790 16V 100uF"
 		(exclude_from_sim no)
-		(at 48.26 784.098 0)
+		(at 19.812 795.02 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -16839,10 +16839,10 @@
 	)
 	(text "Panel Headers"
 		(exclude_from_sim no)
-		(at 447.04 33.782 0)
+		(at 488.696 27.178 0)
 		(effects
 			(font
-				(size 12.7 12.7)
+				(size 6.35 6.35)
 				(thickness 0.508)
 				(bold yes)
 			)
@@ -21696,7 +21696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 599.44 0)
 			(effects
 				(font
@@ -21777,7 +21777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 614.68 0)
 			(effects
 				(font
@@ -21856,7 +21856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 353.568 90)
 			(effects
 				(font
@@ -21923,7 +21923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 646.938 90)
 			(effects
 				(font
@@ -21990,7 +21990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 292.608 90)
 			(effects
 				(font
@@ -22060,7 +22060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 501.65 0)
 			(effects
 				(font
@@ -22127,7 +22127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 227.838 90)
 			(effects
 				(font
@@ -22196,7 +22196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 119.38 0)
 			(effects
 				(font
@@ -22344,7 +22344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 317.5 0)
 			(effects
 				(font
@@ -22478,7 +22478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 238.76 0)
 			(effects
 				(font
@@ -22560,7 +22560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 67.31 0)
 			(effects
 				(font
@@ -22693,7 +22693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 429.768 90)
 			(effects
 				(font
@@ -22762,7 +22762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 572.77 0)
 			(effects
 				(font
@@ -22841,7 +22841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 646.938 90)
 			(effects
 				(font
@@ -23300,7 +23300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 646.938 90)
 			(effects
 				(font
@@ -23369,7 +23369,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 195.58 0)
 			(effects
 				(font
@@ -23583,7 +23583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 198.12 0)
 			(effects
 				(font
@@ -23650,7 +23650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 212.598 90)
 			(effects
 				(font
@@ -23702,7 +23702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0874027a-6f06-48d4-b619-1c57b792b041")
-		(property "Reference" "C99"
+		(property "Reference" "C98"
 			(at 754.38 381.0062 0)
 			(effects
 				(font
@@ -23720,7 +23720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 382.27 0)
 			(effects
 				(font
@@ -23756,7 +23756,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C99")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -23787,7 +23787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 601.218 90)
 			(effects
 				(font
@@ -23922,7 +23922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 506.73 0)
 			(effects
 				(font
@@ -24110,7 +24110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 306.07 0)
 			(effects
 				(font
@@ -24589,7 +24589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 180.34 0)
 			(effects
 				(font
@@ -24735,7 +24735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 238.76 0)
 			(effects
 				(font
@@ -24816,7 +24816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 289.56 0)
 			(effects
 				(font
@@ -24963,7 +24963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 132.08 0)
 			(effects
 				(font
@@ -25032,7 +25032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 458.47 0)
 			(effects
 				(font
@@ -25111,7 +25111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 429.768 90)
 			(effects
 				(font
@@ -25181,7 +25181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 198.12 0)
 			(effects
 				(font
@@ -25250,7 +25250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 599.44 0)
 			(effects
 				(font
@@ -25525,7 +25525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 445.008 90)
 			(effects
 				(font
@@ -25594,7 +25594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 690.88 0)
 			(effects
 				(font
@@ -25675,7 +25675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 673.1 0)
 			(effects
 				(font
@@ -25954,7 +25954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 165.1 0)
 			(effects
 				(font
@@ -26142,7 +26142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 73.66 0)
 			(effects
 				(font
@@ -26223,7 +26223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 88.9 0)
 			(effects
 				(font
@@ -26367,7 +26367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 384.048 90)
 			(effects
 				(font
@@ -26502,7 +26502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 508 0)
 			(effects
 				(font
@@ -26646,7 +26646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 307.848 90)
 			(effects
 				(font
@@ -26715,7 +26715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 473.71 0)
 			(effects
 				(font
@@ -26794,7 +26794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 414.528 90)
 			(effects
 				(font
@@ -26863,7 +26863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 605.79 0)
 			(effects
 				(font
@@ -27010,7 +27010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 351.79 0)
 			(effects
 				(font
@@ -27161,7 +27161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 421.64 0)
 			(effects
 				(font
@@ -27437,7 +27437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 243.078 90)
 			(effects
 				(font
@@ -27642,7 +27642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 232.41 0)
 			(effects
 				(font
@@ -27777,7 +27777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 165.1 0)
 			(effects
 				(font
@@ -27858,7 +27858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 336.55 0)
 			(effects
 				(font
@@ -28071,7 +28071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 171.45 0)
 			(effects
 				(font
@@ -28150,7 +28150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 227.838 90)
 			(effects
 				(font
@@ -28289,7 +28289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 290.83 0)
 			(effects
 				(font
@@ -28435,7 +28435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 599.44 0)
 			(effects
 				(font
@@ -28648,7 +28648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 614.68 0)
 			(effects
 				(font
@@ -28727,7 +28727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 460.248 90)
 			(effects
 				(font
@@ -28796,7 +28796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 336.55 0)
 			(effects
 				(font
@@ -28926,7 +28926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208e9330-6377-4d18-a426-5bec9414dde1")
-		(property "Reference" "C104"
+		(property "Reference" "C103"
 			(at 754.38 565.1562 0)
 			(effects
 				(font
@@ -28944,7 +28944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 566.42 0)
 			(effects
 				(font
@@ -28980,7 +28980,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C104")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -29013,7 +29013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 322.58 0)
 			(effects
 				(font
@@ -29094,7 +29094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 88.9 0)
 			(effects
 				(font
@@ -29173,7 +29173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 243.078 90)
 			(effects
 				(font
@@ -29307,7 +29307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 382.27 0)
 			(effects
 				(font
@@ -29453,7 +29453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 105.41 0)
 			(effects
 				(font
@@ -29600,7 +29600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 443.23 0)
 			(effects
 				(font
@@ -29679,7 +29679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 555.498 90)
 			(effects
 				(font
@@ -29746,7 +29746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 323.088 90)
 			(effects
 				(font
@@ -29813,7 +29813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 677.418 90)
 			(effects
 				(font
@@ -29865,7 +29865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235ec25c-e966-4150-a733-d64483f2d088")
-		(property "Reference" "C94"
+		(property "Reference" "C93"
 			(at 754.38 196.8562 0)
 			(effects
 				(font
@@ -29883,7 +29883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 198.12 0)
 			(effects
 				(font
@@ -29919,7 +29919,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C94")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -29952,7 +29952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 584.2 0)
 			(effects
 				(font
@@ -30031,7 +30031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 323.088 90)
 			(effects
 				(font
@@ -30101,7 +30101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 534.67 0)
 			(effects
 				(font
@@ -30168,7 +30168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 525.018 90)
 			(effects
 				(font
@@ -30300,7 +30300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 212.598 90)
 			(effects
 				(font
@@ -30369,7 +30369,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 306.07 0)
 			(effects
 				(font
@@ -30450,7 +30450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 351.79 0)
 			(effects
 				(font
@@ -30710,7 +30710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ee5474-9ccd-446b-9128-34a33c2fe782")
-		(property "Reference" "R500"
+		(property "Reference" "R308"
 			(at 868.68 739.267 90)
 			(effects
 				(font
@@ -30726,7 +30726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 868.68 743.712 90)
 			(effects
 				(font
@@ -30762,7 +30762,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "R500")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -30795,7 +30795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 289.56 0)
 			(effects
 				(font
@@ -30942,7 +30942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 165.1 0)
 			(effects
 				(font
@@ -31074,7 +31074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 166.878 90)
 			(effects
 				(font
@@ -31274,7 +31274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 629.92 0)
 			(effects
 				(font
@@ -31353,7 +31353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 570.738 90)
 			(effects
 				(font
@@ -31420,7 +31420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 616.458 90)
 			(effects
 				(font
@@ -31619,7 +31619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 75.438 90)
 			(effects
 				(font
@@ -31754,7 +31754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 690.88 0)
 			(effects
 				(font
@@ -31818,7 +31818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30657052-bbe0-46e8-be9f-1095a2914a41")
-		(property "Reference" "C88"
+		(property "Reference" "C87"
 			(at 524.51 631.1962 0)
 			(effects
 				(font
@@ -31836,7 +31836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 632.46 0)
 			(effects
 				(font
@@ -31872,7 +31872,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C88")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -32038,7 +32038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 165.1 0)
 			(effects
 				(font
@@ -32108,7 +32108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 415.29 0)
 			(effects
 				(font
@@ -32175,7 +32175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 197.358 90)
 			(effects
 				(font
@@ -32358,7 +32358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34135969-a040-46be-9407-32914c117702")
-		(property "Reference" "R501"
+		(property "Reference" "R307"
 			(at 856.234 750.5699 0)
 			(effects
 				(font
@@ -32376,7 +32376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 856.742 751.84 90)
 			(effects
 				(font
@@ -32412,7 +32412,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "R501")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -32445,7 +32445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 455.93 0)
 			(effects
 				(font
@@ -32590,7 +32590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 105.918 90)
 			(effects
 				(font
@@ -32659,7 +32659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 134.62 0)
 			(effects
 				(font
@@ -32804,7 +32804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 445.008 90)
 			(effects
 				(font
@@ -32871,7 +32871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 105.918 90)
 			(effects
 				(font
@@ -32940,7 +32940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 605.79 0)
 			(effects
 				(font
@@ -33021,7 +33021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 455.93 0)
 			(effects
 				(font
@@ -33298,7 +33298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 105.41 0)
 			(effects
 				(font
@@ -33379,7 +33379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 660.4 0)
 			(effects
 				(font
@@ -33633,7 +33633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 349.25 0)
 			(effects
 				(font
@@ -33702,7 +33702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 553.72 0)
 			(effects
 				(font
@@ -33783,7 +33783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 210.82 0)
 			(effects
 				(font
@@ -33862,7 +33862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 384.048 90)
 			(effects
 				(font
@@ -33931,7 +33931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 88.9 0)
 			(effects
 				(font
@@ -34078,7 +34078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 306.07 0)
 			(effects
 				(font
@@ -34291,7 +34291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 599.44 0)
 			(effects
 				(font
@@ -34492,7 +34492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 629.92 0)
 			(effects
 				(font
@@ -34573,7 +34573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 599.44 0)
 			(effects
 				(font
@@ -34719,7 +34719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 138.43 0)
 			(effects
 				(font
@@ -34798,7 +34798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 631.698 90)
 			(effects
 				(font
@@ -34867,7 +34867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 506.73 0)
 			(effects
 				(font
@@ -34948,7 +34948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 195.58 0)
 			(effects
 				(font
@@ -35093,7 +35093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 585.978 90)
 			(effects
 				(font
@@ -35229,7 +35229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 232.41 0)
 			(effects
 				(font
@@ -35298,7 +35298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 289.56 0)
 			(effects
 				(font
@@ -35379,7 +35379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 660.4 0)
 			(effects
 				(font
@@ -35590,7 +35590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 631.698 90)
 			(effects
 				(font
@@ -35659,7 +35659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 204.47 0)
 			(effects
 				(font
@@ -35738,7 +35738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 616.458 90)
 			(effects
 				(font
@@ -35805,7 +35805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 445.008 90)
 			(effects
 				(font
@@ -35874,7 +35874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 382.27 0)
 			(effects
 				(font
@@ -35953,7 +35953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 555.498 90)
 			(effects
 				(font
@@ -36005,7 +36005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43dc4cf8-3186-4714-a2ca-c61b50ccce3f")
-		(property "Reference" "C93"
+		(property "Reference" "C92"
 			(at 754.38 163.8362 0)
 			(effects
 				(font
@@ -36023,7 +36023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 165.1 0)
 			(effects
 				(font
@@ -36059,7 +36059,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C93")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -36287,7 +36287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 165.1 0)
 			(effects
 				(font
@@ -36538,7 +36538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 338.328 90)
 			(effects
 				(font
@@ -36608,7 +36608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 349.25 0)
 			(effects
 				(font
@@ -36675,7 +36675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 414.528 90)
 			(effects
 				(font
@@ -36744,7 +36744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 72.39 0)
 			(effects
 				(font
@@ -36825,7 +36825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 210.82 0)
 			(effects
 				(font
@@ -36906,7 +36906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 568.96 0)
 			(effects
 				(font
@@ -36985,7 +36985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 662.178 90)
 			(effects
 				(font
@@ -37052,7 +37052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 338.328 90)
 			(effects
 				(font
@@ -37121,7 +37121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 290.83 0)
 			(effects
 				(font
@@ -37202,7 +37202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 605.79 0)
 			(effects
 				(font
@@ -37283,7 +37283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 105.41 0)
 			(effects
 				(font
@@ -37364,7 +37364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 210.82 0)
 			(effects
 				(font
@@ -37509,7 +37509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 338.328 90)
 			(effects
 				(font
@@ -37578,7 +37578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 226.06 0)
 			(effects
 				(font
@@ -37657,7 +37657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 166.878 90)
 			(effects
 				(font
@@ -37727,7 +37727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 132.08 0)
 			(effects
 				(font
@@ -37796,7 +37796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 204.47 0)
 			(effects
 				(font
@@ -37875,7 +37875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 662.178 90)
 			(effects
 				(font
@@ -37944,7 +37944,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 473.71 0)
 			(effects
 				(font
@@ -38025,7 +38025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 645.16 0)
 			(effects
 				(font
@@ -38499,7 +38499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 182.118 90)
 			(effects
 				(font
@@ -38551,7 +38551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508a1767-a85c-4ead-aaef-ae6c0aa4ab2f")
-		(property "Reference" "C98"
+		(property "Reference" "C97"
 			(at 754.38 347.9862 0)
 			(effects
 				(font
@@ -38569,7 +38569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 349.25 0)
 			(effects
 				(font
@@ -38605,7 +38605,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C98")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -38636,7 +38636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 384.048 90)
 			(effects
 				(font
@@ -38703,7 +38703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 677.418 90)
 			(effects
 				(font
@@ -38837,7 +38837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 336.55 0)
 			(effects
 				(font
@@ -39049,7 +39049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 599.44 0)
 			(effects
 				(font
@@ -39183,7 +39183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 388.62 0)
 			(effects
 				(font
@@ -39786,7 +39786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 525.018 90)
 			(effects
 				(font
@@ -39856,7 +39856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 449.58 0)
 			(effects
 				(font
@@ -39925,7 +39925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 336.55 0)
 			(effects
 				(font
@@ -40006,7 +40006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 134.62 0)
 			(effects
 				(font
@@ -40218,7 +40218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 397.51 0)
 			(effects
 				(font
@@ -40299,7 +40299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 210.82 0)
 			(effects
 				(font
@@ -40381,7 +40381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 415.29 0)
 			(effects
 				(font
@@ -40516,7 +40516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 553.72 0)
 			(effects
 				(font
@@ -40661,7 +40661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 307.848 90)
 			(effects
 				(font
@@ -40860,7 +40860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 553.72 0)
 			(effects
 				(font
@@ -40941,7 +40941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 455.93 0)
 			(effects
 				(font
@@ -41022,7 +41022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 572.77 0)
 			(effects
 				(font
@@ -41300,7 +41300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 256.54 0)
 			(effects
 				(font
@@ -41511,7 +41511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 149.86 0)
 			(effects
 				(font
@@ -41640,7 +41640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "639cae9e-2d15-4821-932e-73b2e982ec77")
-		(property "Reference" "C91"
+		(property "Reference" "C90"
 			(at 754.38 99.0662 0)
 			(effects
 				(font
@@ -41658,7 +41658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 100.33 0)
 			(effects
 				(font
@@ -41694,7 +41694,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C91")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -41725,7 +41725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 90.678 90)
 			(effects
 				(font
@@ -41794,7 +41794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 397.51 0)
 			(effects
 				(font
@@ -41875,7 +41875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 675.64 0)
 			(effects
 				(font
@@ -41939,7 +41939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65396c6d-ffc3-4ea7-88a8-7acc0721d312")
-		(property "Reference" "C95"
+		(property "Reference" "C94"
 			(at 754.38 231.1462 0)
 			(effects
 				(font
@@ -41957,7 +41957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 232.41 0)
 			(effects
 				(font
@@ -41993,7 +41993,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C95")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -42026,7 +42026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 290.83 0)
 			(effects
 				(font
@@ -42107,7 +42107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 629.92 0)
 			(effects
 				(font
@@ -42188,7 +42188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 367.03 0)
 			(effects
 				(font
@@ -42335,7 +42335,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 367.03 0)
 			(effects
 				(font
@@ -42416,7 +42416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 673.1 0)
 			(effects
 				(font
@@ -42677,7 +42677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69d756f1-1780-4ca9-b7f5-4559e5f3e157")
-		(property "Reference" "C101"
+		(property "Reference" "C100"
 			(at 754.38 448.3162 0)
 			(effects
 				(font
@@ -42695,7 +42695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 449.58 0)
 			(effects
 				(font
@@ -42731,7 +42731,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C101")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -42764,7 +42764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 523.24 0)
 			(effects
 				(font
@@ -42912,7 +42912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 666.75 0)
 			(effects
 				(font
@@ -42979,7 +42979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 509.778 90)
 			(effects
 				(font
@@ -43112,7 +43112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 353.568 90)
 			(effects
 				(font
@@ -43440,7 +43440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 292.608 90)
 			(effects
 				(font
@@ -43576,7 +43576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 566.42 0)
 			(effects
 				(font
@@ -43645,7 +43645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 614.68 0)
 			(effects
 				(font
@@ -43709,7 +43709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70164e5a-aac7-4165-856a-311b5ec841d0")
-		(property "Reference" "C97"
+		(property "Reference" "C96"
 			(at 754.38 316.2362 0)
 			(effects
 				(font
@@ -43727,7 +43727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 317.5 0)
 			(effects
 				(font
@@ -43763,7 +43763,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C97")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -43861,7 +43861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 322.58 0)
 			(effects
 				(font
@@ -43991,7 +43991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722b0512-d4f1-4984-af2e-43c0a7e2328a")
-		(property "Reference" "C105"
+		(property "Reference" "C104"
 			(at 754.38 598.1762 0)
 			(effects
 				(font
@@ -44009,7 +44009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 599.44 0)
 			(effects
 				(font
@@ -44045,7 +44045,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C105")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -44076,7 +44076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 399.288 90)
 			(effects
 				(font
@@ -44406,7 +44406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 149.86 0)
 			(effects
 				(font
@@ -44622,7 +44622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 584.2 0)
 			(effects
 				(font
@@ -44769,7 +44769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 138.43 0)
 			(effects
 				(font
@@ -44958,7 +44958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 100.33 0)
 			(effects
 				(font
@@ -45163,7 +45163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 584.2 0)
 			(effects
 				(font
@@ -45380,7 +45380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 539.75 0)
 			(effects
 				(font
@@ -45461,7 +45461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 638.81 0)
 			(effects
 				(font
@@ -45608,7 +45608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 171.45 0)
 			(effects
 				(font
@@ -45755,7 +45755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 539.75 0)
 			(effects
 				(font
@@ -45834,7 +45834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 121.158 90)
 			(effects
 				(font
@@ -45901,7 +45901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 555.498 90)
 			(effects
 				(font
@@ -46141,7 +46141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 585.978 90)
 			(effects
 				(font
@@ -46210,7 +46210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 568.96 0)
 			(effects
 				(font
@@ -46358,7 +46358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 632.46 0)
 			(effects
 				(font
@@ -46427,7 +46427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 180.34 0)
 			(effects
 				(font
@@ -46509,7 +46509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 100.33 0)
 			(effects
 				(font
@@ -47099,7 +47099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 631.698 90)
 			(effects
 				(font
@@ -47168,7 +47168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 226.06 0)
 			(effects
 				(font
@@ -47250,7 +47250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 67.31 0)
 			(effects
 				(font
@@ -47317,7 +47317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 460.248 90)
 			(effects
 				(font
@@ -47451,7 +47451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 351.79 0)
 			(effects
 				(font
@@ -47727,7 +47727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 675.64 0)
 			(effects
 				(font
@@ -47809,7 +47809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 566.42 0)
 			(effects
 				(font
@@ -48007,7 +48007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 212.598 90)
 			(effects
 				(font
@@ -48076,7 +48076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 382.27 0)
 			(effects
 				(font
@@ -48287,7 +48287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 414.528 90)
 			(effects
 				(font
@@ -48357,7 +48357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 165.1 0)
 			(effects
 				(font
@@ -48605,7 +48605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89ef7530-2dc3-4907-a2ba-6278e02384b8")
-		(property "Reference" "C102"
+		(property "Reference" "C101"
 			(at 754.38 500.3862 0)
 			(effects
 				(font
@@ -48623,7 +48623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 501.65 0)
 			(effects
 				(font
@@ -48659,7 +48659,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C102")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -48887,7 +48887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 243.078 90)
 			(effects
 				(font
@@ -49088,7 +49088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 355.6 0)
 			(effects
 				(font
@@ -49429,7 +49429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 90.678 90)
 			(effects
 				(font
@@ -49563,7 +49563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 673.1 0)
 			(effects
 				(font
@@ -49644,7 +49644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 171.45 0)
 			(effects
 				(font
@@ -49789,7 +49789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 105.918 90)
 			(effects
 				(font
@@ -49856,7 +49856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 75.438 90)
 			(effects
 				(font
@@ -49923,7 +49923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 585.978 90)
 			(effects
 				(font
@@ -49990,7 +49990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 197.358 90)
 			(effects
 				(font
@@ -50057,7 +50057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 90.678 90)
 			(effects
 				(font
@@ -50126,7 +50126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 427.99 0)
 			(effects
 				(font
@@ -50208,7 +50208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 198.12 0)
 			(effects
 				(font
@@ -50277,7 +50277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 412.75 0)
 			(effects
 				(font
@@ -50487,7 +50487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 601.218 90)
 			(effects
 				(font
@@ -50620,7 +50620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 182.118 90)
 			(effects
 				(font
@@ -50759,7 +50759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 238.76 0)
 			(effects
 				(font
@@ -50840,7 +50840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 508 0)
 			(effects
 				(font
@@ -50921,7 +50921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 138.43 0)
 			(effects
 				(font
@@ -51000,7 +51000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 368.808 90)
 			(effects
 				(font
@@ -51069,7 +51069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 523.24 0)
 			(effects
 				(font
@@ -51151,7 +51151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 449.58 0)
 			(effects
 				(font
@@ -51203,7 +51203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96504087-6b67-4d4c-8ad0-9b35f9e6a064")
-		(property "Reference" "C86"
+		(property "Reference" "C85"
 			(at 524.51 565.1562 0)
 			(effects
 				(font
@@ -51221,7 +51221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 566.42 0)
 			(effects
 				(font
@@ -51257,7 +51257,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C86")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -51421,7 +51421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 605.79 0)
 			(effects
 				(font
@@ -51631,7 +51631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 136.398 90)
 			(effects
 				(font
@@ -51700,7 +51700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 473.71 0)
 			(effects
 				(font
@@ -51845,7 +51845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 525.018 90)
 			(effects
 				(font
@@ -51912,7 +51912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 601.218 90)
 			(effects
 				(font
@@ -51981,7 +51981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 226.06 0)
 			(effects
 				(font
@@ -52060,7 +52060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 570.738 90)
 			(effects
 				(font
@@ -52127,7 +52127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 616.458 90)
 			(effects
 				(font
@@ -52196,7 +52196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 256.54 0)
 			(effects
 				(font
@@ -52275,7 +52275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 677.418 90)
 			(effects
 				(font
@@ -52344,7 +52344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 690.88 0)
 			(effects
 				(font
@@ -52423,7 +52423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 429.768 90)
 			(effects
 				(font
@@ -52492,7 +52492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 72.39 0)
 			(effects
 				(font
@@ -52767,7 +52767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 540.258 90)
 			(effects
 				(font
@@ -52836,7 +52836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 675.64 0)
 			(effects
 				(font
@@ -52900,7 +52900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da117dc-2675-4f1a-acd4-032d01e2bc60")
-		(property "Reference" "C100"
+		(property "Reference" "C99"
 			(at 754.38 414.0262 0)
 			(effects
 				(font
@@ -52918,7 +52918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 415.29 0)
 			(effects
 				(font
@@ -52954,7 +52954,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C100")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -53160,7 +53160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 67.31 0)
 			(effects
 				(font
@@ -53360,7 +53360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 508 0)
 			(effects
 				(font
@@ -53441,7 +53441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 443.23 0)
 			(effects
 				(font
@@ -53523,7 +53523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 232.41 0)
 			(effects
 				(font
@@ -53593,7 +53593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 666.75 0)
 			(effects
 				(font
@@ -53662,7 +53662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 443.23 0)
 			(effects
 				(font
@@ -53741,7 +53741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 105.918 90)
 			(effects
 				(font
@@ -53942,7 +53942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 660.4 0)
 			(effects
 				(font
@@ -54021,7 +54021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 399.288 90)
 			(effects
 				(font
@@ -54155,7 +54155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 134.62 0)
 			(effects
 				(font
@@ -54303,7 +54303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 632.46 0)
 			(effects
 				(font
@@ -54372,7 +54372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 355.6 0)
 			(effects
 				(font
@@ -54451,7 +54451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 429.768 90)
 			(effects
 				(font
@@ -54583,7 +54583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 182.118 90)
 			(effects
 				(font
@@ -54652,7 +54652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 289.56 0)
 			(effects
 				(font
@@ -54733,7 +54733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 397.51 0)
 			(effects
 				(font
@@ -54812,7 +54812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 570.738 90)
 			(effects
 				(font
@@ -54882,7 +54882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 382.27 0)
 			(effects
 				(font
@@ -55017,7 +55017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 568.96 0)
 			(effects
 				(font
@@ -55165,7 +55165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 501.65 0)
 			(effects
 				(font
@@ -55234,7 +55234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 638.81 0)
 			(effects
 				(font
@@ -55298,7 +55298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e0d549-cb12-4f68-a435-7b0440d5e081")
-		(property "Reference" "C87"
+		(property "Reference" "C86"
 			(at 524.51 598.1762 0)
 			(effects
 				(font
@@ -55316,7 +55316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 599.44 0)
 			(effects
 				(font
@@ -55352,7 +55352,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C87")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -55582,7 +55582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 506.73 0)
 			(effects
 				(font
@@ -55661,7 +55661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 292.608 90)
 			(effects
 				(font
@@ -55731,7 +55731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 382.27 0)
 			(effects
 				(font
@@ -55933,7 +55933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 353.568 90)
 			(effects
 				(font
@@ -56067,7 +56067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 645.16 0)
 			(effects
 				(font
@@ -56148,7 +56148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 241.3 0)
 			(effects
 				(font
@@ -56229,7 +56229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 388.62 0)
 			(effects
 				(font
@@ -56308,7 +56308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 368.808 90)
 			(effects
 				(font
@@ -56377,7 +56377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 72.39 0)
 			(effects
 				(font
@@ -56524,7 +56524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 675.64 0)
 			(effects
 				(font
@@ -56605,7 +56605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 397.51 0)
 			(effects
 				(font
@@ -56686,7 +56686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 171.45 0)
 			(effects
 				(font
@@ -56767,7 +56767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 506.73 0)
 			(effects
 				(font
@@ -56846,7 +56846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 75.438 90)
 			(effects
 				(font
@@ -56980,7 +56980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 458.47 0)
 			(effects
 				(font
@@ -57061,7 +57061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 645.16 0)
 			(effects
 				(font
@@ -57125,7 +57125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b71aac-386c-4cc0-ab96-c7b728dd51c2")
-		(property "Reference" "C106"
+		(property "Reference" "C105"
 			(at 754.38 631.1962 0)
 			(effects
 				(font
@@ -57143,7 +57143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 632.46 0)
 			(effects
 				(font
@@ -57179,7 +57179,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C106")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -57279,7 +57279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 100.33 0)
 			(effects
 				(font
@@ -57346,7 +57346,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 136.398 90)
 			(effects
 				(font
@@ -57416,7 +57416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 132.08 0)
 			(effects
 				(font
@@ -57787,7 +57787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 631.698 90)
 			(effects
 				(font
@@ -57919,7 +57919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 197.358 90)
 			(effects
 				(font
@@ -57988,7 +57988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 367.03 0)
 			(effects
 				(font
@@ -58067,7 +58067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 509.778 90)
 			(effects
 				(font
@@ -58137,7 +58137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 284.48 0)
 			(effects
 				(font
@@ -58338,7 +58338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 553.72 0)
 			(effects
 				(font
@@ -58419,7 +58419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 638.81 0)
 			(effects
 				(font
@@ -58564,7 +58564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 182.118 90)
 			(effects
 				(font
@@ -58765,7 +58765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 367.03 0)
 			(effects
 				(font
@@ -58846,7 +58846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 149.86 0)
 			(effects
 				(font
@@ -58910,7 +58910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ec1865-8707-48a1-9d63-d822a2d1d77b")
-		(property "Reference" "C84"
+		(property "Reference" "C83"
 			(at 524.51 500.3862 0)
 			(effects
 				(font
@@ -58928,7 +58928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 501.65 0)
 			(effects
 				(font
@@ -58964,7 +58964,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C84")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -59063,7 +59063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 421.64 0)
 			(effects
 				(font
@@ -59210,7 +59210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 165.1 0)
 			(effects
 				(font
@@ -59291,7 +59291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 241.3 0)
 			(effects
 				(font
@@ -59545,7 +59545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 204.47 0)
 			(effects
 				(font
@@ -59823,7 +59823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -59904,7 +59904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 355.6 0)
 			(effects
 				(font
@@ -60051,7 +60051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 427.99 0)
 			(effects
 				(font
@@ -60130,7 +60130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 151.638 90)
 			(effects
 				(font
@@ -60265,7 +60265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 455.93 0)
 			(effects
 				(font
@@ -60344,7 +60344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 90.678 90)
 			(effects
 				(font
@@ -60461,7 +60461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16dd668-ab86-476f-a589-832bc7ef8224")
-		(property "Reference" "C92"
+		(property "Reference" "C91"
 			(at 754.38 130.8162 0)
 			(effects
 				(font
@@ -60479,7 +60479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 132.08 0)
 			(effects
 				(font
@@ -60515,7 +60515,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C92")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -60546,7 +60546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 292.608 90)
 			(effects
 				(font
@@ -60613,7 +60613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 151.638 90)
 			(effects
 				(font
@@ -60682,7 +60682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 195.58 0)
 			(effects
 				(font
@@ -60829,7 +60829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 690.88 0)
 			(effects
 				(font
@@ -60911,7 +60911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 349.25 0)
 			(effects
 				(font
@@ -60978,7 +60978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 227.838 90)
 			(effects
 				(font
@@ -61045,7 +61045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 414.528 90)
 			(effects
 				(font
@@ -61112,7 +61112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 307.848 90)
 			(effects
 				(font
@@ -61179,7 +61179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 509.778 90)
 			(effects
 				(font
@@ -61248,7 +61248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 572.77 0)
 			(effects
 				(font
@@ -61395,7 +61395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 149.86 0)
 			(effects
 				(font
@@ -61474,7 +61474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 662.178 90)
 			(effects
 				(font
@@ -61543,7 +61543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 427.99 0)
 			(effects
 				(font
@@ -61625,7 +61625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 284.48 0)
 			(effects
 				(font
@@ -61764,7 +61764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 368.808 90)
 			(effects
 				(font
@@ -61900,7 +61900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 62.23 534.67 0)
 			(effects
 				(font
@@ -61969,7 +61969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 180.34 0)
 			(effects
 				(font
@@ -62050,7 +62050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 134.62 0)
 			(effects
 				(font
@@ -62131,7 +62131,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 73.66 0)
 			(effects
 				(font
@@ -62343,7 +62343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 568.96 0)
 			(effects
 				(font
@@ -62553,7 +62553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 540.258 90)
 			(effects
 				(font
@@ -62685,7 +62685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 243.078 90)
 			(effects
 				(font
@@ -62755,7 +62755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 284.48 0)
 			(effects
 				(font
@@ -62822,7 +62822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 399.288 90)
 			(effects
 				(font
@@ -62891,7 +62891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 241.3 0)
 			(effects
 				(font
@@ -63302,7 +63302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 449.58 0)
 			(effects
 				(font
@@ -63369,7 +63369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 166.878 90)
 			(effects
 				(font
@@ -63504,7 +63504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 306.07 0)
 			(effects
 				(font
@@ -63716,7 +63716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 119.38 0)
 			(effects
 				(font
@@ -63797,7 +63797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 421.64 0)
 			(effects
 				(font
@@ -63876,7 +63876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 646.938 90)
 			(effects
 				(font
@@ -63943,7 +63943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 197.358 90)
 			(effects
 				(font
@@ -64010,7 +64010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 616.458 90)
 			(effects
 				(font
@@ -64077,7 +64077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 136.398 90)
 			(effects
 				(font
@@ -64146,7 +64146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 105.41 0)
 			(effects
 				(font
@@ -64210,7 +64210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c6137a-e343-4cea-8776-a8ddf30fccac")
-		(property "Reference" "C90"
+		(property "Reference" "C89"
 			(at 754.38 66.0462 0)
 			(effects
 				(font
@@ -64228,7 +64228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 67.31 0)
 			(effects
 				(font
@@ -64264,7 +64264,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C90")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -64475,7 +64475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d42266ab-0307-4705-9577-f855fd5c6841")
-		(property "Reference" "C96"
+		(property "Reference" "C95"
 			(at 754.38 283.2162 0)
 			(effects
 				(font
@@ -64493,7 +64493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 284.48 0)
 			(effects
 				(font
@@ -64529,7 +64529,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C96")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -64562,7 +64562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 226.06 0)
 			(effects
 				(font
@@ -64773,7 +64773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 151.638 90)
 			(effects
 				(font
@@ -64843,7 +64843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 382.27 0)
 			(effects
 				(font
@@ -64912,7 +64912,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 629.92 0)
 			(effects
 				(font
@@ -64991,7 +64991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 212.598 90)
 			(effects
 				(font
@@ -65060,7 +65060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 180.34 0)
 			(effects
 				(font
@@ -65139,7 +65139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 323.088 90)
 			(effects
 				(font
@@ -65191,7 +65191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d907ee05-323f-4b5f-bd7b-73141cd2796d")
-		(property "Reference" "C107"
+		(property "Reference" "C106"
 			(at 754.38 665.4862 0)
 			(effects
 				(font
@@ -65209,7 +65209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 666.75 0)
 			(effects
 				(font
@@ -65245,7 +65245,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C107")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -65278,7 +65278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 355.6 0)
 			(effects
 				(font
@@ -65407,7 +65407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da032c4e-2ba5-4d36-851e-756786b12edc")
-		(property "Reference" "C89"
+		(property "Reference" "C88"
 			(at 524.51 665.4862 0)
 			(effects
 				(font
@@ -65425,7 +65425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 666.75 0)
 			(effects
 				(font
@@ -65461,7 +65461,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C89")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -65492,7 +65492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 384.048 90)
 			(effects
 				(font
@@ -65626,7 +65626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 572.77 0)
 			(effects
 				(font
@@ -65770,7 +65770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 525.018 90)
 			(effects
 				(font
@@ -65837,7 +65837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 540.258 90)
 			(effects
 				(font
@@ -65906,7 +65906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 412.75 0)
 			(effects
 				(font
@@ -66255,7 +66255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 238.76 0)
 			(effects
 				(font
@@ -66402,7 +66402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 382.27 0)
 			(effects
 				(font
@@ -66656,7 +66656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 351.79 0)
 			(effects
 				(font
@@ -66737,7 +66737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 645.16 0)
 			(effects
 				(font
@@ -66816,7 +66816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 555.498 90)
 			(effects
 				(font
@@ -66883,7 +66883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 121.158 90)
 			(effects
 				(font
@@ -66952,7 +66952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 388.62 0)
 			(effects
 				(font
@@ -67033,7 +67033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 256.54 0)
 			(effects
 				(font
@@ -67112,7 +67112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 307.848 90)
 			(effects
 				(font
@@ -67179,7 +67179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 585.978 90)
 			(effects
 				(font
@@ -67248,7 +67248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 427.99 0)
 			(effects
 				(font
@@ -67329,7 +67329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 256.54 0)
 			(effects
 				(font
@@ -67393,7 +67393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e12ff695-d30a-46aa-bd11-a0b5183bb65a")
-		(property "Reference" "C103"
+		(property "Reference" "C102"
 			(at 754.38 533.4062 0)
 			(effects
 				(font
@@ -67411,7 +67411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 751.84 534.67 0)
 			(effects
 				(font
@@ -67447,7 +67447,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C103")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -67546,7 +67546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 638.81 0)
 			(effects
 				(font
@@ -67625,7 +67625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 677.418 90)
 			(effects
 				(font
@@ -67692,7 +67692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 460.248 90)
 			(effects
 				(font
@@ -67829,7 +67829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 540.258 90)
 			(effects
 				(font
@@ -67896,7 +67896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 151.638 90)
 			(effects
 				(font
@@ -67965,7 +67965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 241.3 0)
 			(effects
 				(font
@@ -68046,7 +68046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 308.61 322.58 0)
 			(effects
 				(font
@@ -68192,7 +68192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 584.2 0)
 			(effects
 				(font
@@ -68273,7 +68273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 195.58 0)
 			(effects
 				(font
@@ -68354,7 +68354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 458.47 0)
 			(effects
 				(font
@@ -68435,7 +68435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -68516,7 +68516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 388.62 0)
 			(effects
 				(font
@@ -68595,7 +68595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 445.008 90)
 			(effects
 				(font
@@ -68729,7 +68729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 78.74 204.47 0)
 			(effects
 				(font
@@ -68808,7 +68808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 338.328 90)
 			(effects
 				(font
@@ -68875,7 +68875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 662.178 90)
 			(effects
 				(font
@@ -69010,7 +69010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 412.75 0)
 			(effects
 				(font
@@ -69156,7 +69156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 421.64 0)
 			(effects
 				(font
@@ -69237,7 +69237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -69316,7 +69316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 460.248 90)
 			(effects
 				(font
@@ -69451,7 +69451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 458.47 0)
 			(effects
 				(font
@@ -69595,7 +69595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 601.218 90)
 			(effects
 				(font
@@ -69662,7 +69662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 136.398 90)
 			(effects
 				(font
@@ -69729,7 +69729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 399.288 90)
 			(effects
 				(font
@@ -69929,7 +69929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.1 317.5 0)
 			(effects
 				(font
@@ -70129,7 +70129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 508 0)
 			(effects
 				(font
@@ -70210,7 +70210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 73.66 0)
 			(effects
 				(font
@@ -70355,7 +70355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 323.088 90)
 			(effects
 				(font
@@ -70424,7 +70424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 614.68 0)
 			(effects
 				(font
@@ -70640,7 +70640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 443.23 0)
 			(effects
 				(font
@@ -70721,7 +70721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 412.75 0)
 			(effects
 				(font
@@ -70802,7 +70802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 523.24 0)
 			(effects
 				(font
@@ -71142,7 +71142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 570.738 90)
 			(effects
 				(font
@@ -71277,7 +71277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 72.39 0)
 			(effects
 				(font
@@ -71359,7 +71359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 415.29 0)
 			(effects
 				(font
@@ -71426,7 +71426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 368.808 90)
 			(effects
 				(font
@@ -71495,7 +71495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -71574,7 +71574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 509.778 90)
 			(effects
 				(font
@@ -71643,7 +71643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 473.71 0)
 			(effects
 				(font
@@ -71789,7 +71789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 75.438 90)
 			(effects
 				(font
@@ -71856,7 +71856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 227.838 90)
 			(effects
 				(font
@@ -72095,7 +72095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 121.158 90)
 			(effects
 				(font
@@ -72229,7 +72229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 322.58 0)
 			(effects
 				(font
@@ -72308,7 +72308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.29 353.568 90)
 			(effects
 				(font
@@ -72377,7 +72377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 660.4 0)
 			(effects
 				(font
@@ -72653,7 +72653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 850.9 121.158 90)
 			(effects
 				(font
@@ -72722,7 +72722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 830.58 119.38 0)
 			(effects
 				(font
@@ -72910,7 +72910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 539.75 0)
 			(effects
 				(font
@@ -72991,7 +72991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 768.35 539.75 0)
 			(effects
 				(font
@@ -73070,7 +73070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 621.03 166.878 90)
 			(effects
 				(font
@@ -73122,7 +73122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1a6976-3f46-4aa2-b412-5e6e3d5e8e1a")
-		(property "Reference" "C85"
+		(property "Reference" "C84"
 			(at 524.51 533.4062 0)
 			(effects
 				(font
@@ -73140,7 +73140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 534.67 0)
 			(effects
 				(font
@@ -73176,7 +73176,7 @@
 		(instances
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/ad9c294f-d898-4a63-8d96-c5c7fb69f139"
-					(reference "C85")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -73209,7 +73209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 600.71 290.83 0)
 			(effects
 				(font
@@ -73355,7 +73355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 538.48 673.1 0)
 			(effects
 				(font
@@ -73436,7 +73436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 140.97 523.24 0)
 			(effects
 				(font
@@ -73518,7 +73518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 521.97 317.5 0)
 			(effects
 				(font
