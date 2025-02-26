@@ -2166,15 +2166,6 @@
 		(uuid "0b45c1cf-3489-4875-9063-812ae6356ebc")
 	)
 	(bus_entry
-		(at 546.1 585.47)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f43550b-ab6c-494b-a268-d5851e2dc24b")
-	)
-	(bus_entry
 		(at 381 525.78)
 		(size 2.54 -2.54)
 		(stroke
@@ -2641,6 +2632,15 @@
 			(type default)
 		)
 		(uuid "5552d8eb-4e94-4b83-b98d-616877b75c0c")
+	)
+	(bus_entry
+		(at 546.1 585.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5617e6e7-1054-483c-a848-0bc7ab2dd90b")
 	)
 	(bus_entry
 		(at 532.13 525.78)
@@ -5706,6 +5706,16 @@
 			(type default)
 		)
 		(uuid "2a60b907-4f73-44df-a5de-5958e6e27772")
+	)
+	(bus
+		(pts
+			(xy 548.64 582.93) (xy 551.18 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa0b70f-e268-49cb-82df-4044124fbabb")
 	)
 	(wire
 		(pts
@@ -9486,16 +9496,6 @@
 			(type default)
 		)
 		(uuid "785579a8-4b48-4474-9332-e9cfff54f3a7")
-	)
-	(bus
-		(pts
-			(xy 548.64 582.93) (xy 551.18 582.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78591c43-a09c-40ae-a2ee-63fcc5db9d27")
 	)
 	(wire
 		(pts
@@ -17361,17 +17361,6 @@
 		)
 		(uuid "41f5fbf6-8ea2-4acd-8778-86f9102300c2")
 	)
-	(label "PAN5V.SCK_5"
-		(at 309.88 293.37 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41fa1c3e-a74c-4bf5-9a63-48f2bbe8e74e")
-	)
 	(label "PAN5V.MISO_07"
 		(at 608.33 543.56 90)
 		(fields_autoplaced yes)
@@ -17602,17 +17591,6 @@
 			(justify right bottom)
 		)
 		(uuid "53ce246c-dcfe-40de-bb8d-ef11baf9362f")
-	)
-	(label "PAN5V.SCK_4"
-		(at 290.83 293.37 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "541d21db-df66-4740-a17d-5db1a1375d16")
 	)
 	(label "PAN5V.CS_4_P07"
 		(at 387.35 41.91 270)
@@ -17932,6 +17910,17 @@
 			(justify right bottom)
 		)
 		(uuid "6aaffeb4-8975-4331-a952-7c4377248e67")
+	)
+	(label "PAN3V.SCK_4"
+		(at 290.83 293.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bc655d2-d483-4f40-8d41-4db492317847")
 	)
 	(label "PAN5V.CS_2_P01"
 		(at 336.55 543.56 90)
@@ -19560,6 +19549,17 @@
 			(justify right bottom)
 		)
 		(uuid "d46951e3-4755-465a-bea0-159812c9769e")
+	)
+	(label "PAN3V.SCK_5"
+		(at 309.88 293.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d476a04b-ff22-484d-b13c-d106cf3c4fe3")
 	)
 	(label "PAN3V.SCK_3"
 		(at 541.02 600.71 90)

@@ -89,7 +89,7 @@
 				)
 				(justify left)
 			)
-			(uuid "19fd3241-05d5-474e-b3ef-60c76b30b5ca")
+			(uuid "34d27c6e-9507-4aba-ab2b-d933b587a542")
 		)
 		(instances
 			(project "ni_arena_12-12"
@@ -261,7 +261,7 @@
 				)
 				(justify right)
 			)
-			(uuid "f5f48d57-9bba-4a86-a90b-e43a06fe65d8")
+			(uuid "fcde3bb4-5b21-45af-9b48-40070aae4420")
 		)
 		(instances
 			(project "ni_arena_12-12"
