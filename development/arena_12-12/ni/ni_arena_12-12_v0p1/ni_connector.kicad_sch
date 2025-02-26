@@ -2331,6 +2331,14 @@
 			)
 		)
 	)
+	(bus_alias "PAN3V"
+		(members "CS_0" "CS_1" "CS_2" "CS_3" "CS_4" "CS_5" "CS_6" "CS_7" "SCK_0"
+			"SCK_1" "SCK_2" "SCK_3" "SCK_4" "SCK_5" "MOSI_00" "MISO_00" "MOSI_01"
+			"MISO_01" "MOSI_02" "MISO_02" "MOSI_03" "MISO_04" "MOSI_05" "MISO_05"
+			"MOSI_06" "MISO_06" "MOSI_07" "MISO_07" "MOSI_08" "MISO_08" "MOSI_09"
+			"MISO_09" "MOSI_10" "MISO_10" "MOSI_11" "MISO_11" "EXT_INT" "RESET"
+		)
+	)
 	(junction
 		(at 86.487 125.857)
 		(diameter 0)
@@ -5310,7 +5318,7 @@
 		)
 		(uuid "fe0ad5ad-4834-4121-8d4b-b65b99202362")
 	)
-	(hierarchical_label "PAN3V{PAN}"
+	(hierarchical_label "PAN3V{PAN3V}"
 		(shape bidirectional)
 		(at 196.469 131.953 0)
 		(fields_autoplaced yes)

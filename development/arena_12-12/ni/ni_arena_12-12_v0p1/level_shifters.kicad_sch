@@ -1286,6 +1286,29 @@
 			)
 		)
 	)
+	(bus_alias "PAN5V"
+		(members "CS_0_P01" "CS_0_P02" "CS_0_P03" "CS_0_P04" "CS_0_P05" "CS_0_P06"
+			"CS_0_P07" "CS_0_P08" "CS_0_P09" "CS_0_P10" "CS_0_P11" "CS_0_P12" "CS_1_P01"
+			"CS_1_P02" "CS_1_P03" "CS_1_P04" "CS_1_P05" "CS_1_P06" "CS_1_P07" "CS_1_P08"
+			"CS_1_P09" "CS_1_P10" "CS_1_P11" "CS_1_P12" "CS_2_P01" "CS_2_P02" "CS_2_P03"
+			"CS_2_P04" "CS_2_P05" "CS_2_P06" "CS_2_P07" "CS_2_P08" "CS_2_P09" "CS_2_P10"
+			"CS_2_P11" "CS_2_P12" "CS_3_P01" "CS_3_P02" "CS_3_P03" "CS_3_P04" "CS_3_P05"
+			"CS_3_P06" "CS_3_P07" "CS_3_P08" "CS_3_P09" "CS_3_P10" "CS_3_P11" "CS_3_P12"
+			"CS_4_P01" "CS_4_P02" "CS_4_P03" "CS_4_P04" "CS_4_P05" "CS_4_P06" "CS_4_P07"
+			"CS_4_P08" "CS_4_P09" "CS_4_P10" "CS_4_P11" "CS_4_P12" "CS_5_P01" "CS_5_P02"
+			"CS_5_P03" "CS_5_P04" "CS_5_P05" "CS_5_P06" "CS_5_P07" "CS_5_P08" "CS_5_P09"
+			"CS_5_P10" "CS_5_P11" "CS_5_P12" "CS_6_P01" "CS_6_P02" "CS_6_P03" "CS_6_P04"
+			"CS_6_P05" "CS_6_P06" "CS_6_P07" "CS_6_P08" "CS_6_P09" "CS_6_P10" "CS_6_P11"
+			"CS_6_P12" "CS_7_P01" "CS_7_P02" "CS_7_P03" "CS_7_P04" "CS_7_P05" "CS_7_P06"
+			"CS_7_P07" "CS_7_P08" "CS_7_P09" "CS_7_P10" "CS_7_P11" "CS_7_P12" "SCK_0_H1"
+			"SCK_0_H2" "SCK_1_H1" "SCK_1_H2" "SCK_2_H1" "SCK_2_H2" "SCK_3_H1" "SCK_3_H2"
+			"SCK_4_H1" "SCK_4_H2" "SCK_5_H1" "SCK_5_H2" "MOSI_00" "MOSI_01" "MOSI_02"
+			"MOSI_03" "MOSI_04" "MOSI_05" "MOSI_06" "MOSI_07" "MOSI_08" "MOSI_09"
+			"MOSI_10" "MOSI_11" "MISO_00" "MISO_01" "MISO_02" "MISO_03" "MISO_04"
+			"MISO_05" "MISO_06" "MISO_07" "MISO_08" "MISO_09" "MISO_10" "MISO_11"
+			"EXT_INT" "RESET"
+		)
+	)
 	(junction
 		(at 481.33 107.95)
 		(diameter 0)
@@ -20275,7 +20298,7 @@
 		)
 		(uuid "ffe8b166-2a36-446f-be4b-d0f909a3f8aa")
 	)
-	(hierarchical_label "PAN3V{PAN}"
+	(hierarchical_label "PAN3V{PAN3V}"
 		(shape bidirectional)
 		(at 635 582.93 0)
 		(fields_autoplaced yes)
@@ -20287,7 +20310,7 @@
 		)
 		(uuid "9a210e4a-38db-4499-943b-e1429ce4faf3")
 	)
-	(hierarchical_label "PAN5V{PAN}"
+	(hierarchical_label "PAN5V{PAN5V}"
 		(shape bidirectional)
 		(at 638.81 523.24 0)
 		(fields_autoplaced yes)

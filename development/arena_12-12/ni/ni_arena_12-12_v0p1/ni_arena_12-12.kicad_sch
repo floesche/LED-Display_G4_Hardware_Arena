@@ -71,7 +71,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PAN5V{PAN}" bidirectional
+		(pin "PAN5V{PAN5V}" bidirectional
 			(at 127.254 58.42 0)
 			(effects
 				(font
@@ -81,7 +81,7 @@
 			)
 			(uuid "7ac534d2-0cc4-4d65-b750-e1b075b9ae6a")
 		)
-		(pin "PAN3V{PAN}" bidirectional
+		(pin "PAN3V{PAN3V}" bidirectional
 			(at 94.107 58.42 180)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PAN5V{PAN}" bidirectional
+		(pin "PAN5V{PAN5V}" bidirectional
 			(at 136.144 58.42 180)
 			(effects
 				(font
@@ -253,7 +253,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PAN3V{PAN}" bidirectional
+		(pin "PAN3V{PAN3V}" bidirectional
 			(at 85.471 58.42 0)
 			(effects
 				(font
