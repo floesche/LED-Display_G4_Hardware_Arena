@@ -26440,72 +26440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 584.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dc8dec0-d2d7-4ac9-82b0-bdc8f9ea2602")
-		(property "Reference" "#PWR0173"
-			(at 73.66 588.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 580.771 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 584.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 584.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 584.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f500edfd-70b6-473a-8348-28b8f7b081df")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 113.03 107.95 0)
 		(unit 1)
@@ -26778,6 +26712,71 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 539.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32dbb29e-9ac9-4134-878d-6c3513f0d4b4")
+		(property "Reference" "#PWR0165"
+			(at 73.66 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 536.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3413cf94-30e7-407f-8baa-a528673d51f7")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -30085,7 +30084,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 160.02 547.37 90)
+		(at 143.51 547.37 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -30094,7 +30093,7 @@
 		(dnp no)
 		(uuid "49b1d7b3-ea75-475c-a964-31887a1cfe91")
 		(property "Reference" "U37"
-			(at 153.924 552.45 90)
+			(at 137.414 552.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30103,7 +30102,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 148.082 550.164 90)
+			(at 131.572 550.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30112,7 +30111,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 160.02 547.37 0)
+			(at 143.51 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30121,7 +30120,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 160.02 547.37 0)
+			(at 143.51 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30130,7 +30129,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 160.02 547.37 0)
+			(at 143.51 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30362,72 +30361,6 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 322.58 397.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b593037-a55c-4d04-9932-33694968f292")
-		(property "Reference" "#PWR0150"
-			(at 322.58 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 322.58 394.081 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee77d31e-5507-4381-b061-88230a73598b")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -31794,72 +31727,6 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR0416")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 441.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "596687f8-67c7-4e1e-8021-d39e4c3c4ff8")
-		(property "Reference" "#PWR0159"
-			(at 510.54 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 438.531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61bf5abd-d3a8-44f2-83fe-c40ff61bbe28")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -34576,6 +34443,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 322.58 441.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c05a122-5be2-460f-a7c8-fea3cae6146a")
+		(property "Reference" "#PWR0151"
+			(at 322.58 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 322.58 438.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae264e8-276d-44d3-8f53-820d96fcc609")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 416.56 41.91 0)
 		(unit 1)
@@ -35575,6 +35507,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 441.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "759aa85f-1ba7-482b-8334-4c03cb9d0193")
+		(property "Reference" "#PWR0159"
+			(at 510.54 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 438.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ff76222-e425-43d1-9eb2-4fd6abec0443")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 424.18 97.79 0)
 		(unit 1)
@@ -36235,72 +36232,6 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 539.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bc1e79d-b650-4c91-a59c-373b10b3f90b")
-		(property "Reference" "#PWR0165"
-			(at 73.66 543.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 536.321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 539.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 539.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 539.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47f36457-5983-47cc-b59a-7c214f051aa5")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -38895,7 +38826,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 143.51 547.37 90)
+		(at 160.02 547.37 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38904,7 +38835,7 @@
 		(dnp no)
 		(uuid "90fe3c75-651d-404c-b014-ea4cfbd53249")
 		(property "Reference" "U37"
-			(at 137.16 552.45 90)
+			(at 153.67 552.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38913,7 +38844,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 131.318 550.418 90)
+			(at 147.828 550.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38922,7 +38853,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 143.51 547.37 0)
+			(at 160.02 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38931,7 +38862,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 143.51 547.37 0)
+			(at 160.02 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38940,7 +38871,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 143.51 547.37 0)
+			(at 160.02 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39881,6 +39812,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 510.54 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97fb282d-d78b-4a17-8b46-ab388ff7e987")
+		(property "Reference" "#PWR0158"
+			(at 510.54 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 510.54 393.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 510.54 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 510.54 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31cd9f7c-f0ac-4108-9f65-c53f3d4034b1")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G17")
 		(at 419.1 396.24 90)
 		(mirror x)
@@ -40224,72 +40220,6 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 510.54 397.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99958e0b-b073-4ebb-8adf-cd6866487cb8")
-		(property "Reference" "#PWR0151"
-			(at 510.54 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 510.54 394.081 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b56721b9-728b-4dd7-afe7-33bb56a18547")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -45717,7 +45647,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 110.49 547.37 90)
+		(at 127 547.37 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45726,7 +45656,7 @@
 		(dnp no)
 		(uuid "c4de0fea-d196-4e14-84a8-7a51ec9222ba")
 		(property "Reference" "U36"
-			(at 104.14 552.45 90)
+			(at 120.65 552.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45735,7 +45665,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 98.298 550.418 90)
+			(at 114.808 550.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45744,7 +45674,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 110.49 547.37 0)
+			(at 127 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45753,7 +45683,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 110.49 547.37 0)
+			(at 127 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45762,7 +45692,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 110.49 547.37 0)
+			(at 127 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48098,6 +48028,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 322.58 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9d27779-3e71-49a5-9f29-42583e2e76da")
+		(property "Reference" "#PWR0150"
+			(at 322.58 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 322.58 393.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3151ecd9-2f73-4d01-9f99-78071a557bde")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 128.27 231.14 0)
 		(unit 1)
@@ -48166,7 +48161,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 127 547.37 90)
+		(at 110.49 547.37 90)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -48175,7 +48170,7 @@
 		(dnp no)
 		(uuid "db360ba4-4d11-47bd-9245-ed1bb07999d9")
 		(property "Reference" "U36"
-			(at 120.904 552.45 90)
+			(at 104.394 552.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48184,7 +48179,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 115.062 550.164 90)
+			(at 98.552 550.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48193,7 +48188,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 127 547.37 0)
+			(at 110.49 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48202,7 +48197,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 127 547.37 0)
+			(at 110.49 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48211,7 +48206,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 127 547.37 0)
+			(at 110.49 547.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49168,72 +49163,6 @@
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "U29")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 322.58 441.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e13bf63b-d1f3-4ba6-965d-9a2e83509140")
-		(property "Reference" "#PWR0158"
-			(at 322.58 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 322.58 438.531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 322.58 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1581dbb3-e74b-4dc8-b2bd-4f7cf0c08853")
-		)
-		(instances
-			(project "ni_arena_12-12"
-				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
-					(reference "#PWR0158")
-					(unit 1)
 				)
 			)
 		)
@@ -51146,6 +51075,71 @@
 			(project "ni_arena_12-12"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
 					(reference "#PWR0410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 584.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f56c7f27-09bf-478e-8f1d-2acdbdddc17c")
+		(property "Reference" "#PWR0173"
+			(at 73.66 588.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 580.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f404b34e-018b-4920-a7b8-92f8dfab719c")
+		)
+		(instances
+			(project "ni_arena_12-12"
+				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc/089bb880-f417-4f64-98ac-7a8591f9a34e"
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
