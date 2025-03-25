@@ -4438,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 868.68 165.1) (xy 868.68 88.9)
+			(xy 868.68 88.9) (xy 868.68 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6078,7 +6078,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 336.55) (xy 171.45 298.45)
+			(xy 171.45 298.45) (xy 171.45 336.55)
 		)
 		(stroke
 			(width 0)
@@ -8528,16 +8528,6 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 538.48) (xy 628.65 513.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63bb2bc1-6743-46bb-9e83-c761968e73d2")
-	)
-	(wire
-		(pts
 			(xy 638.81 165.1) (xy 638.81 88.9)
 		)
 		(stroke
@@ -9608,16 +9598,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 599.44) (xy 336.55 599.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ea228d-a652-4a5e-8c2d-d1ea7477b714")
-	)
-	(wire
-		(pts
 			(xy 292.1 635) (xy 292.1 636.27)
 		)
 		(stroke
@@ -9695,16 +9675,6 @@
 			(type default)
 		)
 		(uuid "7b368cb1-591f-47ad-9b12-7c725d79f79c")
-	)
-	(wire
-		(pts
-			(xy 181.61 397.51) (xy 181.61 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b472814-add9-4ea9-84c0-992fc50f8fa4")
 	)
 	(wire
 		(pts
@@ -10705,6 +10675,16 @@
 			(type default)
 		)
 		(uuid "8e8eb87c-c620-45d7-bd49-d9a8c7906391")
+	)
+	(wire
+		(pts
+			(xy 876.3 530.86) (xy 876.3 645.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e97c176-1d5b-4911-8c31-d0d95d783736")
 	)
 	(wire
 		(pts
@@ -12038,7 +12018,17 @@
 	)
 	(wire
 		(pts
-			(xy 641.35 180.34) (xy 641.35 91.44)
+			(xy 336.55 599.44) (xy 355.6 599.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f651b3-2161-4134-b919-db229cec86a5")
+	)
+	(wire
+		(pts
+			(xy 641.35 91.44) (xy 641.35 180.34)
 		)
 		(stroke
 			(width 0)
@@ -15538,6 +15528,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 308.61) (xy 181.61 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e796582d-4e5b-4f47-8d80-65fec560345f")
+	)
+	(wire
+		(pts
 			(xy 908.05 490.22) (xy 908.05 500.38)
 		)
 		(stroke
@@ -15865,16 +15865,6 @@
 			(type default)
 		)
 		(uuid "eda0b9ad-de0e-4bd2-b5b2-b44a50e74226")
-	)
-	(wire
-		(pts
-			(xy 876.3 645.16) (xy 876.3 530.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda748a5-8094-4d44-81ee-76aec6a4ae8e")
 	)
 	(wire
 		(pts
@@ -16445,6 +16435,16 @@
 			(type default)
 		)
 		(uuid "f6efdc9b-9f43-4703-8f5e-fef2e45ea0de")
+	)
+	(wire
+		(pts
+			(xy 628.65 513.08) (xy 628.65 538.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7018357-a799-410a-9650-c1d63ceffbed")
 	)
 	(wire
 		(pts
@@ -21671,7 +21671,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 599.44 0)
+		(at 370.84 584.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21679,7 +21679,7 @@
 		(dnp no)
 		(uuid "00df4162-b8b5-423c-8593-c5ac8102bf4c")
 		(property "Reference" "U71"
-			(at 375.92 593.344 90)
+			(at 375.92 578.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21688,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 587.502 90)
+			(at 373.634 572.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21697,7 +21697,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 599.44 0)
+			(at 370.84 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21706,7 +21706,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 599.44 0)
+			(at 370.84 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21715,7 +21715,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 599.44 0)
+			(at 370.84 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21752,7 +21752,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 614.68 0)
+		(at 140.97 629.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21760,7 +21760,7 @@
 		(dnp no)
 		(uuid "00e295f8-b059-4b8a-9aa7-46992770d965")
 		(property "Reference" "U54"
-			(at 146.05 608.33 90)
+			(at 146.05 623.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21769,7 +21769,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 602.488 90)
+			(at 144.018 617.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,7 +21778,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 614.68 0)
+			(at 140.97 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21787,7 +21787,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 614.68 0)
+			(at 140.97 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21796,7 +21796,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 614.68 0)
+			(at 140.97 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22171,7 +22171,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 119.38 0)
+		(at 600.71 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22179,7 +22179,7 @@
 		(dnp no)
 		(uuid "0229645c-bdbd-4e70-aad7-6cea6b62f643")
 		(property "Reference" "U76"
-			(at 605.79 113.03 90)
+			(at 605.79 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22188,7 +22188,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 107.188 90)
+			(at 603.758 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22197,7 +22197,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 119.38 0)
+			(at 600.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22206,7 +22206,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 119.38 0)
+			(at 600.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22215,7 +22215,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 119.38 0)
+			(at 600.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23344,7 +23344,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 195.58 0)
+		(at 830.58 180.34 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23352,7 +23352,7 @@
 		(dnp no)
 		(uuid "0788d879-66fb-4077-869f-2c3d11bfc07b")
 		(property "Reference" "U96"
-			(at 835.66 189.484 90)
+			(at 835.66 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23361,7 +23361,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 183.642 90)
+			(at 833.374 168.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23370,7 +23370,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 195.58 0)
+			(at 830.58 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23379,7 +23379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 195.58 0)
+			(at 830.58 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23388,7 +23388,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 195.58 0)
+			(at 830.58 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24085,7 +24085,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 306.07 0)
+		(at 140.97 290.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24093,7 +24093,7 @@
 		(dnp no)
 		(uuid "08e10827-6b6f-4869-a47f-e306c62897ab")
 		(property "Reference" "U45"
-			(at 146.05 299.974 90)
+			(at 146.05 284.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24102,7 +24102,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 294.132 90)
+			(at 143.764 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24111,7 +24111,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 306.07 0)
+			(at 140.97 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24120,7 +24120,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 306.07 0)
+			(at 140.97 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24129,7 +24129,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 306.07 0)
+			(at 140.97 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24564,7 +24564,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 180.34 0)
+		(at 370.84 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24572,7 +24572,7 @@
 		(dnp no)
 		(uuid "0c92125e-42f5-4ad1-a676-b87b7bfb3368")
 		(property "Reference" "U60"
-			(at 375.92 173.99 90)
+			(at 375.92 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24581,7 +24581,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 168.148 90)
+			(at 373.888 183.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24590,7 +24590,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 180.34 0)
+			(at 370.84 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24599,7 +24599,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 180.34 0)
+			(at 370.84 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24608,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 180.34 0)
+			(at 370.84 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25007,7 +25007,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 458.47 0)
+		(at 830.58 473.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25015,7 +25015,7 @@
 		(dnp no)
 		(uuid "0f27d479-1521-466c-bf43-35d770146902")
 		(property "Reference" "U104"
-			(at 835.66 452.12 90)
+			(at 835.66 467.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25024,7 +25024,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 446.278 90)
+			(at 833.628 461.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25033,7 +25033,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 458.47 0)
+			(at 830.58 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25042,7 +25042,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 458.47 0)
+			(at 830.58 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25051,7 +25051,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 458.47 0)
+			(at 830.58 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25225,7 +25225,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 599.44 0)
+		(at 140.97 584.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25233,7 +25233,7 @@
 		(dnp no)
 		(uuid "0fd7b35b-1b0e-424e-8965-3ba5475d3a57")
 		(property "Reference" "U53"
-			(at 146.05 593.344 90)
+			(at 146.05 578.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25242,7 +25242,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 587.502 90)
+			(at 143.764 572.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25251,7 +25251,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 599.44 0)
+			(at 140.97 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25260,7 +25260,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 599.44 0)
+			(at 140.97 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25269,7 +25269,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 599.44 0)
+			(at 140.97 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25569,7 +25569,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 690.88 0)
+		(at 140.97 675.64 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25577,7 +25577,7 @@
 		(dnp no)
 		(uuid "10f7740d-cdee-44bd-83c9-2ca1b6e587b8")
 		(property "Reference" "U56"
-			(at 146.05 684.784 90)
+			(at 146.05 669.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25586,7 +25586,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 678.942 90)
+			(at 143.764 663.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25595,7 +25595,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 690.88 0)
+			(at 140.97 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25604,7 +25604,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 690.88 0)
+			(at 140.97 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25613,7 +25613,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 690.88 0)
+			(at 140.97 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26117,7 +26117,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 73.66 0)
+		(at 370.84 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26125,7 +26125,7 @@
 		(dnp no)
 		(uuid "139ac6f5-57dc-4e2b-b3c4-f257b7945b34")
 		(property "Reference" "U57"
-			(at 375.92 67.31 90)
+			(at 375.92 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26134,7 +26134,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 61.468 90)
+			(at 373.888 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26143,7 +26143,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 73.66 0)
+			(at 370.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26152,7 +26152,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 73.66 0)
+			(at 370.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26161,7 +26161,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 73.66 0)
+			(at 370.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26477,7 +26477,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 508 0)
+		(at 140.97 523.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26485,7 +26485,7 @@
 		(dnp no)
 		(uuid "15696a3c-07dd-43d8-8506-e9e8e2b2c9e0")
 		(property "Reference" "U51"
-			(at 146.05 501.65 90)
+			(at 146.05 516.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26494,7 +26494,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 495.808 90)
+			(at 144.018 511.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26503,7 +26503,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 508 0)
+			(at 140.97 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26512,7 +26512,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 508 0)
+			(at 140.97 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26521,7 +26521,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 508 0)
+			(at 140.97 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26690,7 +26690,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 473.71 0)
+		(at 140.97 458.47 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26698,7 +26698,7 @@
 		(dnp no)
 		(uuid "16a0dcad-e5aa-43e0-91a4-a2076bd673d9")
 		(property "Reference" "U50"
-			(at 146.05 467.614 90)
+			(at 146.05 452.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26707,7 +26707,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 461.772 90)
+			(at 143.764 446.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26716,7 +26716,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 473.71 0)
+			(at 140.97 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26725,7 +26725,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 473.71 0)
+			(at 140.97 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26734,7 +26734,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 473.71 0)
+			(at 140.97 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26985,7 +26985,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 351.79 0)
+		(at 830.58 336.55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26993,7 +26993,7 @@
 		(dnp no)
 		(uuid "17b507c9-9a0a-4c6f-b191-2c0b59154ef4")
 		(property "Reference" "U100"
-			(at 835.66 345.694 90)
+			(at 835.66 330.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27002,7 +27002,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 339.852 90)
+			(at 833.374 324.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27011,7 +27011,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 351.79 0)
+			(at 830.58 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27020,7 +27020,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 351.79 0)
+			(at 830.58 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27029,7 +27029,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 351.79 0)
+			(at 830.58 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27752,7 +27752,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 165.1 0)
+		(at 370.84 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27760,7 +27760,7 @@
 		(dnp no)
 		(uuid "1a90e8a4-c167-4920-bd2c-6be9334991af")
 		(property "Reference" "U59"
-			(at 375.92 159.004 90)
+			(at 375.92 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27769,7 +27769,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 153.162 90)
+			(at 373.634 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27778,7 +27778,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 165.1 0)
+			(at 370.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27787,7 +27787,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 165.1 0)
+			(at 370.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27796,7 +27796,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 165.1 0)
+			(at 370.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27833,7 +27833,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 336.55 0)
+		(at 600.71 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27841,7 +27841,7 @@
 		(dnp no)
 		(uuid "1a926e92-7879-4ab0-a436-420e8bbefe90")
 		(property "Reference" "U82"
-			(at 605.79 330.2 90)
+			(at 605.79 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27850,7 +27850,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 324.358 90)
+			(at 603.758 339.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27859,7 +27859,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 336.55 0)
+			(at 600.71 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27868,7 +27868,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 336.55 0)
+			(at 600.71 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27877,7 +27877,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 336.55 0)
+			(at 600.71 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28264,7 +28264,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 290.83 0)
+		(at 370.84 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28272,7 +28272,7 @@
 		(dnp no)
 		(uuid "1d76d478-511b-417e-b563-acd3c1bbd621")
 		(property "Reference" "U63"
-			(at 375.92 284.48 90)
+			(at 375.92 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28281,7 +28281,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 278.638 90)
+			(at 373.888 293.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28290,7 +28290,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 290.83 0)
+			(at 370.84 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28299,7 +28299,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 290.83 0)
+			(at 370.84 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28308,7 +28308,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 290.83 0)
+			(at 370.84 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28410,7 +28410,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 599.44 0)
+		(at 830.58 584.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28418,7 +28418,7 @@
 		(dnp no)
 		(uuid "1e05805a-1690-4a3f-8743-e5110d6e55d2")
 		(property "Reference" "U107"
-			(at 835.66 593.344 90)
+			(at 835.66 578.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28427,7 +28427,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 587.502 90)
+			(at 833.374 572.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28436,7 +28436,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 599.44 0)
+			(at 830.58 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28445,7 +28445,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 599.44 0)
+			(at 830.58 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28454,7 +28454,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 599.44 0)
+			(at 830.58 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28623,7 +28623,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 614.68 0)
+		(at 600.71 629.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28631,7 +28631,7 @@
 		(dnp no)
 		(uuid "1eaef388-7699-48b7-aa4c-ee1c779dca81")
 		(property "Reference" "U90"
-			(at 605.79 608.33 90)
+			(at 605.79 623.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28640,7 +28640,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 602.488 90)
+			(at 603.758 617.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28649,7 +28649,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 614.68 0)
+			(at 600.71 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28658,7 +28658,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 614.68 0)
+			(at 600.71 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28667,7 +28667,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 614.68 0)
+			(at 600.71 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28771,7 +28771,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 336.55 0)
+		(at 140.97 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28779,7 +28779,7 @@
 		(dnp no)
 		(uuid "1f938b1a-0f5f-4ef6-bb90-69449e2b2e21")
 		(property "Reference" "U46"
-			(at 146.05 330.2 90)
+			(at 146.05 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28788,7 +28788,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 324.358 90)
+			(at 144.018 339.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28797,7 +28797,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 336.55 0)
+			(at 140.97 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28806,7 +28806,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 336.55 0)
+			(at 140.97 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28815,7 +28815,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 336.55 0)
+			(at 140.97 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29069,7 +29069,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 88.9 0)
+		(at 830.58 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29077,7 +29077,7 @@
 		(dnp no)
 		(uuid "209f9800-7044-4033-bf01-080ab7847747")
 		(property "Reference" "U93"
-			(at 835.66 82.804 90)
+			(at 835.66 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29086,7 +29086,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 76.962 90)
+			(at 833.374 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29095,7 +29095,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 88.9 0)
+			(at 830.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29104,7 +29104,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 88.9 0)
+			(at 830.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29113,7 +29113,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 88.9 0)
+			(at 830.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29282,7 +29282,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 382.27 0)
+		(at 370.84 367.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29290,7 +29290,7 @@
 		(dnp no)
 		(uuid "211b39bc-f4df-4205-b32b-ce972d980569")
 		(property "Reference" "U65"
-			(at 375.92 376.174 90)
+			(at 375.92 360.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29299,7 +29299,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 370.332 90)
+			(at 373.634 355.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29308,7 +29308,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 382.27 0)
+			(at 370.84 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29317,7 +29317,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 382.27 0)
+			(at 370.84 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29326,7 +29326,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 382.27 0)
+			(at 370.84 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29575,7 +29575,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 443.23 0)
+		(at 830.58 427.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29583,7 +29583,7 @@
 		(dnp no)
 		(uuid "21e0f9e5-cbb8-4fcf-a6b4-2157306fc35f")
 		(property "Reference" "U103"
-			(at 835.66 437.134 90)
+			(at 835.66 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29592,7 +29592,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 431.292 90)
+			(at 833.374 416.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29601,7 +29601,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 443.23 0)
+			(at 830.58 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29610,7 +29610,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 443.23 0)
+			(at 830.58 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29619,7 +29619,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 443.23 0)
+			(at 830.58 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29927,7 +29927,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 584.2 0)
+		(at 600.71 599.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29935,7 +29935,7 @@
 		(dnp no)
 		(uuid "2463400e-bfea-4919-a546-4996521131ce")
 		(property "Reference" "U89"
-			(at 605.79 577.85 90)
+			(at 605.79 593.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29944,7 +29944,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 572.008 90)
+			(at 603.758 587.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29953,7 +29953,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 584.2 0)
+			(at 600.71 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29962,7 +29962,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 584.2 0)
+			(at 600.71 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29971,7 +29971,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 584.2 0)
+			(at 600.71 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30344,7 +30344,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 306.07 0)
+		(at 600.71 290.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30352,7 +30352,7 @@
 		(dnp no)
 		(uuid "264dc0b8-da4a-4d67-aafa-660ca120e03e")
 		(property "Reference" "U81"
-			(at 605.79 299.974 90)
+			(at 605.79 284.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30361,7 +30361,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 294.132 90)
+			(at 603.504 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30370,7 +30370,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 306.07 0)
+			(at 600.71 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30379,7 +30379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 306.07 0)
+			(at 600.71 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30388,7 +30388,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 306.07 0)
+			(at 600.71 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30425,7 +30425,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 351.79 0)
+		(at 370.84 336.55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30433,7 +30433,7 @@
 		(dnp no)
 		(uuid "26630206-4766-410d-9221-d5154b28b14f")
 		(property "Reference" "U64"
-			(at 375.92 345.694 90)
+			(at 375.92 330.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30442,7 +30442,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 339.852 90)
+			(at 373.634 324.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30451,7 +30451,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 351.79 0)
+			(at 370.84 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30460,7 +30460,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 351.79 0)
+			(at 370.84 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30469,7 +30469,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 351.79 0)
+			(at 370.84 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31249,7 +31249,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 629.92 0)
+		(at 370.84 614.68 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31257,7 +31257,7 @@
 		(dnp no)
 		(uuid "2beb4dfa-91eb-4a31-8415-9b00bd23f0d8")
 		(property "Reference" "U72"
-			(at 375.92 623.824 90)
+			(at 375.92 608.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31266,7 +31266,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 617.982 90)
+			(at 373.634 602.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31275,7 +31275,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 629.92 0)
+			(at 370.84 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31284,7 +31284,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 629.92 0)
+			(at 370.84 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31293,7 +31293,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 629.92 0)
+			(at 370.84 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31729,7 +31729,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 690.88 0)
+		(at 600.71 675.64 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31737,7 +31737,7 @@
 		(dnp no)
 		(uuid "30530deb-6ffd-4a23-b680-2da69bdd3954")
 		(property "Reference" "U92"
-			(at 605.79 684.784 90)
+			(at 605.79 669.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31746,7 +31746,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 678.942 90)
+			(at 603.504 663.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31755,7 +31755,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 690.88 0)
+			(at 600.71 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31764,7 +31764,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 690.88 0)
+			(at 600.71 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31773,7 +31773,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 690.88 0)
+			(at 600.71 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32634,7 +32634,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 134.62 0)
+		(at 600.71 119.38 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32642,7 +32642,7 @@
 		(dnp no)
 		(uuid "34c100e2-03ca-45d9-af13-9743512ac299")
 		(property "Reference" "U76"
-			(at 605.79 128.524 90)
+			(at 605.79 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32651,7 +32651,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 122.682 90)
+			(at 603.504 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32660,7 +32660,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 134.62 0)
+			(at 600.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32669,7 +32669,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 134.62 0)
+			(at 600.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32678,7 +32678,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 134.62 0)
+			(at 600.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33354,7 +33354,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 660.4 0)
+		(at 370.84 645.16 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33362,7 +33362,7 @@
 		(dnp no)
 		(uuid "37d1238f-7323-42e2-a6a1-7344595d3ac1")
 		(property "Reference" "U73"
-			(at 375.92 654.304 90)
+			(at 375.92 639.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33371,7 +33371,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 648.462 90)
+			(at 373.634 633.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33380,7 +33380,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 660.4 0)
+			(at 370.84 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33389,7 +33389,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 660.4 0)
+			(at 370.84 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33398,7 +33398,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 660.4 0)
+			(at 370.84 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33677,7 +33677,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 553.72 0)
+		(at 370.84 568.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33685,7 +33685,7 @@
 		(dnp no)
 		(uuid "3885e3ca-b788-4a8a-9d4e-c37d71ef3f65")
 		(property "Reference" "U70"
-			(at 375.92 547.37 90)
+			(at 375.92 562.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33694,7 +33694,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 541.528 90)
+			(at 373.888 556.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33703,7 +33703,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 553.72 0)
+			(at 370.84 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33712,7 +33712,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 553.72 0)
+			(at 370.84 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33721,7 +33721,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 553.72 0)
+			(at 370.84 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33758,7 +33758,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 210.82 0)
+		(at 830.58 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33766,7 +33766,7 @@
 		(dnp no)
 		(uuid "38a3c665-e88b-4d9f-ae4c-6aa6efd56bc1")
 		(property "Reference" "U97"
-			(at 835.66 204.47 90)
+			(at 835.66 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33775,7 +33775,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 198.628 90)
+			(at 833.628 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33784,7 +33784,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 210.82 0)
+			(at 830.58 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33793,7 +33793,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 210.82 0)
+			(at 830.58 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33802,7 +33802,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 210.82 0)
+			(at 830.58 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33906,7 +33906,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 88.9 0)
+		(at 600.71 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33914,7 +33914,7 @@
 		(dnp no)
 		(uuid "3908e7b4-1a37-422e-b22c-6d76f69c0efc")
 		(property "Reference" "U75"
-			(at 605.79 82.804 90)
+			(at 605.79 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33923,7 +33923,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 76.962 90)
+			(at 603.504 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33932,7 +33932,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 88.9 0)
+			(at 600.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33941,7 +33941,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 88.9 0)
+			(at 600.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33950,7 +33950,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 88.9 0)
+			(at 600.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34053,7 +34053,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 306.07 0)
+		(at 370.84 290.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34061,7 +34061,7 @@
 		(dnp no)
 		(uuid "392d97b6-54fb-474f-aa60-4e5df7910429")
 		(property "Reference" "U63"
-			(at 375.92 299.974 90)
+			(at 375.92 284.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34070,7 +34070,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 294.132 90)
+			(at 373.634 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34079,7 +34079,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 306.07 0)
+			(at 370.84 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34088,7 +34088,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 306.07 0)
+			(at 370.84 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34097,7 +34097,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 306.07 0)
+			(at 370.84 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34467,7 +34467,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 629.92 0)
+		(at 830.58 614.68 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34475,7 +34475,7 @@
 		(dnp no)
 		(uuid "3b237587-bb5d-465e-82b7-8e70628fe478")
 		(property "Reference" "U108"
-			(at 835.66 623.824 90)
+			(at 835.66 608.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34484,7 +34484,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 617.982 90)
+			(at 833.374 602.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34493,7 +34493,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 629.92 0)
+			(at 830.58 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34502,7 +34502,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 629.92 0)
+			(at 830.58 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34511,7 +34511,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 629.92 0)
+			(at 830.58 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34548,7 +34548,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 599.44 0)
+		(at 600.71 584.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34556,7 +34556,7 @@
 		(dnp no)
 		(uuid "3bdd095c-38ef-466b-aea7-66cd03c2ab32")
 		(property "Reference" "U89"
-			(at 605.79 593.344 90)
+			(at 605.79 578.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34565,7 +34565,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 587.502 90)
+			(at 603.504 572.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34574,7 +34574,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 599.44 0)
+			(at 600.71 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34583,7 +34583,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 599.44 0)
+			(at 600.71 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34592,7 +34592,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 599.44 0)
+			(at 600.71 584.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34923,7 +34923,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 195.58 0)
+		(at 600.71 180.34 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34931,7 +34931,7 @@
 		(dnp no)
 		(uuid "3d603876-211c-47c4-ac47-a6d1ca7b74d1")
 		(property "Reference" "U78"
-			(at 605.79 189.484 90)
+			(at 605.79 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34940,7 +34940,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 183.642 90)
+			(at 603.504 168.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34949,7 +34949,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 195.58 0)
+			(at 600.71 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34958,7 +34958,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 195.58 0)
+			(at 600.71 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34967,7 +34967,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 195.58 0)
+			(at 600.71 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35354,7 +35354,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 660.4 0)
+		(at 600.71 645.16 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35362,7 +35362,7 @@
 		(dnp no)
 		(uuid "3f2ea026-9051-4862-9544-40a77683540f")
 		(property "Reference" "U91"
-			(at 605.79 654.304 90)
+			(at 605.79 639.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35371,7 +35371,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 648.462 90)
+			(at 603.504 633.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35380,7 +35380,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 660.4 0)
+			(at 600.71 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35389,7 +35389,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 660.4 0)
+			(at 600.71 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35398,7 +35398,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 660.4 0)
+			(at 600.71 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35849,7 +35849,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 382.27 0)
+		(at 830.58 367.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35857,7 +35857,7 @@
 		(dnp no)
 		(uuid "439d5df2-2e79-459c-8388-2d5942f5f17e")
 		(property "Reference" "U101"
-			(at 835.66 376.174 90)
+			(at 835.66 360.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35866,7 +35866,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 370.332 90)
+			(at 833.374 355.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35875,7 +35875,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 382.27 0)
+			(at 830.58 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35884,7 +35884,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 382.27 0)
+			(at 830.58 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35893,7 +35893,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 382.27 0)
+			(at 830.58 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36262,7 +36262,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 165.1 0)
+		(at 830.58 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36270,7 +36270,7 @@
 		(dnp no)
 		(uuid "456aa053-8c06-4282-8294-c9744932e840")
 		(property "Reference" "U95"
-			(at 835.66 159.004 90)
+			(at 835.66 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36279,7 +36279,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 153.162 90)
+			(at 833.374 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36288,7 +36288,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 165.1 0)
+			(at 830.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36297,7 +36297,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 165.1 0)
+			(at 830.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36306,7 +36306,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 165.1 0)
+			(at 830.58 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36800,7 +36800,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 210.82 0)
+		(at 600.71 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36808,7 +36808,7 @@
 		(dnp no)
 		(uuid "46ad03e3-c52f-443f-837a-6370c490cef7")
 		(property "Reference" "U79"
-			(at 605.79 204.47 90)
+			(at 605.79 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36817,7 +36817,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 198.628 90)
+			(at 603.758 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36826,7 +36826,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 210.82 0)
+			(at 600.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36835,7 +36835,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 210.82 0)
+			(at 600.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36844,7 +36844,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 210.82 0)
+			(at 600.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36881,7 +36881,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 568.96 0)
+		(at 370.84 553.72 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36889,7 +36889,7 @@
 		(dnp no)
 		(uuid "475ddf1c-4e96-4dba-baca-2063698259ca")
 		(property "Reference" "U70"
-			(at 375.92 562.864 90)
+			(at 375.92 547.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36898,7 +36898,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 557.022 90)
+			(at 373.634 541.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36907,7 +36907,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 568.96 0)
+			(at 370.84 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36916,7 +36916,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 568.96 0)
+			(at 370.84 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36925,7 +36925,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 568.96 0)
+			(at 370.84 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37096,7 +37096,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 290.83 0)
+		(at 830.58 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37104,7 +37104,7 @@
 		(dnp no)
 		(uuid "4832e270-1abd-4721-881a-017b184f06be")
 		(property "Reference" "U99"
-			(at 835.66 284.48 90)
+			(at 835.66 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37113,7 +37113,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 278.638 90)
+			(at 833.628 293.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37122,7 +37122,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 290.83 0)
+			(at 830.58 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37131,7 +37131,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 290.83 0)
+			(at 830.58 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37140,7 +37140,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 290.83 0)
+			(at 830.58 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37919,7 +37919,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 473.71 0)
+		(at 830.58 458.47 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37927,7 +37927,7 @@
 		(dnp no)
 		(uuid "4d7947c0-9943-400e-a34a-525559f7d791")
 		(property "Reference" "U104"
-			(at 835.66 467.614 90)
+			(at 835.66 452.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37936,7 +37936,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 461.772 90)
+			(at 833.374 446.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37945,7 +37945,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 473.71 0)
+			(at 830.58 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37954,7 +37954,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 473.71 0)
+			(at 830.58 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37963,7 +37963,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 473.71 0)
+			(at 830.58 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38000,7 +38000,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 645.16 0)
+		(at 830.58 660.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38008,7 +38008,7 @@
 		(dnp no)
 		(uuid "4df204bb-9746-4e65-a80a-fabc6d89e893")
 		(property "Reference" "U109"
-			(at 835.66 638.81 90)
+			(at 835.66 654.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38017,7 +38017,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 632.968 90)
+			(at 833.628 648.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38026,7 +38026,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 645.16 0)
+			(at 830.58 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38035,7 +38035,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 645.16 0)
+			(at 830.58 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38044,7 +38044,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 645.16 0)
+			(at 830.58 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38812,7 +38812,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 336.55 0)
+		(at 370.84 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38820,7 +38820,7 @@
 		(dnp no)
 		(uuid "52243ac9-4b0e-4788-8cc2-b8d433b15017")
 		(property "Reference" "U64"
-			(at 375.92 330.2 90)
+			(at 375.92 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38829,7 +38829,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 324.358 90)
+			(at 373.888 339.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38838,7 +38838,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 336.55 0)
+			(at 370.84 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38847,7 +38847,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 336.55 0)
+			(at 370.84 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38856,7 +38856,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 336.55 0)
+			(at 370.84 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39900,7 +39900,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 336.55 0)
+		(at 830.58 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39908,7 +39908,7 @@
 		(dnp no)
 		(uuid "58d64854-093e-47a1-957f-e27144699534")
 		(property "Reference" "U100"
-			(at 835.66 330.2 90)
+			(at 835.66 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39917,7 +39917,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 324.358 90)
+			(at 833.628 339.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39926,7 +39926,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 336.55 0)
+			(at 830.58 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39935,7 +39935,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 336.55 0)
+			(at 830.58 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39944,7 +39944,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 336.55 0)
+			(at 830.58 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39981,7 +39981,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 134.62 0)
+		(at 370.84 119.38 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39989,7 +39989,7 @@
 		(dnp no)
 		(uuid "5961b74a-1171-473b-ae65-d3c6344f6990")
 		(property "Reference" "U58"
-			(at 375.92 128.524 90)
+			(at 375.92 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39998,7 +39998,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 122.682 90)
+			(at 373.634 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40007,7 +40007,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 134.62 0)
+			(at 370.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40016,7 +40016,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 134.62 0)
+			(at 370.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40025,7 +40025,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 134.62 0)
+			(at 370.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40193,7 +40193,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 397.51 0)
+		(at 600.71 412.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40201,7 +40201,7 @@
 		(dnp no)
 		(uuid "5be8ad4e-26b0-4d9c-8c6a-6b4a36f92b13")
 		(property "Reference" "U84"
-			(at 605.79 391.16 90)
+			(at 605.79 406.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40210,7 +40210,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 385.318 90)
+			(at 603.758 400.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40219,7 +40219,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 397.51 0)
+			(at 600.71 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40228,7 +40228,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 397.51 0)
+			(at 600.71 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40237,7 +40237,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 397.51 0)
+			(at 600.71 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40274,7 +40274,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 210.82 0)
+		(at 370.84 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40282,7 +40282,7 @@
 		(dnp no)
 		(uuid "5c40b784-c91d-4642-88ab-51193e3ce4bc")
 		(property "Reference" "U61"
-			(at 375.92 204.47 90)
+			(at 375.92 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40291,7 +40291,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 198.628 90)
+			(at 373.888 213.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40300,7 +40300,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 210.82 0)
+			(at 370.84 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40309,7 +40309,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 210.82 0)
+			(at 370.84 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40318,7 +40318,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 210.82 0)
+			(at 370.84 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40491,7 +40491,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 553.72 0)
+		(at 140.97 568.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40499,7 +40499,7 @@
 		(dnp no)
 		(uuid "5cea8e67-c138-4abf-8f7e-cf6ffa1d3ba5")
 		(property "Reference" "U52"
-			(at 146.05 547.37 90)
+			(at 146.05 562.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40508,7 +40508,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 541.528 90)
+			(at 144.018 556.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40517,7 +40517,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 553.72 0)
+			(at 140.97 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40526,7 +40526,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 553.72 0)
+			(at 140.97 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40535,7 +40535,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 553.72 0)
+			(at 140.97 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40835,7 +40835,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 553.72 0)
+		(at 830.58 568.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40843,7 +40843,7 @@
 		(dnp no)
 		(uuid "5eeeec04-9c9c-4db2-ae4b-d4bbf2955efa")
 		(property "Reference" "U106"
-			(at 835.66 547.37 90)
+			(at 835.66 562.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40852,7 +40852,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 541.528 90)
+			(at 833.628 556.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40861,7 +40861,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 553.72 0)
+			(at 830.58 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40870,7 +40870,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 553.72 0)
+			(at 830.58 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40879,7 +40879,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 553.72 0)
+			(at 830.58 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41275,7 +41275,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 256.54 0)
+		(at 830.58 241.3 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41283,7 +41283,7 @@
 		(dnp no)
 		(uuid "62148cc3-4a1d-476f-b5f2-e1328f315958")
 		(property "Reference" "U98"
-			(at 835.66 250.444 90)
+			(at 835.66 235.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41292,7 +41292,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 244.602 90)
+			(at 833.374 229.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41301,7 +41301,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 256.54 0)
+			(at 830.58 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41310,7 +41310,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 256.54 0)
+			(at 830.58 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41319,7 +41319,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 256.54 0)
+			(at 830.58 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41486,7 +41486,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 149.86 0)
+		(at 830.58 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41494,7 +41494,7 @@
 		(dnp no)
 		(uuid "633618d3-d5f1-4597-9aab-26a996150a00")
 		(property "Reference" "U95"
-			(at 835.66 143.51 90)
+			(at 835.66 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41503,7 +41503,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 137.668 90)
+			(at 833.628 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41512,7 +41512,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 149.86 0)
+			(at 830.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41521,7 +41521,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 149.86 0)
+			(at 830.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41530,7 +41530,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 149.86 0)
+			(at 830.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41769,7 +41769,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 397.51 0)
+		(at 370.84 412.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41777,7 +41777,7 @@
 		(dnp no)
 		(uuid "6448bfc9-1594-41b5-acc7-4fd72fdb9be9")
 		(property "Reference" "U66"
-			(at 375.92 391.16 90)
+			(at 375.92 406.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41786,7 +41786,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 385.318 90)
+			(at 373.888 400.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41795,7 +41795,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 397.51 0)
+			(at 370.84 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41804,7 +41804,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 397.51 0)
+			(at 370.84 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41813,7 +41813,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 397.51 0)
+			(at 370.84 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41850,7 +41850,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 675.64 0)
+		(at 600.71 690.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41858,7 +41858,7 @@
 		(dnp no)
 		(uuid "6465365c-30d5-4c32-8a06-f56a87f206bf")
 		(property "Reference" "U92"
-			(at 605.79 669.29 90)
+			(at 605.79 684.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41867,7 +41867,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 663.448 90)
+			(at 603.758 678.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41876,7 +41876,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 675.64 0)
+			(at 600.71 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41885,7 +41885,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 675.64 0)
+			(at 600.71 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41894,7 +41894,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 675.64 0)
+			(at 600.71 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42001,7 +42001,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 290.83 0)
+		(at 140.97 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42009,7 +42009,7 @@
 		(dnp no)
 		(uuid "6545066d-96ae-47e8-9e83-6238c27d80b9")
 		(property "Reference" "U45"
-			(at 146.05 284.48 90)
+			(at 146.05 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42018,7 +42018,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 278.638 90)
+			(at 144.018 293.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42027,7 +42027,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 290.83 0)
+			(at 140.97 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42036,7 +42036,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 290.83 0)
+			(at 140.97 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42045,7 +42045,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 290.83 0)
+			(at 140.97 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42082,7 +42082,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 629.92 0)
+		(at 600.71 614.68 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42090,7 +42090,7 @@
 		(dnp no)
 		(uuid "658ef509-832e-4226-95e5-18cfc5c2685a")
 		(property "Reference" "U90"
-			(at 605.79 623.824 90)
+			(at 605.79 608.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42099,7 +42099,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 617.982 90)
+			(at 603.504 602.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42108,7 +42108,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 629.92 0)
+			(at 600.71 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42117,7 +42117,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 629.92 0)
+			(at 600.71 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42126,7 +42126,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 629.92 0)
+			(at 600.71 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42163,7 +42163,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 367.03 0)
+		(at 370.84 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42171,7 +42171,7 @@
 		(dnp no)
 		(uuid "66518e34-1e87-44d7-a482-d5fa1ff80976")
 		(property "Reference" "U65"
-			(at 375.92 360.68 90)
+			(at 375.92 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42180,7 +42180,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 354.838 90)
+			(at 373.888 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42189,7 +42189,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 367.03 0)
+			(at 370.84 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42198,7 +42198,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 367.03 0)
+			(at 370.84 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42207,7 +42207,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 367.03 0)
+			(at 370.84 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42310,7 +42310,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 367.03 0)
+		(at 140.97 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42318,7 +42318,7 @@
 		(dnp no)
 		(uuid "683f91c5-2e3a-4b71-97e3-d88626908c88")
 		(property "Reference" "U47"
-			(at 146.05 360.68 90)
+			(at 146.05 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42327,7 +42327,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 354.838 90)
+			(at 144.018 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42336,7 +42336,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 367.03 0)
+			(at 140.97 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42345,7 +42345,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 367.03 0)
+			(at 140.97 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42354,7 +42354,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 367.03 0)
+			(at 140.97 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42739,7 +42739,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 523.24 0)
+		(at 370.84 508 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42747,7 +42747,7 @@
 		(dnp no)
 		(uuid "6a80c92c-d900-4af2-af69-1602b5c7ce1f")
 		(property "Reference" "U69"
-			(at 375.92 517.144 90)
+			(at 375.92 501.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42756,7 +42756,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 511.302 90)
+			(at 373.634 496.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42765,7 +42765,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 523.24 0)
+			(at 370.84 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42774,7 +42774,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 523.24 0)
+			(at 370.84 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42783,7 +42783,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 523.24 0)
+			(at 370.84 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43620,7 +43620,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 614.68 0)
+		(at 370.84 629.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43628,7 +43628,7 @@
 		(dnp no)
 		(uuid "6ff2b71c-5cd7-4f80-80dc-9f4edb691c88")
 		(property "Reference" "U72"
-			(at 375.92 608.33 90)
+			(at 375.92 623.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43637,7 +43637,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 602.488 90)
+			(at 373.888 617.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43646,7 +43646,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 614.68 0)
+			(at 370.84 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43655,7 +43655,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 614.68 0)
+			(at 370.84 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43664,7 +43664,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 614.68 0)
+			(at 370.84 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44381,7 +44381,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 149.86 0)
+		(at 370.84 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44389,7 +44389,7 @@
 		(dnp no)
 		(uuid "738fd201-7f56-4932-9d5d-30f18613b93c")
 		(property "Reference" "U59"
-			(at 375.92 143.51 90)
+			(at 375.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44398,7 +44398,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 137.668 90)
+			(at 373.888 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44407,7 +44407,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 149.86 0)
+			(at 370.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44416,7 +44416,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 149.86 0)
+			(at 370.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44425,7 +44425,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 149.86 0)
+			(at 370.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44597,7 +44597,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 584.2 0)
+		(at 140.97 599.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44605,7 +44605,7 @@
 		(dnp no)
 		(uuid "750166c1-bcf0-44f5-9c6b-708703e08c6d")
 		(property "Reference" "U53"
-			(at 146.05 577.85 90)
+			(at 146.05 593.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44614,7 +44614,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 572.008 90)
+			(at 144.018 587.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44623,7 +44623,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 584.2 0)
+			(at 140.97 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44632,7 +44632,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 584.2 0)
+			(at 140.97 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44641,7 +44641,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 584.2 0)
+			(at 140.97 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45138,7 +45138,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 584.2 0)
+		(at 370.84 599.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45146,7 +45146,7 @@
 		(dnp no)
 		(uuid "76d9e7fd-4e18-4d9e-b099-993c2c8f1817")
 		(property "Reference" "U71"
-			(at 375.92 577.85 90)
+			(at 375.92 593.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45155,7 +45155,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 572.008 90)
+			(at 373.888 587.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45164,7 +45164,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 584.2 0)
+			(at 370.84 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45173,7 +45173,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 584.2 0)
+			(at 370.84 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45182,7 +45182,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 584.2 0)
+			(at 370.84 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46185,7 +46185,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 568.96 0)
+		(at 140.97 553.72 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46193,7 +46193,7 @@
 		(dnp no)
 		(uuid "7bf5e2f3-9b9f-48c7-8f2e-e1a710079616")
 		(property "Reference" "U52"
-			(at 146.05 562.864 90)
+			(at 146.05 547.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46202,7 +46202,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 557.022 90)
+			(at 143.764 541.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46211,7 +46211,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 568.96 0)
+			(at 140.97 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46220,7 +46220,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 568.96 0)
+			(at 140.97 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46229,7 +46229,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 568.96 0)
+			(at 140.97 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47143,7 +47143,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 226.06 0)
+		(at 370.84 210.82 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47151,7 +47151,7 @@
 		(dnp no)
 		(uuid "8409e693-271e-4b8b-8287-4d0725c01c21")
 		(property "Reference" "U61"
-			(at 375.92 219.964 90)
+			(at 375.92 204.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47160,7 +47160,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 214.122 90)
+			(at 373.634 198.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47169,7 +47169,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 226.06 0)
+			(at 370.84 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47178,7 +47178,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 226.06 0)
+			(at 370.84 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47187,7 +47187,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 226.06 0)
+			(at 370.84 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47426,7 +47426,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 351.79 0)
+		(at 140.97 336.55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47434,7 +47434,7 @@
 		(dnp no)
 		(uuid "84951a63-1729-4bef-9399-b78a58d49618")
 		(property "Reference" "U46"
-			(at 146.05 345.694 90)
+			(at 146.05 330.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47443,7 +47443,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 339.852 90)
+			(at 143.764 324.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47452,7 +47452,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 351.79 0)
+			(at 140.97 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47461,7 +47461,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 351.79 0)
+			(at 140.97 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47470,7 +47470,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 351.79 0)
+			(at 140.97 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47702,7 +47702,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 675.64 0)
+		(at 830.58 690.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47710,7 +47710,7 @@
 		(dnp no)
 		(uuid "84fc93dd-8375-4f73-9a6a-8aba686b1697")
 		(property "Reference" "U110"
-			(at 835.66 669.29 90)
+			(at 835.66 684.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47719,7 +47719,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 663.448 90)
+			(at 833.628 678.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47728,7 +47728,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 675.64 0)
+			(at 830.58 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47737,7 +47737,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 675.64 0)
+			(at 830.58 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47746,7 +47746,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 675.64 0)
+			(at 830.58 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48051,7 +48051,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 382.27 0)
+		(at 140.97 367.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48059,7 +48059,7 @@
 		(dnp no)
 		(uuid "875f78d5-bedd-41f3-aa11-837c04a5a1fc")
 		(property "Reference" "U47"
-			(at 146.05 376.174 90)
+			(at 146.05 360.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48068,7 +48068,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 370.332 90)
+			(at 143.764 355.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48077,7 +48077,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 382.27 0)
+			(at 140.97 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48086,7 +48086,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 382.27 0)
+			(at 140.97 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48095,7 +48095,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 382.27 0)
+			(at 140.97 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50101,7 +50101,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 427.99 0)
+		(at 600.71 443.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50109,7 +50109,7 @@
 		(dnp no)
 		(uuid "9160806e-8b1f-4ead-aa10-4e06f0726d06")
 		(property "Reference" "U85"
-			(at 605.79 421.64 90)
+			(at 605.79 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50118,7 +50118,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 415.798 90)
+			(at 603.758 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50127,7 +50127,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 427.99 0)
+			(at 600.71 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50136,7 +50136,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 427.99 0)
+			(at 600.71 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50145,7 +50145,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 427.99 0)
+			(at 600.71 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50252,7 +50252,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 412.75 0)
+		(at 600.71 397.51 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50260,7 +50260,7 @@
 		(dnp no)
 		(uuid "91a05e3e-4877-4ba3-99e1-2721b01fbfed")
 		(property "Reference" "U84"
-			(at 605.79 406.654 90)
+			(at 605.79 391.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50269,7 +50269,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 400.812 90)
+			(at 603.504 385.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50278,7 +50278,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 412.75 0)
+			(at 600.71 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50287,7 +50287,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 412.75 0)
+			(at 600.71 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50296,7 +50296,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 412.75 0)
+			(at 600.71 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50815,7 +50815,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 508 0)
+		(at 600.71 523.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50823,7 +50823,7 @@
 		(dnp no)
 		(uuid "9545ec05-d4b4-402f-a65f-046636949499")
 		(property "Reference" "U87"
-			(at 605.79 501.65 90)
+			(at 605.79 516.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50832,7 +50832,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 495.808 90)
+			(at 603.758 511.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50841,7 +50841,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 508 0)
+			(at 600.71 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50850,7 +50850,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 508 0)
+			(at 600.71 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50859,7 +50859,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 508 0)
+			(at 600.71 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51044,7 +51044,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 523.24 0)
+		(at 600.71 508 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51052,7 +51052,7 @@
 		(dnp no)
 		(uuid "95beac76-9d42-49f7-bea0-8e54ebeffdeb")
 		(property "Reference" "U87"
-			(at 605.79 517.144 90)
+			(at 605.79 501.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51061,7 +51061,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 511.302 90)
+			(at 603.504 496.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51070,7 +51070,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 523.24 0)
+			(at 600.71 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51079,7 +51079,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 523.24 0)
+			(at 600.71 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51088,7 +51088,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 523.24 0)
+			(at 600.71 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51675,7 +51675,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 473.71 0)
+		(at 370.84 458.47 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51683,7 +51683,7 @@
 		(dnp no)
 		(uuid "97c4cf1b-c5a7-471d-90e9-3484b248094f")
 		(property "Reference" "U68"
-			(at 375.92 467.614 90)
+			(at 375.92 452.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51692,7 +51692,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 461.772 90)
+			(at 373.634 446.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51701,7 +51701,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 473.71 0)
+			(at 370.84 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51710,7 +51710,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 473.71 0)
+			(at 370.84 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51719,7 +51719,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 473.71 0)
+			(at 370.84 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51956,7 +51956,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 226.06 0)
+		(at 600.71 210.82 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51964,7 +51964,7 @@
 		(dnp no)
 		(uuid "99016e44-35e3-4076-ad3f-6280ccf1306c")
 		(property "Reference" "U79"
-			(at 605.79 219.964 90)
+			(at 605.79 204.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51973,7 +51973,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 214.122 90)
+			(at 603.504 198.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51982,7 +51982,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 226.06 0)
+			(at 600.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51991,7 +51991,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 226.06 0)
+			(at 600.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52000,7 +52000,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 226.06 0)
+			(at 600.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52171,7 +52171,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 256.54 0)
+		(at 370.84 241.3 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52179,7 +52179,7 @@
 		(dnp no)
 		(uuid "998f3571-ba68-41f4-b8e8-df0f8c3db919")
 		(property "Reference" "U62"
-			(at 375.92 250.444 90)
+			(at 375.92 235.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52188,7 +52188,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 244.602 90)
+			(at 373.634 229.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52197,7 +52197,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 256.54 0)
+			(at 370.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52206,7 +52206,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 256.54 0)
+			(at 370.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52215,7 +52215,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 256.54 0)
+			(at 370.84 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52319,7 +52319,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 690.88 0)
+		(at 370.84 675.64 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52327,7 +52327,7 @@
 		(dnp no)
 		(uuid "9b0d58d9-f77b-49de-9e7f-9688f9b546b1")
 		(property "Reference" "U74"
-			(at 375.92 684.784 90)
+			(at 375.92 669.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52336,7 +52336,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 678.942 90)
+			(at 373.634 663.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52345,7 +52345,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 690.88 0)
+			(at 370.84 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52354,7 +52354,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 690.88 0)
+			(at 370.84 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52363,7 +52363,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 690.88 0)
+			(at 370.84 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52811,7 +52811,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 675.64 0)
+		(at 140.97 690.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52819,7 +52819,7 @@
 		(dnp no)
 		(uuid "9d8e92a9-53b4-4512-a07a-f9ef1b19edaa")
 		(property "Reference" "U56"
-			(at 146.05 669.29 90)
+			(at 146.05 684.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52828,7 +52828,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 663.448 90)
+			(at 144.018 678.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52837,7 +52837,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 675.64 0)
+			(at 140.97 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52846,7 +52846,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 675.64 0)
+			(at 140.97 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52855,7 +52855,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 675.64 0)
+			(at 140.97 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53335,7 +53335,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 508 0)
+		(at 830.58 523.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53343,7 +53343,7 @@
 		(dnp no)
 		(uuid "9f413f84-cf04-4e42-ac2c-1a5744ede733")
 		(property "Reference" "U105"
-			(at 835.66 501.65 90)
+			(at 835.66 516.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53352,7 +53352,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 495.808 90)
+			(at 833.628 511.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53361,7 +53361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 508 0)
+			(at 830.58 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53370,7 +53370,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 508 0)
+			(at 830.58 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53379,7 +53379,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 508 0)
+			(at 830.58 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53416,7 +53416,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 443.23 0)
+		(at 140.97 427.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53424,7 +53424,7 @@
 		(dnp no)
 		(uuid "9f595f40-9dfe-41a6-9fd7-ffcf1d4f6725")
 		(property "Reference" "U49"
-			(at 146.05 437.134 90)
+			(at 146.05 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53433,7 +53433,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 431.292 90)
+			(at 143.764 416.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53442,7 +53442,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 443.23 0)
+			(at 140.97 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53451,7 +53451,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 443.23 0)
+			(at 140.97 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53460,7 +53460,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 443.23 0)
+			(at 140.97 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53637,7 +53637,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 443.23 0)
+		(at 370.84 427.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53645,7 +53645,7 @@
 		(dnp no)
 		(uuid "9fc393e5-049c-45d4-b277-1d40b2836fe0")
 		(property "Reference" "U67"
-			(at 375.92 437.134 90)
+			(at 375.92 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53654,7 +53654,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 431.292 90)
+			(at 373.634 416.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53663,7 +53663,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 443.23 0)
+			(at 370.84 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53672,7 +53672,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 443.23 0)
+			(at 370.84 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53681,7 +53681,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 443.23 0)
+			(at 370.84 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53917,7 +53917,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 660.4 0)
+		(at 140.97 645.16 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53925,7 +53925,7 @@
 		(dnp no)
 		(uuid "a218324a-f9cb-43a1-9d97-dc0c40495da5")
 		(property "Reference" "U55"
-			(at 146.05 654.304 90)
+			(at 146.05 639.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53934,7 +53934,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 648.462 90)
+			(at 143.764 633.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53943,7 +53943,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 660.4 0)
+			(at 140.97 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53952,7 +53952,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 660.4 0)
+			(at 140.97 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53961,7 +53961,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 660.4 0)
+			(at 140.97 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54708,7 +54708,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 397.51 0)
+		(at 830.58 412.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54716,7 +54716,7 @@
 		(dnp no)
 		(uuid "a604ec18-f3e8-4e30-917d-f19ddad49b8f")
 		(property "Reference" "U102"
-			(at 835.66 391.16 90)
+			(at 835.66 406.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54725,7 +54725,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 385.318 90)
+			(at 833.628 400.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54734,7 +54734,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 397.51 0)
+			(at 830.58 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54743,7 +54743,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 397.51 0)
+			(at 830.58 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54752,7 +54752,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 397.51 0)
+			(at 830.58 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54992,7 +54992,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 568.96 0)
+		(at 600.71 553.72 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -55000,7 +55000,7 @@
 		(dnp no)
 		(uuid "a74ab8ca-964e-462f-8fda-4cf259d01c53")
 		(property "Reference" "U88"
-			(at 605.79 562.864 90)
+			(at 605.79 547.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55009,7 +55009,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 557.022 90)
+			(at 603.504 541.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55018,7 +55018,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 568.96 0)
+			(at 600.71 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55027,7 +55027,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 568.96 0)
+			(at 600.71 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55036,7 +55036,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 568.96 0)
+			(at 600.71 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56042,7 +56042,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 645.16 0)
+		(at 600.71 660.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56050,7 +56050,7 @@
 		(dnp no)
 		(uuid "abe2413c-5ee1-4998-97a9-91272947ded6")
 		(property "Reference" "U91"
-			(at 605.79 638.81 90)
+			(at 605.79 654.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56059,7 +56059,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 632.968 90)
+			(at 603.758 648.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56068,7 +56068,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 645.16 0)
+			(at 600.71 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56077,7 +56077,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 645.16 0)
+			(at 600.71 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56086,7 +56086,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 645.16 0)
+			(at 600.71 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56123,7 +56123,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 241.3 0)
+		(at 600.71 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56131,7 +56131,7 @@
 		(dnp no)
 		(uuid "ad1155d3-5ed8-41a5-a402-f7b0d57b7a19")
 		(property "Reference" "U80"
-			(at 605.79 234.95 90)
+			(at 605.79 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56140,7 +56140,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 229.108 90)
+			(at 603.758 244.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56149,7 +56149,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 241.3 0)
+			(at 600.71 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56158,7 +56158,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 241.3 0)
+			(at 600.71 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56167,7 +56167,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 241.3 0)
+			(at 600.71 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56499,7 +56499,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 675.64 0)
+		(at 370.84 690.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56507,7 +56507,7 @@
 		(dnp no)
 		(uuid "afbbdf9f-4d4d-4d5a-9379-90a0d7b28c6c")
 		(property "Reference" "U74"
-			(at 375.92 669.29 90)
+			(at 375.92 684.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56516,7 +56516,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 663.448 90)
+			(at 373.888 678.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56525,7 +56525,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 675.64 0)
+			(at 370.84 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56534,7 +56534,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 675.64 0)
+			(at 370.84 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56543,7 +56543,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 675.64 0)
+			(at 370.84 690.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56580,7 +56580,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 397.51 0)
+		(at 140.97 412.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56588,7 +56588,7 @@
 		(dnp no)
 		(uuid "afeb3c1f-490e-4219-9569-019bac9c70b7")
 		(property "Reference" "U48"
-			(at 146.05 391.16 90)
+			(at 146.05 406.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56597,7 +56597,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 385.318 90)
+			(at 144.018 400.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56606,7 +56606,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 397.51 0)
+			(at 140.97 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56615,7 +56615,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 397.51 0)
+			(at 140.97 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56624,7 +56624,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 397.51 0)
+			(at 140.97 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56955,7 +56955,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 458.47 0)
+		(at 600.71 473.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56963,7 +56963,7 @@
 		(dnp no)
 		(uuid "b16c5801-83c7-447f-90af-a408c0a20857")
 		(property "Reference" "U86"
-			(at 605.79 452.12 90)
+			(at 605.79 467.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56972,7 +56972,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 446.278 90)
+			(at 603.758 461.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56981,7 +56981,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 458.47 0)
+			(at 600.71 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56990,7 +56990,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 458.47 0)
+			(at 600.71 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56999,7 +56999,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 458.47 0)
+			(at 600.71 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57036,7 +57036,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 645.16 0)
+		(at 140.97 660.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57044,7 +57044,7 @@
 		(dnp no)
 		(uuid "b17ad93b-ed35-4725-8724-d537506d1ee6")
 		(property "Reference" "U55"
-			(at 146.05 638.81 90)
+			(at 146.05 654.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57053,7 +57053,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 632.968 90)
+			(at 144.018 648.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57062,7 +57062,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 645.16 0)
+			(at 140.97 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57071,7 +57071,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 645.16 0)
+			(at 140.97 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57080,7 +57080,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 645.16 0)
+			(at 140.97 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57963,7 +57963,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 367.03 0)
+		(at 830.58 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57971,7 +57971,7 @@
 		(dnp no)
 		(uuid "b5f7187b-eb8f-4214-8190-009ed547e844")
 		(property "Reference" "U101"
-			(at 835.66 360.68 90)
+			(at 835.66 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57980,7 +57980,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 354.838 90)
+			(at 833.628 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57989,7 +57989,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 367.03 0)
+			(at 830.58 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57998,7 +57998,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 367.03 0)
+			(at 830.58 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58007,7 +58007,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 367.03 0)
+			(at 830.58 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58313,7 +58313,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 553.72 0)
+		(at 600.71 568.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58321,7 +58321,7 @@
 		(dnp no)
 		(uuid "b7fe015c-553c-44b0-a414-900b7321513f")
 		(property "Reference" "U88"
-			(at 605.79 547.37 90)
+			(at 605.79 562.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58330,7 +58330,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 541.528 90)
+			(at 603.758 556.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58339,7 +58339,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 553.72 0)
+			(at 600.71 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58348,7 +58348,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 553.72 0)
+			(at 600.71 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58357,7 +58357,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 553.72 0)
+			(at 600.71 568.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58740,7 +58740,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 367.03 0)
+		(at 600.71 382.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58748,7 +58748,7 @@
 		(dnp no)
 		(uuid "b9506451-e855-46ed-a6bc-5686f91cbcab")
 		(property "Reference" "U83"
-			(at 605.79 360.68 90)
+			(at 605.79 375.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58757,7 +58757,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 354.838 90)
+			(at 603.758 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58766,7 +58766,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 367.03 0)
+			(at 600.71 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58775,7 +58775,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 367.03 0)
+			(at 600.71 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58784,7 +58784,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 367.03 0)
+			(at 600.71 382.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58821,7 +58821,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 149.86 0)
+		(at 600.71 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -58829,7 +58829,7 @@
 		(dnp no)
 		(uuid "b9aaca3e-3619-4190-8f07-a2905965c64b")
 		(property "Reference" "U77"
-			(at 605.79 143.51 90)
+			(at 605.79 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58838,7 +58838,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 137.668 90)
+			(at 603.758 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58847,7 +58847,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 149.86 0)
+			(at 600.71 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58856,7 +58856,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 149.86 0)
+			(at 600.71 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58865,7 +58865,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 149.86 0)
+			(at 600.71 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59185,7 +59185,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 165.1 0)
+		(at 600.71 149.86 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59193,7 +59193,7 @@
 		(dnp no)
 		(uuid "bb295d99-1fcb-4e4e-bad5-0ce56fb6371c")
 		(property "Reference" "U77"
-			(at 605.79 159.004 90)
+			(at 605.79 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59202,7 +59202,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 153.162 90)
+			(at 603.504 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59211,7 +59211,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 165.1 0)
+			(at 600.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59220,7 +59220,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 165.1 0)
+			(at 600.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59229,7 +59229,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 165.1 0)
+			(at 600.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59266,7 +59266,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 241.3 0)
+		(at 370.84 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59274,7 +59274,7 @@
 		(dnp no)
 		(uuid "bb69eb7b-0598-409e-a859-76056995fcc2")
 		(property "Reference" "U62"
-			(at 375.92 234.95 90)
+			(at 375.92 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59283,7 +59283,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 229.108 90)
+			(at 373.888 244.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59292,7 +59292,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 241.3 0)
+			(at 370.84 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59301,7 +59301,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 241.3 0)
+			(at 370.84 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59310,7 +59310,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 241.3 0)
+			(at 370.84 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60026,7 +60026,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 427.99 0)
+		(at 830.58 443.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60034,7 +60034,7 @@
 		(dnp no)
 		(uuid "c0176530-87b6-4e55-9ab6-22e373c9b8a2")
 		(property "Reference" "U103"
-			(at 835.66 421.64 90)
+			(at 835.66 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60043,7 +60043,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 415.798 90)
+			(at 833.628 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60052,7 +60052,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 427.99 0)
+			(at 830.58 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60061,7 +60061,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 427.99 0)
+			(at 830.58 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60070,7 +60070,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 427.99 0)
+			(at 830.58 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60804,7 +60804,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 690.88 0)
+		(at 830.58 675.64 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60812,7 +60812,7 @@
 		(dnp no)
 		(uuid "c3893843-592e-4f47-acc0-57278a0b18e5")
 		(property "Reference" "U110"
-			(at 835.66 684.784 90)
+			(at 835.66 669.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60821,7 +60821,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 678.942 90)
+			(at 833.374 663.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60830,7 +60830,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 690.88 0)
+			(at 830.58 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60839,7 +60839,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 690.88 0)
+			(at 830.58 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60848,7 +60848,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 690.88 0)
+			(at 830.58 675.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61518,7 +61518,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 427.99 0)
+		(at 140.97 443.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -61526,7 +61526,7 @@
 		(dnp no)
 		(uuid "c5502e6f-991f-4523-8415-7dbd75eb83de")
 		(property "Reference" "U49"
-			(at 146.05 421.64 90)
+			(at 146.05 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61535,7 +61535,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 415.798 90)
+			(at 144.018 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61544,7 +61544,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 427.99 0)
+			(at 140.97 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61553,7 +61553,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 427.99 0)
+			(at 140.97 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61562,7 +61562,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 427.99 0)
+			(at 140.97 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61944,7 +61944,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 180.34 0)
+		(at 600.71 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -61952,7 +61952,7 @@
 		(dnp no)
 		(uuid "c6dc16b6-d5f3-440c-92bf-a86c31696d5e")
 		(property "Reference" "U78"
-			(at 605.79 173.99 90)
+			(at 605.79 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61961,7 +61961,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 168.148 90)
+			(at 603.758 183.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61970,7 +61970,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 180.34 0)
+			(at 600.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61979,7 +61979,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 180.34 0)
+			(at 600.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61988,7 +61988,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 180.34 0)
+			(at 600.71 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62025,7 +62025,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 134.62 0)
+		(at 830.58 119.38 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62033,7 +62033,7 @@
 		(dnp no)
 		(uuid "c700742c-5727-4f13-b521-63fa39546fbc")
 		(property "Reference" "U94"
-			(at 835.66 128.524 90)
+			(at 835.66 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62042,7 +62042,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 122.682 90)
+			(at 833.374 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62051,7 +62051,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 134.62 0)
+			(at 830.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62060,7 +62060,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 134.62 0)
+			(at 830.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62069,7 +62069,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 134.62 0)
+			(at 830.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62106,7 +62106,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 73.66 0)
+		(at 600.71 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62114,7 +62114,7 @@
 		(dnp no)
 		(uuid "c72988de-451a-45bc-b988-6ffa367c73fa")
 		(property "Reference" "U75"
-			(at 605.79 67.31 90)
+			(at 605.79 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62123,7 +62123,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 61.468 90)
+			(at 603.758 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62132,7 +62132,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 73.66 0)
+			(at 600.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62141,7 +62141,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 73.66 0)
+			(at 600.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62150,7 +62150,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 73.66 0)
+			(at 600.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62318,7 +62318,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 568.96 0)
+		(at 830.58 553.72 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62326,7 +62326,7 @@
 		(dnp no)
 		(uuid "c7fdff47-a2a6-49b3-9daf-bbae245776a0")
 		(property "Reference" "U106"
-			(at 835.66 562.864 90)
+			(at 835.66 547.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62335,7 +62335,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 557.022 90)
+			(at 833.374 541.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62344,7 +62344,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 568.96 0)
+			(at 830.58 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62353,7 +62353,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 568.96 0)
+			(at 830.58 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62362,7 +62362,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 568.96 0)
+			(at 830.58 553.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62866,7 +62866,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 241.3 0)
+		(at 830.58 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62874,7 +62874,7 @@
 		(dnp no)
 		(uuid "caf1afd1-2ff8-44f4-a84a-d5eda276ba9d")
 		(property "Reference" "U98"
-			(at 835.66 234.95 90)
+			(at 835.66 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62883,7 +62883,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 229.108 90)
+			(at 833.628 244.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62892,7 +62892,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 241.3 0)
+			(at 830.58 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62901,7 +62901,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 241.3 0)
+			(at 830.58 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62910,7 +62910,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 241.3 0)
+			(at 830.58 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63479,7 +63479,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 306.07 0)
+		(at 830.58 290.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63487,7 +63487,7 @@
 		(dnp no)
 		(uuid "ccf0632b-69f7-4e89-9d71-db49942e297c")
 		(property "Reference" "U99"
-			(at 835.66 299.974 90)
+			(at 835.66 284.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63496,7 +63496,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 294.132 90)
+			(at 833.374 278.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63505,7 +63505,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 306.07 0)
+			(at 830.58 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63514,7 +63514,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 306.07 0)
+			(at 830.58 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63523,7 +63523,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 306.07 0)
+			(at 830.58 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63691,7 +63691,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 119.38 0)
+		(at 370.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63699,7 +63699,7 @@
 		(dnp no)
 		(uuid "cf998c47-d305-42f6-9460-3ff66983386b")
 		(property "Reference" "U58"
-			(at 375.92 113.03 90)
+			(at 375.92 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63708,7 +63708,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 107.188 90)
+			(at 373.888 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63717,7 +63717,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 119.38 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63726,7 +63726,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 119.38 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63735,7 +63735,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 119.38 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64537,7 +64537,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 226.06 0)
+		(at 830.58 210.82 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64545,7 +64545,7 @@
 		(dnp no)
 		(uuid "d433acd7-fb2a-4f4c-92b9-7c5e919500c9")
 		(property "Reference" "U97"
-			(at 835.66 219.964 90)
+			(at 835.66 204.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64554,7 +64554,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 214.122 90)
+			(at 833.374 198.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64563,7 +64563,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 226.06 0)
+			(at 830.58 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64572,7 +64572,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 226.06 0)
+			(at 830.58 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64581,7 +64581,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 226.06 0)
+			(at 830.58 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64887,7 +64887,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 629.92 0)
+		(at 140.97 614.68 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64895,7 +64895,7 @@
 		(dnp no)
 		(uuid "d4bfca52-e5d0-45ce-a42d-fa8eb30d522c")
 		(property "Reference" "U54"
-			(at 146.05 623.824 90)
+			(at 146.05 608.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64904,7 +64904,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 617.982 90)
+			(at 143.764 602.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64913,7 +64913,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 629.92 0)
+			(at 140.97 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64922,7 +64922,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 629.92 0)
+			(at 140.97 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64931,7 +64931,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 629.92 0)
+			(at 140.97 614.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65035,7 +65035,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 180.34 0)
+		(at 830.58 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65043,7 +65043,7 @@
 		(dnp no)
 		(uuid "d62b5150-67a9-471a-8c1e-18f968784ffe")
 		(property "Reference" "U96"
-			(at 835.66 173.99 90)
+			(at 835.66 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65052,7 +65052,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 168.148 90)
+			(at 833.628 183.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65061,7 +65061,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 180.34 0)
+			(at 830.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65070,7 +65070,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 180.34 0)
+			(at 830.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65079,7 +65079,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 180.34 0)
+			(at 830.58 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65881,7 +65881,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 412.75 0)
+		(at 140.97 397.51 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65889,7 +65889,7 @@
 		(dnp no)
 		(uuid "dbd2e794-d67c-42cd-b975-184e68b9dc51")
 		(property "Reference" "U48"
-			(at 146.05 406.654 90)
+			(at 146.05 391.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65898,7 +65898,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 400.812 90)
+			(at 143.764 385.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65907,7 +65907,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 412.75 0)
+			(at 140.97 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65916,7 +65916,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 412.75 0)
+			(at 140.97 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65925,7 +65925,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 412.75 0)
+			(at 140.97 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66377,7 +66377,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 382.27 0)
+		(at 600.71 367.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66385,7 +66385,7 @@
 		(dnp no)
 		(uuid "dd099db5-3c20-4d59-8d53-e757b1f6a273")
 		(property "Reference" "U83"
-			(at 605.79 376.174 90)
+			(at 605.79 360.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66394,7 +66394,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 370.332 90)
+			(at 603.504 355.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66403,7 +66403,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 382.27 0)
+			(at 600.71 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66412,7 +66412,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 382.27 0)
+			(at 600.71 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66421,7 +66421,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 382.27 0)
+			(at 600.71 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66631,7 +66631,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 351.79 0)
+		(at 600.71 336.55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66639,7 +66639,7 @@
 		(dnp no)
 		(uuid "ddf35330-6151-4734-bc1d-fe02f560b5d5")
 		(property "Reference" "U82"
-			(at 605.79 345.694 90)
+			(at 605.79 330.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66648,7 +66648,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 339.852 90)
+			(at 603.504 324.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66657,7 +66657,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 351.79 0)
+			(at 600.71 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66666,7 +66666,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 351.79 0)
+			(at 600.71 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66675,7 +66675,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 351.79 0)
+			(at 600.71 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66712,7 +66712,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 645.16 0)
+		(at 370.84 660.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66720,7 +66720,7 @@
 		(dnp no)
 		(uuid "debdbf45-4c5b-4805-973e-60e502c43697")
 		(property "Reference" "U73"
-			(at 375.92 638.81 90)
+			(at 375.92 654.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66729,7 +66729,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 632.968 90)
+			(at 373.888 648.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66738,7 +66738,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 645.16 0)
+			(at 370.84 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66747,7 +66747,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 645.16 0)
+			(at 370.84 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66756,7 +66756,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 645.16 0)
+			(at 370.84 660.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67223,7 +67223,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 427.99 0)
+		(at 370.84 443.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67231,7 +67231,7 @@
 		(dnp no)
 		(uuid "e0a7a80a-e74b-43b9-880f-1697f9c3e4dd")
 		(property "Reference" "U67"
-			(at 375.92 421.64 90)
+			(at 375.92 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67240,7 +67240,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 415.798 90)
+			(at 373.888 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67249,7 +67249,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 427.99 0)
+			(at 370.84 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67258,7 +67258,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 427.99 0)
+			(at 370.84 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67267,7 +67267,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 427.99 0)
+			(at 370.84 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67304,7 +67304,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 256.54 0)
+		(at 600.71 241.3 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67312,7 +67312,7 @@
 		(dnp no)
 		(uuid "e0b192a7-3851-4ad0-af77-ac6139713a52")
 		(property "Reference" "U80"
-			(at 605.79 250.444 90)
+			(at 605.79 235.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67321,7 +67321,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 244.602 90)
+			(at 603.504 229.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67330,7 +67330,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 256.54 0)
+			(at 600.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67339,7 +67339,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 256.54 0)
+			(at 600.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67348,7 +67348,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 256.54 0)
+			(at 600.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68167,7 +68167,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 584.2 0)
+		(at 830.58 599.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68175,7 +68175,7 @@
 		(dnp no)
 		(uuid "e5a47639-fe63-472c-8afc-0a694a459b5a")
 		(property "Reference" "U107"
-			(at 835.66 577.85 90)
+			(at 835.66 593.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68184,7 +68184,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 572.008 90)
+			(at 833.628 587.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68193,7 +68193,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 584.2 0)
+			(at 830.58 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68202,7 +68202,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 584.2 0)
+			(at 830.58 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68211,7 +68211,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 584.2 0)
+			(at 830.58 599.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68248,7 +68248,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 195.58 0)
+		(at 370.84 180.34 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68256,7 +68256,7 @@
 		(dnp no)
 		(uuid "e5f3d418-86c3-46fc-80ea-25bc109c9125")
 		(property "Reference" "U60"
-			(at 375.92 189.484 90)
+			(at 375.92 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68265,7 +68265,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 183.642 90)
+			(at 373.634 168.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68274,7 +68274,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 195.58 0)
+			(at 370.84 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68283,7 +68283,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 195.58 0)
+			(at 370.84 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68292,7 +68292,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 195.58 0)
+			(at 370.84 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68329,7 +68329,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 458.47 0)
+		(at 370.84 473.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68337,7 +68337,7 @@
 		(dnp no)
 		(uuid "e66d6def-c721-49dd-bef3-c575aeb7ce38")
 		(property "Reference" "U68"
-			(at 375.92 452.12 90)
+			(at 375.92 467.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68346,7 +68346,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 446.278 90)
+			(at 373.888 461.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68355,7 +68355,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 458.47 0)
+			(at 370.84 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68364,7 +68364,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 458.47 0)
+			(at 370.84 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68373,7 +68373,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 458.47 0)
+			(at 370.84 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68985,7 +68985,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 412.75 0)
+		(at 830.58 397.51 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68993,7 +68993,7 @@
 		(dnp no)
 		(uuid "e953afdb-efad-4575-a513-507089fc23a8")
 		(property "Reference" "U102"
-			(at 835.66 406.654 90)
+			(at 835.66 391.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69002,7 +69002,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 400.812 90)
+			(at 833.374 385.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69011,7 +69011,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 412.75 0)
+			(at 830.58 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69020,7 +69020,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 412.75 0)
+			(at 830.58 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69029,7 +69029,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 412.75 0)
+			(at 830.58 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69426,7 +69426,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 458.47 0)
+		(at 140.97 473.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69434,7 +69434,7 @@
 		(dnp no)
 		(uuid "eb45be8d-f6d2-4e4f-a7eb-bbe08c306815")
 		(property "Reference" "U50"
-			(at 146.05 452.12 90)
+			(at 146.05 467.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69443,7 +69443,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 144.018 446.278 90)
+			(at 144.018 461.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69452,7 +69452,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 458.47 0)
+			(at 140.97 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69461,7 +69461,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 458.47 0)
+			(at 140.97 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69470,7 +69470,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 458.47 0)
+			(at 140.97 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70104,7 +70104,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 508 0)
+		(at 370.84 523.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70112,7 +70112,7 @@
 		(dnp no)
 		(uuid "ee2edf19-5689-4f01-8aaa-6b048cffb97e")
 		(property "Reference" "U69"
-			(at 375.92 501.65 90)
+			(at 375.92 516.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70121,7 +70121,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.888 495.808 90)
+			(at 373.888 511.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70130,7 +70130,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 508 0)
+			(at 370.84 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70139,7 +70139,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 508 0)
+			(at 370.84 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70148,7 +70148,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 508 0)
+			(at 370.84 523.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70185,7 +70185,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 73.66 0)
+		(at 830.58 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70193,7 +70193,7 @@
 		(dnp no)
 		(uuid "ee84fcc4-0bc4-4c3f-a57f-352207966ad9")
 		(property "Reference" "U93"
-			(at 835.66 67.31 90)
+			(at 835.66 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70202,7 +70202,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 61.468 90)
+			(at 833.628 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70211,7 +70211,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 73.66 0)
+			(at 830.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70220,7 +70220,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 73.66 0)
+			(at 830.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70229,7 +70229,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 73.66 0)
+			(at 830.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70399,7 +70399,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 614.68 0)
+		(at 830.58 629.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70407,7 +70407,7 @@
 		(dnp no)
 		(uuid "efbdd187-a2c8-459f-8141-e94c91a1d006")
 		(property "Reference" "U108"
-			(at 835.66 608.33 90)
+			(at 835.66 623.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70416,7 +70416,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 602.488 90)
+			(at 833.628 617.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70425,7 +70425,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 614.68 0)
+			(at 830.58 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70434,7 +70434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 614.68 0)
+			(at 830.58 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70443,7 +70443,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 614.68 0)
+			(at 830.58 629.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70615,7 +70615,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 443.23 0)
+		(at 600.71 427.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70623,7 +70623,7 @@
 		(dnp no)
 		(uuid "f0c5f171-a81c-4cd8-a085-bedc6d0f8f18")
 		(property "Reference" "U85"
-			(at 605.79 437.134 90)
+			(at 605.79 421.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70632,7 +70632,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 431.292 90)
+			(at 603.504 416.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70641,7 +70641,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 443.23 0)
+			(at 600.71 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70650,7 +70650,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 443.23 0)
+			(at 600.71 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70659,7 +70659,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 443.23 0)
+			(at 600.71 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70696,7 +70696,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 412.75 0)
+		(at 370.84 397.51 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70704,7 +70704,7 @@
 		(dnp no)
 		(uuid "f12fd065-151a-4532-9468-0117a5533bd1")
 		(property "Reference" "U66"
-			(at 375.92 406.654 90)
+			(at 375.92 391.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70713,7 +70713,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 400.812 90)
+			(at 373.634 385.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70722,7 +70722,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 412.75 0)
+			(at 370.84 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70731,7 +70731,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 412.75 0)
+			(at 370.84 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70740,7 +70740,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 412.75 0)
+			(at 370.84 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70777,7 +70777,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 523.24 0)
+		(at 830.58 508 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70785,7 +70785,7 @@
 		(dnp no)
 		(uuid "f130c889-1ca4-47c7-8386-c413e7ddc017")
 		(property "Reference" "U105"
-			(at 835.66 517.144 90)
+			(at 835.66 501.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70794,7 +70794,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 511.302 90)
+			(at 833.374 496.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70803,7 +70803,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 523.24 0)
+			(at 830.58 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70812,7 +70812,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 523.24 0)
+			(at 830.58 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70821,7 +70821,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 523.24 0)
+			(at 830.58 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71470,7 +71470,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 370.84 88.9 0)
+		(at 370.84 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71478,7 +71478,7 @@
 		(dnp no)
 		(uuid "f466fee1-b862-49d2-8cb3-d8f670a999ae")
 		(property "Reference" "U57"
-			(at 375.92 82.804 90)
+			(at 375.92 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71487,7 +71487,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 373.634 76.962 90)
+			(at 373.634 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71496,7 +71496,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 370.84 88.9 0)
+			(at 370.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71505,7 +71505,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 370.84 88.9 0)
+			(at 370.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71514,7 +71514,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 370.84 88.9 0)
+			(at 370.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71618,7 +71618,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 473.71 0)
+		(at 600.71 458.47 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71626,7 +71626,7 @@
 		(dnp no)
 		(uuid "f517ec7d-585d-4d92-ac5e-8a4822f09804")
 		(property "Reference" "U86"
-			(at 605.79 467.614 90)
+			(at 605.79 452.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71635,7 +71635,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.504 461.772 90)
+			(at 603.504 446.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71644,7 +71644,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 473.71 0)
+			(at 600.71 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71653,7 +71653,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 473.71 0)
+			(at 600.71 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71662,7 +71662,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 473.71 0)
+			(at 600.71 458.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72352,7 +72352,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 660.4 0)
+		(at 830.58 645.16 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72360,7 +72360,7 @@
 		(dnp no)
 		(uuid "f8924f63-e071-455d-899f-0f496dbd661c")
 		(property "Reference" "U109"
-			(at 835.66 654.304 90)
+			(at 835.66 639.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72369,7 +72369,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.374 648.462 90)
+			(at 833.374 633.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72378,7 +72378,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 660.4 0)
+			(at 830.58 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72387,7 +72387,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 660.4 0)
+			(at 830.58 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72396,7 +72396,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 660.4 0)
+			(at 830.58 645.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72697,7 +72697,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 830.58 119.38 0)
+		(at 830.58 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72705,7 +72705,7 @@
 		(dnp no)
 		(uuid "fa991332-5ec1-49cc-8b9d-98ba248102f2")
 		(property "Reference" "U94"
-			(at 835.66 113.03 90)
+			(at 835.66 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72714,7 +72714,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 833.628 107.188 90)
+			(at 833.628 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72723,7 +72723,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 830.58 119.38 0)
+			(at 830.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72732,7 +72732,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 830.58 119.38 0)
+			(at 830.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72741,7 +72741,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 830.58 119.38 0)
+			(at 830.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73184,7 +73184,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 600.71 290.83 0)
+		(at 600.71 306.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73192,7 +73192,7 @@
 		(dnp no)
 		(uuid "fd667308-682f-4d5d-819f-5c5e8077497f")
 		(property "Reference" "U81"
-			(at 605.79 284.48 90)
+			(at 605.79 299.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73201,7 +73201,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 603.758 278.638 90)
+			(at 603.758 293.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73210,7 +73210,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 600.71 290.83 0)
+			(at 600.71 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73219,7 +73219,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 600.71 290.83 0)
+			(at 600.71 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73228,7 +73228,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 600.71 290.83 0)
+			(at 600.71 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73411,7 +73411,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G17")
-		(at 140.97 523.24 0)
+		(at 140.97 508 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73419,7 +73419,7 @@
 		(dnp no)
 		(uuid "ffb75855-1680-42e1-a9e5-35112c53a819")
 		(property "Reference" "U51"
-			(at 146.05 517.144 90)
+			(at 146.05 501.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73428,7 +73428,7 @@
 			)
 		)
 		(property "Value" "74LVC2G17"
-			(at 143.764 511.302 90)
+			(at 143.764 496.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73437,7 +73437,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 140.97 523.24 0)
+			(at 140.97 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73446,7 +73446,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 140.97 523.24 0)
+			(at 140.97 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73455,7 +73455,7 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
-			(at 140.97 523.24 0)
+			(at 140.97 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
