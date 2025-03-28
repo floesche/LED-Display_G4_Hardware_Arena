@@ -5525,3 +5525,2258 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2025-03-27 07:07:29.432 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
 2025-03-27 07:09:15.059 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
 2025-03-27 07:11:16.686 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2025-03-27 20:43:38.241 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:43:38.273 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:43:39.297 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:44:03.689 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:44:03.720 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:44:04.738 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:44:04.736 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:45:55.379 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:45:55.411 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:45:56.428 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:45:56.426 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:45:57.828 [main] WARN  The normalization of net '/Level Shifters/PAN5V.MISO_10' failed.
+2025-03-27 20:45:57.856 [main] WARN  The normalization of net '/Level Shifters/PAN5V.MISO_08' failed.
+2025-03-27 20:45:57.894 [main] WARN  The normalization of net '/Panel Headers/CS_05_P02' failed.
+2025-03-27 20:45:57.900 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P02' failed.
+2025-03-27 20:45:57.908 [main] WARN  The normalization of net '/Panel Headers/CS_04_P02' failed.
+2025-03-27 20:45:57.913 [main] WARN  The normalization of net '/Panel Headers/SCK_1_H1_P02' failed.
+2025-03-27 20:45:57.919 [main] WARN  The normalization of net '/Panel Headers/CS_03_P02' failed.
+2025-03-27 20:45:57.926 [main] WARN  The normalization of net '/Panel Headers/CS_00_P02' failed.
+2025-03-27 20:45:57.933 [main] WARN  The normalization of net '/Panel Headers/MOSI_01_P02' failed.
+2025-03-27 20:45:57.939 [main] WARN  The normalization of net '/Panel Headers/CS_01_P02' failed.
+2025-03-27 20:45:57.946 [main] WARN  The normalization of net '/Panel Headers/SCK_2_H1_P03' failed.
+2025-03-27 20:45:57.954 [main] WARN  The normalization of net '/Panel Headers/CS_00_P03' failed.
+2025-03-27 20:45:57.959 [main] WARN  The normalization of net '/Panel Headers/MOSI_02_P03' failed.
+2025-03-27 20:45:57.965 [main] WARN  The normalization of net '/Panel Headers/MISO_02_P03' failed.
+2025-03-27 20:45:57.972 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P03' failed.
+2025-03-27 20:45:57.978 [main] WARN  The normalization of net '/Panel Headers/CS_05_P03' failed.
+2025-03-27 20:45:57.984 [main] WARN  The normalization of net '/Panel Headers/CS_02_P03' failed.
+2025-03-27 20:45:57.995 [main] WARN  The normalization of net '/Panel Headers/CS_04_P05' failed.
+2025-03-27 20:45:58.004 [main] WARN  The normalization of net '/Panel Headers/CS_02_P05' failed.
+2025-03-27 20:45:58.012 [main] WARN  The normalization of net '/Panel Headers/CS_00_P05' failed.
+2025-03-27 20:45:58.018 [main] WARN  The normalization of net '/Panel Headers/MISO_05_P06' failed.
+2025-03-27 20:45:58.026 [main] WARN  The normalization of net '/Panel Headers/CS_01_P06' failed.
+2025-03-27 20:45:58.032 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P06' failed.
+2025-03-27 20:45:58.040 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P08' failed.
+2025-03-27 20:45:58.045 [main] WARN  The normalization of net '/Panel Headers/CS_05_P08' failed.
+2025-03-27 20:45:58.050 [main] WARN  The normalization of net '/Panel Headers/SCK_1_H2_P08' failed.
+2025-03-27 20:45:58.055 [main] WARN  The normalization of net '/Panel Headers/CS_07_P08' failed.
+2025-03-27 20:45:58.060 [main] WARN  The normalization of net '/Panel Headers/CS_06_P08' failed.
+2025-03-27 20:45:58.068 [main] WARN  The normalization of net '/Panel Headers/MISO_07_P08' failed.
+2025-03-27 20:45:58.075 [main] WARN  The normalization of net '/Panel Headers/MOSI_07_P08' failed.
+2025-03-27 20:45:58.082 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P09' failed.
+2025-03-27 20:45:58.090 [main] WARN  The normalization of net '/Panel Headers/MOSI_08_P09' failed.
+2025-03-27 20:45:58.096 [main] WARN  The normalization of net '/Panel Headers/CS_03_P09' failed.
+2025-03-27 20:45:58.100 [main] WARN  The normalization of net '/Panel Headers/CS_04_P09' failed.
+2025-03-27 20:45:58.105 [main] WARN  The normalization of net '/Panel Headers/CS_01_P09' failed.
+2025-03-27 20:45:58.113 [main] WARN  The normalization of net '/Panel Headers/CS_03_P11' failed.
+2025-03-27 20:45:58.119 [main] WARN  The normalization of net '/Panel Headers/SCK_4_H2_P11' failed.
+2025-03-27 20:45:58.124 [main] WARN  The normalization of net '/Panel Headers/MISO_10_P11' failed.
+2025-03-27 20:45:58.130 [main] WARN  The normalization of net '/Panel Headers/CS_07_P11' failed.
+2025-03-27 20:45:58.137 [main] WARN  The normalization of net '/Panel Headers/CS_01_P11' failed.
+2025-03-27 20:45:58.143 [main] WARN  The normalization of net '/Panel Headers/CS_06_P11' failed.
+2025-03-27 20:45:58.149 [main] WARN  The normalization of net '/Panel Headers/CS_02_P12' failed.
+2025-03-27 20:45:58.156 [main] WARN  The normalization of net '/Panel Headers/SCK_5_H2_P12' failed.
+2025-03-27 20:45:58.162 [main] WARN  The normalization of net '/Panel Headers/CS_04_P12' failed.
+2025-03-27 20:45:58.168 [main] WARN  The normalization of net '/Panel Headers/CS_05_P12' failed.
+2025-03-27 20:45:58.175 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P12' failed.
+2025-03-27 20:45:58.180 [main] WARN  The normalization of net '/Panel Headers/MISO_11_P12' failed.
+2025-03-27 20:45:58.187 [main] WARN  The normalization of net '/Panel Headers/CS_00_P12' failed.
+2025-03-27 20:45:58.466 [main] WARN  The normalization of net 'Net-(R178-Pad1)' failed.
+2025-03-27 20:45:58.470 [main] WARN  The normalization of net 'Net-(R179-Pad1)' failed.
+2025-03-27 20:45:58.475 [main] WARN  The normalization of net 'Net-(R180-Pad1)' failed.
+2025-03-27 20:45:58.480 [main] WARN  The normalization of net 'Net-(R181-Pad1)' failed.
+2025-03-27 20:45:58.485 [main] WARN  The normalization of net 'Net-(R182-Pad1)' failed.
+2025-03-27 20:45:58.489 [main] WARN  The normalization of net 'Net-(R183-Pad1)' failed.
+2025-03-27 20:45:58.495 [main] WARN  The normalization of net 'Net-(R185-Pad1)' failed.
+2025-03-27 20:45:58.502 [main] WARN  The normalization of net 'Net-(R190-Pad1)' failed.
+2025-03-27 20:45:58.513 [main] WARN  The normalization of net 'Net-(R195-Pad1)' failed.
+2025-03-27 20:45:58.518 [main] WARN  The normalization of net 'Net-(R198-Pad1)' failed.
+2025-03-27 20:45:58.527 [main] WARN  The normalization of net 'Net-(R214-Pad1)' failed.
+2025-03-27 20:45:58.532 [main] WARN  The normalization of net 'Net-(R215-Pad1)' failed.
+2025-03-27 20:45:58.540 [main] WARN  The normalization of net 'Net-(R218-Pad1)' failed.
+2025-03-27 20:45:58.548 [main] WARN  The normalization of net 'Net-(R222-Pad1)' failed.
+2025-03-27 20:45:58.554 [main] WARN  The normalization of net 'Net-(R226-Pad1)' failed.
+2025-03-27 20:45:58.561 [main] WARN  The normalization of net 'Net-(R228-Pad1)' failed.
+2025-03-27 20:45:58.566 [main] WARN  The normalization of net 'Net-(R234-Pad1)' failed.
+2025-03-27 20:45:58.572 [main] WARN  The normalization of net 'Net-(R248-Pad1)' failed.
+2025-03-27 20:45:58.577 [main] WARN  The normalization of net 'Net-(R250-Pad1)' failed.
+2025-03-27 20:45:58.583 [main] WARN  The normalization of net 'Net-(R253-Pad1)' failed.
+2025-03-27 20:45:58.589 [main] WARN  The normalization of net 'Net-(R257-Pad1)' failed.
+2025-03-27 20:45:58.593 [main] WARN  The normalization of net 'Net-(R258-Pad1)' failed.
+2025-03-27 20:45:58.597 [main] WARN  The normalization of net 'Net-(R259-Pad1)' failed.
+2025-03-27 20:45:58.602 [main] WARN  The normalization of net 'Net-(R262-Pad1)' failed.
+2025-03-27 20:45:58.607 [main] WARN  The normalization of net 'Net-(R263-Pad1)' failed.
+2025-03-27 20:45:58.611 [main] WARN  The normalization of net 'Net-(R264-Pad1)' failed.
+2025-03-27 20:45:58.615 [main] WARN  The normalization of net 'Net-(R265-Pad1)' failed.
+2025-03-27 20:45:58.619 [main] WARN  The normalization of net 'Net-(R266-Pad1)' failed.
+2025-03-27 20:45:58.623 [main] WARN  The normalization of net 'Net-(R267-Pad1)' failed.
+2025-03-27 20:45:58.627 [main] WARN  The normalization of net 'Net-(R268-Pad1)' failed.
+2025-03-27 20:45:58.631 [main] WARN  The normalization of net 'Net-(R270-Pad1)' failed.
+2025-03-27 20:45:58.637 [main] WARN  The normalization of net 'Net-(R284-Pad1)' failed.
+2025-03-27 20:45:58.642 [main] WARN  The normalization of net 'Net-(R286-Pad1)' failed.
+2025-03-27 20:45:58.647 [main] WARN  The normalization of net 'Net-(R287-Pad1)' failed.
+2025-03-27 20:45:58.651 [main] WARN  The normalization of net 'Net-(R288-Pad1)' failed.
+2025-03-27 20:45:58.659 [main] WARN  The normalization of net 'Net-(R289-Pad1)' failed.
+2025-03-27 20:45:58.663 [main] WARN  The normalization of net 'Net-(R290-Pad1)' failed.
+2025-03-27 20:45:58.667 [main] WARN  The normalization of net 'Net-(R291-Pad1)' failed.
+2025-03-27 20:45:58.672 [main] WARN  The normalization of net 'Net-(R293-Pad1)' failed.
+2025-03-27 20:45:58.677 [main] WARN  The normalization of net 'Net-(R294-Pad1)' failed.
+2025-03-27 20:45:58.681 [main] WARN  The normalization of net 'Net-(R295-Pad1)' failed.
+2025-03-27 20:45:58.686 [main] WARN  The normalization of net 'Net-(R298-Pad1)' failed.
+2025-03-27 20:45:58.691 [main] WARN  The normalization of net 'Net-(R299-Pad1)' failed.
+2025-03-27 20:45:58.696 [main] WARN  The normalization of net 'Net-(R300-Pad1)' failed.
+2025-03-27 20:45:58.700 [main] WARN  The normalization of net 'Net-(R301-Pad1)' failed.
+2025-03-27 20:45:58.704 [main] WARN  The normalization of net 'Net-(R302-Pad1)' failed.
+2025-03-27 20:45:58.708 [main] WARN  The normalization of net 'Net-(R303-Pad1)' failed.
+2025-03-27 20:45:58.714 [main] WARN  The normalization of net 'Net-(R305-Pad1)' failed.
+2025-03-27 20:45:58.718 [main] WARN  The normalization of net 'Net-(R306-Pad1)' failed.
+2025-03-27 20:46:14.584 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:46:14.617 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:46:15.634 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:46:15.632 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:46:17.023 [main] WARN  The normalization of net '/Level Shifters/PAN5V.MISO_10' failed.
+2025-03-27 20:46:17.051 [main] WARN  The normalization of net '/Level Shifters/PAN5V.MISO_08' failed.
+2025-03-27 20:46:17.087 [main] WARN  The normalization of net '/Panel Headers/CS_05_P02' failed.
+2025-03-27 20:46:17.093 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P02' failed.
+2025-03-27 20:46:17.100 [main] WARN  The normalization of net '/Panel Headers/CS_04_P02' failed.
+2025-03-27 20:46:17.105 [main] WARN  The normalization of net '/Panel Headers/SCK_1_H1_P02' failed.
+2025-03-27 20:46:17.115 [main] WARN  The normalization of net '/Panel Headers/CS_03_P02' failed.
+2025-03-27 20:46:17.121 [main] WARN  The normalization of net '/Panel Headers/CS_00_P02' failed.
+2025-03-27 20:46:17.126 [main] WARN  The normalization of net '/Panel Headers/MOSI_01_P02' failed.
+2025-03-27 20:46:17.131 [main] WARN  The normalization of net '/Panel Headers/CS_01_P02' failed.
+2025-03-27 20:46:17.137 [main] WARN  The normalization of net '/Panel Headers/SCK_2_H1_P03' failed.
+2025-03-27 20:46:17.143 [main] WARN  The normalization of net '/Panel Headers/CS_00_P03' failed.
+2025-03-27 20:46:17.147 [main] WARN  The normalization of net '/Panel Headers/MOSI_02_P03' failed.
+2025-03-27 20:46:17.152 [main] WARN  The normalization of net '/Panel Headers/MISO_02_P03' failed.
+2025-03-27 20:46:17.157 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P03' failed.
+2025-03-27 20:46:17.163 [main] WARN  The normalization of net '/Panel Headers/CS_05_P03' failed.
+2025-03-27 20:46:17.168 [main] WARN  The normalization of net '/Panel Headers/CS_02_P03' failed.
+2025-03-27 20:46:17.176 [main] WARN  The normalization of net '/Panel Headers/CS_04_P05' failed.
+2025-03-27 20:46:17.184 [main] WARN  The normalization of net '/Panel Headers/CS_02_P05' failed.
+2025-03-27 20:46:17.190 [main] WARN  The normalization of net '/Panel Headers/CS_00_P05' failed.
+2025-03-27 20:46:17.195 [main] WARN  The normalization of net '/Panel Headers/MISO_05_P06' failed.
+2025-03-27 20:46:17.203 [main] WARN  The normalization of net '/Panel Headers/CS_01_P06' failed.
+2025-03-27 20:46:17.207 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P06' failed.
+2025-03-27 20:46:17.215 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P08' failed.
+2025-03-27 20:46:17.219 [main] WARN  The normalization of net '/Panel Headers/CS_05_P08' failed.
+2025-03-27 20:46:17.223 [main] WARN  The normalization of net '/Panel Headers/SCK_1_H2_P08' failed.
+2025-03-27 20:46:17.227 [main] WARN  The normalization of net '/Panel Headers/CS_07_P08' failed.
+2025-03-27 20:46:17.233 [main] WARN  The normalization of net '/Panel Headers/CS_06_P08' failed.
+2025-03-27 20:46:17.239 [main] WARN  The normalization of net '/Panel Headers/MISO_07_P08' failed.
+2025-03-27 20:46:17.246 [main] WARN  The normalization of net '/Panel Headers/MOSI_07_P08' failed.
+2025-03-27 20:46:17.251 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P09' failed.
+2025-03-27 20:46:17.258 [main] WARN  The normalization of net '/Panel Headers/MOSI_08_P09' failed.
+2025-03-27 20:46:17.263 [main] WARN  The normalization of net '/Panel Headers/CS_03_P09' failed.
+2025-03-27 20:46:17.268 [main] WARN  The normalization of net '/Panel Headers/CS_04_P09' failed.
+2025-03-27 20:46:17.272 [main] WARN  The normalization of net '/Panel Headers/CS_01_P09' failed.
+2025-03-27 20:46:17.280 [main] WARN  The normalization of net '/Panel Headers/CS_03_P11' failed.
+2025-03-27 20:46:17.284 [main] WARN  The normalization of net '/Panel Headers/SCK_4_H2_P11' failed.
+2025-03-27 20:46:17.289 [main] WARN  The normalization of net '/Panel Headers/MISO_10_P11' failed.
+2025-03-27 20:46:17.294 [main] WARN  The normalization of net '/Panel Headers/CS_07_P11' failed.
+2025-03-27 20:46:17.300 [main] WARN  The normalization of net '/Panel Headers/CS_01_P11' failed.
+2025-03-27 20:46:17.306 [main] WARN  The normalization of net '/Panel Headers/CS_06_P11' failed.
+2025-03-27 20:46:17.312 [main] WARN  The normalization of net '/Panel Headers/CS_02_P12' failed.
+2025-03-27 20:46:17.319 [main] WARN  The normalization of net '/Panel Headers/SCK_5_H2_P12' failed.
+2025-03-27 20:46:17.323 [main] WARN  The normalization of net '/Panel Headers/CS_04_P12' failed.
+2025-03-27 20:46:17.328 [main] WARN  The normalization of net '/Panel Headers/CS_05_P12' failed.
+2025-03-27 20:46:17.334 [main] WARN  The normalization of net '/Panel Headers/EXT_INT_P12' failed.
+2025-03-27 20:46:17.339 [main] WARN  The normalization of net '/Panel Headers/MISO_11_P12' failed.
+2025-03-27 20:46:17.344 [main] WARN  The normalization of net '/Panel Headers/CS_00_P12' failed.
+2025-03-27 20:46:17.612 [main] WARN  The normalization of net 'Net-(R178-Pad1)' failed.
+2025-03-27 20:46:17.617 [main] WARN  The normalization of net 'Net-(R179-Pad1)' failed.
+2025-03-27 20:46:17.622 [main] WARN  The normalization of net 'Net-(R180-Pad1)' failed.
+2025-03-27 20:46:17.627 [main] WARN  The normalization of net 'Net-(R181-Pad1)' failed.
+2025-03-27 20:46:17.632 [main] WARN  The normalization of net 'Net-(R182-Pad1)' failed.
+2025-03-27 20:46:17.639 [main] WARN  The normalization of net 'Net-(R183-Pad1)' failed.
+2025-03-27 20:46:17.645 [main] WARN  The normalization of net 'Net-(R185-Pad1)' failed.
+2025-03-27 20:46:17.652 [main] WARN  The normalization of net 'Net-(R190-Pad1)' failed.
+2025-03-27 20:46:17.660 [main] WARN  The normalization of net 'Net-(R195-Pad1)' failed.
+2025-03-27 20:46:17.665 [main] WARN  The normalization of net 'Net-(R198-Pad1)' failed.
+2025-03-27 20:46:17.674 [main] WARN  The normalization of net 'Net-(R214-Pad1)' failed.
+2025-03-27 20:46:17.680 [main] WARN  The normalization of net 'Net-(R215-Pad1)' failed.
+2025-03-27 20:46:17.687 [main] WARN  The normalization of net 'Net-(R218-Pad1)' failed.
+2025-03-27 20:46:17.695 [main] WARN  The normalization of net 'Net-(R222-Pad1)' failed.
+2025-03-27 20:46:17.701 [main] WARN  The normalization of net 'Net-(R226-Pad1)' failed.
+2025-03-27 20:46:17.707 [main] WARN  The normalization of net 'Net-(R228-Pad1)' failed.
+2025-03-27 20:46:17.713 [main] WARN  The normalization of net 'Net-(R234-Pad1)' failed.
+2025-03-27 20:46:17.719 [main] WARN  The normalization of net 'Net-(R248-Pad1)' failed.
+2025-03-27 20:46:17.722 [main] WARN  The normalization of net 'Net-(R250-Pad1)' failed.
+2025-03-27 20:46:17.729 [main] WARN  The normalization of net 'Net-(R253-Pad1)' failed.
+2025-03-27 20:46:17.735 [main] WARN  The normalization of net 'Net-(R257-Pad1)' failed.
+2025-03-27 20:46:17.739 [main] WARN  The normalization of net 'Net-(R258-Pad1)' failed.
+2025-03-27 20:46:17.743 [main] WARN  The normalization of net 'Net-(R259-Pad1)' failed.
+2025-03-27 20:46:17.748 [main] WARN  The normalization of net 'Net-(R262-Pad1)' failed.
+2025-03-27 20:46:17.752 [main] WARN  The normalization of net 'Net-(R263-Pad1)' failed.
+2025-03-27 20:46:17.756 [main] WARN  The normalization of net 'Net-(R264-Pad1)' failed.
+2025-03-27 20:46:17.760 [main] WARN  The normalization of net 'Net-(R265-Pad1)' failed.
+2025-03-27 20:46:17.764 [main] WARN  The normalization of net 'Net-(R266-Pad1)' failed.
+2025-03-27 20:46:17.767 [main] WARN  The normalization of net 'Net-(R267-Pad1)' failed.
+2025-03-27 20:46:17.774 [main] WARN  The normalization of net 'Net-(R268-Pad1)' failed.
+2025-03-27 20:46:17.779 [main] WARN  The normalization of net 'Net-(R270-Pad1)' failed.
+2025-03-27 20:46:17.785 [main] WARN  The normalization of net 'Net-(R284-Pad1)' failed.
+2025-03-27 20:46:17.790 [main] WARN  The normalization of net 'Net-(R286-Pad1)' failed.
+2025-03-27 20:46:17.794 [main] WARN  The normalization of net 'Net-(R287-Pad1)' failed.
+2025-03-27 20:46:17.798 [main] WARN  The normalization of net 'Net-(R288-Pad1)' failed.
+2025-03-27 20:46:17.802 [main] WARN  The normalization of net 'Net-(R289-Pad1)' failed.
+2025-03-27 20:46:17.806 [main] WARN  The normalization of net 'Net-(R290-Pad1)' failed.
+2025-03-27 20:46:17.809 [main] WARN  The normalization of net 'Net-(R291-Pad1)' failed.
+2025-03-27 20:46:17.814 [main] WARN  The normalization of net 'Net-(R293-Pad1)' failed.
+2025-03-27 20:46:17.819 [main] WARN  The normalization of net 'Net-(R294-Pad1)' failed.
+2025-03-27 20:46:17.823 [main] WARN  The normalization of net 'Net-(R295-Pad1)' failed.
+2025-03-27 20:46:17.827 [main] WARN  The normalization of net 'Net-(R298-Pad1)' failed.
+2025-03-27 20:46:17.832 [main] WARN  The normalization of net 'Net-(R299-Pad1)' failed.
+2025-03-27 20:46:17.837 [main] WARN  The normalization of net 'Net-(R300-Pad1)' failed.
+2025-03-27 20:46:17.840 [main] WARN  The normalization of net 'Net-(R301-Pad1)' failed.
+2025-03-27 20:46:17.845 [main] WARN  The normalization of net 'Net-(R302-Pad1)' failed.
+2025-03-27 20:46:17.848 [main] WARN  The normalization of net 'Net-(R303-Pad1)' failed.
+2025-03-27 20:46:17.853 [main] WARN  The normalization of net 'Net-(R305-Pad1)' failed.
+2025-03-27 20:46:17.857 [main] WARN  The normalization of net 'Net-(R306-Pad1)' failed.
+2025-03-27 20:50:13.615 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:50:13.646 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:50:14.661 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:50:27.607 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:50:27.638 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:50:28.656 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:50:28.654 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:50:35.027 [Thread-34] INFO  Starting auto-routing...
+2025-03-27 20:50:37.662 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.677 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.679 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.686 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.689 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.691 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.694 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.697 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.700 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.702 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.705 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.708 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.711 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.713 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.716 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.720 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.723 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.726 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.729 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.732 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.735 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.737 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.739 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.742 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.744 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.747 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.750 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.752 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.755 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.757 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.759 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.762 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.764 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.768 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.771 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.773 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.776 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.780 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.783 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.785 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.788 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.790 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.794 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.797 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.800 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.804 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.806 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.808 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.810 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.814 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.816 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.821 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.823 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.825 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.828 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.830 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.832 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.833 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.836 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.838 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.841 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.843 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.846 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.848 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.851 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.853 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.856 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.858 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.861 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.864 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.866 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.868 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.871 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.873 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.876 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.879 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.883 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.885 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.887 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.889 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.891 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.893 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.896 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.898 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.900 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.902 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.904 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.906 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.925 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.959 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.962 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.965 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.970 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.972 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.976 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.981 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.985 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.988 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.991 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.995 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:37.998 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.002 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.007 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.012 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.016 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.020 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.023 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.028 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.032 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.036 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.040 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.047 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.050 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.054 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.058 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.062 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.067 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.071 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.074 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.078 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.081 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.084 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.088 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.092 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.099 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.103 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.107 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.115 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.120 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.124 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.129 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.136 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.142 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.146 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.152 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.155 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.158 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.163 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.168 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.172 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.176 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.181 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.186 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.190 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.195 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.204 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.208 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.212 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.216 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.221 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.226 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.230 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.236 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.238 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.242 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.246 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.250 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.254 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.257 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.260 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.264 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.268 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.272 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.277 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.280 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.290 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.294 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.299 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.303 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.308 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.312 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.318 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.322 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.326 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.332 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:38.527 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.569 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.570 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.572 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.573 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.573 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.574 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.582 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.583 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.585 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.586 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.588 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.589 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.589 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.590 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.591 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.591 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.592 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.593 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.595 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.597 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.601 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.602 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.603 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.605 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.605 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.607 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.608 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.609 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.610 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.610 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.611 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.613 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.614 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.615 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.615 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.616 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.617 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.617 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.618 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.618 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.620 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.620 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.622 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.626 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.627 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:50.634 [Thread-34] WARN  FloatLine: Parameter is null
+2025-03-27 20:50:51.128 [Thread-34] INFO  Auto-routing was completed in 16.10 seconds.
+2025-03-27 20:50:51.229 [Thread-34] INFO  Starting route optimization on 1 thread...
+2025-03-27 20:50:51.236 [Thread-34] INFO  Route optimization was completed in 0.01 seconds.
+2025-03-27 20:51:00.033 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:51:00.065 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:51:01.098 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:51:01.092 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:51:36.329 [Thread-41] INFO  Starting auto-routing...
+2025-03-27 20:51:38.692 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.708 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.710 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.713 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.715 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.717 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.719 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.721 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.723 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.724 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.726 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.729 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.730 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.732 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.734 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.737 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.739 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.740 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.742 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.744 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.746 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.748 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.750 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.753 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.755 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.757 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.760 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.762 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.764 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.766 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.769 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.771 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.773 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.776 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.778 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.782 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.786 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.789 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.791 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.794 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.796 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.799 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.802 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.805 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.809 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.813 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.816 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.818 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.821 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.824 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.827 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.830 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.832 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.835 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.838 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.840 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.843 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.846 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.849 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.853 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.857 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.860 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.862 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.865 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.867 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.870 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.873 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.876 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.879 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.883 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.886 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.889 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.892 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.896 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.900 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.905 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.909 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.913 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.915 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.918 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.921 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.923 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.926 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.929 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.931 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.934 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.936 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.938 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.958 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.991 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.995 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:38.999 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.004 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.007 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.011 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.017 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.021 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.024 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.028 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.031 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.035 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.039 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.043 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.048 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.053 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.056 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.059 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.064 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.068 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.073 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.076 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.083 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.087 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.091 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.094 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.098 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.102 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.105 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.108 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.112 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.115 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.119 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.123 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.127 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.135 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.139 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.142 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.146 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.150 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.154 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.159 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.165 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.169 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.172 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.177 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.180 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.182 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.186 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.189 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.192 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.195 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.199 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.205 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.209 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.212 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.218 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.221 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.223 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.226 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.229 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.233 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.236 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.241 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.243 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.247 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.251 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.255 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.258 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.261 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.264 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.268 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.270 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.274 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.279 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.282 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.287 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.290 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.294 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.298 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.301 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.304 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.308 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.311 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.315 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:51:39.320 [Thread-41] WARN  FloatLine: Parameter is null
+2025-03-27 20:53:19.407 [Thread-41] INFO  Auto-routing was completed in 1 minute(s) 43.08 seconds.
+2025-03-27 20:53:19.508 [Thread-41] INFO  Starting route optimization on 1 thread...
+2025-03-27 20:53:19.521 [Thread-41] INFO  Route optimization was completed in 0.01 seconds.
+2025-03-27 20:53:57.950 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:53:57.981 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:53:59.011 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:53:59.006 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:54:55.544 [Thread-49] INFO  Starting auto-routing...
+2025-03-27 20:54:58.016 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.033 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.035 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.038 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.040 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.042 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.044 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.046 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.048 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.050 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.052 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.055 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.056 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.058 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.060 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.063 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.065 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.067 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.069 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.071 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.073 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.075 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.078 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.084 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.087 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.089 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.091 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.093 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.095 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.097 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.099 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.100 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.102 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.105 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.108 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.110 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.114 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.118 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.120 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.123 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.126 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.128 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.132 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.135 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.138 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.142 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.145 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.147 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.149 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.152 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.155 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.157 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.159 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.162 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.165 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.168 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.171 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.174 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.176 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.179 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.183 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.185 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.188 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.190 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.192 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.195 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.197 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.199 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.202 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.205 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.207 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.210 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.213 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.215 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.218 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.225 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.228 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.231 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.232 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.234 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.237 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.239 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.240 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.242 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.244 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.246 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.248 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.250 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.271 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.301 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.304 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.308 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.311 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.314 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.318 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.323 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.327 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.330 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.333 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.336 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.339 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.343 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.347 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.352 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.360 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.363 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.367 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.371 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.375 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.380 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.383 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.391 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.394 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.398 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.402 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.406 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.410 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.413 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.416 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.420 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.424 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.428 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.431 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.435 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.442 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.447 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.450 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.453 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.458 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.462 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.467 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.474 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.479 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.483 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.489 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.492 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.495 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.499 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.503 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.507 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.510 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.514 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.518 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.521 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.525 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.536 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.540 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.544 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.549 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.554 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.559 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.564 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.572 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.576 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.581 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.587 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.593 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.599 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.604 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.609 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.615 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.620 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.626 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.634 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.638 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.644 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.648 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.652 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.656 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.660 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.663 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.667 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.670 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.674 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:54:58.678 [Thread-49] WARN  FloatLine: Parameter is null
+2025-03-27 20:55:41.254 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2025-03-27 20:55:41.288 [main] INFO  Settings were loaded from freerouting.json
+2025-03-27 20:55:42.335 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2025-03-27 20:55:42.332 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2025-03-27 20:56:51.190 [Thread-48] INFO  Starting auto-routing...
+2025-03-27 20:56:53.643 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.659 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.661 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.664 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.666 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.668 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.670 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.672 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.673 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.675 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.677 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.680 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.681 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.683 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.685 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.688 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.690 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.691 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.693 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.695 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.697 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.699 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.701 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.703 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.704 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.707 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.709 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.711 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.713 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.715 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.717 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.724 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.727 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.730 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.732 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.734 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.737 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.741 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.744 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.745 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.748 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.751 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.755 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.758 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.761 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.765 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.768 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.770 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.772 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.775 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.778 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.781 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.783 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.786 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.788 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.792 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.795 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.798 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.801 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.804 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.808 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.810 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.813 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.815 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.817 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.820 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.823 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.825 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.828 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.831 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.834 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.836 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.839 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.842 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.845 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.849 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.852 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.855 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.857 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.859 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.861 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.863 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.865 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.867 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.869 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.870 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.872 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.874 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.897 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.929 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.933 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.937 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.941 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.944 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.948 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.954 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.957 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.960 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.964 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.967 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.970 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.974 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.978 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.983 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.987 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.991 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.994 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:53.998 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.002 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.007 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.010 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.018 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.021 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.025 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.028 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.032 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.036 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.039 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.042 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.046 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.049 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.056 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.060 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.064 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.073 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.078 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.083 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.087 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.092 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.097 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.103 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.111 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.117 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.121 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.128 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.132 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.136 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.141 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.146 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.152 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.157 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.162 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.167 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.171 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.175 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.183 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.186 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.190 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.194 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.198 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.203 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.207 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.213 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.219 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.225 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.229 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.234 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.238 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.242 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.245 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.248 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.251 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.255 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.261 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.265 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.270 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.274 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.278 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.283 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.287 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.290 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.294 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.298 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.302 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 20:56:54.307 [Thread-48] WARN  FloatLine: Parameter is null
+2025-03-27 21:03:41.284 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:05:40.761 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:12:51.566 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:12:54.985 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:14:48.152 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:14:51.417 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:18:27.788 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:08.932 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:09.229 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:09.358 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:09.516 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:31.405 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:51.610 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:54.487 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:19:58.660 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:00.353 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:08.501 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:08.836 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:34.317 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:37.022 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:37.260 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:37.384 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:37.534 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:47.241 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:57.811 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:20:57.826 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:03.703 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:16.441 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:19.070 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:24.553 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:31.904 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:32.225 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:37.308 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:50.937 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:21:55.242 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:06.750 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:15.985 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:21.412 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:23.087 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:51.114 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:22:55.809 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:23:03.633 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:23:05.377 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:23:29.171 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:23:33.365 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:23:35.956 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:24:11.748 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:24:21.998 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:24:49.231 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:24:53.880 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:42:06.218 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:42:07.785 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:42:42.717 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 21:42:44.227 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:02:59.905 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:05.901 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:09.219 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:13.332 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:13.332 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:13.333 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:14.125 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:15.197 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:15.211 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:15.240 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:17.004 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:17.005 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:20.365 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:20.476 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:22.089 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:23.938 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:24.029 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:27.407 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:28.240 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:28.240 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:28.241 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:30.211 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:30.226 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:30.256 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:32.077 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:32.077 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:33.126 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:34.054 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:35.536 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:37.370 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:37.864 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:37.864 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:39.371 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:42.791 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:47.023 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:48.650 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:49.340 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:49.632 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:53.551 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:53.552 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:55.296 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:03:55.779 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:04:03.113 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:04:05.459 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:04:11.781 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:04:12.274 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:08:46.163 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:09:07.760 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:09:18.865 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:09:41.691 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:10:48.486 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:02.146 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:27.484 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:35.909 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:37.126 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:41.701 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:57.834 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:11:57.890 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:07.729 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:16.473 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:17.765 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:24.536 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:26.739 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:26.744 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:26.842 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:27.824 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:27.980 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:29.595 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:39.674 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:39.771 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:12:49.973 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:07.691 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:09.728 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:09.733 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:09.801 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:10.737 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:10.941 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:12.669 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:18.982 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:32.750 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:13:45.788 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:03.302 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:04.766 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:18.695 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:32.331 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:35.308 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:14:50.791 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:15:03.105 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:15:24.285 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:15:45.144 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:15:53.433 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:15:57.094 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:03.666 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:31.195 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:37.450 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:43.221 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:49.782 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:51.140 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:16:56.877 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:12.482 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:25.657 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:28.915 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:38.250 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:40.642 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:17:46.724 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:18:05.337 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:18:09.197 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:18:26.313 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:18:38.432 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:19:04.807 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:21:39.881 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:21:45.774 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:22:50.166 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:22:56.450 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:23:06.993 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:23:09.875 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:24:23.048 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:24:26.087 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:31:43.523 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:32:47.919 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:01.138 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:01.610 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:16.220 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:22.782 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:25.296 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:26.845 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:34.270 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:33:34.340 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:34:25.967 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:34:39.847 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:34:40.420 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:34:55.530 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:35:04.950 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:35:06.555 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:35:14.248 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:35:14.394 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:43:21.137 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:43:24.264 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:43:48.757 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:43:50.760 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:45:23.084 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:45:25.986 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:45:51.534 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:45:53.437 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 22:57:50.320 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:00:22.745 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:12:55.300 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:01.431 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:01.445 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:22.850 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:23.769 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:28.951 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:13:28.963 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:14:16.828 [Thread-48] INFO  Auto-routing was completed in 2 hour(s) 17 minute(s) 25.64 seconds.
+2025-03-27 23:14:16.929 [Thread-48] INFO  Starting route optimization on 1 thread...
+2025-03-27 23:14:53.217 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:15:11.478 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:15:28.011 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:15:46.951 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:08.238 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:14.801 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:14.815 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:21.694 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:21.711 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:37.388 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:38.475 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:44.399 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:44.412 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:16:59.670 [Thread-48] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:17:03.239 [Thread-48] INFO  Route optimization was completed in 2 minute(s) 46.31 seconds and it improved the design by ~0.00%.
+2025-03-27 23:17:09.179 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2025-03-27 23:17:15.460 [Thread-68] INFO  Starting auto-routing...
+2025-03-27 23:17:15.994 [Thread-68] INFO  Auto-routing was completed in 0.53 seconds.
+2025-03-27 23:17:16.094 [Thread-68] INFO  Starting route optimization on 1 thread...
+2025-03-27 23:17:34.279 [Thread-49] INFO  Auto-routing was completed in 2 hour(s) 22 minute(s) 38.73 seconds.
+2025-03-27 23:17:34.379 [Thread-49] INFO  Starting route optimization on 1 thread...
+2025-03-27 23:17:56.523 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:18:12.086 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:18:21.965 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:18:29.720 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:18:45.553 [Thread-49] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:18:58.596 [Thread-49] INFO  Route optimization was completed in 1 minute(s) 24.22 seconds.
+2025-03-27 23:19:03.476 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:19:03.491 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:19:04.087 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2025-03-27 23:19:09.191 [Thread-66] INFO  Starting auto-routing...
+2025-03-27 23:19:09.733 [Thread-66] INFO  Auto-routing was completed in 0.54 seconds.
+2025-03-27 23:19:09.834 [Thread-66] INFO  Starting route optimization on 1 thread...
+2025-03-27 23:19:40.857 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:19:46.926 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:03.556 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:03.567 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:04.831 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:17.399 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:20.974 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:30.568 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:20:39.916 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:21:15.211 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:21:15.226 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:21:54.524 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:22:19.002 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:22:19.014 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:23:04.923 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:23:04.926 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:23:13.390 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:23:42.377 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:23:42.795 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:05.010 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:27.739 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:46.298 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:46.313 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:58.470 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:24:58.480 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:25:07.364 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:25:08.100 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:25:32.585 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:25:40.166 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:25:57.856 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:01.195 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:07.278 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:24.616 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:25.663 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:42.717 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:26:42.730 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:27:04.614 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:27:30.997 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:27:31.532 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:27:58.420 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:28:07.924 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:28:24.698 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:03.542 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:15.944 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:15.954 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:30.229 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:30.306 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:40.679 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:40.691 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:29:56.842 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:02.370 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:26.909 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:36.852 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:49.422 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:50.176 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:30:53.796 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:16.369 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:16.372 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:16.497 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:16.566 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:34.121 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:34.140 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:46.839 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:31:56.279 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:32:22.494 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:32:22.547 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:32:49.382 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:32:59.934 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:33:07.202 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:33:25.545 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:33:46.193 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:33:51.339 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:16.259 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:16.318 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:39.631 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:39.645 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:51.906 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:34:51.962 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:35:57.609 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:02.716 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:03.115 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:29.331 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:29.390 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:32.873 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:33.264 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:53.830 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:36:53.844 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:37:07.187 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:37:07.250 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:37:19.196 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:37:48.293 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:37:48.672 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:38:13.962 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:38:14.018 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:38:36.011 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:38:39.096 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:01.177 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:01.233 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:07.388 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:07.399 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:12.450 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:12.831 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:26.440 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:41.209 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:49.563 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:39:58.879 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:08.111 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:11.026 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:11.745 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:35.174 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:35.177 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:35.668 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:35.749 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:44.416 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:40:44.430 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:04.137 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:05.892 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:09.439 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:09.591 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:26.568 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:26.579 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:31.403 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:41.420 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:55.394 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:55.406 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:41:56.231 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:13.992 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:21.917 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:21.919 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:40.774 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:40.781 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:42:53.522 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:06.679 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:16.988 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:17.004 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:18.983 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:26.125 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:26.139 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:46.573 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:46.585 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:50.515 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:43:50.531 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:06.181 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:06.187 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:19.497 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:19.522 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:32.465 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:32.472 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:39.226 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:52.267 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:44:52.849 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:04.259 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:04.274 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:04.608 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:04.616 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:48.598 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:45:48.701 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:14.910 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:14.922 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:36.873 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:40.874 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:40.889 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:46:57.912 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:47:15.965 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:47:16.143 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:47:16.149 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:47:18.463 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:48:24.732 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:48:45.302 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:49:44.712 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:49:44.720 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:49:44.840 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:50:08.011 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:50:24.874 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:50:24.879 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:50:28.818 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:50:28.826 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:51:34.956 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:51:34.958 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:51:57.153 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:51:57.168 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:26.069 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:26.434 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:29.392 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:29.414 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:46.011 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:46.055 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:46.178 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:52:59.485 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:00.320 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:00.614 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:01.918 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:13.918 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:13.939 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:17.353 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:17.415 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:30.605 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:30.625 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:53:57.140 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:03.745 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:03.758 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:32.029 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:32.503 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:54.039 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:54:54.064 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:55:12.600 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:55:12.620 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:55:14.278 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:55:15.964 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:56:05.552 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:56:18.291 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:56:18.307 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:56:23.234 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:56:23.241 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:57:04.180 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:57:04.186 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:57:40.316 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:58:28.062 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:58:33.436 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:58:51.227 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:58:51.240 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:09.857 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:09.871 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:23.656 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:23.662 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:52.363 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:52.363 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:55.448 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-27 23:59:55.460 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:00:20.759 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:00:40.570 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:00:40.573 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:01:01.899 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:01:32.961 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:01:33.110 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:01:34.792 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:00.660 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:21.871 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:26.285 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:26.320 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:32.519 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:32.524 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:34.522 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:46.165 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:02:59.209 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:03:19.624 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:03:24.523 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:03:39.896 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:03:39.908 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:04:16.662 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:04:25.699 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:04:25.956 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:04:25.967 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:04:47.678 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:07.571 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:07.579 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:11.108 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:26.440 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:26.684 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:37.501 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:37.511 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:45.468 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:45.476 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:54.096 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:05:54.115 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:06:06.538 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:06:06.541 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:06:29.109 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:06:29.122 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:06.332 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:06.336 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:11.219 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:24.996 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:42.804 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:43.271 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:50.854 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:07:50.856 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:00.837 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:00.852 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:19.983 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:19.996 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:21.025 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:21.037 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:33.469 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:33.484 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:08:56.359 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:09:16.727 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:09:16.741 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:09:59.662 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:09:59.674 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:10:27.749 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:10:27.771 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:10:49.118 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:10:49.157 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:09.971 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:09.986 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:48.677 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:48.831 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:51.187 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:51.194 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:11:54.401 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:08.257 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:13.993 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:25.133 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:25.845 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:25.849 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:36.751 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:36.751 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:49.186 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:49.203 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:12:57.333 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:02.076 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:05.577 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:10.014 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:10.015 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:15.494 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:15.496 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:43.186 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:13:43.191 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:14:01.993 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:14:01.994 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:15:25.152 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:15:25.156 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:15:26.183 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:15:56.546 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:15:56.546 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:11.553 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:13.704 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:28.075 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:28.081 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:29.845 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:29.968 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:30.197 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:30.927 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:30.928 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:54.890 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:16:57.079 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:17:09.528 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:17:09.530 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:17:27.588 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:17:47.431 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:17:47.434 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:01.008 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:14.806 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:22.160 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:22.176 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:33.420 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:51.543 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:51.554 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:51.752 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:18:51.787 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:11.041 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:11.051 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:16.563 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:36.590 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:36.599 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:48.476 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:56.587 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:19:57.992 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:20:09.312 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:20:09.327 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:20:10.621 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:02.475 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:02.487 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:17.994 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:18.745 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:22.383 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:22.426 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:33.464 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:33.478 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:39.260 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:39.262 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:48.822 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:48.928 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:21:50.497 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:01.035 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:01.056 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:01.343 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:01.982 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:19.613 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:19.625 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:23.523 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:22:32.246 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:27.177 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:27.194 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:32.001 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:32.012 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:51.718 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:23:51.756 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:06.682 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:06.694 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:08.635 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:08.637 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:18.692 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:33.739 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:33.745 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:34.039 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:47.482 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:24:47.490 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:24.182 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:24.185 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:31.430 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:41.869 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:41.877 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:57.593 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:25:57.596 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:15.687 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:19.499 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:19.512 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:37.675 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:37.682 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:38.761 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:53.346 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:53.358 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:26:54.996 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:27:26.837 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:27:26.837 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:27:34.476 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:28:03.086 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:28:03.089 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:28:33.735 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:28:47.290 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:28:47.291 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:03.572 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:24.390 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:28.661 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:28.683 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:37.097 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:37.172 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:29:49.169 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:12.638 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:24.311 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:24.319 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:26.444 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:26.477 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:43.678 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:43.694 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:53.855 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:53.862 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:57.518 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:30:57.610 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:06.265 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:16.798 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:16.798 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:34.395 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:34.399 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:40.905 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:31:40.915 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:32:07.793 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:32:17.388 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:32:17.396 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:32:53.252 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:32:54.242 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:08.237 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:16.931 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:25.826 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:25.835 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:26.169 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:38.194 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:51.055 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:51.070 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:53.671 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:33:53.864 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:34:21.433 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:34:21.442 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:34:23.725 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:34:23.817 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:35:19.015 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:35:32.885 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:35:32.984 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:35:51.919 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:35:51.935 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:08.774 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:19.911 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:19.923 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:38.468 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:38.478 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:36:39.534 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:02.712 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:02.724 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:20.752 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:22.891 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:22.892 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:37:46.414 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:38:07.511 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:38:07.517 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:39:33.900 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:04.691 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:04.699 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:16.842 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:25.266 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:33.305 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:33.318 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:40:59.228 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:00.091 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:05.847 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:05.861 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:22.522 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:22.533 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:49.184 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:41:49.346 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:01.209 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:01.212 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:17.625 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:17.638 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:20.657 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:20.667 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:25.042 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:25.052 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:35.470 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:42:35.492 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:01.368 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:14.514 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:18.233 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:43.716 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:43.716 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:43:56.923 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:44:06.704 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:44:14.107 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:44:47.737 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:44:47.750 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:44:53.513 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:07.118 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:07.135 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:19.817 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:19.823 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:38.550 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:38.551 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:46.858 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:46.867 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:51.849 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:45:51.859 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:22.683 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:22.704 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:24.670 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:24.678 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:50.524 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:46:50.525 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:05.339 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:05.515 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:06.919 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:19.630 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:19.645 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:29.656 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:29.657 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:38.444 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:38.458 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:42.058 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:47:56.738 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:08.699 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:08.706 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:33.063 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:33.072 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:58.975 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:48:58.981 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:49:24.169 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:49:24.174 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:49:26.897 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:49:26.909 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:50:01.669 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:50:55.829 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:50:55.870 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:07.214 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:07.225 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:31.053 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:35.181 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:35.192 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:37.479 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:37.493 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:53.521 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:51:53.997 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:52:09.885 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:52:41.773 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:52:52.138 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:53:52.870 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:53:52.882 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:53:59.069 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:53:59.152 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:54:45.049 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:54:45.058 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:11.941 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:14.345 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:17.865 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:26.624 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:46.480 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:46.489 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:55:49.627 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:05.004 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:05.022 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:10.222 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:10.348 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:21.864 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:35.868 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:35.874 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:42.612 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:55.266 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:55.278 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:56:57.783 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:23.207 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:24.046 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:24.050 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:52.093 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:52.109 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:57:59.049 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:33.867 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:33.896 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:33.927 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:37.215 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:37.224 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:49.566 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:58:49.582 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:00.862 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:06.249 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:06.269 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:30.507 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:30.518 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 00:59:39.275 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:07.937 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:07.949 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:09.704 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:34.865 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:34.866 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:55.851 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:00:55.865 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:01:00.674 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:01:19.292 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:01:22.920 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:02:54.799 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:02:54.800 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:03:04.244 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:03:30.934 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:03:30.939 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:04:24.197 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:04:25.543 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:04:25.559 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:04:34.729 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:05:09.264 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:05:10.215 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:05:10.222 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:05:14.804 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:05:34.390 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:06:25.912 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:06:28.116 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:06:54.212 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:06:54.310 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:07:19.167 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:08:02.115 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:08:02.150 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:08:40.007 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:08:40.040 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:09:51.633 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:10:00.229 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:10:00.230 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:10:19.095 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:10:29.086 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:13.729 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:13.729 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:37.054 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:37.069 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:50.424 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:11:50.436 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:12:17.674 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:12:38.127 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:12:38.149 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:16:06.608 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:16:21.795 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:17:54.945 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:21:35.122 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:26:34.969 [Thread-68] WARN  offset_shapes: shape is empty
+2025-03-28 01:27:10.932 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:28:23.565 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:29:22.993 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:32:12.853 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:37:00.826 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:37:33.319 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:37:51.751 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:38:12.469 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:38:30.068 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:39:07.287 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:40:54.909 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:41:14.656 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:41:52.788 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:42:12.130 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:42:51.363 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:43:29.708 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:47:28.876 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:48:38.158 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:51:18.943 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:52:14.774 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:52:35.473 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:53:07.987 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:53:12.561 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:56:53.780 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:01.044 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:03.037 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:03.038 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:11.011 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:11.302 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:11.518 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:11.521 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:11.521 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:21.893 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:23.729 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:25.237 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:57:36.386 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:58:13.126 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:58:18.772 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 01:59:28.246 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:11.613 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:12.145 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:13.275 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:13.277 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:13.278 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:00:14.079 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:01:18.127 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:01:50.000 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:02:05.333 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:02:17.979 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:02:21.982 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:02:42.378 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:03:14.615 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:03:24.306 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:03:26.763 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:03:26.764 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:05:15.771 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:08:51.327 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:08:51.327 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:08:51.344 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:06.844 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:15.141 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:16.279 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:16.490 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:28.419 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:28.420 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:34.884 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:45.559 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:47.462 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:52.169 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:54.561 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:11:58.888 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:12:01.515 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:12:01.699 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:12:04.073 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:15:53.191 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:17:58.442 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:18:10.827 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:18:17.850 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:18:31.912 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:19:08.168 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:19:12.857 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:19:51.632 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:20:07.163 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:20:22.627 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:20:51.051 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:21:06.394 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:21:07.739 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:21:33.748 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:21:44.534 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:21:48.772 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:22:05.285 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:22:19.613 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:22:35.363 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:22:35.419 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:23:13.442 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:23:41.292 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:24:08.967 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:24:25.292 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:24:31.643 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:24:31.698 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:24:56.530 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:25:16.964 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:26:24.869 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:29:42.230 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:30:18.225 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:30:30.216 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:30:42.162 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:30:48.876 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:33:36.845 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:33:42.366 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:33:48.733 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:34:30.775 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:34:41.638 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:38:30.149 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:50:11.348 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 02:51:48.721 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:05:35.055 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:11:06.287 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:11:31.906 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:02.396 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:04.871 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:11.890 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:15.956 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:16.030 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:22.392 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:28.689 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:37.863 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:40.485 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:40.494 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:40.657 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:12:55.777 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:22:25.770 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:24:08.004 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:24:17.595 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:24:19.038 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:24:54.231 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:25:40.086 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:26:22.404 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:26:44.567 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:27:19.788 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:27:48.103 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:28:21.070 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:28:26.262 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:28:38.630 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:29:01.559 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:29:07.154 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:31:07.706 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:31:18.863 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:31:56.586 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:32:30.101 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:32:37.221 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:32:47.078 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:33:02.565 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:33:24.202 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:34:28.956 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:34:46.272 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:35:09.230 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:36:28.664 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:39:24.206 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:41:30.803 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:41:39.833 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:45:03.304 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:45:11.528 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:45:53.967 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:46:08.894 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:46:16.243 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:47:10.425 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:49:12.876 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:50:30.071 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:50:41.573 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:52:17.196 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:55:33.523 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:55:39.985 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:55:40.196 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:56:25.381 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:56:30.614 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:56:34.463 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:57:46.136 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:57:54.887 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 03:58:34.667 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:00:51.219 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:02:04.750 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:02:14.352 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:02:42.719 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:02:48.586 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:05:06.040 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:27.405 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:27.627 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:29.415 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:29.417 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:48.100 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:08:48.101 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:09:44.426 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:09:44.750 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:09:46.485 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:09:46.486 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:10:05.499 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:10:05.501 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:11.411 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:11.507 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:11.888 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:12.449 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:18.582 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:22.038 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:28.034 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:39.650 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:39.738 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:12:54.259 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:13:01.096 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:14:25.518 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:16:54.645 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:17:11.263 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:23:02.946 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:25:54.961 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:27:07.660 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:29:35.128 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:34:24.932 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:37:56.338 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:39:41.144 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:40:09.452 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:40:47.880 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:04.718 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:10.160 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:29.421 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:38.455 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:49.879 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:59.563 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:59.563 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:59.564 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:59.573 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:41:59.574 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:07.258 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:07.363 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:07.638 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:17.854 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:22.796 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:23.125 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:41.293 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:50.100 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:42:50.101 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:45:29.275 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:46:43.420 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:48:27.456 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:49:52.197 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:49:57.849 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:50:36.988 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:51:08.125 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:51:12.720 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:51:32.750 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:51:52.382 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:52:11.670 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:55:56.746 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 04:56:22.799 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:00:58.259 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:02:00.678 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:02:16.587 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:02:42.928 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:03:11.317 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:03:58.411 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:00.710 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:00.753 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:00.947 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:01.107 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:17.178 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:05:23.568 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:06:24.481 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:06:43.236 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:06:55.953 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:07:11.990 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:07:15.963 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:07:33.050 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:07:40.197 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:10:05.973 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:11:03.234 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:12:08.412 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:12:33.752 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:13:00.436 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:13:43.441 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:14:36.664 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:16:50.654 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:16:55.454 [Thread-66] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:17:03.748 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:17:15.488 [Thread-66] INFO  Route optimization was completed in 5 hour(s) 58 minute(s) 5.65 seconds and it improved the design by ~50.71%.
+2025-03-28 05:17:20.048 [Thread-68] WARN  CalcFromSide: start corner was not found
+2025-03-28 05:17:29.366 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2025-03-28 05:17:55.470 [Thread-68] INFO  Route optimization was completed in 6 hour(s) 39.38 seconds and it improved the design by ~50.95%.
+2025-03-28 05:18:00.738 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...

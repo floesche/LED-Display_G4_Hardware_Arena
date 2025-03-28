@@ -27,13 +27,13 @@
       )
     )
     (layer In3.Cu
-      (type signal)
+      (type power)
       (property
         (index 3)
       )
     )
     (layer In4.Cu
-      (type signal)
+      (type power)
       (property
         (index 4)
       )
@@ -441,7 +441,7 @@
     )
     (component Resistor_SMD:R_0402_1005Metric::2
       (place R33 261395.000000 -274630.000000 front 0.000000 (PN 33))
-      (place R307 188250.000000 -68800.000000 front 0.000000 (PN 20k))
+      (place R307 188790.000000 -68830.000000 front 0.000000 (PN 20k))
       (place R255 92052.125000 -215840.382000 front 30.000000 (PN 33))
       (place R152 225460.000000 -74235.000000 front 0.000000 (PN 33))
       (place R263 131437.113000 -258742.874000 front 60.000000 (PN 33))
@@ -467,7 +467,7 @@
       (place R242 84529.971000 -170170.000000 front 0.000000 (PN 33))
       (place R248 100937.795000 -231240.813000 front 30.000000 (PN 33))
       (place R132 130962.500000 -277700.000000 front 0.000000 (PN 33))
-      (place R308 188300.000000 -70720.000000 front 0.000000 (PN 200))
+      (place R308 188825.000000 -70700.000000 front 0.000000 (PN 200))
       (place R128 130962.500000 -282010.000000 front 0.000000 (PN 33))
       (place R240 84519.971000 -175270.000000 front 0.000000 (PN 33))
       (place R29 261455.000000 -280130.000000 front 0.000000 (PN 33))
@@ -4379,6 +4379,10 @@
     )
   )
   (wiring
+    (wire (path F.Cu 200  186090 -70720  188295 -70720  188315 -70700)(net "Net-(Q1-G)")(type route))
+    (wire (path F.Cu 200  187400 -68825  188275 -68825  188280 -68830)(net GND)(type route))
+    (wire (path F.Cu 200  187395 -68820  187400 -68825)(net GND)(type route))
+    (wire (path F.Cu 200  186090 -68820  187395 -68820)(net GND)(type route))
     (wire (path F.Cu 200  104757 -113793  103975 -113375)(net +5V)(type route))
     (wire (path F.Cu 200  179220 -271550  179230 -273090)(net +5V)(type route))
     (wire (path F.Cu 200  88300.8 -213503  89690.1 -212689)(net +5V)(type route))
@@ -6184,6 +6188,7 @@
     (wire (path F.Cu 200  241591 -73985  241185 -73985)(net "Net-(U18-B2)")(type route))
     (wire (path F.Cu 200  246075 -72700  242876 -72700  241591 -73985)(net "Net-(U18-B2)")(type route))
     (wire (path F.Cu 200  247565 -72450  246325 -72450  246075 -72700)(net "Net-(U18-B2)")(type route))
+    (via "Via[0-5]_600:300_um"  187400 -68825 (net GND)(type route))
     (via "Via[0-5]_600:300_um"  148125 -268350 (net +5V)(type route))
     (via "Via[0-5]_600:300_um"  113800 -106150 (net +5V)(type route))
     (via "Via[0-5]_600:300_um"  270475 -145550 (net +5V)(type route))
