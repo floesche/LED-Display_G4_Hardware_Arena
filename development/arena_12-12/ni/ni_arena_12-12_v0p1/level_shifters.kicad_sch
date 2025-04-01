@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d894d059-e435-4d57-811e-6bb474e952c8")
 	(paper "User" 711.2 711.2)
 	(lib_symbols
@@ -73,18 +73,6 @@
 			(symbol "74LVC2G17_1_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
@@ -98,6 +86,18 @@
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -147,18 +147,6 @@
 			(symbol "74LVC2G17_2_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
@@ -172,6 +160,18 @@
 				(polyline
 					(pts
 						(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -233,24 +233,6 @@
 			)
 			(symbol "74LVC2G17_3_1"
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 10.16 270)
 					(length 5.08)
 					(name "VCC"
@@ -268,12 +250,35 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -343,10 +348,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -355,10 +360,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -404,9 +409,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -525,6 +533,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TXB0108:TXB0108PW"
 			(exclude_from_sim no)
@@ -605,186 +614,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -11.43 -11.43 0)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -11.43 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -8.89 180)
-					(length 2.54)
-					(name "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -6.35 180)
-					(length 2.54)
-					(name "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -3.81 180)
-					(length 2.54)
-					(name "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -1.27 180)
-					(length 2.54)
-					(name "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 1.27 180)
-					(length 2.54)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 3.81 180)
-					(length 2.54)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 6.35 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 8.89 180)
-					(length 2.54)
-					(name "VCCB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -11.43 8.89 0)
 					(length 2.54)
@@ -796,24 +625,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 11.43 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -947,7 +758,206 @@
 						)
 					)
 				)
+				(pin input line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 11.43 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 8.89 180)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
@@ -1025,7 +1035,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1037,7 +1047,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1051,7 +1061,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V"
 						(effects
 							(font
@@ -1068,6 +1079,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1145,7 +1157,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1157,7 +1169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1171,7 +1183,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1188,6 +1201,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1267,7 +1281,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1284,6 +1299,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "PAN5V"
@@ -1308,6 +1324,19 @@
 			"MISO_05" "MISO_06" "MISO_07" "MISO_08" "MISO_09" "MISO_10" "MISO_11"
 			"EXT_INT" "RESET"
 		)
+	)
+	(text "Level Shifters"
+		(exclude_from_sim no)
+		(at 342.646 24.892 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb3b46c5-d9d1-4d71-ba53-e42305728b76")
 	)
 	(junction
 		(at 481.33 140.97)
@@ -17137,22 +17166,8 @@
 		)
 		(uuid "ff6683d4-da86-4187-8400-9608421e6789")
 	)
-	(text "Level Shifters"
-		(exclude_from_sim no)
-		(at 342.646 24.892 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb3b46c5-d9d1-4d71-ba53-e42305728b76")
-	)
 	(label "PAN5V.CS_4_P07"
 		(at 415.29 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17163,7 +17178,6 @@
 	)
 	(label "PAN3V.MOSI_07"
 		(at 130.81 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17174,7 +17188,6 @@
 	)
 	(label "PAN5V.CS_7_P12"
 		(at 632.206 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17185,7 +17198,6 @@
 	)
 	(label "PAN5V.CS_3_P05"
 		(at 378.46 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17196,7 +17208,6 @@
 	)
 	(label "PAN3V.CS_6"
 		(at 524.51 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17207,7 +17218,6 @@
 	)
 	(label "PAN5V.CS_2_P07"
 		(at 351.79 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17218,7 +17228,6 @@
 	)
 	(label "PAN5V.CS_6_P02"
 		(at 522.986 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17229,7 +17238,6 @@
 	)
 	(label "PAN3V.RESET"
 		(at 205.74 669.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17240,7 +17248,6 @@
 	)
 	(label "PAN5V.SCK_4_H2"
 		(at 549.91 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17251,7 +17258,6 @@
 	)
 	(label "PAN3V.CS_5"
 		(at 521.97 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17262,7 +17268,6 @@
 	)
 	(label "PAN3V.MOSI_01"
 		(at 349.25 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17273,7 +17278,6 @@
 	)
 	(label "PAN5V.CS_4_P08"
 		(at 417.83 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17284,7 +17288,6 @@
 	)
 	(label "PAN3V.MOSI_05"
 		(at 97.79 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17295,7 +17298,6 @@
 	)
 	(label "PAN5V.CS_0_P03"
 		(at 278.13 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17306,7 +17308,6 @@
 	)
 	(label "PAN5V.CS_2_P10"
 		(at 359.41 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17317,7 +17318,6 @@
 	)
 	(label "PAN5V.CS_5_P08"
 		(at 473.71 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17328,7 +17328,6 @@
 	)
 	(label "PAN5V.CS_2_P01"
 		(at 220.98 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17339,7 +17338,6 @@
 	)
 	(label "PAN3V.MISO_10"
 		(at 165.1 645.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17350,7 +17348,6 @@
 	)
 	(label "PAN3V.MISO_07"
 		(at 419.1 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17361,7 +17358,6 @@
 	)
 	(label "PAN5V.CS_7_P05"
 		(at 505.46 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17372,7 +17368,6 @@
 	)
 	(label "PAN5V.CS_7_P12"
 		(at 523.24 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17383,7 +17378,6 @@
 	)
 	(label "PAN5V.CS_5_P06"
 		(at 444.5 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17394,7 +17388,6 @@
 	)
 	(label "PAN5V.CS_1_P12"
 		(at 332.74 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17405,7 +17398,6 @@
 	)
 	(label "PAN5V.MISO_09"
 		(at 127 516.89 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17416,7 +17408,6 @@
 	)
 	(label "PAN3V.MOSI_09"
 		(at 165.1 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17427,7 +17418,6 @@
 	)
 	(label "PAN5V.MOSI_03"
 		(at 328.93 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17438,7 +17428,6 @@
 	)
 	(label "PAN5V.CS_4_P09"
 		(at 416.56 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17449,7 +17438,6 @@
 	)
 	(label "PAN5V.CS_2_P09"
 		(at 356.87 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17460,7 +17448,6 @@
 	)
 	(label "PAN5V.CS_2_P07"
 		(at 238.76 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17471,7 +17458,6 @@
 	)
 	(label "PAN5V.CS_6_P03"
 		(at 468.63 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17482,7 +17468,6 @@
 	)
 	(label "PAN5V.CS_5_P09"
 		(at 476.25 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17493,7 +17478,6 @@
 	)
 	(label "PAN5V.CS_1_P06"
 		(at 317.5 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17504,7 +17488,6 @@
 	)
 	(label "PAN5V.CS_3_P08"
 		(at 325.12 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17515,7 +17498,6 @@
 	)
 	(label "PAN3V.MOSI_04"
 		(at 572.77 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17526,7 +17508,6 @@
 	)
 	(label "PAN5V.CS_0_P03"
 		(at 80.01 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17537,7 +17518,6 @@
 	)
 	(label "PAN5V.CS_1_P08"
 		(at 176.53 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17548,7 +17528,6 @@
 	)
 	(label "PAN3V.MISO_06"
 		(at 416.56 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17559,7 +17538,6 @@
 	)
 	(label "PAN5V.CS_0_P02"
 		(at 77.47 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17570,7 +17548,6 @@
 	)
 	(label "PAN3V.SCK_4"
 		(at 543.56 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17581,7 +17558,6 @@
 	)
 	(label "PAN5V.CS_2_P12"
 		(at 364.49 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17592,7 +17568,6 @@
 	)
 	(label "PAN5V.CS_5_P12"
 		(at 483.87 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17603,7 +17578,6 @@
 	)
 	(label "PAN5V.CS_2_P12"
 		(at 278.13 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17614,7 +17588,6 @@
 	)
 	(label "PAN5V.MOSI_02"
 		(at 563.88 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17625,7 +17598,6 @@
 	)
 	(label "PAN3V.MISO_08"
 		(at 599.44 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17636,7 +17608,6 @@
 	)
 	(label "PAN3V.MISO_08"
 		(at 157.48 645.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17647,7 +17618,6 @@
 	)
 	(label "PAN5V.CS_3_P06"
 		(at 381 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17658,7 +17628,6 @@
 	)
 	(label "PAN5V.CS_7_P11"
 		(at 629.666 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17669,7 +17638,6 @@
 	)
 	(label "PAN3V.SCK_1"
 		(at 535.94 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17680,7 +17648,6 @@
 	)
 	(label "PAN3V.MOSI_11"
 		(at 615.95 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17691,7 +17658,6 @@
 	)
 	(label "PAN5V.CS_1_P02"
 		(at 134.62 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17702,7 +17668,6 @@
 	)
 	(label "PAN5V.CS_6_P10"
 		(at 569.976 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17713,7 +17678,6 @@
 	)
 	(label "PAN5V.CS_0_P10"
 		(at 124.46 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17724,7 +17688,6 @@
 	)
 	(label "PAN5V.CS_1_P01"
 		(at 132.08 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17735,7 +17698,6 @@
 	)
 	(label "PAN3V.SCK_0"
 		(at 110.49 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17746,7 +17708,6 @@
 	)
 	(label "PAN5V.CS_4_P04"
 		(at 379.73 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17757,7 +17718,6 @@
 	)
 	(label "PAN5V.CS_0_P11"
 		(at 127 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17768,7 +17728,6 @@
 	)
 	(label "PAN5V.CS_3_P10"
 		(at 391.16 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17779,7 +17738,6 @@
 	)
 	(label "PAN3V.CS_0"
 		(at 509.27 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17790,7 +17748,6 @@
 	)
 	(label "PAN5V.MISO_00"
 		(at 351.79 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17801,7 +17758,6 @@
 	)
 	(label "PAN5V.MISO_05"
 		(at 603.25 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17812,7 +17768,6 @@
 	)
 	(label "PAN5V.CS_6_P09"
 		(at 483.87 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17823,7 +17778,6 @@
 	)
 	(label "PAN5V.SCK_5_H1"
 		(at 316.23 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17834,7 +17788,6 @@
 	)
 	(label "PAN5V.MISO_08"
 		(at 610.87 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17845,7 +17798,6 @@
 	)
 	(label "PAN5V.MOSI_03"
 		(at 566.42 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17856,7 +17808,6 @@
 	)
 	(label "PAN5V.CS_4_P08"
 		(at 389.89 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17867,7 +17818,6 @@
 	)
 	(label "PAN5V.CS_7_P08"
 		(at 622.046 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17878,7 +17828,6 @@
 	)
 	(label "PAN5V.CS_3_P02"
 		(at 283.21 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17889,7 +17838,6 @@
 	)
 	(label "PAN5V.MISO_04"
 		(at 600.71 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17900,7 +17848,6 @@
 	)
 	(label "PAN5V.CS_7_P01"
 		(at 577.596 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17911,7 +17858,6 @@
 	)
 	(label "PAN5V.CS_3_P01"
 		(at 368.3 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17922,7 +17868,6 @@
 	)
 	(label "PAN3V.CS_7"
 		(at 527.05 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17933,7 +17878,6 @@
 	)
 	(label "PAN5V.MOSI_04"
 		(at 128.27 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17944,7 +17888,6 @@
 	)
 	(label "PAN5V.MOSI_07"
 		(at 138.43 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17955,7 +17898,6 @@
 	)
 	(label "PAN5V.MISO_04"
 		(at 419.1 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17966,7 +17908,6 @@
 	)
 	(label "PAN5V.SCK_5_H2"
 		(at 318.77 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17977,7 +17918,6 @@
 	)
 	(label "PAN3V.MISO_02"
 		(at 406.4 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17988,7 +17928,6 @@
 	)
 	(label "PAN5V.MOSI_07"
 		(at 576.58 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17999,7 +17938,6 @@
 	)
 	(label "PAN5V.SCK_0_H2"
 		(at 133.35 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18010,7 +17948,6 @@
 	)
 	(label "PAN3V.MOSI_02"
 		(at 368.3 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18021,7 +17958,6 @@
 	)
 	(label "PAN3V.MOSI_03"
 		(at 567.69 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18032,7 +17968,6 @@
 	)
 	(label "PAN5V.CS_1_P07"
 		(at 320.04 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18043,7 +17978,6 @@
 	)
 	(label "PAN5V.MISO_07"
 		(at 608.33 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18054,7 +17988,6 @@
 	)
 	(label "PAN5V.CS_3_P12"
 		(at 396.24 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18065,7 +17998,6 @@
 	)
 	(label "PAN3V.MISO_06"
 		(at 589.28 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18076,7 +18008,6 @@
 	)
 	(label "PAN3V.CS_1"
 		(at 511.81 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18087,7 +18018,6 @@
 	)
 	(label "PAN5V.CS_7_P06"
 		(at 616.966 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18098,7 +18028,6 @@
 	)
 	(label "PAN5V.CS_6_P08"
 		(at 538.226 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18109,7 +18038,6 @@
 	)
 	(label "PAN5V.CS_5_P07"
 		(at 471.17 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18120,7 +18048,6 @@
 	)
 	(label "PAN5V.CS_6_P06"
 		(at 476.25 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18131,7 +18058,6 @@
 	)
 	(label "PAN5V.MISO_00"
 		(at 590.55 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18142,7 +18068,6 @@
 	)
 	(label "PAN5V.CS_6_P02"
 		(at 466.09 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18153,7 +18078,6 @@
 	)
 	(label "PAN5V.CS_1_P06"
 		(at 171.45 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18164,7 +18088,6 @@
 	)
 	(label "PAN5V.CS_7_P07"
 		(at 619.506 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18175,7 +18098,6 @@
 	)
 	(label "PAN5V.CS_0_P01"
 		(at 273.05 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18186,7 +18108,6 @@
 	)
 	(label "PAN5V.CS_1_P10"
 		(at 181.61 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18197,7 +18118,6 @@
 	)
 	(label "PAN5V.CS_3_P11"
 		(at 332.74 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18208,7 +18128,6 @@
 	)
 	(label "PAN5V.RESET"
 		(at 624.84 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18219,7 +18138,6 @@
 	)
 	(label "PAN5V.CS_6_P07"
 		(at 478.79 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18230,7 +18148,6 @@
 	)
 	(label "PAN5V.MOSI_08"
 		(at 140.97 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18241,7 +18158,6 @@
 	)
 	(label "PAN3V.CS_6"
 		(at 517.906 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18252,7 +18168,6 @@
 	)
 	(label "PAN5V.CS_1_P11"
 		(at 184.15 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18263,7 +18178,6 @@
 	)
 	(label "PAN5V.MOSI_01"
 		(at 323.85 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18274,7 +18188,6 @@
 	)
 	(label "PAN5V.CS_4_P07"
 		(at 387.35 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18285,7 +18198,6 @@
 	)
 	(label "PAN3V.MISO_03"
 		(at 570.23 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18296,7 +18208,6 @@
 	)
 	(label "PAN3V.MOSI_10"
 		(at 610.87 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18307,7 +18218,6 @@
 	)
 	(label "PAN3V.MOSI_09"
 		(at 605.79 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18318,7 +18228,6 @@
 	)
 	(label "PAN5V.CS_3_P07"
 		(at 383.54 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18329,7 +18238,6 @@
 	)
 	(label "PAN5V.CS_5_P11"
 		(at 457.2 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18340,7 +18248,6 @@
 	)
 	(label "PAN5V.CS_0_P05"
 		(at 85.09 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18351,7 +18258,6 @@
 	)
 	(label "PAN5V.SCK_1_H2"
 		(at 534.67 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18362,7 +18268,6 @@
 	)
 	(label "PAN5V.CS_5_P05"
 		(at 463.55 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18373,7 +18278,6 @@
 	)
 	(label "PAN3V.MISO_09"
 		(at 162.56 645.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18384,7 +18288,6 @@
 	)
 	(label "PAN5V.CS_5_P07"
 		(at 447.04 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18395,7 +18298,6 @@
 	)
 	(label "PAN5V.CS_3_P12"
 		(at 335.28 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18406,7 +18308,6 @@
 	)
 	(label "PAN3V.MOSI_10"
 		(at 181.61 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18417,7 +18318,6 @@
 	)
 	(label "PAN3V.CS_4"
 		(at 519.43 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18428,7 +18328,6 @@
 	)
 	(label "PAN5V.CS_1_P02"
 		(at 307.34 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18439,7 +18338,6 @@
 	)
 	(label "PAN5V.CS_2_P03"
 		(at 341.63 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18450,7 +18348,6 @@
 	)
 	(label "PAN5V.CS_3_P08"
 		(at 386.08 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18461,7 +18358,6 @@
 	)
 	(label "PAN5V.CS_0_P08"
 		(at 92.71 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18472,7 +18368,6 @@
 	)
 	(label "PAN5V.MISO_02"
 		(at 595.63 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18483,7 +18378,6 @@
 	)
 	(label "PAN5V.CS_4_P01"
 		(at 400.05 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18494,7 +18388,6 @@
 	)
 	(label "PAN5V.MOSI_05"
 		(at 571.5 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18505,7 +18398,6 @@
 	)
 	(label "PAN5V.MOSI_11"
 		(at 148.59 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18516,7 +18408,6 @@
 	)
 	(label "PAN5V.CS_5_P10"
 		(at 478.79 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18527,7 +18418,6 @@
 	)
 	(label "PAN3V.MISO_11"
 		(at 167.64 645.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18538,7 +18428,6 @@
 	)
 	(label "PAN5V.CS_2_P05"
 		(at 233.68 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18549,7 +18438,6 @@
 	)
 	(label "PAN5V.CS_0_P02"
 		(at 275.59 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18560,7 +18448,6 @@
 	)
 	(label "PAN5V.MISO_01"
 		(at 593.09 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18571,7 +18458,6 @@
 	)
 	(label "PAN5V.SCK_4_H1"
 		(at 308.61 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18582,7 +18468,6 @@
 	)
 	(label "PAN5V.CS_4_P06"
 		(at 384.81 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18593,7 +18478,6 @@
 	)
 	(label "PAN3V.SCK_4"
 		(at 290.83 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18604,7 +18488,6 @@
 	)
 	(label "PAN5V.CS_2_P01"
 		(at 336.55 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18615,7 +18498,6 @@
 	)
 	(label "PAN5V.SCK_5_H2"
 		(at 554.99 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18626,7 +18508,6 @@
 	)
 	(label "PAN5V.CS_1_P03"
 		(at 137.16 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18637,7 +18518,6 @@
 	)
 	(label "PAN5V.CS_5_P03"
 		(at 436.88 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18648,7 +18528,6 @@
 	)
 	(label "PAN5V.CS_4_P06"
 		(at 412.75 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18659,7 +18538,6 @@
 	)
 	(label "PAN5V.CS_5_P08"
 		(at 449.58 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18670,7 +18548,6 @@
 	)
 	(label "PAN5V.SCK_1_H1"
 		(at 532.13 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18681,7 +18558,6 @@
 	)
 	(label "PAN5V.CS_5_P03"
 		(at 434.34 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18692,7 +18568,6 @@
 	)
 	(label "PAN5V.CS_2_P11"
 		(at 361.95 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18703,7 +18578,6 @@
 	)
 	(label "PAN5V.CS_7_P09"
 		(at 624.586 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18714,7 +18588,6 @@
 	)
 	(label "PAN5V.MISO_02"
 		(at 384.81 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18725,7 +18598,6 @@
 	)
 	(label "PAN5V.MISO_11"
 		(at 160.02 516.89 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18736,7 +18608,6 @@
 	)
 	(label "PAN3V.MISO_00"
 		(at 398.78 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18747,7 +18618,6 @@
 	)
 	(label "PAN3V.CS_0"
 		(at 72.39 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18758,7 +18628,6 @@
 	)
 	(label "PAN5V.CS_6_P11"
 		(at 488.95 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18769,7 +18638,6 @@
 	)
 	(label "PAN3V.MOSI_00"
 		(at 330.2 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18780,7 +18648,6 @@
 	)
 	(label "PAN5V.CS_1_P09"
 		(at 325.12 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18791,7 +18658,6 @@
 	)
 	(label "PAN5V.CS_4_P11"
 		(at 424.18 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18802,7 +18668,6 @@
 	)
 	(label "PAN5V.SCK_1_H2"
 		(at 138.43 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18813,7 +18678,6 @@
 	)
 	(label "PAN5V.CS_4_P01"
 		(at 369.57 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18824,7 +18688,6 @@
 	)
 	(label "PAN5V.CS_6_P06"
 		(at 533.146 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18835,7 +18698,6 @@
 	)
 	(label "PAN5V.CS_4_P09"
 		(at 420.37 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18846,7 +18708,6 @@
 	)
 	(label "PAN5V.CS_2_P03"
 		(at 228.6 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18857,7 +18718,6 @@
 	)
 	(label "PAN5V.CS_5_P01"
 		(at 429.26 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18868,7 +18728,6 @@
 	)
 	(label "PAN5V.CS_7_P03"
 		(at 582.676 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18879,7 +18738,6 @@
 	)
 	(label "PAN5V.CS_0_P05"
 		(at 283.21 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18890,7 +18748,6 @@
 	)
 	(label "PAN3V.SCK_2"
 		(at 538.48 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18901,7 +18758,6 @@
 	)
 	(label "PAN5V.CS_4_P10"
 		(at 422.91 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18912,7 +18768,6 @@
 	)
 	(label "PAN5V.CS_4_P04"
 		(at 407.67 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18923,7 +18778,6 @@
 	)
 	(label "PAN5V.SCK_2_H2"
 		(at 539.75 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18934,7 +18788,6 @@
 	)
 	(label "PAN5V.CS_3_P05"
 		(at 314.96 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18945,7 +18798,6 @@
 	)
 	(label "PAN5V.CS_7_P04"
 		(at 585.216 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18956,7 +18808,6 @@
 	)
 	(label "PAN5V.CS_2_P05"
 		(at 346.71 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18967,7 +18818,6 @@
 	)
 	(label "PAN3V.MISO_05"
 		(at 414.02 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18978,7 +18828,6 @@
 	)
 	(label "PAN5V.CS_5_P04"
 		(at 439.42 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18989,7 +18838,6 @@
 	)
 	(label "PAN5V.CS_1_P05"
 		(at 166.37 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19000,7 +18848,6 @@
 	)
 	(label "PAN5V.SCK_3_H2"
 		(at 148.59 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19011,7 +18858,6 @@
 	)
 	(label "PAN5V.CS_1_P03"
 		(at 309.88 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19022,7 +18868,6 @@
 	)
 	(label "PAN5V.CS_5_P12"
 		(at 459.74 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19033,7 +18878,6 @@
 	)
 	(label "PAN5V.CS_7_P08"
 		(at 513.08 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19044,7 +18888,6 @@
 	)
 	(label "PAN3V.SCK_2"
 		(at 149.86 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19055,7 +18898,6 @@
 	)
 	(label "PAN5V.CS_6_P03"
 		(at 525.526 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19066,7 +18908,6 @@
 	)
 	(label "PAN3V.MOSI_03"
 		(at 387.35 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19077,7 +18918,6 @@
 	)
 	(label "PAN5V.CS_4_P05"
 		(at 382.27 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19088,7 +18928,6 @@
 	)
 	(label "PAN5V.CS_0_P06"
 		(at 285.75 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19099,7 +18938,6 @@
 	)
 	(label "PAN5V.CS_5_P11"
 		(at 481.33 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19110,7 +18948,6 @@
 	)
 	(label "PAN3V.CS_2"
 		(at 514.35 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19121,7 +18958,6 @@
 	)
 	(label "PAN5V.MOSI_09"
 		(at 143.51 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19132,7 +18968,6 @@
 	)
 	(label "PAN5V.MISO_07"
 		(at 452.12 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19143,7 +18978,6 @@
 	)
 	(label "PAN5V.CS_1_P04"
 		(at 312.42 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19154,7 +18988,6 @@
 	)
 	(label "PAN5V.CS_3_P02"
 		(at 370.84 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19165,7 +18998,6 @@
 	)
 	(label "PAN5V.SCK_0_H1"
 		(at 128.27 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19176,7 +19008,6 @@
 	)
 	(label "PAN5V.CS_1_P12"
 		(at 186.69 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19187,7 +19018,6 @@
 	)
 	(label "PAN5V.CS_6_P01"
 		(at 463.55 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19198,7 +19028,6 @@
 	)
 	(label "PAN5V.CS_7_P02"
 		(at 580.136 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19209,7 +19038,6 @@
 	)
 	(label "PAN3V.MOSI_05"
 		(at 581.66 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19220,7 +19048,6 @@
 	)
 	(label "PAN3V.EXT_INT"
 		(at 189.23 669.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19231,7 +19058,6 @@
 	)
 	(label "PAN5V.MOSI_02"
 		(at 326.39 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19242,7 +19068,6 @@
 	)
 	(label "PAN5V.CS_7_P02"
 		(at 497.84 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19253,7 +19078,6 @@
 	)
 	(label "PAN5V.CS_6_P08"
 		(at 481.33 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19264,7 +19088,6 @@
 	)
 	(label "PAN5V.MISO_03"
 		(at 401.32 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19275,7 +19098,6 @@
 	)
 	(label "PAN5V.CS_7_P09"
 		(at 515.62 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19286,7 +19108,6 @@
 	)
 	(label "PAN5V.MISO_01"
 		(at 368.3 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19297,7 +19118,6 @@
 	)
 	(label "PAN3V.MISO_04"
 		(at 575.31 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19308,7 +19128,6 @@
 	)
 	(label "PAN5V.MISO_11"
 		(at 618.49 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19319,7 +19138,6 @@
 	)
 	(label "PAN5V.SCK_3_H2"
 		(at 544.83 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19330,7 +19148,6 @@
 	)
 	(label "PAN5V.CS_5_P05"
 		(at 441.96 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19341,7 +19158,6 @@
 	)
 	(label "PAN5V.CS_6_P09"
 		(at 564.896 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19352,7 +19168,6 @@
 	)
 	(label "PAN5V.CS_5_P06"
 		(at 468.63 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19363,7 +19178,6 @@
 	)
 	(label "PAN5V.CS_7_P03"
 		(at 500.38 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19374,7 +19188,6 @@
 	)
 	(label "PAN5V.CS_0_P12"
 		(at 300.99 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19385,7 +19198,6 @@
 	)
 	(label "PAN5V.CS_3_P09"
 		(at 388.62 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19396,7 +19208,6 @@
 	)
 	(label "PAN3V.MISO_02"
 		(at 565.15 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19407,7 +19218,6 @@
 	)
 	(label "PAN5V.CS_7_P04"
 		(at 502.92 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19418,7 +19228,6 @@
 	)
 	(label "PAN5V.CS_2_P09"
 		(at 267.97 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19429,7 +19238,6 @@
 	)
 	(label "PAN5V.CS_3_P04"
 		(at 375.92 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19440,7 +19248,6 @@
 	)
 	(label "PAN3V.MOSI_06"
 		(at 586.74 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19451,7 +19258,6 @@
 	)
 	(label "PAN5V.SCK_4_H2"
 		(at 313.69 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19462,7 +19268,6 @@
 	)
 	(label "PAN3V.MOSI_08"
 		(at 596.9 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19473,7 +19278,6 @@
 	)
 	(label "PAN5V.CS_2_P06"
 		(at 349.25 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19484,7 +19288,6 @@
 	)
 	(label "PAN3V.MOSI_04"
 		(at 81.28 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19495,7 +19298,6 @@
 	)
 	(label "PAN3V.MISO_01"
 		(at 403.86 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19506,7 +19308,6 @@
 	)
 	(label "PAN5V.MOSI_10"
 		(at 146.05 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19517,7 +19318,6 @@
 	)
 	(label "PAN5V.CS_1_P09"
 		(at 179.07 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19528,7 +19328,6 @@
 	)
 	(label "PAN5V.CS_0_P09"
 		(at 119.38 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19539,7 +19338,6 @@
 	)
 	(label "PAN3V.MOSI_02"
 		(at 562.61 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19550,7 +19348,6 @@
 	)
 	(label "PAN5V.MOSI_10"
 		(at 584.2 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19561,7 +19358,6 @@
 	)
 	(label "PAN5V.SCK_2_H2"
 		(at 143.51 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19572,7 +19368,6 @@
 	)
 	(label "PAN5V.CS_6_P10"
 		(at 486.41 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19583,7 +19378,6 @@
 	)
 	(label "PAN5V.CS_4_P10"
 		(at 421.64 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19594,7 +19388,6 @@
 	)
 	(label "PAN5V.CS_6_P11"
 		(at 572.516 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19605,7 +19398,6 @@
 	)
 	(label "PAN3V.SCK_3"
 		(at 168.91 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19616,7 +19408,6 @@
 	)
 	(label "PAN3V.MISO_00"
 		(at 551.18 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19627,7 +19418,6 @@
 	)
 	(label "PAN5V.MOSI_04"
 		(at 568.96 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19638,7 +19428,6 @@
 	)
 	(label "PAN5V.CS_7_P05"
 		(at 611.886 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19649,7 +19438,6 @@
 	)
 	(label "PAN5V.SCK_3_H1"
 		(at 542.29 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19660,7 +19448,6 @@
 	)
 	(label "PAN5V.MISO_08"
 		(at 110.49 516.89 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19671,7 +19458,6 @@
 	)
 	(label "PAN5V.CS_7_P10"
 		(at 627.126 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19682,7 +19468,6 @@
 	)
 	(label "PAN5V.CS_3_P03"
 		(at 285.75 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19693,7 +19478,6 @@
 	)
 	(label "PAN3V.MOSI_11"
 		(at 198.12 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19704,7 +19488,6 @@
 	)
 	(label "PAN5V.CS_1_P05"
 		(at 314.96 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19715,7 +19498,6 @@
 	)
 	(label "PAN5V.CS_4_P02"
 		(at 402.59 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19726,7 +19508,6 @@
 	)
 	(label "PAN5V.SCK_2_H1"
 		(at 537.21 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19737,7 +19518,6 @@
 	)
 	(label "PAN5V.CS_1_P07"
 		(at 173.99 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19748,7 +19528,6 @@
 	)
 	(label "PAN5V.SCK_2_H1"
 		(at 140.97 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19759,7 +19538,6 @@
 	)
 	(label "PAN3V.EXT_INT"
 		(at 621.03 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19770,7 +19548,6 @@
 	)
 	(label "PAN5V.CS_2_P02"
 		(at 339.09 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19781,7 +19558,6 @@
 	)
 	(label "PAN5V.CS_0_P07"
 		(at 90.17 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19792,7 +19568,6 @@
 	)
 	(label "PAN3V.MISO_01"
 		(at 560.07 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19803,7 +19578,6 @@
 	)
 	(label "PAN5V.CS_4_P12"
 		(at 427.99 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19814,7 +19588,6 @@
 	)
 	(label "PAN5V.CS_2_P10"
 		(at 273.05 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19825,7 +19598,6 @@
 	)
 	(label "PAN5V.CS_1_P11"
 		(at 330.2 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19836,7 +19608,6 @@
 	)
 	(label "PAN3V.MISO_10"
 		(at 613.41 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19847,7 +19618,6 @@
 	)
 	(label "PAN3V.CS_1"
 		(at 132.08 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19858,7 +19628,6 @@
 	)
 	(label "PAN5V.CS_5_P10"
 		(at 454.66 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19869,7 +19638,6 @@
 	)
 	(label "PAN5V.CS_0_P04"
 		(at 82.55 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19880,7 +19648,6 @@
 	)
 	(label "PAN3V.MISO_05"
 		(at 584.2 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19891,7 +19658,6 @@
 	)
 	(label "PAN5V.CS_0_P10"
 		(at 295.91 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19902,7 +19668,6 @@
 	)
 	(label "PAN5V.CS_2_P11"
 		(at 275.59 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19913,7 +19678,6 @@
 	)
 	(label "PAN5V.CS_5_P02"
 		(at 434.34 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19924,7 +19688,6 @@
 	)
 	(label "PAN5V.CS_2_P02"
 		(at 226.06 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19935,7 +19698,6 @@
 	)
 	(label "PAN3V.MISO_07"
 		(at 594.36 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19946,7 +19708,6 @@
 	)
 	(label "PAN3V.MISO_11"
 		(at 618.49 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19957,7 +19718,6 @@
 	)
 	(label "PAN5V.MISO_10"
 		(at 143.51 516.89 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19968,7 +19728,6 @@
 	)
 	(label "PAN5V.SCK_5_H1"
 		(at 552.45 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19979,7 +19738,6 @@
 	)
 	(label "PAN3V.CS_4"
 		(at 369.57 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19990,7 +19748,6 @@
 	)
 	(label "PAN3V.MOSI_01"
 		(at 557.53 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20001,7 +19758,6 @@
 	)
 	(label "PAN5V.CS_7_P01"
 		(at 495.3 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20012,7 +19768,6 @@
 	)
 	(label "PAN5V.CS_4_P02"
 		(at 374.65 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20023,7 +19778,6 @@
 	)
 	(label "PAN5V.CS_5_P02"
 		(at 431.8 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20034,7 +19788,6 @@
 	)
 	(label "PAN3V.SCK_5"
 		(at 546.1 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20045,7 +19798,6 @@
 	)
 	(label "PAN5V.CS_6_P01"
 		(at 517.906 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20056,7 +19808,6 @@
 	)
 	(label "PAN5V.CS_4_P12"
 		(at 426.72 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20067,7 +19818,6 @@
 	)
 	(label "PAN5V.CS_1_P01"
 		(at 304.8 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20078,7 +19828,6 @@
 	)
 	(label "PAN5V.CS_0_P12"
 		(at 129.54 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20089,7 +19838,6 @@
 	)
 	(label "PAN5V.CS_0_P11"
 		(at 298.45 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20100,7 +19848,6 @@
 	)
 	(label "PAN5V.MISO_06"
 		(at 605.79 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20111,7 +19858,6 @@
 	)
 	(label "PAN5V.SCK_0_H1"
 		(at 527.05 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20122,7 +19868,6 @@
 	)
 	(label "PAN5V.CS_6_P05"
 		(at 473.71 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20133,7 +19878,6 @@
 	)
 	(label "PAN5V.CS_6_P12"
 		(at 491.49 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20144,7 +19888,6 @@
 	)
 	(label "PAN5V.MISO_05"
 		(at 435.61 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20155,7 +19898,6 @@
 	)
 	(label "PAN5V.CS_1_P10"
 		(at 327.66 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20166,7 +19908,6 @@
 	)
 	(label "PAN5V.MISO_10"
 		(at 615.95 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20177,7 +19918,6 @@
 	)
 	(label "PAN5V.CS_5_P04"
 		(at 436.88 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20188,7 +19928,6 @@
 	)
 	(label "PAN5V.MOSI_09"
 		(at 581.66 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20199,7 +19938,6 @@
 	)
 	(label "PAN5V.MOSI_06"
 		(at 135.89 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20210,7 +19948,6 @@
 	)
 	(label "PAN3V.MISO_04"
 		(at 411.48 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20221,7 +19958,6 @@
 	)
 	(label "PAN5V.CS_2_P04"
 		(at 231.14 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20232,7 +19968,6 @@
 	)
 	(label "PAN3V.SCK_5"
 		(at 309.88 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20243,7 +19978,6 @@
 	)
 	(label "PAN3V.SCK_3"
 		(at 541.02 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20254,7 +19988,6 @@
 	)
 	(label "PAN5V.CS_6_P04"
 		(at 471.17 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20265,7 +19998,6 @@
 	)
 	(label "PAN5V.SCK_4_H1"
 		(at 547.37 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20276,7 +20008,6 @@
 	)
 	(label "PAN3V.SCK_1"
 		(at 129.54 326.39 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20287,7 +20018,6 @@
 	)
 	(label "PAN5V.MOSI_00"
 		(at 321.31 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20298,7 +20028,6 @@
 	)
 	(label "PAN5V.CS_5_P01"
 		(at 431.8 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20309,7 +20038,6 @@
 	)
 	(label "PAN5V.RESET"
 		(at 172.72 544.83 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20320,7 +20048,6 @@
 	)
 	(label "PAN5V.MOSI_08"
 		(at 579.12 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20331,7 +20058,6 @@
 	)
 	(label "PAN5V.CS_6_P05"
 		(at 530.606 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20342,7 +20068,6 @@
 	)
 	(label "PAN5V.CS_3_P01"
 		(at 280.67 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20353,7 +20078,6 @@
 	)
 	(label "PAN5V.CS_2_P06"
 		(at 236.22 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20364,7 +20088,6 @@
 	)
 	(label "PAN5V.MOSI_05"
 		(at 133.35 361.95 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20375,7 +20098,6 @@
 	)
 	(label "PAN5V.CS_0_P06"
 		(at 87.63 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20386,7 +20108,6 @@
 	)
 	(label "PAN5V.CS_0_P09"
 		(at 293.37 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20397,7 +20118,6 @@
 	)
 	(label "PAN5V.MOSI_06"
 		(at 574.04 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20408,7 +20128,6 @@
 	)
 	(label "PAN5V.CS_6_P04"
 		(at 528.066 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20419,7 +20138,6 @@
 	)
 	(label "PAN3V.MOSI_07"
 		(at 591.82 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20430,7 +20148,6 @@
 	)
 	(label "PAN5V.CS_4_P05"
 		(at 410.21 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20441,7 +20158,6 @@
 	)
 	(label "PAN3V.MOSI_00"
 		(at 548.64 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20452,7 +20168,6 @@
 	)
 	(label "PAN5V.CS_0_P07"
 		(at 288.29 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20463,7 +20178,6 @@
 	)
 	(label "PAN5V.CS_3_P10"
 		(at 330.2 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20474,7 +20188,6 @@
 	)
 	(label "PAN5V.CS_6_P12"
 		(at 575.056 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20485,7 +20198,6 @@
 	)
 	(label "PAN5V.CS_1_P04"
 		(at 139.7 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20496,7 +20208,6 @@
 	)
 	(label "PAN5V.CS_3_P09"
 		(at 327.66 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20507,7 +20218,6 @@
 	)
 	(label "PAN5V.CS_3_P03"
 		(at 373.38 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20518,7 +20228,6 @@
 	)
 	(label "PAN5V.MISO_06"
 		(at 468.63 365.76 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20529,7 +20238,6 @@
 	)
 	(label "PAN5V.CS_2_P04"
 		(at 344.17 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20540,7 +20248,6 @@
 	)
 	(label "PAN5V.SCK_0_H2"
 		(at 529.59 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20551,7 +20258,6 @@
 	)
 	(label "PAN5V.CS_1_P08"
 		(at 322.58 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20562,7 +20268,6 @@
 	)
 	(label "PAN3V.RESET"
 		(at 623.57 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20573,7 +20278,6 @@
 	)
 	(label "PAN5V.CS_0_P08"
 		(at 290.83 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20584,7 +20288,6 @@
 	)
 	(label "PAN5V.CS_4_P03"
 		(at 405.13 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20595,7 +20298,6 @@
 	)
 	(label "PAN5V.CS_7_P10"
 		(at 518.16 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20606,7 +20308,6 @@
 	)
 	(label "PAN5V.CS_4_P11"
 		(at 425.45 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20617,7 +20318,6 @@
 	)
 	(label "PAN5V.CS_3_P06"
 		(at 320.04 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20628,7 +20328,6 @@
 	)
 	(label "PAN5V.CS_2_P08"
 		(at 354.33 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20639,7 +20338,6 @@
 	)
 	(label "PAN5V.SCK_3_H1"
 		(at 146.05 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20650,7 +20348,6 @@
 	)
 	(label "PAN3V.CS_5"
 		(at 429.26 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20661,7 +20358,6 @@
 	)
 	(label "PAN3V.SCK_0"
 		(at 533.4 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20672,7 +20368,6 @@
 	)
 	(label "PAN3V.CS_2"
 		(at 220.98 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20683,7 +20378,6 @@
 	)
 	(label "PAN5V.CS_0_P04"
 		(at 280.67 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20694,7 +20388,6 @@
 	)
 	(label "PAN5V.MISO_09"
 		(at 613.41 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20705,7 +20398,6 @@
 	)
 	(label "PAN5V.EXT_INT"
 		(at 622.3 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20716,7 +20408,6 @@
 	)
 	(label "PAN5V.CS_5_P09"
 		(at 452.12 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20727,7 +20418,6 @@
 	)
 	(label "PAN5V.CS_7_P11"
 		(at 520.7 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20738,7 +20428,6 @@
 	)
 	(label "PAN5V.EXT_INT"
 		(at 170.18 544.83 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20749,7 +20438,6 @@
 	)
 	(label "PAN5V.CS_2_P08"
 		(at 241.3 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20760,7 +20448,6 @@
 	)
 	(label "PAN5V.CS_3_P04"
 		(at 288.29 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20771,7 +20458,6 @@
 	)
 	(label "PAN3V.MOSI_08"
 		(at 148.59 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20782,7 +20468,6 @@
 	)
 	(label "PAN5V.CS_7_P07"
 		(at 510.54 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20793,7 +20478,6 @@
 	)
 	(label "PAN5V.SCK_1_H1"
 		(at 135.89 208.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20804,7 +20488,6 @@
 	)
 	(label "PAN5V.MOSI_11"
 		(at 586.74 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20815,7 +20498,6 @@
 	)
 	(label "PAN3V.CS_7"
 		(at 577.596 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20826,7 +20508,6 @@
 	)
 	(label "PAN5V.CS_3_P11"
 		(at 393.7 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20837,7 +20518,6 @@
 	)
 	(label "PAN3V.MISO_03"
 		(at 408.94 491.49 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20848,7 +20528,6 @@
 	)
 	(label "PAN5V.MISO_03"
 		(at 598.17 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20859,7 +20538,6 @@
 	)
 	(label "PAN5V.MOSI_00"
 		(at 558.8 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20870,7 +20548,6 @@
 	)
 	(label "PAN3V.MISO_09"
 		(at 608.33 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20881,7 +20558,6 @@
 	)
 	(label "PAN5V.CS_7_P06"
 		(at 508 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20892,7 +20568,6 @@
 	)
 	(label "PAN5V.CS_4_P03"
 		(at 377.19 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20903,7 +20578,6 @@
 	)
 	(label "PAN3V.MOSI_06"
 		(at 114.3 482.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20914,7 +20588,6 @@
 	)
 	(label "PAN5V.CS_0_P01"
 		(at 72.39 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20925,7 +20598,6 @@
 	)
 	(label "PAN3V.CS_3"
 		(at 516.89 633.73 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20936,7 +20608,6 @@
 	)
 	(label "PAN5V.CS_6_P07"
 		(at 535.686 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20947,7 +20618,6 @@
 	)
 	(label "PAN5V.MOSI_01"
 		(at 561.34 576.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20958,7 +20628,6 @@
 	)
 	(label "PAN5V.CS_3_P07"
 		(at 322.58 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20969,7 +20638,6 @@
 	)
 	(label "PAN3V.CS_3"
 		(at 280.67 186.69 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20981,7 +20649,6 @@
 	(hierarchical_label "PAN3V{PAN3V}"
 		(shape bidirectional)
 		(at 635 615.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20993,7 +20660,6 @@
 	(hierarchical_label "PAN5V{PAN5V}"
 		(shape bidirectional)
 		(at 638.81 556.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

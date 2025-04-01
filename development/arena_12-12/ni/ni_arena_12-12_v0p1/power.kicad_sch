@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "306e5b8e-03e2-495a-8d9b-de2d10577a54")
 	(paper "A4")
 	(lib_symbols
@@ -85,10 +85,10 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -98,8 +98,31 @@
 					)
 				)
 				(arc
-					(start -3.302 3.175)
+					(start -3.302 1.905)
 					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
 					(end -3.302 1.905)
 					(stroke
 						(width 0.254)
@@ -119,29 +142,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -183,9 +183,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -258,7 +261,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -270,7 +273,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -319,6 +322,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:AP2112K-3.3"
 			(pin_names
@@ -422,24 +426,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -458,9 +444,28 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin no_connect line
 					(at 5.08 0 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -495,10 +500,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_SPDT"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -605,24 +613,6 @@
 			)
 			(symbol "SW_SPDT_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
@@ -633,6 +623,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -659,6 +667,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
@@ -736,7 +745,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -748,7 +757,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -762,7 +771,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V"
 						(effects
 							(font
@@ -779,6 +789,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -856,7 +867,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -868,7 +879,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -882,7 +893,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -899,6 +911,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -978,7 +991,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -995,12 +1009,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1091,7 +1110,63 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 95.25 72.136 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left bottom)
+		)
+		(uuid "48810a44-58cf-4afc-a6b0-c8d441bfe010")
+	)
+	(text "External power supply"
+		(exclude_from_sim no)
+		(at 101.092 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7afb30d4-4581-4d33-bf3e-0c3d037890fe")
+	)
+	(text "3.3V Regulator\nManufacturer PN: AP2112K-3.3TRG1\nLCSC PN: C51118\nDigikey PN: AP2112K-3.3TRG1DICT-ND "
+		(exclude_from_sim no)
+		(at 213.106 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b3bdcda-d374-4938-ab65-95f3324707ee")
+	)
+	(text "Power & Voltage Regulation"
+		(exclude_from_sim no)
+		(at 111.506 20.574 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac47849-a989-4adb-8505-bd6591ae6299")
+	)
+	(text "Connection PCB top"
+		(exclude_from_sim no)
+		(at 101.854 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebafd68c-5f21-4f9a-87da-bf57723485e0")
 	)
 	(junction
 		(at 199.39 64.77)
@@ -1413,64 +1488,8 @@
 		)
 		(uuid "f73e95cb-3b82-456c-9129-1f8ef03414a0")
 	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 95.25 72.136 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-			(justify left bottom)
-		)
-		(uuid "48810a44-58cf-4afc-a6b0-c8d441bfe010")
-	)
-	(text "External power supply"
-		(exclude_from_sim no)
-		(at 101.092 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7afb30d4-4581-4d33-bf3e-0c3d037890fe")
-	)
-	(text "3.3V Regulator\nManufacturer PN: AP2112K-3.3TRG1\nLCSC PN: C51118\nDigikey PN: AP2112K-3.3TRG1DICT-ND "
-		(exclude_from_sim no)
-		(at 213.106 73.152 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b3bdcda-d374-4938-ab65-95f3324707ee")
-	)
-	(text "Power & Voltage Regulation"
-		(exclude_from_sim no)
-		(at 111.506 20.574 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "eac47849-a989-4adb-8505-bd6591ae6299")
-	)
-	(text "Connection PCB top"
-		(exclude_from_sim no)
-		(at 101.854 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebafd68c-5f21-4f9a-87da-bf57723485e0")
-	)
 	(label "SW_5V"
 		(at 82.804 61.976 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
