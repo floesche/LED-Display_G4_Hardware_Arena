@@ -5292,7 +5292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 31.75 0)
 			(effects
 				(font
@@ -5302,6 +5302,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 31.75 0)
 			(effects
 				(font
@@ -5359,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 26.67 0)
 			(effects
 				(font
@@ -5369,6 +5396,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 26.67 0)
 			(effects
 				(font
@@ -5426,7 +5480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 41.91 0)
 			(effects
 				(font
@@ -5436,6 +5490,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 41.91 0)
 			(effects
 				(font
@@ -5493,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 59.69 0)
 			(effects
 				(font
@@ -5503,6 +5584,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 59.69 0)
 			(effects
 				(font
@@ -5560,7 +5668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 107.95 0)
 			(effects
 				(font
@@ -5570,6 +5678,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 79.502 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 79.502 107.95 0)
 			(effects
 				(font
@@ -5628,7 +5763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5174339&DocType=Customer+Drawing&DocLang=English"
 			(at 93.472 67.31 0)
 			(effects
 				(font
@@ -5638,6 +5773,33 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x34, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.472 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "A123166-ND"
+			(at 93.472 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "TODO"
+			(at 93.472 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5174339-5"
 			(at 93.472 67.31 0)
 			(effects
 				(font
@@ -5899,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 46.99 0)
 			(effects
 				(font
@@ -5909,6 +6071,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 46.99 0)
 			(effects
 				(font
@@ -5966,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 97.79 0)
 			(effects
 				(font
@@ -5977,6 +6166,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 79.502 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
+			(at 79.502 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 72.39 0)
 			(effects
 				(font
@@ -6043,6 +6259,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 72.39 0)
 			(effects
 				(font
@@ -6100,7 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 49.53 0)
 			(effects
 				(font
@@ -6110,6 +6353,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 49.53 0)
 			(effects
 				(font
@@ -6167,7 +6437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 39.37 0)
 			(effects
 				(font
@@ -6177,6 +6447,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 39.37 0)
 			(effects
 				(font
@@ -6234,7 +6531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 67.31 0)
 			(effects
 				(font
@@ -6244,6 +6541,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 67.31 0)
 			(effects
 				(font
@@ -6301,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 54.61 0)
 			(effects
 				(font
@@ -6311,6 +6635,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 54.61 0)
 			(effects
 				(font
@@ -6434,7 +6785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 36.83 0)
 			(effects
 				(font
@@ -6444,6 +6795,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 36.83 0)
 			(effects
 				(font
@@ -6501,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 87.63 0)
 			(effects
 				(font
@@ -6511,6 +6889,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 87.63 0)
 			(effects
 				(font
@@ -6568,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 105.41 0)
 			(effects
 				(font
@@ -6578,6 +6983,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 79.502 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 79.502 105.41 0)
 			(effects
 				(font
@@ -6635,7 +7067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 92.71 0)
 			(effects
 				(font
@@ -6645,6 +7077,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 92.71 0)
 			(effects
 				(font
@@ -6702,7 +7161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 77.47 0)
 			(effects
 				(font
@@ -6712,6 +7171,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 77.47 0)
 			(effects
 				(font
@@ -6769,7 +7255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 44.45 0)
 			(effects
 				(font
@@ -6779,6 +7265,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 44.45 0)
 			(effects
 				(font
@@ -6836,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 102.87 0)
 			(effects
 				(font
@@ -6846,6 +7359,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 79.502 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 79.502 102.87 0)
 			(effects
 				(font
@@ -6903,7 +7443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 57.15 0)
 			(effects
 				(font
@@ -6913,6 +7453,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 57.15 0)
 			(effects
 				(font
@@ -6970,7 +7537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 100.33 0)
 			(effects
 				(font
@@ -6980,6 +7547,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 79.502 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 79.502 100.33 0)
 			(effects
 				(font
@@ -7037,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 62.23 0)
 			(effects
 				(font
@@ -7047,6 +7641,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 62.23 0)
 			(effects
 				(font
@@ -7104,7 +7725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 110.49 0)
 			(effects
 				(font
@@ -7114,6 +7735,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 110.49 0)
 			(effects
 				(font
@@ -7171,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 82.55 0)
 			(effects
 				(font
@@ -7181,6 +7829,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 82.55 0)
 			(effects
 				(font
@@ -7238,7 +7913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 34.29 0)
 			(effects
 				(font
@@ -7248,6 +7923,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 34.29 0)
 			(effects
 				(font
@@ -7371,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 52.07 0)
 			(effects
 				(font
@@ -7381,6 +8083,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 52.07 0)
 			(effects
 				(font
@@ -7438,7 +8167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 109.982 29.21 0)
 			(effects
 				(font
@@ -7448,6 +8177,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.982 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 109.982 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 109.982 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 109.982 29.21 0)
 			(effects
 				(font
@@ -7505,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 79.502 110.49 0)
 			(effects
 				(font
@@ -7515,6 +8271,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 79.502 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 79.502 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 79.502 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 79.502 110.49 0)
 			(effects
 				(font

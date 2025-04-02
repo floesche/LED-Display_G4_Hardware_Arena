@@ -20771,7 +20771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 369.57 46.99 0)
 			(effects
 				(font
@@ -20781,6 +20781,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 369.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 369.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 369.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 369.57 46.99 0)
 			(effects
 				(font
@@ -21057,6 +21084,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 330.2 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 330.2 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 330.2 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee8d")
 		)
@@ -21120,7 +21174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 457.2 97.79 0)
 			(effects
 				(font
@@ -21130,6 +21184,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 474.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 474.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 474.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 474.98 123.19 0)
 			(effects
 				(font
@@ -21241,7 +21322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 585.216 97.79 0)
 			(effects
 				(font
@@ -21251,6 +21332,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 585.216 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 585.216 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 585.216 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 585.216 97.79 0)
 			(effects
 				(font
@@ -21308,7 +21416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -21318,6 +21426,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -21378,7 +21513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 288.29 251.46 0)
 			(effects
 				(font
@@ -21388,6 +21523,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 288.29 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 288.29 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 288.29 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 288.29 251.46 0)
 			(effects
 				(font
@@ -21446,7 +21608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 167.64 622.3 0)
 			(effects
 				(font
@@ -21456,6 +21618,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 167.64 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 167.64 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 167.64 622.3 0)
 			(effects
 				(font
@@ -21579,7 +21768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 434.34 97.79 0)
 			(effects
 				(font
@@ -21589,6 +21778,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 434.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 434.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 434.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 434.34 97.79 0)
 			(effects
 				(font
@@ -21646,7 +21862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 128.27 384.81 0)
 			(effects
 				(font
@@ -21656,6 +21872,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 128.27 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 128.27 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 128.27 384.81 0)
 			(effects
 				(font
@@ -21713,7 +21956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 320.04 97.79 0)
 			(effects
 				(font
@@ -21723,6 +21966,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 320.04 97.79 0)
 			(effects
 				(font
@@ -21782,7 +22052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 261.62 97.79 0)
 			(effects
 				(font
@@ -21792,6 +22062,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 279.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 279.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 279.4 123.19 0)
 			(effects
 				(font
@@ -21903,7 +22200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -21913,6 +22210,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 143.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 143.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 143.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -21982,6 +22306,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 510.54 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 510.54 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 510.54 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 510.54 414.02 0)
 			(effects
 				(font
@@ -22119,7 +22470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -22129,6 +22480,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -22186,7 +22564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 398.78 466.09 0)
 			(effects
 				(font
@@ -22196,6 +22574,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 398.78 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 398.78 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 398.78 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 398.78 466.09 0)
 			(effects
 				(font
@@ -22385,7 +22790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 517.906 97.79 0)
 			(effects
 				(font
@@ -22395,6 +22800,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 517.906 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 517.906 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 517.906 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 517.906 97.79 0)
 			(effects
 				(font
@@ -22452,7 +22884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 538.226 97.79 0)
 			(effects
 				(font
@@ -22462,6 +22894,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 538.226 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 538.226 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 538.226 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 538.226 97.79 0)
 			(effects
 				(font
@@ -22519,7 +22978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 308.61 231.14 0)
 			(effects
 				(font
@@ -22529,6 +22988,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 308.61 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 308.61 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 308.61 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 308.61 231.14 0)
 			(effects
 				(font
@@ -22586,7 +23072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 330.2 97.79 0)
 			(effects
 				(font
@@ -22596,6 +23082,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 330.2 97.79 0)
 			(effects
 				(font
@@ -22719,7 +23232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 119.38 97.79 0)
 			(effects
 				(font
@@ -22729,6 +23242,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 119.38 97.79 0)
 			(effects
 				(font
@@ -22852,7 +23392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 582.676 97.79 0)
 			(effects
 				(font
@@ -22862,6 +23402,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 582.676 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 582.676 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 582.676 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 582.676 97.79 0)
 			(effects
 				(font
@@ -22919,7 +23486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -22929,6 +23496,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -23072,6 +23666,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 624.586 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 624.586 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 624.586 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "57a5d245-2e5a-4f58-ab4c-1a53cc5e79b5")
 		)
@@ -23133,7 +23754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 323.85 231.14 0)
 			(effects
 				(font
@@ -23143,6 +23764,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 323.85 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 323.85 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 323.85 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 323.85 231.14 0)
 			(effects
 				(font
@@ -23268,7 +23916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 113.03 97.79 0)
 			(effects
 				(font
@@ -23278,6 +23926,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -23391,7 +24066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 605.536 97.79 0)
 			(effects
 				(font
@@ -23401,6 +24076,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 623.316 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 623.316 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 623.316 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 623.316 123.19 0)
 			(effects
 				(font
@@ -23524,6 +24226,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 129.54 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 129.54 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 129.54 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 129.54 295.91 0)
 			(effects
 				(font
@@ -23658,7 +24387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 406.4 466.09 0)
 			(effects
 				(font
@@ -23668,6 +24397,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 406.4 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 406.4 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 406.4 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 406.4 466.09 0)
 			(effects
 				(font
@@ -23727,7 +24483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 558.546 97.79 0)
 			(effects
 				(font
@@ -23737,6 +24493,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 576.326 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 576.326 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 576.326 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 576.326 123.19 0)
 			(effects
 				(font
@@ -23980,7 +24763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 148.59 384.81 0)
 			(effects
 				(font
@@ -23990,6 +24773,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 148.59 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 148.59 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 148.59 384.81 0)
 			(effects
 				(font
@@ -24059,6 +24869,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 110.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 110.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 110.49 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 110.49 295.91 0)
 			(effects
 				(font
@@ -24197,7 +25034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 93.98 406.4 0)
 			(effects
 				(font
@@ -24207,6 +25044,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 93.98 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 93.98 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 93.98 406.4 0)
 			(effects
 				(font
@@ -24264,7 +25128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 133.35 384.81 0)
 			(effects
 				(font
@@ -24274,6 +25138,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 133.35 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 133.35 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 133.35 384.81 0)
 			(effects
 				(font
@@ -24331,7 +25222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 140.97 384.81 0)
 			(effects
 				(font
@@ -24341,6 +25232,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 140.97 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 140.97 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 140.97 384.81 0)
 			(effects
 				(font
@@ -24411,6 +25329,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 132.08 156.21 0)
 			(effects
 				(font
@@ -24500,6 +25445,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 48.26 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 48.26 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 48.26 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d428aa63-fbfc-487d-8d8d-9bc4f14f8429")
 		)
@@ -24564,7 +25536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -24574,6 +25546,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 463.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 463.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 463.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 463.55 46.99 0)
 			(effects
 				(font
@@ -24762,7 +25761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -24772,6 +25771,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -24897,7 +25923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 31.75 406.4 0)
 			(effects
 				(font
@@ -24907,6 +25933,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 31.75 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 31.75 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 31.75 406.4 0)
 			(effects
 				(font
@@ -24964,7 +26017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -24974,6 +26027,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -25162,7 +26242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 335.28 97.79 0)
 			(effects
 				(font
@@ -25172,6 +26252,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 335.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 335.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 335.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 335.28 97.79 0)
 			(effects
 				(font
@@ -25232,7 +26339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 105.41 252.73 0)
 			(effects
 				(font
@@ -25242,6 +26349,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 105.41 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 105.41 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 105.41 252.73 0)
 			(effects
 				(font
@@ -25386,6 +26520,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 195.58 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 195.58 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 195.58 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "244367f3-cca7-4be1-ac8a-354ffe80fab9")
 		)
@@ -25512,7 +26673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 325.12 97.79 0)
 			(effects
 				(font
@@ -25522,6 +26683,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 325.12 97.79 0)
 			(effects
 				(font
@@ -25591,6 +26779,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 149.86 295.91 0)
 			(effects
 				(font
@@ -25680,6 +26895,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 179.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 179.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 179.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee90")
 		)
@@ -25744,7 +26986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 518.16 46.99 0)
 			(effects
 				(font
@@ -25754,6 +26996,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 518.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 518.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 518.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 518.16 46.99 0)
 			(effects
 				(font
@@ -26290,6 +27559,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 236.22 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 236.22 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 236.22 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0ca6e2a3-d1af-4ca9-b43e-ae69f9f459f5")
 		)
@@ -26551,7 +27847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 57.15 548.64 0)
 			(effects
 				(font
@@ -26561,6 +27857,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 57.15 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 57.15 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 57.15 548.64 0)
 			(effects
 				(font
@@ -26621,7 +27944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 328.93 46.99 0)
 			(effects
 				(font
@@ -26631,6 +27954,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 328.93 46.99 0)
 			(effects
 				(font
@@ -26709,6 +28059,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 369.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 369.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 369.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee91")
 		)
@@ -26770,7 +28147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 476.25 97.79 0)
 			(effects
 				(font
@@ -26780,6 +28157,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 476.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 476.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 476.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 476.25 97.79 0)
 			(effects
 				(font
@@ -26837,7 +28241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 332.74 97.79 0)
 			(effects
 				(font
@@ -26847,6 +28251,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 332.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 332.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 332.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 332.74 97.79 0)
 			(effects
 				(font
@@ -26904,7 +28335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 533.146 97.79 0)
 			(effects
 				(font
@@ -26914,6 +28345,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 533.146 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 533.146 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 533.146 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 533.146 97.79 0)
 			(effects
 				(font
@@ -27037,7 +28495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 473.71 97.79 0)
 			(effects
 				(font
@@ -27047,6 +28505,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 473.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 473.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 473.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 473.71 97.79 0)
 			(effects
 				(font
@@ -27190,6 +28675,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 97.79 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 97.79 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 97.79 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee92")
 		)
@@ -27251,7 +28763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -27261,6 +28773,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 231.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -27321,7 +28860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 64.77 293.37 0)
 			(effects
 				(font
@@ -27331,6 +28870,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 64.77 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 64.77 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 64.77 293.37 0)
 			(effects
 				(font
@@ -27454,7 +29020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 611.886 97.79 0)
 			(effects
 				(font
@@ -27464,6 +29030,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 611.886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 611.886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 611.886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 611.886 97.79 0)
 			(effects
 				(font
@@ -27656,7 +29249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 407.67 293.37 0)
 			(effects
 				(font
@@ -27666,6 +29259,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 407.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 407.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 407.67 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 407.67 293.37 0)
 			(effects
 				(font
@@ -27873,6 +29493,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 322.58 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 322.58 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 322.58 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3a782058-6329-4fa0-8290-eef66e530271")
 		)
@@ -28003,7 +29650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 494.03 450.85 0)
 			(effects
 				(font
@@ -28013,6 +29660,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 494.03 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 494.03 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 494.03 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 494.03 450.85 0)
 			(effects
 				(font
@@ -28070,7 +29744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 622.046 97.79 0)
 			(effects
 				(font
@@ -28080,6 +29754,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 622.046 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 622.046 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 622.046 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 622.046 97.79 0)
 			(effects
 				(font
@@ -28150,6 +29851,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 452.12 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 452.12 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 452.12 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 452.12 396.24 0)
 			(effects
 				(font
@@ -28285,7 +30013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 580.136 97.79 0)
 			(effects
 				(font
@@ -28295,6 +30023,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 580.136 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 580.136 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 580.136 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 580.136 97.79 0)
 			(effects
 				(font
@@ -28352,7 +30107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -28362,6 +30117,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -28419,7 +30201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 463.55 97.79 0)
 			(effects
 				(font
@@ -28429,6 +30211,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 463.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 463.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 463.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 463.55 97.79 0)
 			(effects
 				(font
@@ -28489,7 +30298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 459.74 161.29 0)
 			(effects
 				(font
@@ -28499,6 +30308,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 459.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 459.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 459.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 459.74 161.29 0)
 			(effects
 				(font
@@ -28576,6 +30412,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 81.28 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 81.28 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 81.28 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee93")
 		)
@@ -28640,7 +30503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 565.15 46.99 0)
 			(effects
 				(font
@@ -28650,6 +30513,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 565.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 565.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 565.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 565.15 46.99 0)
 			(effects
 				(font
@@ -28707,7 +30597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 629.666 97.79 0)
 			(effects
 				(font
@@ -28717,6 +30607,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 629.666 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 629.666 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 629.666 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 629.666 97.79 0)
 			(effects
 				(font
@@ -28787,6 +30704,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 468.63 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 468.63 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 468.63 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 468.63 396.24 0)
 			(effects
 				(font
@@ -28989,7 +30933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 121.92 231.14 0)
 			(effects
 				(font
@@ -28999,6 +30943,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 139.7 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 139.7 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 139.7 256.54 0)
 			(effects
 				(font
@@ -29123,6 +31094,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 368.3 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 368.3 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 368.3 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 368.3 396.24 0)
 			(effects
 				(font
@@ -29456,7 +31454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 572.516 97.79 0)
 			(effects
 				(font
@@ -29466,6 +31464,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 572.516 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 572.516 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 572.516 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 572.516 97.79 0)
 			(effects
 				(font
@@ -29591,7 +31616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 308.61 97.79 0)
 			(effects
 				(font
@@ -29601,6 +31626,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 326.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 326.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 326.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 326.39 123.19 0)
 			(effects
 				(font
@@ -29715,7 +31767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 383.54 46.99 0)
 			(effects
 				(font
@@ -29725,6 +31777,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 383.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 383.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 383.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 383.54 46.99 0)
 			(effects
 				(font
@@ -29803,6 +31882,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 143.51 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 143.51 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 143.51 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeab")
 		)
@@ -29864,7 +31970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 226.06 97.79 0)
 			(effects
 				(font
@@ -29874,6 +31980,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 226.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 226.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 226.06 97.79 0)
 			(effects
 				(font
@@ -29934,7 +32067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 91.44 252.73 0)
 			(effects
 				(font
@@ -29944,6 +32077,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 91.44 252.73 0)
 			(effects
 				(font
@@ -30066,7 +32226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -30076,6 +32236,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -30199,7 +32386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 316.23 231.14 0)
 			(effects
 				(font
@@ -30209,6 +32396,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 316.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 316.23 231.14 0)
 			(effects
 				(font
@@ -30266,7 +32480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -30276,6 +32490,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -30399,7 +32640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 577.596 97.79 0)
 			(effects
 				(font
@@ -30409,6 +32650,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 577.596 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 577.596 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 577.596 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 577.596 97.79 0)
 			(effects
 				(font
@@ -30531,7 +32799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 369.57 97.79 0)
 			(effects
 				(font
@@ -30541,6 +32809,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 369.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 369.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 369.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 369.57 97.79 0)
 			(effects
 				(font
@@ -30598,7 +32893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 170.18 571.5 0)
 			(effects
 				(font
@@ -30608,6 +32903,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 170.18 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 170.18 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 170.18 571.5 0)
 			(effects
 				(font
@@ -30665,7 +32987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 278.13 97.79 0)
 			(effects
 				(font
@@ -30675,6 +32997,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 278.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 278.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 278.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 278.13 97.79 0)
 			(effects
 				(font
@@ -30732,7 +33081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 321.31 231.14 0)
 			(effects
 				(font
@@ -30742,6 +33091,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 321.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 321.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 321.31 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 321.31 231.14 0)
 			(effects
 				(font
@@ -30819,6 +33195,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 424.18 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 424.18 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 424.18 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3cecdaec-e081-499f-b8cf-67f108861f10")
 		)
@@ -30880,7 +33283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 377.19 97.79 0)
 			(effects
 				(font
@@ -30890,6 +33293,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 377.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 377.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 377.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 377.19 97.79 0)
 			(effects
 				(font
@@ -30950,7 +33380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 180.34 46.99 0)
 			(effects
 				(font
@@ -30960,6 +33390,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 180.34 46.99 0)
 			(effects
 				(font
@@ -31020,7 +33477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 416.56 46.99 0)
 			(effects
 				(font
@@ -31030,6 +33487,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 416.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 416.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 416.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 416.56 46.99 0)
 			(effects
 				(font
@@ -31087,7 +33571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 283.21 97.79 0)
 			(effects
 				(font
@@ -31097,6 +33581,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 283.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 283.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 283.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 283.21 97.79 0)
 			(effects
 				(font
@@ -31232,6 +33743,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 181.61 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 181.61 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 181.61 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 181.61 452.12 0)
 			(effects
 				(font
@@ -31498,7 +34036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 273.05 97.79 0)
 			(effects
 				(font
@@ -31508,6 +34046,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 273.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 273.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 273.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 273.05 97.79 0)
 			(effects
 				(font
@@ -31586,6 +34151,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 517.906 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 517.906 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 517.906 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee97")
 		)
@@ -31647,7 +34239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 133.35 231.14 0)
 			(effects
 				(font
@@ -31657,6 +34249,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 133.35 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 133.35 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 133.35 231.14 0)
 			(effects
 				(font
@@ -31714,7 +34333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -31724,6 +34343,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -31781,7 +34427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 436.88 97.79 0)
 			(effects
 				(font
@@ -31791,6 +34437,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 436.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 436.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 436.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 436.88 97.79 0)
 			(effects
 				(font
@@ -31935,6 +34608,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 280.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 280.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 280.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee98")
 		)
@@ -32062,7 +34762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 619.506 97.79 0)
 			(effects
 				(font
@@ -32072,6 +34772,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 619.506 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 619.506 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 619.506 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 619.506 97.79 0)
 			(effects
 				(font
@@ -32131,7 +34858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 410.21 97.79 0)
 			(effects
 				(font
@@ -32141,6 +34868,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 427.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 427.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 427.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 427.99 123.19 0)
 			(effects
 				(font
@@ -32252,7 +35006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 528.066 97.79 0)
 			(effects
 				(font
@@ -32262,6 +35016,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 528.066 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 528.066 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 528.066 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 528.066 97.79 0)
 			(effects
 				(font
@@ -32385,7 +35166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 426.72 97.79 0)
 			(effects
 				(font
@@ -32395,6 +35176,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 426.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 426.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 426.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 426.72 97.79 0)
 			(effects
 				(font
@@ -32587,7 +35395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 219.71 406.4 0)
 			(effects
 				(font
@@ -32597,6 +35405,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 219.71 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 219.71 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 219.71 406.4 0)
 			(effects
 				(font
@@ -32666,6 +35501,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 464.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 464.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 464.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 464.82 300.99 0)
 			(effects
 				(font
@@ -32803,7 +35665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 151.13 571.5 0)
 			(effects
 				(font
@@ -32813,6 +35675,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 168.91 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 168.91 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 168.91 596.9 0)
 			(effects
 				(font
@@ -32924,7 +35813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -32934,6 +35823,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 241.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -32991,7 +35907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 525.526 97.79 0)
 			(effects
 				(font
@@ -33001,6 +35917,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 525.526 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 525.526 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 525.526 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 525.526 97.79 0)
 			(effects
 				(font
@@ -33193,7 +36136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 119.38 46.99 0)
 			(effects
 				(font
@@ -33203,6 +36146,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 119.38 46.99 0)
 			(effects
 				(font
@@ -33337,6 +36307,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 327.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 327.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 327.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 327.66 168.91 0)
 			(effects
 				(font
@@ -33603,7 +36600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 313.69 231.14 0)
 			(effects
 				(font
@@ -33613,6 +36610,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 313.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 313.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 313.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 313.69 231.14 0)
 			(effects
 				(font
@@ -33735,7 +36759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 140.97 231.14 0)
 			(effects
 				(font
@@ -33745,6 +36769,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 140.97 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 140.97 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 140.97 231.14 0)
 			(effects
 				(font
@@ -33805,7 +36856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 477.52 46.99 0)
 			(effects
 				(font
@@ -33815,6 +36866,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 477.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 477.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 477.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 477.52 46.99 0)
 			(effects
 				(font
@@ -33876,7 +36954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 212.09 293.37 0)
 			(effects
 				(font
@@ -33886,6 +36964,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 212.09 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 212.09 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 212.09 293.37 0)
 			(effects
 				(font
@@ -34075,7 +37180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 138.43 231.14 0)
 			(effects
 				(font
@@ -34085,6 +37190,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 138.43 231.14 0)
 			(effects
 				(font
@@ -34276,7 +37408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 430.53 46.99 0)
 			(effects
 				(font
@@ -34286,6 +37418,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 430.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 430.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 430.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 430.53 46.99 0)
 			(effects
 				(font
@@ -34355,6 +37514,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 48.26 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 48.26 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 48.26 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 48.26 458.47 0)
 			(effects
 				(font
@@ -34444,6 +37630,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 290.83 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 290.83 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 290.83 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee99")
 		)
@@ -34505,7 +37718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 138.43 384.81 0)
 			(effects
 				(font
@@ -34515,6 +37728,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 138.43 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 138.43 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 138.43 384.81 0)
 			(effects
 				(font
@@ -34575,7 +37815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 608.076 161.29 0)
 			(effects
 				(font
@@ -34585,6 +37825,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 608.076 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 608.076 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 608.076 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 608.076 161.29 0)
 			(effects
 				(font
@@ -34654,6 +37921,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 387.35 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 387.35 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 387.35 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 387.35 295.91 0)
 			(effects
 				(font
@@ -34854,7 +38148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 322.58 97.79 0)
 			(effects
 				(font
@@ -34864,6 +38158,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 322.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 322.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 322.58 97.79 0)
 			(effects
 				(font
@@ -34924,7 +38245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 57.15 593.09 0)
 			(effects
 				(font
@@ -34934,6 +38255,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 593.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 57.15 593.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 57.15 593.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 57.15 593.09 0)
 			(effects
 				(font
@@ -34991,7 +38339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 326.39 231.14 0)
 			(effects
 				(font
@@ -35001,6 +38349,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 326.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 326.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 326.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 326.39 231.14 0)
 			(effects
 				(font
@@ -35078,6 +38453,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 81.28 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 81.28 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 81.28 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "be5d6b06-afc3-49af-9f44-1fdac1a97606")
 		)
@@ -35139,7 +38541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 483.87 97.79 0)
 			(effects
 				(font
@@ -35149,6 +38551,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 483.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 483.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 483.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 483.87 97.79 0)
 			(effects
 				(font
@@ -35271,7 +38700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 424.18 97.79 0)
 			(effects
 				(font
@@ -35281,6 +38710,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 424.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 424.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 424.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 424.18 97.79 0)
 			(effects
 				(font
@@ -35341,7 +38797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 306.07 450.85 0)
 			(effects
 				(font
@@ -35351,6 +38807,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 306.07 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 306.07 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 306.07 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 306.07 450.85 0)
 			(effects
 				(font
@@ -35410,7 +38893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 121.92 384.81 0)
 			(effects
 				(font
@@ -35420,6 +38903,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 139.7 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 139.7 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 139.7 410.21 0)
 			(effects
 				(font
@@ -35531,7 +39041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 414.02 466.09 0)
 			(effects
 				(font
@@ -35541,6 +39051,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 414.02 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 414.02 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 414.02 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 414.02 466.09 0)
 			(effects
 				(font
@@ -35601,7 +39138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 311.15 161.29 0)
 			(effects
 				(font
@@ -35611,6 +39148,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 311.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 311.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 311.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 311.15 161.29 0)
 			(effects
 				(font
@@ -35737,7 +39301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 274.32 251.46 0)
 			(effects
 				(font
@@ -35747,6 +39311,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 274.32 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 274.32 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 274.32 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 274.32 251.46 0)
 			(effects
 				(font
@@ -35804,7 +39395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 624.586 97.79 0)
 			(effects
 				(font
@@ -35814,6 +39405,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 624.586 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 624.586 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 624.586 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 624.586 97.79 0)
 			(effects
 				(font
@@ -36003,7 +39621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 530.606 97.79 0)
 			(effects
 				(font
@@ -36013,6 +39631,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 530.606 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 530.606 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 530.606 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 530.606 97.79 0)
 			(effects
 				(font
@@ -36073,7 +39718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 448.31 293.37 0)
 			(effects
 				(font
@@ -36083,6 +39728,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 448.31 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 448.31 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 448.31 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 448.31 293.37 0)
 			(effects
 				(font
@@ -36209,7 +39881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 219.71 450.85 0)
 			(effects
 				(font
@@ -36219,6 +39891,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 219.71 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 219.71 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 219.71 450.85 0)
 			(effects
 				(font
@@ -36276,7 +39975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -36286,6 +39985,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -36408,7 +40134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 146.05 231.14 0)
 			(effects
 				(font
@@ -36418,6 +40144,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 146.05 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 146.05 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 146.05 231.14 0)
 			(effects
 				(font
@@ -36477,7 +40230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 511.556 97.79 0)
 			(effects
 				(font
@@ -36487,6 +40240,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 529.336 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 529.336 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 529.336 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 529.336 123.19 0)
 			(effects
 				(font
@@ -36601,7 +40381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 234.95 46.99 0)
 			(effects
 				(font
@@ -36611,6 +40391,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 234.95 46.99 0)
 			(effects
 				(font
@@ -36754,6 +40561,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 349.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 349.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 349.25 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee9b")
 		)
@@ -36815,7 +40649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 236.22 97.79 0)
 			(effects
 				(font
@@ -36825,6 +40659,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 236.22 97.79 0)
 			(effects
 				(font
@@ -36968,6 +40829,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 577.596 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 577.596 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 577.596 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee9c")
 		)
@@ -37095,7 +40983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -37105,6 +40993,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -37174,6 +41089,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 205.74 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 205.74 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 205.74 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 205.74 638.81 0)
 			(effects
 				(font
@@ -37443,7 +41385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 532.13 46.99 0)
 			(effects
 				(font
@@ -37453,6 +41395,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 532.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 532.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 532.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 532.13 46.99 0)
 			(effects
 				(font
@@ -37711,7 +41680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 494.03 406.4 0)
 			(effects
 				(font
@@ -37721,6 +41690,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 494.03 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 494.03 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 494.03 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 494.03 406.4 0)
 			(effects
 				(font
@@ -37791,6 +41787,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 429.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 429.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 429.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 429.26 156.21 0)
 			(effects
 				(font
@@ -37926,7 +41949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 172.72 571.5 0)
 			(effects
 				(font
@@ -37936,6 +41959,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 172.72 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 172.72 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 172.72 571.5 0)
 			(effects
 				(font
@@ -37995,7 +42045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 363.22 97.79 0)
 			(effects
 				(font
@@ -38005,6 +42055,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 381 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 381 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 381 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 381 123.19 0)
 			(effects
 				(font
@@ -38119,7 +42196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 306.07 406.4 0)
 			(effects
 				(font
@@ -38129,6 +42206,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 306.07 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 306.07 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 306.07 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 306.07 406.4 0)
 			(effects
 				(font
@@ -38187,7 +42291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 157.48 622.3 0)
 			(effects
 				(font
@@ -38197,6 +42301,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 157.48 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 157.48 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 157.48 622.3 0)
 			(effects
 				(font
@@ -38257,7 +42388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 166.37 46.99 0)
 			(effects
 				(font
@@ -38267,6 +42398,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 166.37 46.99 0)
 			(effects
 				(font
@@ -38324,7 +42482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 328.93 231.14 0)
 			(effects
 				(font
@@ -38334,6 +42492,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 328.93 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 328.93 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 328.93 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 328.93 231.14 0)
 			(effects
 				(font
@@ -38391,7 +42576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 535.686 97.79 0)
 			(effects
 				(font
@@ -38401,6 +42586,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 535.686 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 535.686 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 535.686 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 535.686 97.79 0)
 			(effects
 				(font
@@ -38545,6 +42757,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 160.02 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 160.02 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 160.02 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea3")
 		)
@@ -38609,7 +42848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 626.11 46.99 0)
 			(effects
 				(font
@@ -38619,6 +42858,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 626.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 626.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 626.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 626.11 46.99 0)
 			(effects
 				(font
@@ -38696,6 +42962,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 251.46 643.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 251.46 643.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 251.46 643.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "9924c186-f7b0-4bd8-a22e-6e38bb4018aa")
 		)
@@ -38757,7 +43050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 135.89 231.14 0)
 			(effects
 				(font
@@ -38767,6 +43060,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 135.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 135.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 135.89 231.14 0)
 			(effects
 				(font
@@ -38956,7 +43276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -38966,6 +43286,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -39026,7 +43373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -39036,6 +43383,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -39105,6 +43479,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 368.3 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 368.3 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 368.3 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 368.3 295.91 0)
 			(effects
 				(font
@@ -39240,7 +43641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 419.1 466.09 0)
 			(effects
 				(font
@@ -39250,6 +43651,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 419.1 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 419.1 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 419.1 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 419.1 466.09 0)
 			(effects
 				(font
@@ -39307,7 +43735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 478.79 97.79 0)
 			(effects
 				(font
@@ -39317,6 +43745,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 478.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 478.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 478.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 478.79 97.79 0)
 			(effects
 				(font
@@ -39444,7 +43899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 220.98 46.99 0)
 			(effects
 				(font
@@ -39454,6 +43909,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 220.98 46.99 0)
 			(effects
 				(font
@@ -39597,6 +44079,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 435.61 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 435.61 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 435.61 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee9f")
 		)
@@ -39658,7 +44167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 275.59 97.79 0)
 			(effects
 				(font
@@ -39668,6 +44177,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 275.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 275.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 275.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 275.59 97.79 0)
 			(effects
 				(font
@@ -39725,7 +44261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 616.966 97.79 0)
 			(effects
 				(font
@@ -39735,6 +44271,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 616.966 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 616.966 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 616.966 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 616.966 97.79 0)
 			(effects
 				(font
@@ -39792,7 +44355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 468.63 97.79 0)
 			(effects
 				(font
@@ -39802,6 +44365,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 468.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 468.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 468.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 468.63 97.79 0)
 			(effects
 				(font
@@ -39991,7 +44581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 92.71 97.79 0)
 			(effects
 				(font
@@ -40001,6 +44591,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 92.71 97.79 0)
 			(effects
 				(font
@@ -40070,6 +44687,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 261.62 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 261.62 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 261.62 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -40159,6 +44803,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 130.81 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 130.81 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 130.81 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea0")
 		)
@@ -40233,6 +44904,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 351.79 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 351.79 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 351.79 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 351.79 396.24 0)
 			(effects
 				(font
@@ -40436,7 +45134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 281.94 46.99 0)
 			(effects
 				(font
@@ -40446,6 +45144,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 281.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 281.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 281.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 281.94 46.99 0)
 			(effects
 				(font
@@ -40569,7 +45294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 143.51 384.81 0)
 			(effects
 				(font
@@ -40579,6 +45304,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 143.51 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 143.51 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 143.51 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 143.51 384.81 0)
 			(effects
 				(font
@@ -40704,7 +45456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 314.96 46.99 0)
 			(effects
 				(font
@@ -40714,6 +45466,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 314.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 314.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 314.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 314.96 46.99 0)
 			(effects
 				(font
@@ -40837,7 +45616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 575.056 97.79 0)
 			(effects
 				(font
@@ -40847,6 +45626,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 575.056 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 575.056 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 575.056 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 575.056 97.79 0)
 			(effects
 				(font
@@ -40904,7 +45710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 379.73 97.79 0)
 			(effects
 				(font
@@ -40914,6 +45720,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 379.73 97.79 0)
 			(effects
 				(font
@@ -40971,7 +45804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 374.65 97.79 0)
 			(effects
 				(font
@@ -40981,6 +45814,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 374.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 374.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 374.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 374.65 97.79 0)
 			(effects
 				(font
@@ -41038,7 +45898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -41048,6 +45908,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 238.76 97.79 0)
 			(effects
 				(font
@@ -41105,7 +45992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 171.45 97.79 0)
 			(effects
 				(font
@@ -41115,6 +46002,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 171.45 97.79 0)
 			(effects
 				(font
@@ -41372,7 +46286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 165.1 622.3 0)
 			(effects
 				(font
@@ -41382,6 +46296,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 165.1 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 165.1 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 165.1 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 165.1 622.3 0)
 			(effects
 				(font
@@ -41640,7 +46581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 364.49 439.42 0)
 			(effects
 				(font
@@ -41650,6 +46591,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 364.49 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 364.49 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 364.49 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 364.49 439.42 0)
 			(effects
 				(font
@@ -41970,7 +46938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 285.75 97.79 0)
 			(effects
 				(font
@@ -41980,6 +46948,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 285.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 285.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 285.75 97.79 0)
 			(effects
 				(font
@@ -42037,7 +47032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -42047,6 +47042,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -42236,7 +47258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 416.56 97.79 0)
 			(effects
 				(font
@@ -42246,6 +47268,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 416.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 416.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 416.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 416.56 97.79 0)
 			(effects
 				(font
@@ -42303,7 +47352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 72.39 97.79 0)
 			(effects
 				(font
@@ -42313,6 +47362,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 72.39 97.79 0)
 			(effects
 				(font
@@ -42373,7 +47449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 107.95 406.4 0)
 			(effects
 				(font
@@ -42383,6 +47459,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 107.95 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 107.95 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 107.95 406.4 0)
 			(effects
 				(font
@@ -42571,7 +47674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 327.66 97.79 0)
 			(effects
 				(font
@@ -42581,6 +47684,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 327.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 327.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 327.66 97.79 0)
 			(effects
 				(font
@@ -42707,7 +47837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 31.75 450.85 0)
 			(effects
 				(font
@@ -42717,6 +47847,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 31.75 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 31.75 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 31.75 450.85 0)
 			(effects
 				(font
@@ -42774,7 +47931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 389.89 97.79 0)
 			(effects
 				(font
@@ -42784,6 +47941,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 389.89 97.79 0)
 			(effects
 				(font
@@ -42844,7 +48028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 234.95 636.27 0)
 			(effects
 				(font
@@ -42854,6 +48038,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 234.95 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 234.95 636.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 234.95 636.27 0)
 			(effects
 				(font
@@ -43129,6 +48340,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 309.88 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 309.88 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 309.88 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea2")
 		)
@@ -43190,7 +48428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 384.81 97.79 0)
 			(effects
 				(font
@@ -43200,6 +48438,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 384.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 384.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 384.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 384.81 97.79 0)
 			(effects
 				(font
@@ -43391,7 +48656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 612.14 46.99 0)
 			(effects
 				(font
@@ -43401,6 +48666,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 612.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 612.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 612.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 612.14 46.99 0)
 			(effects
 				(font
@@ -43458,7 +48750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 288.29 97.79 0)
 			(effects
 				(font
@@ -43468,6 +48760,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 288.29 97.79 0)
 			(effects
 				(font
@@ -43525,7 +48844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 82.55 97.79 0)
 			(effects
 				(font
@@ -43535,6 +48854,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 82.55 97.79 0)
 			(effects
 				(font
@@ -43612,6 +48958,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 236.22 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 236.22 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 236.22 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c7384643-79d5-41dc-95e8-783206e6ce80")
 		)
@@ -43673,7 +49046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 481.33 97.79 0)
 			(effects
 				(font
@@ -43683,6 +49056,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 481.33 97.79 0)
 			(effects
 				(font
@@ -43753,6 +49153,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 401.32 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 401.32 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 401.32 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 401.32 396.24 0)
 			(effects
 				(font
@@ -43835,6 +49262,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 419.1 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 419.1 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 419.1 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 419.1 396.24 0)
 			(effects
 				(font
@@ -44037,7 +49491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 160.02 97.79 0)
 			(effects
 				(font
@@ -44047,6 +49501,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 177.8 123.19 0)
 			(effects
 				(font
@@ -44160,7 +49641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 392.43 417.83 0)
 			(effects
 				(font
@@ -44170,6 +49651,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 410.21 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 410.21 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 410.21 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 410.21 443.23 0)
 			(effects
 				(font
@@ -44347,7 +49855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -44357,6 +49865,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -44546,7 +50081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 522.986 97.79 0)
 			(effects
 				(font
@@ -44556,6 +50091,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 522.986 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 522.986 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 522.986 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 522.986 97.79 0)
 			(effects
 				(font
@@ -44613,7 +50175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 627.126 97.79 0)
 			(effects
 				(font
@@ -44623,6 +50185,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 627.126 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 627.126 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 627.126 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 627.126 97.79 0)
 			(effects
 				(font
@@ -44680,7 +50269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 77.47 97.79 0)
 			(effects
 				(font
@@ -44690,6 +50279,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 77.47 97.79 0)
 			(effects
 				(font
@@ -44747,7 +50363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 431.8 97.79 0)
 			(effects
 				(font
@@ -44757,6 +50373,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 431.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 431.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 431.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 431.8 97.79 0)
 			(effects
 				(font
@@ -44880,7 +50523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 318.77 231.14 0)
 			(effects
 				(font
@@ -44890,6 +50533,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 318.77 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 318.77 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 318.77 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 318.77 231.14 0)
 			(effects
 				(font
@@ -44947,7 +50617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 411.48 466.09 0)
 			(effects
 				(font
@@ -44957,6 +50627,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 411.48 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 411.48 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 411.48 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 411.48 466.09 0)
 			(effects
 				(font
@@ -45278,7 +50975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -45288,6 +50985,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 280.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 280.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 280.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -45358,6 +51082,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 127 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 127 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 127 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 127 547.37 0)
 			(effects
 				(font
@@ -45513,6 +51264,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 148.59 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 148.59 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 148.59 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea9")
 		)
@@ -45586,6 +51364,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 114.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 114.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 114.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 114.3 452.12 0)
 			(effects
 				(font
@@ -45806,6 +51611,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 165.1 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 165.1 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 165.1 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeac")
 		)
@@ -45867,7 +51699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 632.206 97.79 0)
 			(effects
 				(font
@@ -45877,6 +51709,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 632.206 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 632.206 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 632.206 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 632.206 97.79 0)
 			(effects
 				(font
@@ -45934,7 +51793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 471.17 97.79 0)
 			(effects
 				(font
@@ -45944,6 +51803,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 471.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 471.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 471.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 471.17 97.79 0)
 			(effects
 				(font
@@ -46070,7 +51956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 162.56 161.29 0)
 			(effects
 				(font
@@ -46080,6 +51966,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 162.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 162.56 161.29 0)
 			(effects
 				(font
@@ -46140,7 +52053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 579.12 46.99 0)
 			(effects
 				(font
@@ -46150,6 +52063,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 579.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 579.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 579.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 579.12 46.99 0)
 			(effects
 				(font
@@ -46273,7 +52213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -46283,6 +52223,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -46408,7 +52375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 214.63 97.79 0)
 			(effects
 				(font
@@ -46418,6 +52385,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -46541,6 +52535,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 168.91 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 168.91 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 168.91 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 168.91 295.91 0)
 			(effects
 				(font
@@ -46939,7 +52960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 146.05 384.81 0)
 			(effects
 				(font
@@ -46949,6 +52970,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 146.05 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 146.05 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 146.05 384.81 0)
 			(effects
 				(font
@@ -47072,7 +53120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 429.26 97.79 0)
 			(effects
 				(font
@@ -47082,6 +53130,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 429.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 429.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 429.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 429.26 97.79 0)
 			(effects
 				(font
@@ -47205,7 +53280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -47215,6 +53290,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -47272,7 +53374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -47282,6 +53384,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -47339,7 +53468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 421.64 97.79 0)
 			(effects
 				(font
@@ -47349,6 +53478,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 421.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 421.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 421.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 421.64 97.79 0)
 			(effects
 				(font
@@ -47408,7 +53564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 302.26 231.14 0)
 			(effects
 				(font
@@ -47418,6 +53574,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 320.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 320.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 320.04 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 320.04 256.54 0)
 			(effects
 				(font
@@ -47529,7 +53712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -47539,6 +53722,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 267.97 97.79 0)
 			(effects
 				(font
@@ -47792,7 +54002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 128.27 231.14 0)
 			(effects
 				(font
@@ -47802,6 +54012,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 128.27 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 128.27 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 128.27 231.14 0)
 			(effects
 				(font
@@ -47872,6 +54109,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 110.49 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 110.49 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 110.49 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 110.49 547.37 0)
 			(effects
 				(font
@@ -47961,6 +54225,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 322.58 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 322.58 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 322.58 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e4128edd-a504-446f-bd4b-1dd7b17a2058")
 		)
@@ -48025,7 +54316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 124.46 594.36 0)
 			(effects
 				(font
@@ -48035,6 +54326,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 124.46 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 124.46 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 124.46 594.36 0)
 			(effects
 				(font
@@ -48179,6 +54497,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeaf")
 		)
@@ -48306,7 +54651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 408.94 466.09 0)
 			(effects
 				(font
@@ -48316,6 +54661,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 408.94 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 408.94 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 408.94 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 408.94 466.09 0)
 			(effects
 				(font
@@ -48591,6 +54963,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 73.66 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 73.66 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 73.66 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6fbce3de-86b6-460a-908b-a0b23c49fbfa")
 		)
@@ -48718,7 +55117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 403.86 466.09 0)
 			(effects
 				(font
@@ -48728,6 +55127,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 403.86 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 403.86 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 403.86 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 403.86 466.09 0)
 			(effects
 				(font
@@ -48806,6 +55232,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 384.81 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 384.81 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 384.81 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb0")
 		)
@@ -48867,7 +55320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 387.35 97.79 0)
 			(effects
 				(font
@@ -48877,6 +55330,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 387.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 387.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 387.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 387.35 97.79 0)
 			(effects
 				(font
@@ -48937,7 +55417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 378.46 439.42 0)
 			(effects
 				(font
@@ -48947,6 +55427,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 378.46 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 378.46 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 378.46 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 378.46 439.42 0)
 			(effects
 				(font
@@ -49070,7 +55577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -49080,6 +55587,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -49203,7 +55737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 564.896 97.79 0)
 			(effects
 				(font
@@ -49213,6 +55747,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 564.896 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 564.896 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 564.896 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 564.896 97.79 0)
 			(effects
 				(font
@@ -49338,7 +55899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/txb0108"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -49348,6 +55909,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-21527-2-ND"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53406"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0108PWR"
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -49537,6 +56125,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 220.98 156.21 0)
 			(effects
 				(font
@@ -49737,7 +56352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -49747,6 +56362,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -49870,7 +56512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 569.976 97.79 0)
 			(effects
 				(font
@@ -49880,6 +56522,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 569.976 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 569.976 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 569.976 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 569.976 97.79 0)
 			(effects
 				(font
@@ -49949,6 +56618,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 73.66 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 73.66 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 73.66 600.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 73.66 600.71 0)
 			(effects
 				(font
@@ -50084,7 +56780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 135.89 384.81 0)
 			(effects
 				(font
@@ -50094,6 +56790,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 135.89 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 135.89 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 135.89 384.81 0)
 			(effects
 				(font
@@ -50163,6 +56886,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 476.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 476.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 476.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 476.25 168.91 0)
 			(effects
 				(font
@@ -50244,6 +56994,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 510.54 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 510.54 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 510.54 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 510.54 458.47 0)
 			(effects
 				(font
@@ -50511,7 +57288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 416.56 466.09 0)
 			(effects
 				(font
@@ -50521,6 +57298,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 416.56 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 416.56 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 416.56 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 416.56 466.09 0)
 			(effects
 				(font
@@ -50581,7 +57385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 245.11 293.37 0)
 			(effects
 				(font
@@ -50591,6 +57395,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 245.11 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 245.11 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 245.11 293.37 0)
 			(effects
 				(font
@@ -50914,7 +57745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 267.97 46.99 0)
 			(effects
 				(font
@@ -50924,6 +57755,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 267.97 46.99 0)
 			(effects
 				(font
@@ -51046,7 +57904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -51056,6 +57914,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -51125,6 +58010,33 @@
 			)
 		)
 		(property "Description" "Dual Buffer Schmitt Triggered, Low-Voltage CMOS"
+			(at 198.12 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 198.12 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 198.12 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
 			(at 198.12 452.12 0)
 			(effects
 				(font
@@ -51260,7 +58172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -51270,6 +58182,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -51327,7 +58266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 382.27 97.79 0)
 			(effects
 				(font
@@ -51337,6 +58276,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 382.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 382.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 382.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 382.27 97.79 0)
 			(effects
 				(font
@@ -51527,7 +58493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 162.56 622.3 0)
 			(effects
 				(font
@@ -51537,6 +58503,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 162.56 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 162.56 622.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 162.56 622.3 0)
 			(effects
 				(font
@@ -51614,6 +58607,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-SN74LVC2G17DBVRTR-ND"
+			(at 189.23 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C10429"
+			(at 189.23 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC2G17DBVR"
+			(at 189.23 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb3")
 		)
@@ -51675,7 +58695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 148.59 231.14 0)
 			(effects
 				(font
@@ -51685,6 +58705,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 148.59 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 148.59 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 148.59 231.14 0)
 			(effects
 				(font
@@ -51742,7 +58789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -51752,6 +58799,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -51944,7 +59018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 138.43 594.36 0)
 			(effects
 				(font
@@ -51954,6 +59028,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 138.43 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 138.43 594.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 138.43 594.36 0)
 			(effects
 				(font
@@ -52011,7 +59112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 314.96 97.79 0)
 			(effects
 				(font
@@ -52021,6 +59122,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 314.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" " "
+			(at 314.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25105"
+			(at 314.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF330JTCE"
 			(at 314.96 97.79 0)
 			(effects
 				(font
@@ -52147,7 +59275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://octopart.com/datasheet/cl05b104ko5nnnc-samsung-9299366"
 			(at 86.36 46.99 0)
 			(effects
 				(font
@@ -52157,6 +59285,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1001-2-ND"
 			(at 86.36 46.99 0)
 			(effects
 				(font

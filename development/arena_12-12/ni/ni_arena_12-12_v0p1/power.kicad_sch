@@ -1535,7 +1535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121551_TDK-C3216X7R1C106KT000N_C342827.pdf"
 			(at 199.39 72.39 0)
 			(effects
 				(font
@@ -1545,6 +1545,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342827"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3216X7R1C106KT000N "
 			(at 199.39 72.39 0)
 			(effects
 				(font
@@ -1868,7 +1886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.octopart.com/PJ-063AH-Same-Sky-datasheet-181917378.pdf"
 			(at 99.06 65.532 0)
 			(effects
 				(font
@@ -1878,6 +1896,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "CP-063AH-ND"
+			(at 100.33 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2928097"
+			(at 100.33 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PJ-063AH"
 			(at 100.33 64.516 0)
 			(effects
 				(font
@@ -2002,7 +2047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.octopart.com/L102021ML04Q-C%26K-Components-datasheet-62111167.pdf"
 			(at 67.31 64.516 0)
 			(effects
 				(font
@@ -2012,6 +2057,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "CKC5102-ND"
+			(at 67.31 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2798743"
+			(at 67.31 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L102021ML04Q"
 			(at 67.31 64.516 0)
 			(effects
 				(font
@@ -2405,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.octopart.com/PJ-063AH-Same-Sky-datasheet-181917378.pdf"
 			(at 100.33 87.376 0)
 			(effects
 				(font
@@ -2415,6 +2487,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "CP-063AH-ND"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2928097"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PJ-063AH"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -2475,7 +2574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121551_TDK-C3216X7R1C106KT000N_C342827.pdf"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -2485,6 +2584,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C342827"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3216X7R1C106KT000N "
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -2553,6 +2670,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "AP2112K-3.3TRG1DICT-ND"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C51118"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
 			(at 187.96 67.31 0)
 			(effects
 				(font
