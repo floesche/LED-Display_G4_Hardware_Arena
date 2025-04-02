@@ -5735,7 +5735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2038a194-ae1e-4ad9-b254-36fc8c384b51")
 		(property "Reference" "J2"
@@ -5790,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "TODO"
+		(property "LCSC Part #" ""
 			(at 93.472 67.31 0)
 			(effects
 				(font
