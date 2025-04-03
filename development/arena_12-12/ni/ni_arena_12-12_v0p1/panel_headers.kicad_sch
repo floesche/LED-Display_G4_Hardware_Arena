@@ -21331,6 +21331,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee91")
 		)
@@ -21431,6 +21440,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 629.92 0)
 			(effects
 				(font
@@ -22020,6 +22038,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee8e")
 		)
@@ -22348,6 +22375,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 238.76 0)
 			(effects
 				(font
@@ -22713,6 +22749,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 572.77 0)
 			(effects
 				(font
@@ -23409,6 +23454,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eebd")
 		)
@@ -24097,6 +24151,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "84801fd4-f5be-4d57-a41d-c6f3f4fa78e8")
 		)
@@ -24332,6 +24395,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 290.83 0)
 			(effects
 				(font
@@ -24864,6 +24936,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee95")
 		)
@@ -25037,6 +25118,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d502fc97-b88d-4700-8111-4e1a552f4785")
 		)
@@ -25137,6 +25227,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 289.56 0)
 			(effects
 				(font
@@ -25407,6 +25506,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 473.71 0)
 			(effects
 				(font
@@ -25706,6 +25814,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 584.2 0)
 			(effects
 				(font
@@ -26112,6 +26229,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 675.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee8b")
 		)
@@ -26212,6 +26338,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 673.1 0)
 			(effects
 				(font
@@ -26526,6 +26661,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee8c")
 		)
@@ -26769,6 +26913,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee93")
 		)
@@ -26869,6 +27022,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -27210,6 +27372,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee96")
 		)
@@ -27477,6 +27648,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee90")
 		)
@@ -27679,6 +27859,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3707a459-3bdd-48ae-a9a9-c83fda5f97d4")
 		)
@@ -27845,6 +28034,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 336.55 0)
 			(effects
 				(font
@@ -28041,6 +28239,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 421.64 0)
 			(effects
 				(font
@@ -28764,6 +28971,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee97")
 		)
@@ -28864,6 +29080,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 351.79 0)
 			(effects
 				(font
@@ -29104,6 +29329,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 171.45 0)
 			(effects
 				(font
@@ -29402,6 +29636,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee99")
 		)
@@ -29567,6 +29810,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 584.2 0)
 			(effects
 				(font
@@ -29815,6 +30067,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeab")
 		)
@@ -30009,6 +30270,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 351.79 0)
 			(effects
 				(font
@@ -30288,6 +30558,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "88cd774a-c3fb-44da-b9d8-6273c78b1b32")
 		)
@@ -30388,6 +30667,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 73.66 0)
 			(effects
 				(font
@@ -30663,6 +30951,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee9b")
 		)
@@ -30828,6 +31125,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 105.41 0)
 			(effects
 				(font
@@ -31002,6 +31308,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 427.99 0)
 			(effects
 				(font
@@ -31489,6 +31804,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 599.44 0)
 			(effects
 				(font
@@ -32049,6 +32373,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ee9c")
 		)
@@ -32149,6 +32482,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 336.55 0)
 			(effects
 				(font
@@ -32539,6 +32881,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 289.56 0)
 			(effects
 				(font
@@ -33099,6 +33450,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 614.68 0)
 			(effects
 				(font
@@ -33687,6 +34047,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 675.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 675.64 0)
 			(effects
 				(font
@@ -34539,6 +34908,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "9132de13-1ba3-495e-b893-d53db3d6db34")
 		)
@@ -34799,6 +35177,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 119.38 0)
 			(effects
 				(font
@@ -35169,6 +35556,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "51b1aa01-8c45-4031-bbf0-3d3e32acf97e")
 		)
@@ -35269,6 +35665,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 455.93 0)
 			(effects
 				(font
@@ -35581,6 +35986,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6c069e86-15aa-499b-9003-a95692c9869c")
 		)
@@ -35681,6 +36095,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 645.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 645.16 0)
 			(effects
 				(font
@@ -36094,6 +36517,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea1")
 		)
@@ -36194,6 +36626,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 226.06 0)
 			(effects
 				(font
@@ -36404,6 +36845,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea2")
 		)
@@ -36570,6 +37020,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 290.83 0)
 			(effects
 				(font
@@ -37046,6 +37505,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eebe")
 		)
@@ -37146,6 +37614,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 584.2 0)
 			(effects
 				(font
@@ -37319,6 +37796,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 138.43 0)
 			(effects
 				(font
@@ -37529,6 +38015,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "044ecd46-1885-4931-8ab6-3743b92bf21b")
 		)
@@ -37629,6 +38124,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 180.34 0)
 			(effects
 				(font
@@ -38068,6 +38572,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d99a349a-1d6a-4d5b-9366-cf97eb0405ef")
 		)
@@ -38168,6 +38681,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 645.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 645.16 0)
 			(effects
 				(font
@@ -38510,6 +39032,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "a2d7a6bd-1813-411b-a339-35a2662f8448")
 		)
@@ -38798,6 +39329,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 367.03 0)
 			(effects
 				(font
@@ -39292,6 +39832,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 149.86 0)
 			(effects
 				(font
@@ -39893,6 +40442,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "18957308-dc76-4aa8-b467-53ea1b747734")
 		)
@@ -40001,6 +40559,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea5")
 		)
@@ -40101,6 +40668,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 553.72 0)
 			(effects
 				(font
@@ -40405,6 +40981,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eee9")
 		)
@@ -40505,6 +41090,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 605.79 0)
 			(effects
 				(font
@@ -40621,6 +41215,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3299b2a4-8995-4cab-a5e1-cca0cb6b5b1f")
 		)
@@ -40721,6 +41324,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 226.06 0)
 			(effects
 				(font
@@ -40989,6 +41601,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 210.82 0)
 			(effects
 				(font
@@ -41296,6 +41917,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "64a869a1-bf05-4d47-82fe-2ca369338b55")
 		)
@@ -41498,6 +42128,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeea")
 		)
@@ -41598,6 +42237,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 660.4 0)
 			(effects
 				(font
@@ -42553,6 +43201,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eea9")
 		)
@@ -42945,6 +43602,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 388.62 0)
 			(effects
 				(font
@@ -43776,6 +44442,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eed2")
 		)
@@ -43876,6 +44551,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 119.38 0)
 			(effects
 				(font
@@ -44123,6 +44807,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeac")
 		)
@@ -44223,6 +44916,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 226.06 0)
 			(effects
 				(font
@@ -44494,6 +45196,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 568.96 0)
 			(effects
 				(font
@@ -44900,6 +45611,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eed3")
 		)
@@ -45008,6 +45728,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "98d33efb-625c-4afe-a7b1-6c5920b48948")
 		)
@@ -45108,6 +45837,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 572.77 0)
 			(effects
 				(font
@@ -45421,6 +46159,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeeb")
 		)
@@ -45651,6 +46398,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 165.1 0)
 			(effects
 				(font
@@ -46023,6 +46779,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeaf")
 		)
@@ -46123,6 +46888,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 690.88 0)
 			(effects
 				(font
@@ -46336,6 +47110,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb0")
 		)
@@ -46444,6 +47227,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eebf")
 		)
@@ -46544,6 +47336,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 382.27 0)
 			(effects
 				(font
@@ -46726,6 +47527,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb2")
 		)
@@ -46826,6 +47636,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 673.1 0)
 			(effects
 				(font
@@ -47228,6 +48047,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 508 0)
 			(effects
 				(font
@@ -48279,6 +49107,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb4")
 		)
@@ -48541,6 +49378,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 322.58 0)
 			(effects
 				(font
@@ -49175,6 +50021,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb5")
 		)
@@ -49436,6 +50291,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb6")
 		)
@@ -49602,6 +50466,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 138.43 0)
 			(effects
 				(font
@@ -50104,6 +50977,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb7")
 		)
@@ -50366,6 +51248,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e67156de-fa58-4f05-8a28-a48a73aa6f93")
 		)
@@ -50466,6 +51357,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 638.81 0)
 			(effects
 				(font
@@ -50648,6 +51548,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "4275ced8-013b-4706-b7e9-ece70b3b57c6")
 		)
@@ -50814,6 +51723,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 539.75 0)
 			(effects
 				(font
@@ -51413,6 +52331,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeb8")
 		)
@@ -51676,6 +52603,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 195.58 0)
 			(effects
 				(font
@@ -52506,6 +53442,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeba")
 		)
@@ -52870,6 +53815,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eebb")
 		)
@@ -53165,6 +54119,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 690.88 0)
 			(effects
 				(font
@@ -53595,6 +54558,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 367.03 0)
 			(effects
 				(font
@@ -54750,6 +55722,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "95a52e4e-fea1-4d23-a132-3d78f619d4fb")
 		)
@@ -55279,6 +56260,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "25315422-7f16-4fa8-be16-6b75519db873")
 		)
@@ -55379,6 +56369,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 171.45 0)
 			(effects
 				(font
@@ -56031,6 +57030,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eec1")
 		)
@@ -56228,6 +57236,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 397.51 0)
 			(effects
 				(font
@@ -56817,6 +57834,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "6c6b1666-28d0-47c0-822a-3f62e6614074")
 		)
@@ -56925,6 +57951,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeec")
 		)
@@ -57025,6 +58060,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 138.43 0)
 			(effects
 				(font
@@ -57227,6 +58271,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 508 0)
 			(effects
 				(font
@@ -57668,6 +58721,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3ba931e8-fc0c-4302-9198-12c76404cfe9")
 		)
@@ -57993,6 +59055,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 458.47 0)
 			(effects
 				(font
@@ -58363,6 +59434,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eec5")
 		)
@@ -58659,6 +59739,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eec6")
 		)
@@ -58861,6 +59950,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 675.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eec7")
 		)
@@ -59055,6 +60153,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 72.39 0)
 			(effects
 				(font
@@ -59453,6 +60560,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 690.88 0)
 			(effects
 				(font
@@ -60094,6 +61210,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeed")
 		)
@@ -60194,6 +61319,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 427.99 0)
 			(effects
 				(font
@@ -60496,6 +61630,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 427.99 0)
 			(effects
 				(font
@@ -60838,6 +61981,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 645.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eed4")
 		)
@@ -61097,6 +62249,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -61368,6 +62529,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 355.6 0)
 			(effects
 				(font
@@ -61737,6 +62907,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "634d7b54-265e-40db-96dd-a08a7d9d3780")
 		)
@@ -61837,6 +63016,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 412.75 0)
 			(effects
 				(font
@@ -62210,6 +63398,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eedd")
 		)
@@ -62473,6 +63670,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 638.81 0)
 			(effects
 				(font
@@ -62875,6 +64081,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 506.73 0)
 			(effects
 				(font
@@ -63494,6 +64709,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eed7")
 		)
@@ -63602,6 +64826,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eede")
 		)
@@ -63702,6 +64935,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 388.62 0)
 			(effects
 				(font
@@ -63912,6 +65154,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0358ad02-3537-4f4a-9925-e217068dae64")
 		)
@@ -64086,6 +65337,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eedf")
 		)
@@ -64186,6 +65446,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 412.75 0)
 			(effects
 				(font
@@ -64302,6 +65571,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "66bca7c2-24b8-4991-b788-f2833101f07f")
 		)
@@ -64402,6 +65680,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 506.73 0)
 			(effects
 				(font
@@ -64677,6 +65964,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eee1")
 		)
@@ -64777,6 +66073,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 660.4 0)
 			(effects
 				(font
@@ -65929,6 +67234,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eee3")
 		)
@@ -66360,6 +67674,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 568.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eee4")
 		)
@@ -66460,6 +67783,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 638.81 0)
 			(effects
 				(font
@@ -66868,6 +68200,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eee7")
 		)
@@ -66968,6 +68309,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 165.1 0)
 			(effects
 				(font
@@ -67247,6 +68597,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e82f14e1-681c-4e8b-a5ca-17c7cd7145bc")
 		)
@@ -67421,6 +68780,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eeef")
 		)
@@ -67521,6 +68889,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 256.54 0)
 			(effects
 				(font
@@ -67838,6 +69215,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 308.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e0657dc2-33d0-4827-a836-da485bf5d849")
 		)
@@ -68143,6 +69529,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b1d930f7-f877-4c10-9450-cc454fd6003a")
 		)
@@ -68243,6 +69638,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 355.6 0)
 			(effects
 				(font
@@ -68417,6 +69821,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 443.23 0)
 			(effects
 				(font
@@ -68685,6 +70098,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 455.93 0)
 			(effects
 				(font
@@ -69245,6 +70667,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eef2")
 		)
@@ -69411,6 +70842,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 675.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 675.64 0)
 			(effects
 				(font
@@ -70000,6 +71440,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 78.74 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d33c0a46-2605-4a8a-9ae7-a2ec75c044b0")
 		)
@@ -70166,6 +71615,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 165.1 0)
 			(effects
 				(font
@@ -70376,6 +71834,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eef5")
 		)
@@ -70565,6 +72032,15 @@
 			)
 		)
 		(property "MPN" "ME2306D"
+			(at 844.55 745.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 844.55 745.49 0)
 			(effects
 				(font
@@ -70929,6 +72405,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eef6")
 		)
@@ -71037,6 +72522,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eef7")
 		)
@@ -71137,6 +72631,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 88.9 0)
 			(effects
 				(font
@@ -71376,6 +72879,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 553.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 553.72 0)
 			(effects
 				(font
@@ -72059,6 +73571,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 256.54 0)
 			(effects
 				(font
@@ -72761,6 +74282,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eefb")
 		)
@@ -73000,6 +74530,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eefc")
 		)
@@ -73100,6 +74639,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 538.48 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 538.48 421.64 0)
 			(effects
 				(font
@@ -73584,6 +75132,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 105.41 0)
 			(effects
 				(font
@@ -74089,6 +75646,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eefd")
 		)
@@ -74520,6 +76086,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887eefe")
 		)
@@ -74714,6 +76289,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 195.58 0)
 			(effects
 				(font
@@ -75013,6 +76597,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 355.6 0)
 			(effects
 				(font
@@ -75450,6 +77043,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 572.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "9f6837fe-0b5c-4d1e-8f5b-cbcc5d6ed69d")
 		)
@@ -75803,6 +77405,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 397.51 0)
 			(effects
 				(font
@@ -76205,6 +77816,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "326c141d-4715-4326-bf01-f4c9b8eeb56b")
 		)
@@ -76371,6 +77991,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 367.03 0)
 			(effects
 				(font
@@ -76688,6 +78317,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef02")
 		)
@@ -76788,6 +78426,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 660.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 660.4 0)
 			(effects
 				(font
@@ -77092,6 +78739,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "31898cdc-193d-42ed-bf39-ce75ca31cb07")
 		)
@@ -77192,6 +78848,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 241.3 0)
 			(effects
 				(font
@@ -77496,6 +79161,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 443.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef05")
 		)
@@ -77596,6 +79270,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 241.3 0)
 			(effects
 				(font
@@ -77867,6 +79550,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 638.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 638.81 0)
 			(effects
 				(font
@@ -78447,6 +80139,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef07")
 		)
@@ -78547,6 +80248,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 308.61 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 308.61 322.58 0)
 			(effects
 				(font
@@ -78728,6 +80438,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef08")
 		)
@@ -78828,6 +80547,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 370.84 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 370.84 180.34 0)
 			(effects
 				(font
@@ -78944,6 +80672,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef0a")
 		)
@@ -79052,6 +80789,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef0b")
 		)
@@ -79152,6 +80898,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 388.62 0)
 			(effects
 				(font
@@ -79419,6 +81174,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 78.74 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 78.74 204.47 0)
 			(effects
 				(font
@@ -79789,6 +81553,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef0c")
 		)
@@ -79962,6 +81735,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 768.35 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8b9ae381-e7b4-4297-abdd-f490b9f86f28")
 		)
@@ -80062,6 +81844,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 134.62 0)
 			(effects
 				(font
@@ -80330,6 +82121,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 473.71 0)
 			(effects
 				(font
@@ -81151,6 +82951,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef0f")
 		)
@@ -81251,6 +83060,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 88.9 0)
 			(effects
 				(font
@@ -81527,6 +83345,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef11")
 		)
@@ -81788,6 +83615,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef12")
 		)
@@ -81896,6 +83732,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef13")
 		)
@@ -81996,6 +83841,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 508 0)
 			(effects
 				(font
@@ -82533,6 +84387,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4323dda-b3d3-43e3-84b1-238491030cb2")
 		)
@@ -82832,6 +84695,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 370.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef15")
 		)
@@ -83026,6 +84898,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 600.71 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 600.71 458.47 0)
 			(effects
 				(font
@@ -83756,6 +85637,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "77dd9d9c-d84a-47b1-8d32-9b5a5433ab41")
 		)
@@ -83950,6 +85840,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 830.58 645.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 830.58 645.16 0)
 			(effects
 				(font
@@ -84357,6 +86256,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 830.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef18")
 		)
@@ -84600,6 +86508,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "bea69895-5b16-43f9-b85d-29800e63e8f3")
 		)
@@ -84700,6 +86617,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 768.35 539.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 768.35 539.75 0)
 			(effects
 				(font
@@ -85007,6 +86933,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 600.71 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "c4d73823-5319-449c-88c9-16463887ef19")
 		)
@@ -85180,6 +87115,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 538.48 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b345bea6-f8f9-4e3d-80ea-5d436889f40c")
 		)
@@ -85280,6 +87224,15 @@
 			)
 		)
 		(property "MPN" "SN74LVC2G17DBVR"
+			(at 140.97 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "0"
 			(at 140.97 508 0)
 			(effects
 				(font
