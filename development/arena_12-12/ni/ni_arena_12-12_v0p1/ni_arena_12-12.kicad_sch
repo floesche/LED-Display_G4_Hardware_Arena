@@ -5,7 +5,10 @@
 	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
 	(paper "User" 279.4 203.2)
 	(title_block
-		(date "11 jun 2015")
+		(title "12-12 NI G4.1 Arena Modular LED Display")
+		(date "2025-04-21")
+		(rev "v0.3.4")
+		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols)
 	(text "12-12 NI Arena"

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d894d059-e435-4d57-811e-6bb474e952c8")
 	(paper "User" 711.2 711.2)
+	(title_block
+		(title "12-12 NI G4.1 Arena Modular LED Display")
+		(date "2025-04-21")
+		(rev "v0.3.4")
+		(company "IORodeo for Reiserlab @ Janelia")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC2G17"
 			(exclude_from_sim no)

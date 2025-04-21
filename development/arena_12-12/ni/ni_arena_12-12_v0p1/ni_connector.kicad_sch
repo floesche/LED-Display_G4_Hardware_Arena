@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "2a0d4286-b25e-4c45-b3bc-a042ed465c4d")
 	(paper "A4")
+	(title_block
+		(title "12-12 NI G4.1 Arena Modular LED Display")
+		(date "2025-04-21")
+		(rev "v0.3.4")
+		(company "IORodeo for Reiserlab @ Janelia")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -5790,7 +5796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5172587"
 			(at 93.472 67.31 0)
 			(effects
 				(font

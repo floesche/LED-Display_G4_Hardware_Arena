@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "306e5b8e-03e2-495a-8d9b-de2d10577a54")
 	(paper "A4")
+	(title_block
+		(title "12-12 NI G4.1 Arena Modular LED Display")
+		(date "2025-04-21")
+		(rev "v0.3.4")
+		(company "IORodeo for Reiserlab @ Janelia")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
