@@ -1,4 +1,4 @@
-22501524434986570
+22500266248416292
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92511,13 +92511,6 @@ ELECTROLYTIC CAPACITOR
 0
 2
 2
-arena_custom
-D24V6Fx
-
-
-0
-4
-4
 arena_custom
 DCJACK_2PIN_HIGHCURRENT
 
