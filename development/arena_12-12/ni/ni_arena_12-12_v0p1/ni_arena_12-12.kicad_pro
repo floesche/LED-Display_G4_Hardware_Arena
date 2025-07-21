@@ -600,7 +600,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "ni_arena_12-12.dsn",
-      "step": "",
+      "step": "assets/ni_arena_12-12.step",
       "svg": "",
       "vrml": ""
     },
