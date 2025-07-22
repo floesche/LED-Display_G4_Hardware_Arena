@@ -1,11 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
 	(paper "User" 279.4 203.2)
 	(title_block
-		(date "11 jun 2015")
+		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
+		(date "2025-07-22")
+		(rev "v0.4")
+		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols)
 	(text "12-12 Teensy Arena Top"
@@ -22,6 +25,10 @@
 	(sheet
 		(at 106.68 48.26)
 		(size 27.432 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -60,6 +67,10 @@
 	(sheet
 		(at 141.986 48.768)
 		(size 30.226 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -98,6 +109,10 @@
 	(sheet
 		(at 67.31 48.26)
 		(size 30.48 18.161)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -138,4 +153,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

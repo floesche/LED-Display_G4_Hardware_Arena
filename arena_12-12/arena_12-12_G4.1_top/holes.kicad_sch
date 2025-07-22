@@ -1,20 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2f9a643b-c424-4624-a4ca-e8c967f3731b")
 	(paper "A4")
 	(title_block
 		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
-		(date "2024-12-23")
-		(rev "v0.3")
+		(date "2025-07-22")
+		(rev "v0.4")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -112,6 +116,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -191,7 +196,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -208,6 +214,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -252,7 +259,6 @@
 	)
 	(label "Ground Holes"
 		(at 125.73 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -335,7 +341,7 @@
 		(at 50.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "2a097cd6-846a-437f-8cdc-fc2c0705c24d")
@@ -563,7 +569,7 @@
 		(at 60.96 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -658,7 +664,7 @@
 		(at 41.91 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -820,7 +826,7 @@
 		(at 69.85 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)

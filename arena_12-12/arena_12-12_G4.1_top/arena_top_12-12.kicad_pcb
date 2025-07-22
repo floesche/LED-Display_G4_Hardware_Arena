@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -10,29 +10,29 @@
 	(title_block
 		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
 		(date "2024-12-23")
-		(rev "v0.3.3")
+		(rev "v0.4")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(49 "F.Fab" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
 	)
 	(setup
 		(stackup
@@ -76,9 +76,10 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes yes)
@@ -88,7 +89,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -96,16 +96,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -114,6 +117,7 @@
 			(outputdirectory "production/version_0p1_r1/gerber/")
 		)
 	)
+	(property "URL" "")
 	(net 0 "")
 	(net 1 "+5V")
 	(net 2 "unconnected-(P1-Pad2)")
@@ -297,18 +301,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dce78b54-3525-41cd-892d-556411e7b354")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1958,7 +1950,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "878d236d-88b3-4845-b9f8-d671ddfd5739")
 		)
@@ -1969,7 +1961,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "a0f81242-0a51-4179-96f1-70088694c87b")
 		)
@@ -2000,7 +1992,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "d170f006-1a49-4e99-8a01-5dda00c6d17d")
 		)
@@ -2035,6 +2027,7 @@
 			(pintype "passive")
 			(uuid "d1712b6f-805b-4e44-b12a-22069e562400")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2077,18 +2070,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 150)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c77d0c8-2fad-4ff9-af14-d7e90bb01c80")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403201122_Chinocera-HGC1210R5107M160NSVK_C7432790.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
@@ -2114,7 +2095,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2127,7 +2108,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7432790"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2140,7 +2121,7 @@
 			)
 		)
 		(property "MPN" "HGC1210R5107M160NSVK"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2271,7 +2252,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 330)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -2280,12 +2261,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 330)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "3ca4c442-0732-425b-a122-2be69e1ae85b")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2324,18 +2306,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f573edd1-e704-4cb7-9b93-91149401a24d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2415,7 +2385,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "dca9a21a-ad51-4f03-9fc3-6ea71874135b")
 		)
@@ -2426,7 +2396,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8d2e5b1e-9139-49af-b30f-0b03d0045dcc")
 		)
@@ -2452,6 +2422,7 @@
 			(pintype "input")
 			(uuid "dcf611d7-4cf7-48eb-b201-ad4634316f8a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "arena_custom:DCJACK_2PIN_HIGHCURRENT"
 		(layer "F.Cu")
@@ -2477,18 +2448,6 @@
 				(font
 					(size 1.524 1.524)
 					(thickness 0.3048)
-				)
-			)
-		)
-		(property "Footprint" "arena_custom:DCJACK_2PIN_HIGHCURRENT"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52026670-c6cf-43e3-969d-2df66fbe95de")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2643,6 +2602,7 @@
 			(pintype "passive")
 			(uuid "4834cb57-fa22-4619-ac2d-d3023eeaf9c7")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PWR_JACK_PJ-063AH.step"
 			(offset
 				(xyz 0 0 5)
@@ -2662,7 +2622,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C24"
-			(at 1.25 -5.25 -120)
+			(at 1.25 -5.25 240)
 			(layer "F.SilkS")
 			(uuid "20bd0a6c-f29a-4201-a5fd-3dd218b95628")
 			(effects
@@ -2673,7 +2633,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 1.25 5.25 -120)
+			(at 1.25 5.25 240)
 			(layer "F.Fab")
 			(uuid "5cf60027-ebb9-4250-8bd2-106ee0ebb2fe")
 			(effects
@@ -2683,20 +2643,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 -120)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d138a753-14af-48e5-926f-c8357981bb20")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b334c769-af32-49ba-b43c-eeeafb96b62a")
@@ -2708,7 +2656,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bbe6b95-228c-4183-86d3-b26bbf004c6e")
@@ -2720,7 +2668,7 @@
 			)
 		)
 		(property "DigiKey PN" "1189-1856-ND"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2733,7 +2681,7 @@
 			)
 		)
 		(property "LCSC Part #" " C338173"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2746,7 +2694,7 @@
 			)
 		)
 		(property "MPN" "16YXF100MEFC6.3X11"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4340,7 +4288,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "34fb09f4-2353-4151-8e21-30d0a6f02bf1")
 		)
@@ -4351,7 +4299,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d75b39c4-7b4c-46dc-9a91-57f83ba3a178")
 		)
@@ -4382,12 +4330,12 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c3d1209b-7914-4434-969d-52509d8b73fa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 -120)
+			(at 1.25 0 240)
 			(layer "F.Fab")
 			(uuid "1c96acd6-1ea6-4e39-87ef-cbff01f716ef")
 			(effects
@@ -4417,6 +4365,7 @@
 			(pintype "passive")
 			(uuid "36fed91a-8dac-438b-ada6-0d4f173d4baa")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4455,18 +4404,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcf6f358-22ef-4268-ad04-1ddb546a5792")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4653,7 +4590,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -4662,12 +4599,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "302c1647-89c0-4b6c-bc86-8c3938a3dcbc")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4710,18 +4648,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 60)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3eaa5697-4488-4192-8e53-0f91041c2b55")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403201122_Chinocera-HGC1210R5107M160NSVK_C7432790.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
@@ -4747,7 +4673,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4760,7 +4686,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7432790"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4773,7 +4699,7 @@
 			)
 		)
 		(property "MPN" "HGC1210R5107M160NSVK"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4904,7 +4830,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 240)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -4913,12 +4839,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 240)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "7e9ac712-53d7-4781-8865-239070356dca")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4938,7 +4865,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C23"
-			(at 1.25 -5.25 -150)
+			(at 1.25 -5.25 210)
 			(layer "F.SilkS")
 			(uuid "bfc5422e-2a84-4708-93af-2fdc905287dc")
 			(effects
@@ -4949,7 +4876,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 1.25 5.25 -150)
+			(at 1.25 5.25 210)
 			(layer "F.Fab")
 			(uuid "b6977c9f-f247-4c4e-a3fc-a752fcd8eb5e")
 			(effects
@@ -4959,20 +4886,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 -150)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "657cc4cb-c894-4b80-ac3c-257f8462657b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b22abe69-bfe2-498d-9cb0-36c062f8eea4")
@@ -4984,7 +4899,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a5f42b3-314b-40d2-b662-d819df39c713")
@@ -4996,7 +4911,7 @@
 			)
 		)
 		(property "DigiKey PN" "1189-1856-ND"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5009,7 +4924,7 @@
 			)
 		)
 		(property "LCSC Part #" " C338173"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5022,7 +4937,7 @@
 			)
 		)
 		(property "MPN" "16YXF100MEFC6.3X11"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6616,7 +6531,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "f6d2b1ea-41da-4483-9019-f3a0f998d4cd")
 		)
@@ -6627,7 +6542,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5f76a156-ad26-40d8-bad2-ba6c5b8dfa02")
 		)
@@ -6658,12 +6573,12 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "32a4868c-73c5-4135-b95a-50aea422ff97")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 -150)
+			(at 1.25 0 210)
 			(layer "F.Fab")
 			(uuid "37a77927-3515-415b-909e-91a3228d51d8")
 			(effects
@@ -6693,6 +6608,7 @@
 			(pintype "passive")
 			(uuid "6cc6b891-d651-4f33-b1e7-eecf7e56bd20")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6731,18 +6647,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 120)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2b04c7c-eaab-4712-9f27-6a0e8ece05e6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6929,7 +6833,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 120)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -6938,12 +6842,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 120)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "64b37149-abf2-4a75-b723-f5f22b121c29")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6980,18 +6885,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48ca7dcf-cac3-46ba-9a6e-7073deb0fcae")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8641,7 +8534,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "da2d2375-fc48-4977-93a8-12b682ee19d1")
 		)
@@ -8652,7 +8545,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "fa4f1247-e14e-4914-b878-c06d357ef465")
 		)
@@ -8683,7 +8576,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "f6a55286-3fb7-4b05-a939-396f10a17642")
 		)
@@ -8718,6 +8611,7 @@
 			(pintype "passive")
 			(uuid "6f8da0fd-8cd0-440b-b399-d1af4cce5e86")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -8754,18 +8648,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 150)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d0bc8a6-4772-4730-a6c4-b915b4789999")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10415,7 +10297,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "e8ead59f-be02-449d-b23d-2693a971852a")
 		)
@@ -10426,7 +10308,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "6ab313a6-1c83-49e1-b70b-9cbbaa705efe")
 		)
@@ -10457,7 +10339,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "2fbc693a-5120-4735-80ef-8680fc8e0d20")
 		)
@@ -10492,6 +10374,7 @@
 			(pintype "passive")
 			(uuid "e0054e71-7570-4692-85fb-be6d1df08844")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -10528,18 +10411,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "477c5f65-9654-4c9a-9052-55c1a4b3ff48")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12189,7 +12060,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "47e81717-e538-45ca-b6ed-7c039903556f")
 		)
@@ -12200,7 +12071,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8ea9f0ed-8564-4fa5-ba34-d3839d22ff96")
 		)
@@ -12231,7 +12102,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "f79e9f84-a189-4cdf-a1d5-1ff7e98d9c9b")
 		)
@@ -12266,6 +12137,7 @@
 			(pintype "passive")
 			(uuid "3932745d-05f5-48da-b811-d93ff78364ac")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12304,18 +12176,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5655ae47-a4b4-4526-a140-eeb1a7031fdf")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12395,7 +12255,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "7c208592-e5e5-4d97-93a8-46ddd73d4748")
 		)
@@ -12406,7 +12266,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "284caf6a-86fa-4dc6-88c9-3b8c85ea59c2")
 		)
@@ -12432,6 +12292,7 @@
 			(pintype "input")
 			(uuid "fa12a146-0e78-4a64-8966-666971575a46")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_4.5mm_Pad"
 		(layer "F.Cu")
@@ -12459,18 +12320,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20b69dbe-a213-4c75-a66b-2489c66f118c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12550,7 +12399,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "fa0d43e3-741f-46e1-a26c-21b944f5fa6f")
 		)
@@ -12561,7 +12410,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "2e660103-4f9f-4370-890d-ceb126223f4d")
 		)
@@ -12587,6 +12436,7 @@
 			(pintype "input")
 			(uuid "3857769e-863b-46cc-ae3e-895bbe09ff95")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -12614,18 +12464,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 30)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "983a5c40-f6a4-451d-9ee0-d839f5c95da4")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12812,7 +12650,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 30)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -12821,12 +12659,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 30)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "376a587e-cdcb-49ad-a9b2-0b60df0a50aa")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -12869,18 +12708,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 30)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16d83f7c-807c-4adb-b7a3-dbd5c8cfce51")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403201122_Chinocera-HGC1210R5107M160NSVK_C7432790.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
@@ -12906,7 +12733,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12919,7 +12746,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7432790"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12932,7 +12759,7 @@
 			)
 		)
 		(property "MPN" "HGC1210R5107M160NSVK"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13063,7 +12890,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 210)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -13072,12 +12899,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 210)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "e6b6b312-5e7e-45ab-bec5-663761214ef8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -13120,18 +12948,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5dfaa284-9a16-4c80-80be-abaa965a2886")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403201122_Chinocera-HGC1210R5107M160NSVK_C7432790.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -13157,7 +12973,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13170,7 +12986,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7432790"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13183,7 +12999,7 @@
 			)
 		)
 		(property "MPN" "HGC1210R5107M160NSVK"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13314,7 +13130,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 270)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -13323,12 +13139,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 270)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "ae1a04e4-c36c-47f0-ab21-906aa5cbd515")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -13371,18 +13188,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 120)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b85ea8f-2404-4866-b86c-1678be367f78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403201122_Chinocera-HGC1210R5107M160NSVK_C7432790.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
@@ -13408,7 +13213,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13421,7 +13226,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7432790"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13434,7 +13239,7 @@
 			)
 		)
 		(property "MPN" "HGC1210R5107M160NSVK"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13565,7 +13370,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 300)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -13574,12 +13379,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 300)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "f5cf34db-8caf-4871-86bb-59e08e3d9b5b")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -13599,7 +13405,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C14"
-			(at 1.25 -5.25 -60)
+			(at 1.25 -5.25 300)
 			(layer "F.SilkS")
 			(uuid "76c714d2-c031-4354-9c4a-c4d00e7f3145")
 			(effects
@@ -13610,7 +13416,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 1.25 5.25 -60)
+			(at 1.25 5.25 300)
 			(layer "F.Fab")
 			(uuid "c62827ff-c24e-4ac0-add3-523ce31b6ad4")
 			(effects
@@ -13620,20 +13426,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 -60)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8bc6855-8078-422c-9010-363c51b69a85")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9369050-4651-4334-ad38-075b4b7faf8b")
@@ -13645,7 +13439,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ff5837c-12b5-4d46-8eea-ea72fac2c070")
@@ -13657,7 +13451,7 @@
 			)
 		)
 		(property "DigiKey PN" "1189-1856-ND"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13670,7 +13464,7 @@
 			)
 		)
 		(property "LCSC Part #" " C338173"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13683,7 +13477,7 @@
 			)
 		)
 		(property "MPN" "16YXF100MEFC6.3X11"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15277,7 +15071,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "8508a857-8404-4ff2-851c-f9a35193187d")
 		)
@@ -15288,7 +15082,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "a8bcf824-94f3-4736-99a0-f8634324ab93")
 		)
@@ -15319,12 +15113,12 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "58d676b8-2640-4fc0-ab91-8a579d648f0c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 -60)
+			(at 1.25 0 300)
 			(layer "F.Fab")
 			(uuid "ee857a9c-3c73-4784-b317-845a996344fa")
 			(effects
@@ -15354,6 +15148,7 @@
 			(pintype "passive")
 			(uuid "fea03d31-3663-4883-b109-f9e0843aac22")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -15392,18 +15187,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f04d8010-7b20-4364-8c79-5e6b830e6bbb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15483,7 +15266,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "fa94b95d-36f2-410d-9642-7edf82b40e1e")
 		)
@@ -15494,7 +15277,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "192c067f-b82c-42f5-b831-ec0af381dce2")
 		)
@@ -15520,6 +15303,7 @@
 			(pintype "input")
 			(uuid "a9763636-6f2b-4f8a-bd23-140224e261fb")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
 		(layer "F.Cu")
@@ -15545,18 +15329,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 60)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7922064c-2c5a-4106-aabf-2a3f76351a45")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -17206,7 +16978,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "1355f6b9-be97-43f1-9212-697e1bf2c48d")
 		)
@@ -17217,7 +16989,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "272941a1-ad01-4198-ac58-9482b230564f")
 		)
@@ -17248,7 +17020,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "1d3bbb91-b9f4-4d00-a06a-2211defb1a2e")
 		)
@@ -17283,6 +17055,7 @@
 			(pintype "passive")
 			(uuid "5f461781-3404-4923-bf0e-652f842832a2")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -17319,18 +17092,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 30)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a924f8d2-c859-42ac-a702-eea1c39277ff")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -18980,7 +18741,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "69d45fe0-57ae-49ca-b35e-2882201bc525")
 		)
@@ -18991,7 +18752,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b571dbee-61ef-47a7-a7ff-264cab1d09c2")
 		)
@@ -19022,7 +18783,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "270fc53f-b023-4198-875b-74db63c78861")
 		)
@@ -19057,6 +18818,7 @@
 			(pintype "passive")
 			(uuid "f23e818e-81e3-4dcc-83dd-b37d3fa0b3eb")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -19093,18 +18855,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 120)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8218956-6501-4636-92bf-2a5ec9fa5ec8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -20754,7 +20504,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "8cd65615-d2cc-488a-8401-8bbae2dc0f22")
 		)
@@ -20765,7 +20515,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "804badce-10ef-4777-a61b-82405e30af88")
 		)
@@ -20796,7 +20546,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c29a8b6e-97b8-4d41-a150-19dcdc5cb30b")
 		)
@@ -20831,6 +20581,7 @@
 			(pintype "passive")
 			(uuid "095b4bc2-ecbc-4c8b-8cee-9881aaa4e063")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -20869,18 +20620,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 60)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1832f28d-84f5-4af8-9791-17de1a3bb12c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21067,7 +20806,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 60)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -21076,12 +20815,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 60)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "30ae8ea8-888d-4aef-84d1-82cff19d1d3d")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -21120,18 +20860,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ccc496c0-bf36-4481-8d4c-e7266e10efd6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21318,7 +21046,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 180)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -21327,12 +21055,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 180)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "8c4feb3c-05c7-446f-9ca6-b7afc7657960")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -21371,18 +21100,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 150)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2f1a922-52dd-4377-96fe-403f923b0e0b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21569,7 +21286,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 150)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -21578,12 +21295,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 150)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "10059b03-d5db-4b44-b171-791a0e8570fb")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -21622,18 +21340,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bca7935-a34a-4496-9c7a-fb7804476cf0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -21820,7 +21526,7 @@
 		(pad "1" smd roundrect
 			(at -1.475 0 90)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 1 "+5V")
 			(pintype "passive")
@@ -21829,12 +21535,13 @@
 		(pad "2" smd roundrect
 			(at 1.475 0 90)
 			(size 1.15 2.7)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net 15 "GND")
 			(pintype "passive")
 			(uuid "856f613d-c7c9-410c-9d62-7fa139a52722")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -21854,7 +21561,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C15"
-			(at 1.25 -5.25 -30)
+			(at 1.25 -5.25 330)
 			(layer "F.SilkS")
 			(uuid "365a602f-77b1-4542-88bf-4033606161a2")
 			(effects
@@ -21865,7 +21572,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 1.25 5.25 -30)
+			(at 1.25 5.25 330)
 			(layer "F.Fab")
 			(uuid "71269826-c2ec-4f8b-9f04-5b9ea5da7fde")
 			(effects
@@ -21875,20 +21582,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 -30)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aaafbab8-0bf8-47ad-a1ee-e8aa6790010b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36990e27-6aae-4bef-98d6-fd118a004243")
@@ -21900,7 +21595,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5aa849ed-cef0-4f9e-8933-b755af1da20a")
@@ -21912,7 +21607,7 @@
 			)
 		)
 		(property "DigiKey PN" "1189-1856-ND"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21925,7 +21620,7 @@
 			)
 		)
 		(property "LCSC Part #" " C338173"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21938,7 +21633,7 @@
 			)
 		)
 		(property "MPN" "16YXF100MEFC6.3X11"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23532,7 +23227,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "c5988deb-cc62-46f1-8d30-db745a206217")
 		)
@@ -23543,7 +23238,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "bff39602-c753-44a3-a3a6-0b4cc30b036e")
 		)
@@ -23574,12 +23269,12 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "560784a5-fcf0-4d0e-8b71-085889b91ea6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 -30)
+			(at 1.25 0 330)
 			(layer "F.Fab")
 			(uuid "37e02fa0-a8b7-49c7-82e0-4094849c1285")
 			(effects
@@ -23609,6 +23304,7 @@
 			(pintype "passive")
 			(uuid "a6c32aff-2050-43ba-b1c5-2e6df417be75")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -23650,18 +23346,6 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92769595-35a3-4c57-9fa2-37a5ddd1b13f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -23687,7 +23371,7 @@
 			)
 		)
 		(property "DigiKey PN" "1189-1856-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23700,7 +23384,7 @@
 			)
 		)
 		(property "LCSC Part #" " C338173"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23713,7 +23397,7 @@
 			)
 		)
 		(property "MPN" "16YXF100MEFC6.3X11"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25307,7 +24991,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "669e181a-116d-4a9d-9617-44255e099c52")
 		)
@@ -25318,7 +25002,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "ab6bfbe1-b083-4cf9-bea3-2060be34dd8c")
 		)
@@ -25349,7 +25033,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "7dfc7a73-79e7-45ae-a57a-35742025f52d")
 		)
@@ -25384,6 +25068,7 @@
 			(pintype "passive")
 			(uuid "68c98158-5575-471a-9383-a7972debc2d9")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -25421,19 +25106,6 @@
 				(font
 					(size 1.524 1.524)
 					(thickness 0.3048)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3365c273-f704-40ec-84c2-dfff3af80345")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -25516,7 +25188,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "68f04d1a-b92d-458c-9e3e-9d2f2e030d41")
 		)
@@ -25527,7 +25199,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "29394b54-3e04-4ae0-8a82-4956f540f2c7")
 		)
@@ -25712,6 +25384,7 @@
 			(pintype "passive")
 			(uuid "1a30b01b-2dae-498e-9b5c-8e712b50c2c4")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -25729,7 +25402,7 @@
 		(uuid "1a196275-56d6-424a-b9c9-eb08b3907ac7")
 		(at 254.593961 222.137014 60)
 		(property "Reference" "P12"
-			(at 19.5 4.5 -120)
+			(at 19.5 4.5 240)
 			(layer "B.SilkS")
 			(uuid "e9d5fb87-01ff-4de0-809e-624914ca7337")
 			(effects
@@ -25741,7 +25414,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -120)
+			(at 0.03 -2.88 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a0548a55-6a43-4570-95e5-e152f8843cbd")
@@ -25753,21 +25426,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -120)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "919262a0-60c5-433b-b408-efa381c5a6b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "29e0f8b5-70b2-4a5d-8864-4c0fbf6153bf")
@@ -25780,7 +25440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b653b441-5493-4e4f-8874-79330a324eee")
@@ -25845,7 +25505,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "10a717b1-0de0-4045-bcd5-e365f338085a")
 		)
@@ -25857,7 +25517,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "a356dd61-e704-412c-a131-d040f57ccb2f")
 		)
@@ -26042,6 +25702,7 @@
 			(pintype "passive")
 			(uuid "0dfe3063-12c3-487b-b25b-dc626f9c334f")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -26059,7 +25720,7 @@
 		(uuid "1d197bf1-5392-4935-8270-8d45b9bf2a33")
 		(at 89.125971 177.8 -90)
 		(property "Reference" "P7"
-			(at 19.5 4.5 -90)
+			(at 19.5 4.5 270)
 			(layer "B.SilkS")
 			(uuid "8de22f2d-0ac5-40d2-bdc3-82155cf2bb20")
 			(effects
@@ -26071,7 +25732,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -90)
+			(at 0.03 -2.88 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c9525013-8666-441b-bf0d-99364314c5be")
@@ -26083,21 +25744,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "85a1938d-a774-4adc-a8db-39dc91161864")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "20dd96c6-5de9-4f80-8c25-a6a5fe2a3047")
@@ -26110,7 +25758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "06eb1546-58de-47d1-b2c7-e8c717b8e130")
@@ -26123,7 +25771,7 @@
 			)
 		)
 		(property "DigiKey PN" "S1011EC-40-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26137,7 +25785,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7501269"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26151,7 +25799,7 @@
 			)
 		)
 		(property "MPN" "PRPC040SAAN-RC"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26174,7 +25822,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "d99d50e6-7bd9-4e78-a4fe-682b6978907d")
 		)
@@ -26185,7 +25833,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "4428a0cf-dd32-4625-8b57-b1e12fe1963e")
 		)
@@ -26370,6 +26018,7 @@
 			(pintype "passive")
 			(uuid "9b7196ab-379d-4c96-b1c3-e8b143b74314")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -26387,7 +26036,7 @@
 		(uuid "41d6ceb2-2d8d-48aa-9a5a-4aaf97b29718")
 		(at 133.462985 254.593961 -30)
 		(property "Reference" "P9"
-			(at 19.5 4.5 -30)
+			(at 19.5 4.5 330)
 			(layer "B.SilkS")
 			(uuid "8f5d5765-f543-4560-82ec-4a6a1ba24569")
 			(effects
@@ -26399,7 +26048,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -30)
+			(at 0.03 -2.88 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "01a70fba-4e66-45c1-8b6a-0ab2e312446e")
@@ -26411,21 +26060,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -30)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "07d874ef-ae5f-49f5-8c86-9340fd596591")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "96b612df-232f-4c6a-9b60-3d99c7666c04")
@@ -26438,7 +26074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "516cca20-1657-4390-9263-682352197f44")
@@ -26451,7 +26087,7 @@
 			)
 		)
 		(property "DigiKey PN" "S1011EC-40-ND"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26465,7 +26101,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7501269"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26479,7 +26115,7 @@
 			)
 		)
 		(property "MPN" "PRPC040SAAN-RC"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26503,7 +26139,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "3386b4c9-620d-44a4-892d-330055f10871")
 		)
@@ -26515,7 +26151,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "7db9aef8-ec64-4973-b57f-3390951d9f14")
 		)
@@ -26700,6 +26336,7 @@
 			(pintype "passive")
 			(uuid "9f184dd0-a254-4431-ae5f-9fd0e452eb92")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -26717,7 +26354,7 @@
 		(uuid "438f1cf0-5966-46b4-8498-270bffee4e38")
 		(at 222.137014 254.593961 30)
 		(property "Reference" "P11"
-			(at 19.5 4.5 -150)
+			(at 19.5 4.5 210)
 			(layer "B.SilkS")
 			(uuid "f94d1a69-0b6e-485a-8c9b-c0a923a3ba54")
 			(effects
@@ -26729,7 +26366,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -150)
+			(at 0.03 -2.88 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9234cbf8-f032-4887-ac27-1b9bae78e9f4")
@@ -26741,21 +26378,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -150)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "71ecde29-d47d-4b16-b01b-a6ffca81d586")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a8aeb3c7-8356-4874-9852-3e9f00de7553")
@@ -26768,7 +26392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1715f73-6953-424e-97c9-ede9c3804363")
@@ -26833,7 +26457,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "b210511e-95ec-442c-9b33-ca1c3f15087b")
 		)
@@ -26845,7 +26469,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "7c46f826-bab9-408e-9881-d07037b52481")
 		)
@@ -27030,6 +26654,7 @@
 			(pintype "passive")
 			(uuid "71628fa8-c73c-475a-ae53-fdb348825a30")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -27047,7 +26672,7 @@
 		(uuid "83fa7a29-a658-403c-91c4-ac7e921594f4")
 		(at 133.462985 101.006038 -150)
 		(property "Reference" "P5"
-			(at 19.5 4.5 -150)
+			(at 19.5 4.5 210)
 			(layer "B.SilkS")
 			(uuid "8fc00fcd-7122-4a94-93bd-16401ae1842e")
 			(effects
@@ -27059,7 +26684,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -150)
+			(at 0.03 -2.88 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b1d635f7-9187-4d34-bfc4-54b1a09de08a")
@@ -27071,21 +26696,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -150)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fc0dfbce-4a20-407c-b895-ca96b28ffbb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "177c9f3a-d9f7-45f9-8042-00c4a70f0b68")
@@ -27098,7 +26710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -150)
+			(at 0 0 210)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "03c2414e-1143-4116-91c8-a9c0300dc843")
@@ -27111,7 +26723,7 @@
 			)
 		)
 		(property "DigiKey PN" "S1011EC-40-ND"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27125,7 +26737,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7501269"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27139,7 +26751,7 @@
 			)
 		)
 		(property "MPN" "PRPC040SAAN-RC"
-			(at 0 0 -150)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27163,7 +26775,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "1733b2d0-eaa3-4343-addc-6044ae7b5e13")
 		)
@@ -27175,7 +26787,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "415e1aea-cd82-43ee-8168-33933d27ad7a")
 		)
@@ -27360,6 +26972,7 @@
 			(pintype "passive")
 			(uuid "91231b80-017e-4c19-a3a1-33dfa7744639")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -27397,19 +27010,6 @@
 				(font
 					(size 1.524 1.524)
 					(thickness 0.3048)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "afff40bf-678f-4d78-a05e-551957c2e66d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -27492,7 +27092,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "e830cf8d-bad0-497b-991d-1286732a32c0")
 		)
@@ -27503,7 +27103,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "27d2ce13-c504-4a33-aa1c-a7e22f48a5c9")
 		)
@@ -27688,6 +27288,7 @@
 			(pintype "passive")
 			(uuid "456fd5fc-6ddc-40db-b5c9-39ce413fc8b2")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -27705,7 +27306,7 @@
 		(uuid "a614fc37-a0ab-40bb-8b0a-91c8eeb81755")
 		(at 266.474028 177.8 90)
 		(property "Reference" "P1"
-			(at 19.5 4.5 -90)
+			(at 19.5 4.5 270)
 			(layer "B.SilkS")
 			(uuid "2a0a9917-2b48-4b82-801a-a9e3d6fcc490")
 			(effects
@@ -27717,7 +27318,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -90)
+			(at 0.03 -2.88 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "68950d55-594f-4a81-8e88-e275cc53bf4d")
@@ -27729,21 +27330,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "893daa67-1786-4cfc-b884-2566f6169013")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b5f40732-c5f9-4aa9-848b-eafb69c1b496")
@@ -27756,7 +27344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e9e7baa6-1bbe-419f-8517-8e6354e83b46")
@@ -27820,7 +27408,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "09dcc704-cfa2-49b8-bff5-8a88a244e5ad")
 		)
@@ -27831,7 +27419,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "1c160397-1c5e-4cd1-920e-1701d0ed0253")
 		)
@@ -28016,6 +27604,7 @@
 			(pintype "passive")
 			(uuid "4a0a70a4-6721-47e3-8cbf-fb5f9193413d")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -28033,7 +27622,7 @@
 		(uuid "af5899ff-2ce6-4f66-a88a-f5676ffc2402")
 		(at 101.006038 133.462985 -120)
 		(property "Reference" "P6"
-			(at 19.5 4.5 -120)
+			(at 19.5 4.5 240)
 			(layer "B.SilkS")
 			(uuid "ba1860f0-55c0-46a0-a78d-293159a201ec")
 			(effects
@@ -28045,7 +27634,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -120)
+			(at 0.03 -2.88 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "08648ff6-56d8-49a9-9b97-7079c9f40660")
@@ -28057,21 +27646,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -120)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fe5f31c0-dea3-4d37-bb43-57df09c3d7b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3c8344fd-58fc-41bd-81d8-6ebf5ddaa911")
@@ -28084,7 +27660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -120)
+			(at 0 0 240)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "62df3067-53b9-404d-8ec7-0e567519ff7b")
@@ -28097,7 +27673,7 @@
 			)
 		)
 		(property "DigiKey PN" "S1011EC-40-ND"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28111,7 +27687,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7501269"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28125,7 +27701,7 @@
 			)
 		)
 		(property "MPN" "PRPC040SAAN-RC"
-			(at 0 0 -120)
+			(at 0 0 240)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28149,7 +27725,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "de602060-4f32-4703-af2f-87957e8194dc")
 		)
@@ -28161,7 +27737,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "cf542500-8ebb-4910-9fe7-bf24d188a3c9")
 		)
@@ -28346,6 +27922,7 @@
 			(pintype "passive")
 			(uuid "a8249476-17ec-4536-8f7c-90cd1a8da2b6")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -28363,7 +27940,7 @@
 		(uuid "b530fd86-de5a-4a7e-9e22-989d8b991246")
 		(at 101.006038 222.137014 -60)
 		(property "Reference" "P8"
-			(at 19.5 4.5 -60)
+			(at 19.5 4.5 300)
 			(layer "B.SilkS")
 			(uuid "6f9fd241-cf6a-4b5a-8033-a3e8dc8475a7")
 			(effects
@@ -28375,7 +27952,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -60)
+			(at 0.03 -2.88 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6ca68711-5471-4044-b034-c2bd0ba7b11a")
@@ -28387,21 +27964,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -60)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a8628671-e720-4346-8ca3-ea8b4472e030")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6454bb51-461c-4986-8da8-49e29d21dc39")
@@ -28414,7 +27978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b28887bb-996f-448a-9ff3-06871df7d515")
@@ -28427,7 +27991,7 @@
 			)
 		)
 		(property "DigiKey PN" "S1011EC-40-ND"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28441,7 +28005,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7501269"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28455,7 +28019,7 @@
 			)
 		)
 		(property "MPN" "PRPC040SAAN-RC"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28479,7 +28043,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "a1c3f52a-b740-4b05-b6f8-e5607e1a6e21")
 		)
@@ -28491,7 +28055,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "847caf25-f45d-4453-91db-7529926d450b")
 		)
@@ -28676,6 +28240,7 @@
 			(pintype "passive")
 			(uuid "861df274-539b-407c-a19e-911a30718448")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -28693,7 +28258,7 @@
 		(uuid "e500cee2-b67f-45d5-a690-4801a9161394")
 		(at 254.593961 133.462985 120)
 		(property "Reference" "P2"
-			(at 19.5 4.5 -60)
+			(at 19.5 4.5 300)
 			(layer "B.SilkS")
 			(uuid "0b05bc71-139b-4069-8fa5-90f197ba035f")
 			(effects
@@ -28705,7 +28270,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -60)
+			(at 0.03 -2.88 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f41cdec1-42b3-4b0e-a265-18a6bc359e62")
@@ -28717,21 +28282,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -60)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bfcb6a57-90f4-43a2-a853-eaa25efb6d7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "831f3d86-66fa-436e-a9ee-adf40d03d9d3")
@@ -28744,7 +28296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -60)
+			(at 0 0 300)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c264a85-317e-4633-90c2-260e66ad3525")
@@ -28809,7 +28361,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "7d9441d3-f4c4-4777-966a-dc98c3cf421c")
 		)
@@ -28821,7 +28373,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "8b01f362-e327-472b-b0e4-f688b3adc6bd")
 		)
@@ -29006,6 +28558,7 @@
 			(pintype "passive")
 			(uuid "d487604e-5d74-4628-a5b4-9cac504e7c23")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -29023,7 +28576,7 @@
 		(uuid "f33b2b3b-5a14-4be6-9a69-9d3ee270f1c4")
 		(at 222.137014 101.006038 150)
 		(property "Reference" "P3"
-			(at 19.5 4.5 -30)
+			(at 19.5 4.5 330)
 			(layer "B.SilkS")
 			(uuid "baf72290-052d-4ca0-9518-1b88c391ea29")
 			(effects
@@ -29035,7 +28588,7 @@
 			)
 		)
 		(property "Value" "CONN15"
-			(at 0.03 -2.88 -30)
+			(at 0.03 -2.88 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "45b07455-e01f-4cf8-9bf6-6596b43fa501")
@@ -29047,21 +28600,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "arena_custom:HEADER_TOP"
-			(at 0 0 -30)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2473f2e0-e16c-4ce6-9688-a770db1b3eb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311221544_Megastar-ZX-PZ2-54-1-15PZZ_C7501269.pdf"
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ed821ef-68f9-475b-a2d4-056ce3cad324")
@@ -29074,7 +28614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -30)
+			(at 0 0 330)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8e695be4-2e2f-4989-92c1-e7b15ae6639b")
@@ -29139,7 +28679,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "346bad8f-8964-4631-9178-05a3d251fad2")
 		)
@@ -29151,7 +28691,7 @@
 				(width 0.381)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "497a1b7c-6f8c-4dee-b58d-fcd407edeb0f")
 		)
@@ -29336,6 +28876,7 @@
 			(pintype "passive")
 			(uuid "04bdd151-b9a3-457f-a681-b8ee26bcab6d")
 		)
+		(embedded_fonts no)
 		(model "${KIPRJMOD}/arena_custom.pretty/3d_models/PinHeader_1x15_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz -17.78 0 0)
@@ -30616,7 +30157,7 @@
 			(width 0.514144)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "3e7ad753-934f-4b48-b98e-1dbbc644ba61")
 	)
@@ -30970,7 +30511,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4d781c4c-2697-4ddf-a0d5-041db2eb72ff")
 	)
@@ -31052,7 +30593,7 @@
 			(width 0.514144)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "507a03fc-b30f-4c90-a28f-7911c3186fa7")
 	)
@@ -31534,7 +31075,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "6895d0d1-8b98-4332-9305-e35ca733b715")
 	)
@@ -34677,7 +34218,7 @@
 			(width 0.125869)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f98cab11-5e08-464c-843a-2ad4aedff3a8")
 	)
@@ -34818,7 +34359,7 @@
 			(width 0.3)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "f862f3b2-dc6c-4e94-9af7-70026913d49a")
 	)
@@ -34871,7 +34412,7 @@
 			(width 0.3)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "37f4391e-44c2-4220-9f1c-27413a6129fb")
 	)
@@ -34917,21 +34458,8 @@
 		(layer "Edge.Cuts")
 		(uuid "b6ef0125-2dc4-408a-81ce-53aec1d09700")
 	)
-	(gr_text "https://reiserlab.github.io/Modular-LED-Display/"
-		(at 67.691 147.066 90)
-		(layer "B.SilkS")
-		(uuid "fb615b43-0f55-4350-9955-f2e6a5d1cb70")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify right bottom mirror)
-		)
-	)
-	(gr_text "2024-12-23"
-		(at 71.501 194.691 90)
+	(gr_text "${ISSUE_DATE}"
+		(at 72.03 149.07 90)
 		(layer "F.SilkS")
 		(uuid "1589676e-2101-47ed-948d-a93b62ea2aff")
 		(effects
@@ -34940,7 +34468,7 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "5V\n"
@@ -34969,8 +34497,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "12-12 Teensy G4.1 Arena Top v0.3.3\n"
-		(at 67.4116 177.5968 90)
+	(gr_text "${TITLE} ${REVISION}"
+		(at 68.02 148.6 90)
 		(layer "F.SilkS")
 		(uuid "d96a7d4d-21ba-461b-a1b0-b6bef1023b32")
 		(effects
@@ -34979,7 +34507,20 @@
 				(thickness 0.3556)
 				(bold yes)
 			)
-			(justify bottom)
+			(justify right bottom)
+		)
+	)
+	(gr_text "https://reiserlab.github.io/Modular-LED-Display/"
+		(at 67.691 147.066 90)
+		(layer "B.SilkS")
+		(uuid "fb615b43-0f55-4350-9955-f2e6a5d1cb70")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(segment
@@ -38466,7 +38007,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "09eb6def-639a-4ba8-abd9-bb391f4f437e")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38481,6 +38024,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38494,7 +38041,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "0ffd2b3b-371c-4ad6-b7ac-e8c12e126e99")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38509,6 +38058,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38522,7 +38075,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "40090c7b-a431-4688-8928-73c8fcb884cf")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38537,6 +38092,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38550,7 +38109,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "e0a56592-6f98-4cde-b744-622fe5981152")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38565,6 +38126,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38578,7 +38143,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "f0ae4778-9909-4e02-b2e8-1b70230c0596")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38593,6 +38160,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38606,7 +38177,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "f844b4e8-a586-4f60-acd7-477f1c4417a2")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38621,6 +38194,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38634,7 +38211,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste"
+		)
 		(uuid "fcda0660-3006-4c91-89b9-f0ab54b30804")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38649,6 +38228,10 @@
 			(copperpour allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -38662,7 +38245,9 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask" "Dwgs.User")
+		(layers "F.Cu" "F.Mask" "B.Cu" "B.Mask" "F.SilkS" "B.SilkS" "F.Adhes" "B.Adhes"
+			"F.Paste" "B.Paste" "Dwgs.User"
+		)
 		(uuid "37bf725d-800c-490c-bd19-93a5afe9a75b")
 		(hatch edge 0.5)
 		(connect_pads
@@ -38676,6 +38261,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -41982,4 +41571,5 @@
 			"ff7afb1c-546d-4f73-a97a-2c089a53378e"
 		)
 	)
+	(embedded_fonts no)
 )
