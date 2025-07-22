@@ -7,7 +7,7 @@
 	(title_block
 		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
 		(date "2025-07-22")
-		(rev "v0.4")
+		(rev "v0.4.1")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 80.01 0)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 204.47 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 200.66 0)
 			(effects
 				(font
@@ -3209,7 +3209,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 200.66 0)
 			(effects
 				(font
@@ -3218,7 +3218,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 200.66 0)
 			(effects
 				(font
@@ -3227,7 +3227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 200.66 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 140.97 0)
 			(effects
 				(font
@@ -3807,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -3834,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -3895,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 328.93 0)
 			(effects
 				(font
@@ -3904,7 +3904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 325.12 0)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 325.12 0)
 			(effects
 				(font
@@ -3931,7 +3931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 325.12 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 325.12 0)
 			(effects
 				(font
@@ -4193,7 +4193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 81.28 0)
 			(effects
 				(font
@@ -4202,7 +4202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -4220,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -4229,7 +4229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -4238,7 +4238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 77.47 0)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 204.47 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 200.66 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 200.66 0)
 			(effects
 				(font
@@ -5176,7 +5176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 200.66 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 200.66 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 140.97 0)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -6575,7 +6575,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -6584,7 +6584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -7766,7 +7766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 391.16 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 387.35 0)
 			(effects
 				(font
@@ -7793,7 +7793,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 387.35 0)
 			(effects
 				(font
@@ -7802,7 +7802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 387.35 0)
 			(effects
 				(font
@@ -7811,7 +7811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 387.35 0)
 			(effects
 				(font
@@ -9006,7 +9006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 266.7 0)
 			(effects
 				(font
@@ -9015,7 +9015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 262.89 0)
 			(effects
 				(font
@@ -9033,7 +9033,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 262.89 0)
 			(effects
 				(font
@@ -9042,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 262.89 0)
 			(effects
 				(font
@@ -9051,7 +9051,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 262.89 0)
 			(effects
 				(font
@@ -9629,7 +9629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 388.62 0)
 			(effects
 				(font
@@ -9638,7 +9638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 384.81 0)
 			(effects
 				(font
@@ -9656,7 +9656,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 384.81 0)
 			(effects
 				(font
@@ -9665,7 +9665,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 384.81 0)
 			(effects
 				(font
@@ -9674,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 384.81 0)
 			(effects
 				(font
@@ -10420,7 +10420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 56.8452 328.93 0)
 			(effects
 				(font
@@ -10429,7 +10429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 55.88 325.12 0)
 			(effects
 				(font
@@ -10447,7 +10447,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 55.88 325.12 0)
 			(effects
 				(font
@@ -10456,7 +10456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 55.88 325.12 0)
 			(effects
 				(font
@@ -10465,7 +10465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 55.88 325.12 0)
 			(effects
 				(font
@@ -10647,7 +10647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 177.4952 267.97 0)
 			(effects
 				(font
@@ -10656,7 +10656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/16yxf100mefc6.3x11-rubycon-19941780"
+		(property "Datasheet" "https://octopart.com/datasheet/eeefth101xap-panasonic-19787188"
 			(at 176.53 264.16 0)
 			(effects
 				(font
@@ -10674,7 +10674,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "1189-1856-ND"
+		(property "DigiKey PN" "PCE5024TR-ND"
 			(at 176.53 264.16 0)
 			(effects
 				(font
@@ -10683,7 +10683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C338173"
+		(property "LCSC Part #" "C165974"
 			(at 176.53 264.16 0)
 			(effects
 				(font
@@ -10692,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "16YXF100MEFC6.3X11"
+		(property "MPN" "EEEFTH101XAP"
 			(at 176.53 264.16 0)
 			(effects
 				(font

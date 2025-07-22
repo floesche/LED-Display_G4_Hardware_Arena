@@ -7,7 +7,7 @@
 	(title_block
 		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
 		(date "2025-07-22")
-		(rev "v0.4")
+		(rev "v0.4.1")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols
