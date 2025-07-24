@@ -5,22 +5,24 @@
 	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
 	(paper "User" 279.4 203.2)
 	(title_block
-		(title "12-12 Teensy G4.1 Arena Belt Modular LED Display")
-		(date "2025-07-22")
-		(rev "v0.5.1")
+		(title "Arena 12-12 G4.1 Belt :: Modular LED Display")
+		(date "2025-07-24")
+		(rev "v0.1")
 		(company "MCN-NET @ Janelia")
 	)
 	(lib_symbols)
-	(text "12-12 Teensy Arena Top"
+	(text "Arena 12-12 G4.1 Belt"
 		(exclude_from_sim no)
-		(at 90.678 30.734 0)
+		(at 136.144 26.924 0)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "5a21ad0e-00ff-4028-aa06-98e7a7edcffd")
+		(uuid "1549f8ea-3759-49f3-9d1f-fd29dce8d3a3")
 	)
 	(sheet
 		(at 106.68 48.26)
@@ -57,7 +59,7 @@
 			)
 		)
 		(instances
-			(project "arena_top_12-12"
+			(project "arena_12-12_G4.1_belt"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
 					(page "3")
 				)
@@ -99,7 +101,7 @@
 			)
 		)
 		(instances
-			(project "arena_top_12-12"
+			(project "arena_12-12_G4.1_belt"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
 					(page "4")
 				)
@@ -141,7 +143,7 @@
 			)
 		)
 		(instances
-			(project "arena_top_12-12"
+			(project "arena_12-12_G4.1_belt"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
 					(page "2")
 				)

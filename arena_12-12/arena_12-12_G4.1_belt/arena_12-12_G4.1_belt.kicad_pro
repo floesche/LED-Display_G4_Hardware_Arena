@@ -490,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "arena_top_12-12.kicad_pro",
+    "filename": "arena_12-12_G4.1_belt.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -533,8 +533,8 @@
       "netlist": "arena.net",
       "plot": "production/version_0p1_r1/gerber/",
       "pos_files": "production/version_0p1_r1/",
-      "specctra_dsn": "arena_top_12-12.dsn",
-      "step": "assets/arena_top_12-12_0.5.step",
+      "specctra_dsn": "arena_12-12_G4.1_belt.dsn",
+      "step": "assets/arena_12-12_G4.1_belt_v0.1.step",
       "svg": "",
       "vrml": ""
     },

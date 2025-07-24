@@ -5,15 +5,15 @@
 	(uuid "306e5b8e-03e2-495a-8d9b-de2d10577a54")
 	(paper "USLetter")
 	(title_block
-		(title "12-12 Teensy G4.1 Arena Belt Modular LED Display")
-		(date "2025-07-22")
-		(rev "v0.5.1")
+		(title "Arena 12-12 G4.1 Belt :: Modular LED Display")
+		(date "2025-07-24")
+		(rev "v0.1")
 		(company "MCN-NET @ Janelia")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack"
+		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack"
+			(property "Value" "Barrel_Jack_Switch"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack"
+			(property "Description" "DC Barrel Jack with an internal switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_0_1"
+			(symbol "Barrel_Jack_Switch_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -127,6 +127,18 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 3.683 3.175)
 					(end -3.302 1.905)
@@ -150,8 +162,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Barrel_Jack_1_1"
+			(symbol "Barrel_Jack_Switch_1_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -163,6 +187,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -528,6 +570,7 @@
 		(at 115.189 21.082 0)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 5.08 5.08)
 				(thickness 0.508)
 				(bold yes)
@@ -535,6 +578,10 @@
 			(justify left bottom)
 		)
 		(uuid "eac47849-a989-4adb-8505-bd6591ae6299")
+	)
+	(no_connect
+		(at 92.71 82.55)
+		(uuid "263ab68c-7e68-405b-859c-cff265a3ccfc")
 	)
 	(wire
 		(pts
@@ -555,6 +602,16 @@
 			(type default)
 		)
 		(uuid "4e249240-41ee-4fea-9c81-6f295da22a90")
+	)
+	(wire
+		(pts
+			(xy 92.71 82.55) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7c7a97-2d17-4ce2-961e-6fc9a791d7ae")
 	)
 	(wire
 		(pts
@@ -1010,7 +1067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
+		(lib_id "Connector:Barrel_Jack_Switch")
 		(at 104.14 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -1021,7 +1078,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e75f20-4077-4fff-8e5d-4a8e51f79934")
 		(property "Reference" "J4"
-			(at 110.49 81.915 0)
+			(at 110.49 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1087,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 110.49 84.455 0)
+			(at 110.49 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "arena_custom:DCJACK_2PIN_HIGHCURRENT"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-036AH-SMT_Horizontal"
 			(at 102.87 83.566 0)
 			(effects
 				(font
@@ -1047,7 +1104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://octopart.com/datasheet/pj-063ah-same+sky-106234056"
+		(property "Datasheet" "~"
 			(at 102.87 83.566 0)
 			(effects
 				(font
@@ -1056,7 +1113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Barrel Jack with an internal switch"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -1065,7 +1122,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" "CP-063AH-ND"
+		(property "DigiKey PN" "CP-036AHPJTR-ND"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -1074,7 +1131,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2928097"
+		(property "LCSC Part #" "C3094052"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -1083,7 +1140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PJ-063AH"
+		(property "MPN" "PJ-036AH-SMT-TR"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -1097,6 +1154,9 @@
 		)
 		(pin "2"
 			(uuid "eead7dc7-651a-4a25-9058-700c0b902504")
+		)
+		(pin "3"
+			(uuid "da4631f6-13c3-4765-988b-6811669935f6")
 		)
 		(instances
 			(project "teensy_arena_12-12"
