@@ -5,9 +5,9 @@
 	(uuid "7548a23b-b933-4e1c-9a2e-0ea0d4c68ee1")
 	(paper "User" 304.8 508)
 	(title_block
-		(title "12-12 Teensy G4.1 Arena Top Modular LED Display")
-		(date "2025-07-22")
-		(rev "v0.4.1")
+		(title "G4.1 Arena Top :: Modular LED Display")
+		(date "2025-07-24")
+		(rev "v0.4.2")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols
@@ -898,7 +898,7 @@
 		(effects
 			(font
 				(size 5.08 5.08)
-				(thickness 0.508)
+				(thickness 1.016)
 				(bold yes)
 			)
 			(justify left bottom)
