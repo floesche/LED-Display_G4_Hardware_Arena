@@ -572,7 +572,7 @@
 			(font
 				(face "KiCad Font")
 				(size 5.08 5.08)
-				(thickness 0.508)
+				(thickness 1.016)
 				(bold yes)
 			)
 			(justify left bottom)
