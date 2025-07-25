@@ -534,7 +534,7 @@
       "plot": "production/version_0p1_r1/gerber/",
       "pos_files": "production/version_0p1_r1/",
       "specctra_dsn": "arena_12-12_G4.1_belt.dsn",
-      "step": "assets/arena_12-12_G4.1_belt_v0.1.step",
+      "step": "assets/arena_12-12_G4.1_belt_v0.2.step",
       "svg": "",
       "vrml": ""
     },

@@ -534,7 +534,7 @@
       "plot": "production/version_0p1_r1/gerber/",
       "pos_files": "production/version_0p1_r1/",
       "specctra_dsn": "arena_top_12-12.dsn",
-      "step": "${KIPRJMOD}/assets/arena_top_12-12_0.4.2.step",
+      "step": "${KIPRJMOD}/assets/arena_top_12-12_0.4.3.step",
       "svg": "",
       "vrml": ""
     },

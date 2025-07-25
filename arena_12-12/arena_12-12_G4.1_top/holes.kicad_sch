@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "G4.1 Arena Top :: Modular LED Display")
-		(date "2025-07-24")
-		(rev "v0.4.2")
+		(date "2025-07-25")
+		(rev "v0.4.3")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols

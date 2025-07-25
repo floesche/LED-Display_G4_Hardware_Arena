@@ -6,8 +6,8 @@
 	(paper "User" 279.4 203.2)
 	(title_block
 		(title "Arena 12-12 G4.1 Belt :: Modular LED Display")
-		(date "2025-07-24")
-		(rev "v0.1")
+		(date "2025-07-25")
+		(rev "v0.2")
 		(company "MCN-NET @ Janelia")
 	)
 	(lib_symbols)
