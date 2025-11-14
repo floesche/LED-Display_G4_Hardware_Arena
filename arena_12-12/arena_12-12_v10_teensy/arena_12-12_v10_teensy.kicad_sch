@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
-	(paper "User" 279.4 203.2)
+	(paper "USLetter")
 	(title_block
-		(title "12-12 Arena Teensy Modular LED Display")
-		(date "2025-02-28")
-		(rev "v10.1")
+		(title "Arena 12-12 Teensy Modular LED Display")
+		(date "2024-12-23")
+		(rev "v10.3")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols)
@@ -183,7 +183,7 @@
 		(instances
 			(project "arena_12-12_v10_teensy"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -235,7 +235,7 @@
 		(instances
 			(project "arena_12-12_v10_teensy"
 				(path "/a2511654-3a17-43f1-8b9e-c45e375533dc"
-					(page "5")
+					(page "4")
 				)
 			)
 		)

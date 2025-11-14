@@ -5,9 +5,9 @@
 	(uuid "2f9a643b-c424-4624-a4ca-e8c967f3731b")
 	(paper "A4")
 	(title_block
-		(title "12-12 Arena Teensy Modular LED Display")
-		(date "2025-02-28")
-		(rev "v10.1")
+		(title "Arena 12-12 Teensy Modular LED Display")
+		(date "2024-12-23")
+		(rev "v10.3")
 		(company "IORodeo for Reiserlab @ Janelia")
 	)
 	(lib_symbols
@@ -257,6 +257,18 @@
 		)
 		(uuid "ea3497b3-7990-4d4e-a0ee-d33518b71f06")
 	)
+	(label "Ground Holes"
+		(at 130.81 30.48 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7722356-76f6-4da0-a42b-716b47a53fdb")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 69.85 35.56 0)
@@ -331,7 +343,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2a097cd6-846a-437f-8cdc-fc2c0705c24d")
 		(property "Reference" "H2"
 			(at 53.975 29.845 0)
@@ -371,6 +383,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -532,7 +562,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5cb430b1-0e6a-4170-90cc-b431d28c9206")
 		(property "Reference" "H3"
@@ -581,6 +611,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bce38ed6-1e5d-4b29-ac4b-3d8918f91e2b")
 		)
@@ -600,7 +648,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6371152a-6996-4c01-9b4c-95c050be178c")
 		(property "Reference" "H1"
@@ -641,6 +689,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -735,7 +801,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f21c68d1-fde2-4933-87ff-4157f7c0dbe8")
 		(property "Reference" "H4"
@@ -776,6 +842,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 69.85 30.48 0)
 			(effects
 				(font
