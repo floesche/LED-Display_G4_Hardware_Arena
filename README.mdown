@@ -4,12 +4,20 @@ Hardware for the Arena boards. Find more information on the [Modular LED Display
 
 The whole system of the previous 3rd generation modular displays was described in the following publication. A methods paper addressing Generation 4 is in preparation.
 
-Reiser, Michael B.; Dickinson, Michael H. (2008): "A modular display system for insect behavioral neuroscience". In: *Journal of Neuroscience Methods*. 167 (2), pp.&nbsp;127–139, DOI: [10.1016/j.jneumeth.2007.07.019](https://doi.org/10.1016/j.jneumeth.2007.07.019).
+Reiser, Michael B.; Dickinson, Michael H. (2008): "A modular display system for insect behavioral neuroscience". In: *Journal of Neuroscience Methods*. 167 (2), pp. 127–139, DOI: [10.1016/j.jneumeth.2007.07.019](https://doi.org/10.1016/j.jneumeth.2007.07.019).
+
+A related preprint is available:
+
+Isaacson, Matthew; Ferguson, Lisa; Loesche, Frank; Ganguly, Ishani; Chen, Jim; Chiu, Andy; Liu, Jinyang; Dickson, William; Reiser, Michael B. (2022): "A High-Speed, Modular Display System for Diverse Neuroscience Applications." In: *bioRxiv*. DOI: [10.1101/2022.08.02.502550](https://doi.org/10.1101/2022.08.02.502550).
 
 Before June 2020, this repository was hosted on `https://bitbucket.org/mreiser`.
 
 ## Changelog
 
+- _2025-11-14_: cleanup of repositories
+- _2024-10-09_: cleanup development of NI and teensy arenas
+- _2023-08-01_: Cleanup
+- _2023-07-14_: added flat arenas
 - _2021-11_: added more historic designs, update documentation.
 - _2020-10-07_: added arena 12-12 files
 - _2020-08-26_: update arena 12-18 to v1.2
