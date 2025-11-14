@@ -50,7 +50,7 @@ The __Arena 12-12 Version 6__ (OrCAD: `arena_12-12/arena_12-12_v6.brd`, [schemat
 
 __Arena 12-12 Version 7__ (KiCad: `arena_12-12/arena_12-12_v7_ni/arena_12-12_v7_ni.kicad_pro`, [schematics](assets/arena_12-12_NI_v7_schematics.pdf)) is the first version with a dedicated top PCB (before this one board was used twice). It is also the point where active design moved into KiCad so the source files are openly available. Version 7 tried a higher-voltage distribution concept and local regulation on “comm” boards. We built a few units, but did not adopt this idea. Keep it for historical notes; do not choose it for a normal system.
 
-![Arena 12-12 Version 8 rendering](arena_12-12_v8_ni_front_render.png){:standalone .ifr data-img-class="pop"}
+![Arena 12-12 Version 8 rendering](assets/arena_12-12_v8_ni_front_render.png){:standalone .ifr data-img-class="pop"}
 
 __Arena 12-12 Version 8__ (KiCad: `arena_12-12/arena_12-12_v8_ni/arena_12-12_v8_ni.kicad_pro`, [schematics](assets/arena_12-12_v8_ni_schematics.pdf)) is the first stable KiCad redesign that stays fully compatible with panel hardware from versions 1–6. Routing is cleaner (shorter power paths, clearer separation of signal and power), and silkscreen labels (pin 1 marks, polarity, column numbering) are easier to read. Early v8 boards had a column rotation / inversion issue; this was fixed and v8.4 (silkscreen may show v0.4) is the recommended drop‑in if you need an intermediate KiCad build.
 
