@@ -26,7 +26,7 @@ Below you find detailed historical notes starting with the 12-12 arena. The intr
 
 ![Arena 12-12 board v1](assets/arena_12-12_front_photo.jpg){:standalone .ifr data-img-class="pop"}
 
-A 12-12 Arena places twelve columns of panels in a regular dodecagon, forming an approximate cylindrical display with 170mm diameter. These are type of arenas are useful for behavioral experiments.
+A 12-12 Arena places twelve columns of panels in a regular dodecagon, forming an approximate cylindrical display with 170mm diameter. These arenas are useful for behavioral experiments.
 
 Legacy deployments mostly use Version 2 (often updated with v2.4 production files) and the notched mechanical variant Version 6. Version 4 adds noise reduction and is a practical variation of Version 2. Versions 7 and 9 were power experiments. Version 8 is the first stable KiCad redesign compatible with older panels and is the recommended choice for new builds. Version 10 is an inexpensive and much slower system still in development; treat it as experimental and do not use it yet for routine work.
 
@@ -34,7 +34,7 @@ The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.
 
 ![Rendering of an Arena 12-12 Version 2](assets/arena_12-12_v2_front_iso-render.png){:standalone .ifr data-img-class="pop"}
 
-The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.4__ archived at `arena_12-12/production_v2/arena_12-12_v2p4.zip` as it includes incremental improvements like a more helpful silkscreen. While most of the arenas were hand-assembled and with parts that our machine shop had lying around. Version v2.4 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
+The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.4__ archived at `arena_12-12/production_v2/arena_12-12_v2p4.zip` as it includes incremental improvements like a more helpful silkscreen. Most of the arenas were hand-assembled using parts that our machine shop had on hand. Version v2.4 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
 
 __Arena 12-12 Version 2C__ (OrCAD design file at `arena_12-12/arena_12-12_v2C`) is a prototype to length match all signal lines and decrease electric noise by routing them on individual layers. As a result the board has 12 (hex: `0xC`, hence 2C) layers. In our hands it didn't show improvements over other version 2 boards, but if you are looking to debug timing issues this could be a helpful starting point.
 
@@ -45,7 +45,7 @@ __Arena 12-12 Version 4__ (OrCAD design file at `arena_12-12/arena_12-12_v4.brd`
 The __Arena 12-12 Version 5__ (OrCAD design file at `arena_12-12/arena_12-12_v5.brd`, see [schematics](assets/arena_12-12_v5_schematic.pdf)) is an experimental 6 layer design without a [interconnect board](#interconnect) but instead with a direct VHDCI connector. Development is ongoing since Summer 2020, but the design does not work yet.
 
 ![Rendering of a notched Arena 12-12 Version 6](assets/arena_12-12_v6p0_front_render.png){:standalone .ifr data-img-class="pop"}
-routing
+
 The __Arena 12-12 Version 6__ (OrCAD: `arena_12-12/arena_12-12_v6.brd`, [schematic](assets/arena_12-12_v6_schematic.pdf)) is electrically the same as Version 2. The only difference is a notch (cutout) so the arena can slide under a specific microscope. Same schematic, same signals, same BOM (apart from mechanical mounting parts). Use production files at `arena_12-12/production_v6/arena_12-12_v6p0.zip`. It was first labeled v2.2, then renamed to v6.0 to avoid confusion with later v2.x updates.
 
 __Arena 12-12 Version 7__ (KiCad: `arena_12-12/arena_12-12_v7_ni/arena_12-12_v7_ni.kicad_pro`, [schematics](assets/arena_12-12_NI_v7_schematics.pdf)) is the first version with a dedicated top PCB (before this one board was used twice). It is also the point where active design moved into KiCad so the source files are openly available. Version 7 tried a higher-voltage distribution concept and local regulation on “comm” boards. We built a few units, but did not adopt this idea. Keep it for historical notes; do not choose it for a normal system.
@@ -56,7 +56,7 @@ __Arena 12-12 Version 8__ (KiCad: `arena_12-12/arena_12-12_v8_ni/arena_12-12_v8_
 
 __Arena 12-12 Version 9__ (KiCad: `arena_12-12/arena_12-12_v9_teensy/arena_12-12_v9_teensy.kicad_pro`, [schematics](assets/arena_12-12_v9_teensy_schematics.pdf)) is a Teensy‑focused prototype again testing higher voltage and local regulation ideas. Iteration 2 improved physical placement for the Teensy. These boards are NOT electrically compatible with the normal Generation 4 panel interface (old or newer panel generations). Only use v9 if you are studying alternative power methods or doing exploratory firmware work. Otherwise move straight to v10.
 
-__Arena 12-12 Version 10__ (KiCad: `arena_12-12/arena_12-12_v10_teensy/arena_12-12_v10_teensy.kicad_pro`, [schematics](assets/arena_12-12_v10_teensy_schematics.pdf)) a Teensy-focused version that is compatible with all Generation 4 panels (legacy and newer revisions). This is our development version for an inexpensive behavioral system.
+__Arena 12-12 Version 10__ (KiCad: `arena_12-12/arena_12-12_v10_teensy/arena_12-12_v10_teensy.kicad_pro`, [schematics](assets/arena_12-12_v10_teensy_schematics.pdf)) is a Teensy-focused version that is compatible with all Generation 4 panels (legacy and newer revisions). This is our development version for an inexpensive behavioral system.
 
 __Arena 12-12 Version 11__ (KiCad: `arena_12-12/arena_12-12_v11_top/arena_12-12_v11_top.kicad_pro`, [schematics](assets/arena_12-12_v11_top_schematics.pdf)) is a dedicated top board that provides mechanical support and termination for the bottom boards. This version is recommended as the top board for any of the v7–v10 bottom boards when a top is needed. It features improved mechanical design and consistent connector placement.
 
@@ -74,16 +74,16 @@ With the KiCad migration (initiated at v7), full schematic (`.kicad_sch`) and la
 
 The Arena 12-18 populates 12 out of 18 sides of a regular octadecagon with panel connectors. This means the approximated cylinder can cover up to 240° of the visual field with a diameter of around 250mm. This type of arena is particularly useful for electrophysiology and imaging experiments.
 
-__Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at this point). Consequently we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7 layer PCB with a footprint of 299×206mm². For a more detailed description and changelog see the `README.mdown` file in `arena_12-18/production_v1/`.
+__Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at present). Consequently we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7 layer PCB with a footprint of 299×206mm². For a more detailed description and changelog see the `README.mdown` file in `arena_12-18/production_v1/`.
 
 ![Rendering of the 12-18 arena holder](assets/arena_12-18_holder_render.png){:standalone .ifr data-img-class="pop"}
-For some arenas, one board required physical but not electrical connection. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_11-18_holder.svg` that can be used to laser cut this type of board inside the `arena_12-18` folder. See the local README.mdown file for further descriptions.
+For some arenas, one board required a physical connection only, without an electrical one. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_11-18_holder.svg` that can be used to laser cut this type of board inside the `arena_12-18` folder. See the local README.mdown file for further descriptions.
 
 ## Arena Interconnect Board {#interconnect}
 
 ![Assembled interconnect board](assets/interconnect_v1_iso_photo.jpg){:standalone .ifr data-img-class="pop"}
 
-Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest, that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
+Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
 
 The __Arena Interconnect Board Version 1__ (OrCAD design file at `interconnect/interconnect_v1.brd`, see [schematics](assets/interconnect_v1_schematic.pdf)) is a simple 2 layer PCB within the dimensions of 4.9×8.4mm². The most recent production files are archived at `interconnect/production_v1/interconnect_v1p2.zip`.
 
