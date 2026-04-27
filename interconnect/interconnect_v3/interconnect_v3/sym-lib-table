@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CustomConnector")(type "KiCad")(uri "${KIPRJMOD}/libraries/ni_te_68pos_2-5174225-5.kicad_sym")(options "")(descr ""))
+)
