@@ -12,15 +12,15 @@ nav_order: 7
 
 The arena board organizes panels in a defined geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. They are often described by the number of panel columns populated versus the virtual ones forming a full circle. An _arena 12-12_ is a closed cylinder formed by 12 columns in total. All columns can be populated in this design, but typically between 1 and 3 are left empty to access the center of the arena.
 
-If you need a quick summary: build 12-12 v8 (or v4) for a full cylinder, build 12-18 v1.1 when you need wider field access (e.g. electrophysiology), and ignore experimental versions unless you are actively studying power or timing:
+If you need a quick summary: If you want to build a **G4 system**, either get a [12-12 v8](#a12-12v8) (or [v4](#a12-12v4)) for a full cylinder, or [12-18](#a12-18v1) when you need wider field access (e.g., electrophysiology). For a **G4.1 system**, get the [Version 10](#a12-12v10). Ignore experimental versions unless you are actively studying power or timing:
 
-- 12-12 arenas: For most new builds use Version 8. It is considered a beta version with clear advantages over existing v2 and v4 setups, and fully compatible with all Generation 4 panels (older and newer panel revisions). Version 4 is also acceptable if you want the most recent iteration of the long‑used Version 2 with added noise improvements.
-- Version 10 of the 12-12 arena is a completely different system, based on an inexpensive teensy MCU instead of using a NI controller. This systems is slower and still under development; do not choose it for routine experiments yet.
+- 12-12 arenas: For most new G4 builds use [Version 8](#a12-12v8). It is considered a beta version with clear advantages over existing [v2](#a12-12v2) and [v4](#a12-12v4) setups, and fully compatible with all Generation 4 panels (older and newer panel revisions). [Version 4](#a12-12v4) is also acceptable if you want the most recent iteration of the long‑used [Version 2](#a12-12v2) with added noise improvements.
+- [Version 10](#a12-12v10) of the 12-12 arena is a completely different system we call "**G4.1**", based on an inexpensive teensy MCU instead of using a NI controller. This system is still under development.
 - Stay away from other versions (1, 2C, 3, 5, 6 notch variant, 7, 9) unless you have a specific historical or research need—several were experiments and some never worked (get in contact if you want to know more).
-- 12-18 arenas: Use the latest Version 1 production (v1.1). Version 2 only changes some routing and uses hidden vias; design files are not available and fabrication is harder, so v1.1 is the practical choice.
+- 12-18 arenas: Use the latest [Version 1](#a12-18v1). Version 2 only changes some routing and uses hidden vias; design files are not available and fabrication is harder.
 - Prototype / development arenas (6-inf, early 12-18 v0.x, voltage experiment boards): Keep these for testing or firmware bring‑up only. Do not use them for routine behavioral, imaging, or electrophysiology experiments; rely on 12-12 v8 (or v4) or 12-18 v1.1.
 
-Below you find detailed historical notes starting with the 12-12 arena. The introduction here focuses only on which versions to choose today.
+Below, you will find detailed historical notes starting with the 12-12 arena. The introduction here focuses only on which versions to choose today.
 
 ## arena 12-12 board {#a12-12}
 
@@ -32,27 +32,27 @@ Legacy deployments mostly use Version 2 (often updated with v2.4 production file
 
 ### Arena 12-12 Version 1 (G4 Release Candidate) {#a12-12v1}
 
-The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.brd`, see [schematics](assets/arena_12-12_v1_schematic.pdf)) was developed in June 2017 as a 6 layer board. In addition to the connectors approximating an inner circle with 170mm diameter, it had a second row of connectors about 180mm apart. Another visible distinction are eight vias inside the connector ring, which are used for the chip selects. The image on the right shows such an arena board with the ribbon connector on the top left and the power connector on the bottom left.
+The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.brd`, see [schematics](assets/arena_12-12_v1_schematic.pdf)) was developed in June 2017 as a 6-layer board. In addition to the connectors approximating an inner circle with 170mm diameter, it had a second row of connectors about 180mm apart. Another visible distinction is the eight vias inside the connector ring, which are used for the chip selects. The image on the right shows such an arena board with the ribbon connector on the top left and the power connector on the bottom left.
 
 ### Arena 12-12 Version 2 (G4 LTS) {#a12-12v2}
 
 ![Rendering of an Arena 12-12 Version 2](assets/arena_12-12_v2_front_iso-render.png){:standalone .ifr data-img-class="pop"}
 
-The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.4__ archived at `arena_12-12/production_v2/arena_12-12_v2p4.zip` as it includes incremental improvements like a more helpful silkscreen. Most of the arenas were hand-assembled using parts that our machine shop had on hand. Version v2.4 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
+The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6-layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.4__ archived at `arena_12-12/production_v2/arena_12-12_v2p4.zip` as it includes incremental improvements like a more helpful silkscreen. Most of the arenas were hand-assembled using parts that our machine shop had on hand. Version v2.4 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us]({{site.baseurl}}/Contact) about the progress if you have questions.
 
 __Arena 12-12 Version 2C__ (OrCAD design file at `arena_12-12/arena_12-12_v2C`) is a prototype to length match all signal lines and decrease electric noise by routing them on individual layers. As a result the board has 12 (hex: `0xC`, hence 2C) layers. In our hands it didn't show improvements over other version 2 boards, but if you are looking to debug timing issues this could be a helpful starting point.
 
 ### Arena 12-12 Version 3 (G4 Prototype Double) {#a12-12v3}
 
-__Arena 12-12 Version 3__ (OrCAD design file at `arena_12-12/arena_12-12_v3.brd`, see [schematics](assets/arena_12-12_v3_schematic.pdf)) is a 6 layer prototype with two rings of connectors and additional changes to the physical shape of the PCB. It never left prototyping stage and is here only for historical purposes. This version was designed in June 2019.
+__Arena 12-12 Version 3__ (OrCAD design file at `arena_12-12/arena_12-12_v3.brd`, see [schematics](assets/arena_12-12_v3_schematic.pdf)) is a 6-layer prototype with two rings of connectors and additional changes to the physical shape of the PCB. It never left prototyping stage and is here only for historical purposes. This version was designed in June 2019.
 
-### Arena 12-12 Version 4 (G4 Prototype Fanout) {#a12-12v4}
+### Arena 12-12 Version 4 (G4 LTS) {#a12-12v4}
 
-__Arena 12-12 Version 4__ (OrCAD design file at `arena_12-12/arena_12-12_v4.brd`, see [schematics](assets/arena_12-12_v4_schematic.pdf)) is the attempt to minimize noise in the system further. To achieve that, the electronic design of this 6 layer PCB was changed in August 2019 so that the clock signal is now actively driven by a fanout instead of a simpler voltage translator as in previous versions. Furthermore, the chip select lines are isolated from each other through active components. The circular PCB was physically interrupted to avoid timing issues through circular traces.
+__Arena 12-12 Version 4__ (OrCAD design file at `arena_12-12/arena_12-12_v4.brd`, see [schematics](assets/arena_12-12_v4_schematic.pdf)) is an attempt to further minimize noise in the system. To achieve that, the electronic design of this 6-layer PCB was changed in August 2019 so that the clock signal is now actively driven by a fanout instead of a simpler voltage translator as in previous versions. Furthermore, the chip select lines are isolated from each other through active components. The circular PCB was physically interrupted to avoid timing issues through circular traces.
 
 ### Arena 12-12 Version 5 (G4 Prototype Direct) {#a12-12v5}
 
-The __Arena 12-12 Version 5__ (OrCAD design file at `arena_12-12/arena_12-12_v5.brd`, see [schematics](assets/arena_12-12_v5_schematic.pdf)) is an experimental 6 layer design without a [interconnect board](#interconnect) but instead with a direct VHDCI connector. Development is ongoing since Summer 2020, but the design does not work yet.
+The __Arena 12-12 Version 5__ (OrCAD design file at `arena_12-12/arena_12-12_v5.brd`, see [schematics](assets/arena_12-12_v5_schematic.pdf)) is an experimental 6-layer design without an [interconnect board](#interconnect) but instead with a direct VHDCI connector. Development has been ongoing since Summer 2020, but the design does not work yet.
 
 ![Rendering of a notched Arena 12-12 Version 6](assets/arena_12-12_v6p0_front_render.png){:standalone .ifr data-img-class="pop"}
 
@@ -68,7 +68,7 @@ __Arena 12-12 Version 7__ (KiCad: `arena_12-12/arena_12-12_v7_ni/arena_12-12_v7_
 
 ![Arena 12-12 Version 8 rendering](assets/arena_12-12_v8_ni_front_render.png){:standalone .ifr data-img-class="pop"}
 
-__Arena 12-12 Version 8__ (KiCad: `arena_12-12/arena_12-12_v8_ni/arena_12-12_v8_ni.kicad_pro`, [schematics](assets/arena_12-12_v8_ni_schematics.pdf)) is the first stable KiCad redesign that stays fully compatible with panel hardware from versions 1–6. Routing is cleaner (shorter power paths, clearer separation of signal and power), and silkscreen labels (pin 1 marks, polarity, column numbering) are easier to read. Early v8 boards had a column rotation / inversion issue; this was fixed and v8.4 (silkscreen may show v0.4) is the recommended drop‑in if you need an intermediate KiCad build.
+__Arena 12-12 Version 8__ (KiCad: `arena_12-12/arena_12-12_v8_ni/arena_12-12_v8_ni.kicad_pro`, [schematics](assets/arena_12-12_v8_ni_schematics.pdf)) is the first stable KiCad redesign that stays fully compatible with panel hardware from versions 1–6. Routing is cleaner (shorter power paths, clearer separation of signal and power), and silkscreen labels (pin 1 marks, polarity, column numbering) are easier to read. Early v8 boards had a column rotation / inversion issue; this was fixed, and v8.4 (silkscreen may show v0.4) is the recommended drop‑in if you need an intermediate KiCad build.
 
 ### Arena 12-12 Version 9 (G4.1 Prototype Power) {#a12-12v9}
 
@@ -88,7 +88,7 @@ __Arena 12-12 Version 12__ (KiCad: `arena_12-12/arena_12-12_v12_belt/arena_12-12
 
 ### Top vs. Bottom PCB Split (v7+)
 
-Versions 1–6 used one PCB twice: you built a “bottom” and a “top” by loading different BOM parts. Starting with version 7 there are TWO separate PCB layouts. The bottom board carries power distribution and main signal routing. The top board gives mechanical support, aligns the ring, and provides termination or extra connectors. Do not mix their roles; they are shaped and routed differently. When you modify or extend the design (extra sensors, new controller footprint) modify the silkscreen labels used in versions 8–10 so others can service the boards easily.
+Versions 1–6 used one PCB twice: you built a “bottom” and a “top” by loading different BOM parts. Starting with version 7 there are TWO separate PCB layouts. The bottom board carries power distribution and main signal routing. The top board gives mechanical support, aligns the ring, and provides termination or extra connectors. Do not mix their roles; they are shaped and routed differently. When you modify or extend the design (extra sensors, new controller footprint), modify the silkscreen labels used in versions 8–10 so others can service the boards easily.
 
 ### Open KiCad Source Availability
 
@@ -100,34 +100,34 @@ The Arena 12-18 populates 12 out of 18 sides of a regular octadecagon with panel
 
 ### Arena 12-18 Version 1 (G4 LTS) {#a12-18v1}
 
-__Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at present). Consequently we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7 layer PCB with a footprint of 299×206mm². For a more detailed description and changelog see the `README.mdown` file in `arena_12-18/production_v1/`.
+__Arena 12-18 Version 1__ and 2 are based on the same [schematic](assets/arena_12-18_bottom_schematics.pdf), differences are in routing. Also, __Arena 12-18 v2.0__ uses hidden vias, is more difficult and expensive to manufacture, and has not been used as often as boards from version 1 (and we cannot share the design files at present). Consequently, we recommend using the newest version 1 at the moment, archived at `arena_12-18/production_v1/arena_12-18_v1p1.zip`. The Arena 12-18 v1.1 is a 7-layer PCB with a footprint of 299×206mm². For a more detailed description and changelog, see the `README.mdown` file in `arena_12-18/production_v1/`.
 
 ### Arena 12-18 Version 3 (G4 Acrylic Top) {#a12-18v3}
 
 ![Rendering of the 12-18 arena holder](assets/arena_12-18_holder_render.png){:standalone .ifr data-img-class="pop"}
-For some arenas, one board required a physical connection only, without an electrical one. In this case a laser cut board, for example from acrylic, is good enough. We share a file `Arena_11-18_holder.svg` that can be used to laser cut this type of board inside the `arena_12-18` folder. See the local README.mdown file for further descriptions.
+For some arenas, one board required a physical connection only, without an electrical one. In this case, a laser-cut board—for example, from acrylic—is sufficient. We share a file `Arena_11-18_holder.svg` in the `arena_12-18` folder that can be used to laser-cut this type of board. See the local README.mdown file for further descriptions.
 
 ## Arena Interconnect Board {#interconnect}
 
 ![Assembled interconnect board](assets/interconnect_v1_iso_photo.jpg){:standalone .ifr data-img-class="pop"}
 
-Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
+Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between a 40-pin arena connector and a 68-pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
 
 ### Arena Interconnect Board v1 (LTS) {#ic-v1}
 
-The __Arena Interconnect Board Version 1__ (OrCAD design file at `interconnect/interconnect_v1.brd`, see [schematics](assets/interconnect_v1_schematic.pdf)) is a simple 2 layer PCB within the dimensions of 4.9×8.4mm². The most recent production files are archived at `interconnect/production_v1/interconnect_v1p3.zip`.
+The __Arena Interconnect Board Version 1__ (OrCAD design file at `interconnect/interconnect_v1.brd`, see [schematics](assets/interconnect_v1_schematic.pdf)) is a simple 2-layer PCB with dimensions of 4.9×8.4mm². The most recent production files are archived at `interconnect/production_v1/interconnect_v1p3.zip`.
 
 ### Arena Interconnect Board v2 (Prototype) {#ic-v2}
 
-We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an __Interconnect Board Version 2__ (see [schematics](assets/interconnect_v2_schematic.pdf)). This board is designed as 4-layer PCBs with additional power connectors and 15pin connector. In theory, they could be used to drive a single column of panels directly. This design is currently untested and **we recommend using [version 1](#ic-v1)**.
+We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an __Interconnect Board Version 2__ (see [schematics](assets/interconnect_v2_schematic.pdf)). This board is designed as a 4-layer PCB with additional power connectors and a 15-pin connector. In theory, they could be used to drive a single column of panels directly. This design is currently untested and **we recommend using [version 1](#ic-v1)**.
 
 ### Arena Interconnect Board v3 (Prototype) {#ic-v3}
 
-The There are beginnings of an idea for a version 3, sketched in KiCAD. It still needs routing, but if there is a need to fix something on the interconnect board, this might be an easier route than trying to recover [v1](#ic-v1) or [v2](#ic-v2).
+There are the beginnings of an idea for a version 3, sketched in KiCAD. It still needs routing, but if there is a need to fix something on the interconnect board, this might be an easier route than trying to recover [v1](#ic-v1) or [v2](#ic-v2).
 
 # Historic
 
-These files were found in shared drives and previous conversations, but the intend, production state, and uses are mostly unknown at this point. We mention and share the files in case someone finds a setup based on it, but don't recommend using any of them.
+These files were found in shared drives and previous conversations, but the intent, production state, and uses are mostly unknown. We mention and share the files in case someone finds a setup based on it, but don't recommend using any of them.
 
 ## Imaging setups
 
@@ -137,7 +137,7 @@ These files were found in shared drives and previous conversations, but the inte
 
 ![12-18 arena initial design v0.2](assets/arena_12-18_v0_back.png){:standalone .ifr .clear data-img-class="pop"}
 
-The initial version of an 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2. The project is at `arena_12-18_v0`.
+The initial version of a 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2. The project is at `arena_12-18_v0`.
 
 ### 12-18 arena board v0.1
 
@@ -145,7 +145,7 @@ The initial version of an 12-18 arena was designed in KiCad (see [schematic](ass
 
 ![12-18 arena initial design v0.1](assets/arena_12-18_s_v0_back.png){:standalone .ifr .clear data-img-class="pop"}
 
-Early on, there was a 12-18 arena that was called _with shifters_ was designed in KiCad (see project at `arena_12-18_s_v0` and [schematic](assets/arena_12-18_s_v0_schematic.pdf), but the production in `arena_12-18_s_v0/production_v0` never exceeded the version 0.1.
+Early on, a 12-18 arena called _with shifters_ was designed in KiCad (see project at `arena_12-18_s_v0` and [schematic](assets/arena_12-18_s_v0_schematic.pdf)), but production in `arena_12-18_s_v0/production_v0` never exceeded version 0.1.
 
 ## Prototype arenas
 
@@ -153,28 +153,28 @@ Early on, there was a 12-18 arena that was called _with shifters_ was designed i
 
 ![6 Connector arena (6-inf) with an Arduino prototype controller](assets/arena_6-inf_v0p1_controller_photo.jpg){:standalone .ifr data-img-class="pop"}
 
-The test arena with 6 panel connectors in a row (called a _6-inf arena_) is used to connect the panels with the controller and to supply power to the panels. There are three different headers which can be used to connect the panels to the display controller.
+The test arena with 6 panel connectors in a row (called a _6-inf arena_) is used to connect the panels with the controller and to supply power to the panels. There are three different headers that can be used to connect the panels to the display controller.
 
 - P22 40-Pin (2x20) single SPI bus header.
-- P23 60_Pin (2x30) six SPI bus header.
+- P23 60-Pin (2x30) six SPI bus header.
 - P30 40-Pin (2x20) six SPI bus w/ common chip select lines.
 
-5V power is supplied to the panels via 2.1mm DC jack, polarity is center positive.
+5V power is supplied to the panels via a 2.1mm DC jack, polarity is center positive.
 
-There are three different versions for the ATmega328 based panels, one for the MAX6960 panels.
+There are three different versions for the ATmega328-based panels, one for the MAX6960 panels.
 {:.clear}
 
 ![6-inf arena PCB for ATmega328 v0.3 (front)](assets/arena_6-inf_v0p3_front.png){:.ifr .pop}
 
 ![6-inf arena PCB for ATmega328 v0.3](assets/arena_6-inf_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
-Design files for version 0.3 of the 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p3_schematic.pdf)) are available in `arena_6-inf_v0p3`, production files in the subfolder `arena_6-inf_v0p3/production_v0`.
+Design files for version 0.3 of the 6-inf arenas for an ATmega328 (see [schematic](assets/arena_6-inf_v0p3_schematic.pdf)) are available in `arena_6-inf_v0p3`, production files in the subfolder `arena_6-inf_v0p3/production_v0`.
 
 ![6-inf arena PCB for ATmega328 v0.2 (front)](assets/arena_6-inf_v0p2_front.png){:.ifr .pop .clear}
 
 ![6-inf arena PCB for ATmega328 v0.2](assets/arena_6-inf_v0p2_back.png){:standalone .ifr .clear data-img-class="pop"}
 
-Design files for version 0.2 of the 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p2_schematic.pdf)) are available in `arena_6-inf_v0p2`, production files in the subfolder `arena_6-inf_v0p2/production_v0`.
+Design files for version 0.2 of the 6-inf arenas for an ATmega328 (see [schematic](assets/arena_6-inf_v0p2_schematic.pdf)) are available in `arena_6-inf_v0p2`, production files in the subfolder `arena_6-inf_v0p2/production_v0`.
 
 ![6-inf arena PCB for ATmega328 v0.1 (front)](assets/arena_6-inf_v0p1_front.png){:.ifr .pop .clear}
 
@@ -182,22 +182,22 @@ Design files for version 0.2 of the 6-inf arenas for a ATmega328 (see [schematic
 
 ![6-inf arena prototype in version v0.1](assets/arena_6-inf_v0p1_front_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
-Design files for version 0.1 of the 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p1_schematic.pdf)) are available in `arena_6-inf_v0p1`, production files in the subfolder `arena_6-inf_v0p1/production_v0`. There are 5 sets of jumpers which can be used to configure the arena.
+Design files for version 0.1 of the 6-inf arenas for an ATmega328 (see [schematic](assets/arena_6-inf_v0p1_schematic.pdf)) are available in `arena_6-inf_v0p1`, production files in the subfolder `arena_6-inf_v0p1/production_v0`. There are 5 sets of jumpers which can be used to configure the arena.
 
 ![6-inf arena PCB for MAX6960 (front)](assets/arena_6-inf_max6960_v0p1_front.png){:.ifr .pop .clear}
 
 ![6-inf arena PCB for MAX6960](assets/arena_6-inf_max6960_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
-There is also a 6-inf arenas for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) available in `arena_6-inf_max6960`. This specific one only made it to version 0.1 and production files in the subfolder `arena_6-inf_max6960/production_v0`.
+There is also a 6-inf arena for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) available in `arena_6-inf_max6960`. This specific one only made it to version 0.1; production files are in the subfolder `arena_6-inf_max6960/production_v0`.
 
 ## Development
 
-There are currently a few arenas in `development`. We describe them in more detail once we characterized them in more detail. Currently we call them G4.1: they are compatible with the previous systems, but solve some of the issues we faced with the Generation 4 arenas.
+There are currently a few arenas in `development`. We will describe them in more detail once we have characterized them further. Currently, we call them G4.1: they are compatible with the previous systems, but solve some of the issues we faced with the Generation 4 arenas.
 
 ## Prototype Controller
 
 ![Arduino based prototype controller](assets/controller_arduino_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
-A demonstration controller, based on an Arduino Uno, is provided with the arena and panels. The demonstration controller connects to header P22 on the arena and will display a moving stripe pattern in 16-level gray scale mode.  The panels (up to four) should be connected to header P1 when using the demo controller. Note, the demo controller requires 5V power via the USB connector on the Arduino Uno in order to operate.
+A demonstration controller, based on an Arduino Uno, is provided with the arena and panels. The demonstration controller connects to header P22 on the arena and will display a moving stripe pattern in 16-level grayscale mode.  The panels (up to four) should be connected to header P1 when using the demo controller. Note that the demo controller requires 5V power via the USB connector on the Arduino Uno in order to operate.
 
-The firmware for an Arduino Uno, Arduino Due, and Teensy 3 are in the [Firmware repository]({{site.baseurl}}/Generation%204/Firmware/docs/). We cannot find the shields to connect these boards to the test arena at the moment, but they should be fairly easy to reverse engineer. But then again, we cannot think of a use case for the prototype controller or the prototype arena.
+The firmware for an Arduino Uno, Arduino Due, and Teensy 3 is in the [Firmware repository]({{site.baseurl}}/Generation%204/Firmware/docs/). We cannot find the shields to connect these boards to the test arena at the moment, but they should be fairly easy to reverse engineer. But then again, we cannot think of a use case for the prototype controller or the prototype arena.
