@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a2511654-3a17-43f1-8b9e-c45e375533dc")
 	(paper "USLetter")
 	(title_block
@@ -55,11 +55,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "089bb880-f417-4f64-98ac-7a8591f9a34e")
 		(property "Sheetname" "Level Shifters"
 			(at 93.98 49.0724 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,6 +71,8 @@
 		)
 		(property "Sheetfile" "level_shifters.kicad_sch"
 			(at 93.98 68.4026 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,11 +121,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "17861c68-32c3-4000-8a50-4f303c28fa47")
 		(property "Sheetname" "Power"
 			(at 175.26 49.0724 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,6 +137,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 175.26 68.5296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,11 +167,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "24a22302-295f-4a79-8162-dc1243f756aa")
 		(property "Sheetname" "Ground Holes"
 			(at 115.951 82.9814 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,6 +183,8 @@
 		)
 		(property "Sheetfile" "holes.kicad_sch"
 			(at 115.951 102.3116 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,11 +213,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5b6d0be6-08d3-404a-9e9b-565c640343d3")
 		(property "Sheetname" "Teensy"
 			(at 59.182 49.0724 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,6 +229,8 @@
 		)
 		(property "Sheetfile" "teensy.kicad_sch"
 			(at 59.182 68.4026 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,11 +269,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ad9c294f-d898-4a63-8d96-c5c7fb69f139")
 		(property "Sheetname" "Panel Headers"
 			(at 135.89 49.0724 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,6 +285,8 @@
 		)
 		(property "Sheetfile" "panel_headers.kicad_sch"
 			(at 135.89 68.5296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
